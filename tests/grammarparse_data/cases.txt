@@ -1,0 +1,2500 @@
+T void __stdcall **[10][10]
+C enum e3 { V0_0 = 7, V1_1 = 1 };
+C enum e1 { V1_0 = 0x20, V2_1 };
+P char ** const x[const 3](void)(static float4 restrict **(float4 *, char (**b), uint1 (x), ...)[-1]);
+C typedef extern bool (a);
+P code a[-1](__stdcall uint2 static (qq)(int1 * const * const ), __stdcall int2 bar_1(int1, ...), static code );
+T uint2 **, const qq(float4, ...)[0]
+C extern uint4 * const ns::inner(int2 [4](__cdecl bool , ...));
+C enum e1 { V1_0 };
+C extern uint8 (foo)(code uint1 (*bar_1)[4]);
+C struct s4 { void x[-1]; uint1 ns::inner[0x10][const 3]; float4 b[0](inline float8 __stdcall (* const b), float4 extern restrict , int2 ); }; x
+P struct s4 *a(void);
+T volatile char **(struct s4 bar_1(enum e1, ...)[const 3], ...)[-1]
+C struct s0 { enum e1 b; union s4 const foo; typedef restrict char **bar_1; extern s4 foo[4] : 4; };
+P static code const * const a(void);
+P restrict float4 __stdcall *foo[4](restrict volatile int * const , char **ns::inner);
+P int4 * const qq()[0](void);
+C union s3 { enum e1 a; };
+C enum e1 { V1_0 };
+P int4 a(void)(void);
+P uint2 bar_1[-1](void);
+C struct s3 { void (foo) : 6; enum e1 __stdcall * const a; };
+P float4 a[-1](bool bar_1[-1][0x10], float4 , bool );
+C typedef restrict float4 a;
+P s4 foo[10](struct s0 );
+C union s1 { char const bar_1; __stdcall enum e3 qq; int4 * const * const b[-1]; struct s3 a[0x10][4]; };
+P void extern (b)(char , struct s1 inline [const 3], uint1 typedef *(int1 inline, ...));
+C struct s2 { float4 const x(s0 * const *); struct s4 volatile const * const x(int8 x); };
+C struct s4 { int4 b[0]; uint1 b[4]; void * const b[10]; };
+C typedef bool static restrict ** const a;
+C enum e3 { V1_0, };
+P int1 __stdcall const (* const *a)(restrict struct s3 **ns::inner);
+P struct s4 **qq(__cdecl void **a, int1 static [const 3]);
+P float4 typedef __cdecl void a(void);
+T int1 ns::inner[0*][4]
+P inline enum e3 b(volatile enum e1 * const ns::inner[0][const 3], bool bar_1, int4 (foo)[10]);
+P uint4 __stdcall a(void);
+T char __cdecl __cdecl (** const b)(void)
+P struct s3 * const * const bar_1(union s0 b(union s0 ns::inner))(int2 ** const b(enum e1 volatile, ...));
+P restrict struct s3 ns::inner[const 3](float4 b[10], const struct s2 [10]);
+T int2 *qq,
+C struct s0 { int1 x(int4 *, struct s3 **, int4 (a)[0x10], ...); extern bool foo : 3; struct s3 * const * const a(void)(int4 __stdcall static * const foo, volatile void * const , inline char a); int4 struct s4 (x); };
+C struct s5 { struct s0 foo[-1]; int4 **a; int4 * const a(__stdcall struct s3 *a, float4 static code ); int4 ns::inner[-1]; };
+T int4 * const a[const 3]
+C extern int4 * const a(typedef int2 __stdcall, ...);
+P enum e3 *qq(struct s0 )();
+T enum e3 __stdcall (foo)
+C un*ion s2 { char ** const a; };
+T struct s4 ns::inner(const int4 restrict (a), volatile int4 b[0], ...)(union s5 * const a[0])
+C struct s0 { char **a(void); int4 static b; int8 ns::inner[0x10]; };
+P const enum e3 extern *b[0x10](void);
+P uint2 struct s4 ns::inner[const 3](int4 a, float8 *(typedef __stdcall int2 a, __cdecl union s4 x[0], float4 restrict )[-1], float4 ** const );
+C typedef int2 qq;
+P __stdcall uint4 const *bar_1(void typedef x(void (a)[const 3], bool , union s4 __stdcall ))(const uint4 ** const bar_1, volatile enum e1 __cdecl *foo);
+C typedef struct s1 b;
+T struct s0 x
+P enum e1 * const *b(void);
+T s5 qq[0][0]
+T s0 b[co{nst 3](struct s4 a[10])
+T float4 (a)
+C union s3 { int8 (* const *qq(void)); volatile int4 __stdcall ns::inner : 5; };
+P float4 qq(uint4 (qq)(void))(int4 **qq, struct s2 ns::inner);
+T union s0 restrict __stdcall a[0](enum e3 extern b, float8 ** const (s0 static *foo), enum e1 __cdecl a())
+C enum e0 { V0_0, V0_1 = 0x20, V2_2, V2_3 = 1, };
+T union s0 (* const a)[const 3]
+T uint2 extern volatile [10]
+T struct s4 ns::inner(static struct s0 a, ...)
+T code * const qq
+P uint2 **ns::inner(struct s2 * const [10][10], ...);
+T int8 * const ns::inner
+T int4 a
+C struct s0 { int4 static extern foo; int4 bar_1[10] : 7; };
+P char bar_1(struct s0 x(s0 (** const ns::inner))[10])(union s4 * const ns::inner(struct s0 (* const * const b)));
+P char **bar_1(union s5, ...);
+P uint1 a(void));
+T char (void)
+P float4 a(void)(__stdcall char const, ...);
+P int2 __stdcall * const foo(typedef s4 restrict ns::inner, enum e1 , ...);
+P struct s0 * const x[const 3](struct s1 volatile __cdecl *[0], union s0 **a); x
+P union s2 b[0][-1](struct s4 ns::inner, int8 b[0x10]);
+C typedef uint8 typedef bar_1;
+C struct s2 { enum e1 bar_1; struct s5 volatile (a); int4 ns::inner[4][0x10]; char ** const a(struct s0 *b, float4 (*bar_1)); };
+P union s2 (a)[10](void qq, int4 bar_1, struct s3 );
+P char x(void * const b, typedef int4 [0x10])(float4 __cdecl **b, void , s4 * const * const bar_1[-1]);
+T int4 ** const ns::inner
+C typedef __stdcall __cdecl int2 * const * const b;
+P uint4 b(uint1 foo[4], uint8 , ...)(bool * const foo[const 3](int4 static * const * const , enum e1 , ...), __stdcall struct s0 typedef a[0x10]);
+C enum e2 { V0_0 = 7, V2_1 };
+T struct s2 * const * const qq[-1]
+P int4 volatile restrict b(union s3, ...)(char extern const, ...)(struct s0 * const *x);
+P uint4 * const * const a[10](struct s4 , int4 * const b[10], struct s1 a(uint1, ...)[const 3]);
+T int1 *foo
+T void (*a)
+C struct s3 { union s4 b[-1](s2 [0][0x10], struct s0 (x), enum e1 * const bar_1); uint4 qq[-1] : 8; void foo(s3, ...)[10]; };
+P uint4 *a(float8 static, ...)(float4 * const qq[0], uint4 (b), uint1 inline volatile b)(char ((qq)), bool (* const *ns::inner[0x10]), int1 b);
+P float4 const restrict a(void);
+P inline struct s5 (bar_1[4])(int2 ** const a,uint1 *);
+C typedef struct s2 (a);
+T union s3 typedef * const * const foo
+T uint4 (a)
+T union s4 **(int1 extern ns::inner[const 3], union s2 __stdcall **, int8 *x)
+T typedef enum e3 ((* const *bar_1))
+T int8 * const foo(void, ...)(int4 a[0x10])
+C struct s4 { enum e1 b; struct s2 struct s2 (*b); };
+C enum e1 { V2_0 = 0x20, V2_1 = 0x20, V1_2 = -3, };
+C enum e2 { V1_0, V1_1 };
+P __cdecl int1 const x(void);
+P enum e2 extern foo[0](int4 (qq[0x10])); extra
+C typedef inline enum e1 ns::inner[10][const 3];
+T volatile uint8 __stdcall * const *b(enum e3 extern ** const a(union s4, ...))[const 3]
+P enum e1 * const * const x(const inline int4 ** const qq(int2 __stdcall, ...), float8 *a, char int2 (**a));
+P float8 b(uint2 ** const (void))[0](int4 (b));
+P static float4 * const b(int4 * const b[10](uint8 __cdecl * const * const b, struct s1 (**qq), __stdcall typedef enum e2 [const 3]));
+T s2 
+C typedef char (foo);
+C enum e0 { V2_0 = 1, V2_1 = 1, };
+P float4 a(...);
+P uint8 static foo(void);
+T typedef enum e3 volatile * const * const qq[const 3](struct s2 __stdcall ns::inner(enum e2 restrict *), enum e0 __stdcall * const * const b[-1], uint8 *foo, ...)
+T int4 typedef (static s1 *x, uint4 * const [const 3])(float4 *[10](union s0 ), enum e2 *b)
+C enum e0 { V1_0 };
+C extern char a[-1](void)(__stdcall char a, restrict int2 foo);
+P int4 *qq(int2 b, float8 * const *b[-1]);
+T extern uint2 ** const b(struct s3 __stdcall a)
+P union s0 volatile a(__stdcall int8 a);
+T int4 (*foo)
+T struct s0 *b(enum e2 * const *a, struct s3 static (foo), volatile int4 b(static float4 * const ), ...)
+C enum e0 { V2_0, V2_1, V1_2, V0_3 = 0x20 };
+T const int1 * const foo
+T void * const *ns::inner
+P enum e1 __cdecl (bar_1)(struct s3 a[0]);
+T extern struct s2 *b(void)
+T struct s0 (bar_1)(enum e0, ...)
+T code bar_1[0]
+C enum e2 { V0_0, V1_1, V0_2 = 7, V1_3, };
+T int1 (**a)
+C union s3 { union s2 qq[0x10][10]; enum e2 struct s2 (*bar_1) : 6; int1 __stdcall (a)(void); __cdecl bool __stdcall *bar_1(void)[4]; };
+C extern __stdcall struct s0 a(void);
+T int4 (uint4 )
+C enum e1 { V2_0 };
+P const float8 static *x(void)(float4 extern (a)[0x10], int4 a, s0 * const bar_1, ...);
+T uint4 x[-1]
+C extern enum e1 *bar_1[4](uint4 *ns::inner[const 3](...));
+C struct s4 { bool *ns::inner(void); };
+T uint8 inline x
+C union s4 { s4 inline **bar_1[10][0x10]; __stdcall union s2 volatile * const bar_1[-1]; typedef struct s0 __stdcall foo; s0 *bar_1; };
+T flo{at8 [const 3]
+T int4 __stdcall *bar_1
+P float4 restrict __stdcall (** const ns::inner)(float8 struct s3 ())(typedef restrict enum e3 bar_1(void), extern char __stdcall a, s0 a, ...);
+P volatile struct s4 x(struct s2 )(uint8 * const * const b, int2 * const qq[10], ...)(struct s4 x, ...);
+P const const int4 qq(volatile float8 *)(bool restrict qq(__stdcall enum e0 , int4 (bar_1), union s0 extern (b[0])));
+T extern float4 ** const a
+C enum e { V1_0, V0_1, V0_2, V0_3, };
+C enum e0 { V1_0 = -3, V1_1, V1_2, V2_3 = 7 };
+P struct s2 inline * const * const qq(__stdcall float4 foo)(union s2 ns::inner(float4 (ns::inner[10])), float8 typedef (** const foo(float4 )), enum e3 *, ...);
+C struct s4 { struct s3 inline **a : 6; };
+T restrict int4 * const *b(uint1, ...)
+C union s1 { struct s0 (* const *qq); enum e1 const bar_1(enum e0 , bool , float4 **bar_1, ...)(int8 __cdecl (**x)) : 6; };
+T int2 * const *foo[const 3]
+P __stdcall float4 typedef a[10](extern code restrict, ...);
+P volatile const struct s1 bar_1(char **a);
+T float8 ns::inner
+T void * const * const qq(union s5 b, char b[-1][0], char * const *b[0])
+P float4 a(uint2, ...);
+P volatile union s4 * const qq();
+C struct s4 { enum e0 typedef const a; enum e0 ns::inner; };
+C enum e2 { V2_0, };
+T typedef struct s5 b
+T struct s0 x
+P struct s1 qq(__stdcall float4 (*a)[4], uint2 a, __stdcall volatile union s4 * const *foo[4], ...);
+C extern int8 b[0](enum e1 * const *qq, ...); // tail
+P static uint1 a()(void)(enum e3 bar_1(enum e1 [10]));
+T code (enum e1, ...)
+T structs4 const *x[-1]
+T float4 * const *ns::inner[0x10](volatile uint1 int4 b(typedef const code, ...)[0x10], enum e0 foo[const 3])
+C typedef struct s4 static *qq[10];
+P char ((b))(float4 volatile qq, int4 (a), ...);
+C enum e3 { V2_0, V1_1 = 1, };
+P uint2 volatile bar_1(uint1 b(uint4 *a), float4 * const b(struct s3, ...));
+C typedef int2 __stdcall **b(void)(void const (*a)(int8 ((foo)), int4 inline b), union s1 * const a[-1], ...);
+P const typedef int1 qq(void);
+C enum e0 { V0_0 = 0x20 };
+P int1 (qq[const 3])(uint4 * const x);
+C union s2 { enum e0 restrict (x[0]); };
+T s3 a
+P const enum e0 restrict qq[10](struct s3 * const ns::inner, float4 struct s3 *bar_1[const 3]);
+P float4 * const *ns::inner(void);
+T s3 ** const a(struct s4 *qq(enum e0 *[const 3], ...), uint4 a[0x10], static int2 **, ...)
+C union s0 { const int4 a; static __cdecl code struct s4 b : 7; __stdcall bool ns::inner; uint8 *a[-1](void); };
+P code * const a(void);
+C struct s3 { float8 x; struct s0 bar_1[-1]; };
+C extern bool foo[10](s2 x[-1], enum e0 *(float4 ns::inner, struct s2 *a, uint2 *a)[0], enum e1 ** const )(s1 b[0x10][0], ...);
+C struct s4 { int2 qq[const 3][0x10]; int2 * const * const b[0]; };
+C extern float4 restrict foo[10](bool b, int4 bar_1, struct s4 const x(uint8 foo[4], enum e0 __stdcall const ** const [10], union s4 (** const a), ...)[0])(enum e1 restrict *b(float4 [-1][const 3], struct s4 b, struct s0 ((qq))), bool * const *ns::inner[0](enum e2 x[10], int4 ** const a, uint8 foo));
+T int4 b
+C typedef union s2 * const * const ns::inner(int4 b);
+T enum e1 ** const (uint4 (void)[-1], int4 , ...)()
+T uint4 *b
+T union s1 volatile (x)
+T uint8 **(uint4 volatile, ...)
+C typedef enum e0 static typedef foo(...); /* c */
+C enum e2 { V1_0, V0_1 };
+C union s5 { int4 extern q : 5; };
+C union s3 { float4 a; __stdcall static float8 **ns::inner[0x10](float8 * const [0]) : 3; };
+P enum e2 ((qq))(int4 b);
+P uint8 a(s2 typedef foo[-1], s3 [0]);
+P int8 qq[0](s2 b, extern char volatile (qq)[4], struct s3 volatile (bar_1));
+T char static * const ns::inner(struct s5 volatile (struct s4 qq[0], void **[0], int8 volatile (* const bar_1)[10]))[-1]
+C struct s3 { uint4 foo(uint1 (x[0x10]), float4 )(code *bar_1); bool qq(int2 [const 3])[4]; bool __stdcall (*ns::inner); void *x; };
+C struct s0 { float4 (b[4]); inline bool ns::inner[0x10][0x10]; enum e0 a; };
+C union s2 { uint8 *a[0x10] : 4; };
+T uint2 * const *x
+C enum e0 { V2_0 = -3, V2_1 };
+P float8 b[const 3][0x10](__cdecl char * const x(int8 b[0x10], __stdcall struct s3 b[10]), int4 ns::inner, inline enum e0 __stdcall [0x10]);
+T uint1 b
+P __cdecl int4 x(float4, ...);
+T uint8 (b)(inline bool foo)
+T __stdcall extern union s3 **qq
+C extern union s4 b[0](float8 extern b, bool *x[10][0x10], union s0 *qq(uint4 (**x), const inline int2 (b), struct s0 * const [10]));
+C union s0 { bool (a(enum e0 )); code const * const *bar_1(uint2 *); extern __cdecl void x[const 3]; union s4 qq(restrict int4 qq[-1][-1]) : 8; };
+P __cdecl struct s2 inline b(void);
+T volatile int8 *[0]
+C typedef bool const x[const 3][-1];
+P int8 static uint1 foo(void);
+T uint4 *qq
+T enum e3 **b
+C enum e2 { V0_0, V[2_1, V0_2 };
+C extern bool qq[10](volatile uint2 [4], enum e2 (bool __stdcall const (foo[const 3]), int4 **, int4 a))(void (typedef int4 __cdecl ** const a[const 3][0x10], float4 * const ns::inner, float8 ));
+P char extern x[10][4](int4, ...);
+T float4 b
+C enum e0 { V2_0, V0_1, V1_2, V2_3 };
+C struct s2 { int8 b[0x10]; __stdcall int4 __stdcall * const *b(char *a, ...)[10]; };
+T uint2 volatile *b(union s4 qq[0], float4 b, const void a(float4 ** const qq, int4 inline a, enum e2 b))
+T __stdcall float4 const foo(void typedef const foo[4])
+T restrict enum e0 a
+P s4 uint4 b[-1](struct s0 * const *bar_1, enum e2 foo[4][0x10])(struct s2 volatile foo);
+T typedef struct s4 static qq[10]
+C struct s3 { code **bar_1; int4 * const * const a[-1]; float4 inline __stdcall x; };
+C typedef int8 * const * const a;
+P int1 x(void); // tail
+P uint1 extern __stdcall x(enum e3 const a[const 3]);
+P union s3 bar_1(float4 bar_1[0x10])[0x10](const const float4, ...);
+P __cdecl static char b[4][-1](int4 bar_1, struct s3 a[const 3], s0 b, ...);
+T int8 ** con[st 
+T restrict char b[0x10][0x10]
+P union s2 * const b[10](float4, ...);
+T s3 * const [-1]"s"
+C union s0 { struct s3 **a; };
+P uint4 a(enum e1 x(struct s0 , ...)[const 3]);
+T inline char * const (__stdcall uint2 __stdcall x, struct s3 **b, int4 ns::inner[const 3][-1])
+P float8 * const qq[const 3](struct s4 __stdcall ns::inner);
+P struct s4 *qq[0](uint4 * const ns::inner[4], void ((* const *bar_1)), ...);
+C struct s5 { struct s2x; int2 (x(void)) : 5; bool static (* const qq(char qq, __cdecl struct s5 **[const 3])); void foo; };
+P enum e2 ns::inner(union s2 bar_1[4], s2 __cdecl b);
+P inline struct s2 extern ns::inner(struct s4 **(float4 int4 , struct s0 __stdcall (*x)));
+P int4 * const a(enum e0 restrict **ns::inner[-1], bool x)(void);
+P float4 x(struct s0 __stdcall extern (a(void)))(int8 **a);
+C enum e2 { V1_0 = -3, V0_1, };
+C extern int4 *qq[0][-1](void);
+C enum e3 { V0_0 = -3, V0_1, V0_2 = 1, V1_3, };
+C union s4 { code *a(enum e2 ** const ); char **b; int4 * const b; int2 * const * const qq(void)[4] : 6; };
+P struct s2 bar_1(const void * const (struct s3, ...)(void));
+T enum e2 a[4]
+T restrict code *[-1][0x10]
+T float4 **a[0x10]
+C union s3 { struct s4 static __cdecl * const *a; struct s0 (a); struct s3 typedef b(char * const * const bar_1, ...) : 1; };
+P cod::e *a(volatile float4, ...);
+C enum e2 { V1_0 };
+P uint2 a[0](restrict restrict char b, enum e0 b);
+T struct s4 [10]
+T __cdecl float4 qq[-1]
+P uint8 (foo)[-1](extern char * const *b);
+C enum e2 { V1_0, V2_1, V0_2 = 1 };
+P inline struct s1 b[0][4](volatile char __stdcall *[const 3]);
+P volatile struct s0 * const *bar_1[-1](int1 *(typedef uint1 a, int4 **a[0x10], float8 *x));
+T s0 * const foo
+C typedef typedef struct s4 a;
+C typedef int1 *a[const 3](void);
+P int1 ((ns::inner))(float8, ...);
+T __stdcall enum e2ns::inner
+T void foo
+C union s0 { union s3 *qq; uint8 * const bar_1; uint4 foo[0x10]; };
+P __cdecl s0 restrict a[10][-1](float8 * const * cost qq, enum e2 (bar_1)(void));
+T int4 ns::inner[10](float8 * const * const x, __stdcall uint1 b, restrict uint8 *)
+P restrict int4 *bar_1(void static const qq, uint1 __stdcall a[0x10], ...);
+C typedef enum e3 static bar_1;
+P uint1 __cdecl **qq(int4 foo(bool * const ), uint8 restrict qq[0](void));
+T typedef typedef uint2 * const bar_1(int4 [0x10])[10]
+P int4 x(int4 , int4 (struct s4 , __stdcall __cdecl float4 (qq), void ), ...);
+T uint4 *foo(typedef enum e3 * const *qq)
+P volatile float4 * const * const foo[0](static union s4 static ns::inner);
+C union s2 { enum e2 const a[10]; };
+C enum e0 { V2_0 = -3, V2_1 = 7, V0_2, V1_3 = 1 };
+C union s4 { __stdcall char * const * const a; };
+C extern enum e0 x(int4 (** const x), ...)(enum e1 bar_1(enum e0 * const a[0x10], ...), enum e2 a);
+C struct s4 { __stdcall int8 *a[-1][0] : 6; union s3 a; };
+P float8 __cdecl (ns::inner)(char **foo)(uint8 ** const [4], enum e2 b(char [0], float8 (**bar_1), __stdcall uint1 typedef ns::inner));
+T uint1 [10]
+C s\ntruct s0 { uint2 ** const b(static int4, ...)[0]; restrict uint1 *b[10][0] : 7; };
+C typedef enum e2 extern qq;
+T static int8 extern (**bar_1)
+P uint2 union s5 qq[10](enum e0, ...);
+T float4 (**bar_1[0x10])
+P int8 a[-1](code [10][-1]);
+C enum e0 { V2_0 = 1, V0_1, V0_2 = 7, V2_3 };
+P __stdcall volatile enum e1 b(int4 b, uint8 __stdcall * const * const )(void);
+P const struct s2 (bar_1)(union s2, ...)(struct s4 (a), ...);
+C extern char a(uint8 ** const a[const 3](code ((**b)), ...), int8 bar_1, int4 * const bar_1[0][0x10])(struct s5 static );
+P struct s5 qq(union s4 **b, ...);
+T uint1 **
+T float4 (**qq)
+P typedef const int4 b[0x10](s3 a, uint4 * const qq);
+T char foo
+P bool **a(restrict int8 **a[-1]);
+C extern __stdcall float4 (*b)(float8, ...);
+P int4 (** const foo)[0x10](void);
+C union s4 { float4 x; int8 ]qq; };
+T char restrict volatile x
+P restrict void **x[const 3](void)(int2 (uint1 b[-1]));
+T uint2 * const * const foo(uint1 __cdecl * const *b(), struct s2 typedef qq(struct s2 ), code (void))
+C typedef int2 **qq;
+T uint1 inline (bar_1)[0]
+C typedef char foo(int2 **b(enum e0, ...), ...)[0x10];
+P struct s1 extern (b)(s3 b[-1], typedef struct s0 b[10]);
+P bool (foo)[4](bool *, char [0x10], ...);
+T uint8 foo extra
+P float8 b(float8 *)(uint1 [0x10], __stdcall volatile struct s3 (* const foo[10]));
+T struct s2 * const bar_1
+C extern struct s4 * const * const foo(union s0 volatile **foo, int8 qq(enum e0 ns::inner[4], struct s0 inline __stdcall *b[-1]), __cdecl char inline a[const 3])(int1 ** const [-1]);
+C typedef uint1 b[0x10];
+P __stdcall enum e2 *bar_1(int1 __cdecl *bar_1, struct s3 (qq), __cdecl enum e0 extern ** const (uint1 __stdcall * const *), ...);
+P char x[-1](s}tatic float4 __stdcall (*ns::inner));
+C typedef enum e2 ns::inner[const 3];
+C struct s4 { uint8 foo(int1, ...); struct s2 **a[0][const 3]; int4 ** const bar_1(uint2, ...); };
+C enum e3 { V0_0, };
+T __stdcall bool *bar_1[0](struct s3 (foo))
+C struct s5 { enum e0 * const ns::inner[const 3][const 3]; uint4 foo; };
+C enum e0 { V2_0, V1_1, };
+C extern struct s4 b(static const float4 *ns::inner, enum e0 * const );
+T enum e2 __cdecl volatile (bar_1)(union s0 , ...)
+C enum e2 { V1_0, V2_1, V2_2 };
+T uint2 ns::inner(void)
+P uint2 a(char * const a(uint8 [4]))(s0 __cdecl b, int4 (b)(), ...);
+T uint8 
+C enum e3 { V1_0, };
+P int4 a(...)(uint1 (b));
+C union s4 { int1 (x) : 6; typedef int1 a(bool b); };
+T struct s2 
+T int1 **
+C union s4 { char qq(__stdcall bool const , struct s2 restrict extern (ns::inner))(enum e2 * const * const , enum e2 (* const ns::inner)); restrict struct s4 a; s5 *b(int8 ** const )[-1]; int4 ns::inner; };
+P int4 ((b))(void);
+P s4 restrict a(void)(bool inline b(void));
+T const uint4 (a(float4 b(s2, ...)))
+C typedef s0 restrict (**b);
+C struct s2 { enum e2 __cdecl (** const ns::inner(int4 (a), uint2 foo[const 3][4], ...)) : 4; struct s2 __stdcall b; float4 foo(int4 inline x, code **b); struct s4 const ** const foo[const 3]; };
+C struct s1 { uint8 typedef typedef x; enum e0 (a); char b[10] : 1; int1 foo; };
+T inline static code (* const bar_1)
+C struct s4 { uint1 *a; int1 b[4]; };
+P uint8 ** const ns::inner(uint8 **[0x10])(extern int4 a[0], ...);
+C struct s0 { volatile volatile union s3 **ns::inner[4](int4 , ..); };
+T enum e2 **b
+C union s0 { s4 int4 **b; enum e3 const ((qq)); float4 b[4](enum e0 (a), ...); };
+P struct s4 ** const bar_1(bool * const b[0x10]);
+P extern int1 b(enum e0 inline qq[4](int4 [0x10], volatile code * const ), uint2 **x);
+P void __cdecl restrict b[const 3][4](volatile struct s4 (float4, ...));
+C extern struct s3 qq(s4 ns::inner)[0](extern void [-1][const 3]);
+T int4 static 
+P u::int1 * const b(int4, ...);
+C enum e3 { V2_0 = -3, V2_1, V0_2, V2_3 = 7 };
+P float4 volatile static (* const a)(static __stdcall struct s4 , int4 float8 bar_1);
+C extern restrict enum e0 bar_1[0](float8 const qq, union s4 b, int2( volatile b);
+P restrict restrict int2 b[10](uint4 b(uint4 **)[4], __stdcall enum e2 b[-1], restrict uint4 [10][10]);
+C typedef enum e2 ** const a();
+P __cdecl uint8 (b)(volatile static char *(bool , enum e1 b));
+P struct s0 foo[4](float4 (void [0], union s4 ** const qq, int4 [const 3]));
+T code b[0x10]
+P int2 x(typedef int4 uint4, ...);
+C struct s5 { int4 * const *a(volatile code volatile a, ...)[-1]; enum e0 __stdcall restrict * const * const x(bool foo); };
+T void **bar_1
+T uint4 **bar_1(void)(static static enum e2 * const *[0], int8 * const b, struct s3 foo, ...)
+T int1 
+T __cdecl int4 extern bar_1
+T char *b
+P const int8 static b(int1, ...);
+C union s5 { static __stdcall uint2 bar_1[-1] : 4; extern float4 int4 a; char *a[4] : 3; union s2 b(enum e0 typedef (* const * const qq)[4]) : 1; };
+T int4 b /* c */
+P char x(void);
+P __cdecl uint2 const a(extern char , restrict __stdcall union s3 (* const a), struct s0 (enum e1 **[0]));
+T int4 __cdecl a
+P extern int4 ** const b(void);
+P float4 ** const bar_1(enum e1, ...)(void);
+P s2 __stdcall *foo(uint8 char, ...);
+P int8 x(int4 (** const x), uint2 *a[0x10], static code a, ...);
+P void static (b)();
+P char qq(int4, ...)(extern enum e3 a, enum e2 * const * const foo[10], int4 volatile extern );
+P int4 a(struct s2 ns::inner);
+C typedef struct s3 x(inline uint2 **a[0x10], struct s5 a);
+C union s2 { float8 * const ns::inner(bool (* const *ns::inner)); enum e0 *foo(union s4, ...)[4] : 3; char * const *a; uint4 __stdcall *bar_1; };
+C extern inline struct s2 (*a[0x10])(code __stdcall *b(void), __stdcall void typedef *qq[const 3], __stdcall float8 );
+C enum e0 { V0_0, V2_1, };
+C enum e2 { V0_0 = -3, V2_1, V1_2, V2_3 = 'a', };
+T __stdcall typedef int2 b[0]
+C struct s5 { float4 **a(float8 * const *b, struct s2 a, code [0])[10]; union s4 a[10]; };
+P enum e3 qq[-1](extern char, ...);
+P struct s5 restrict __stdcall (** const a)(enum e0 **a(uint8 foo, ...), bool (* const *x), s2 * const );
+C union s0 { struct s0 b; };
+P struct s4 bar_1(void);
+C enum e2 { V0_0, };
+C typedef struct s4 volatile __stdcall bar_1[0];
+C enum e0 { V0_0, V2_1 = 0x20, };
+C extern restrict int2 b[-1](uint2 a[0x10]);
+P restrict char typedef qq();
+T code x(char (ns::inner[10]), uint4 *ns::inner[-1], enum e3 __stdcall *qq::[const 3](bool * const b[4], int4 * const *), ...)(const code a[0x10], struct s3 extern __cdecl x, char [4])
+C enum e3 { V2_0, V0_1 = 0x20, V0_2 = 7, V1_3 };
+C enum e3 { V0_0 = 'a', V2_1 = 7, V2_2, };
+C struct s4 { enum e0 ns::inner; code (ns::inner); };
+T bool union s4 ** const qq()
+T bool static x[0]
+T int8 (a)[4]
+T int1 *b[0]
+T struct s4 *a
+P void foo[0x10](s4, ...);
+T __stdcall enum e0 restrict * const *
+T bool __stdcall (ns::inner(float4 (uint8 ** const bar_1, uint1 __stdcall x), struct s0 ns::inner, struct s0 * const *a))
+P uint1 **foo(char *foo, ...);
+C enum e3 { V0_0 = 'a', V2_1, V0_2, V0_3 = 0x20, };
+P float4 **b(vo)id static restrict a, int2 (b)[0]);
+P float4 * const b(enum e1 (** const qq[0x10]));
+C struct s3 { restrict volatile void foo; const uint1 ns::inner(struct s0 ** const bar_1)(uint4 b[const 3]); };
+T inline uint1 restrict b
+C enum e2 { V1_0 = 7, };
+P int1 __stdcall foo(volatile:: struct s3 , int1 (bar_1)(...))(struct s4 const (a));
+C enum e1 { V2_0 = 1, V0_1, V1_2, };
+P __stdcall int1 const * const b(union s4 * const [0], float4 *[10], ...);
+P s4 (b)(int2, ...);
+C struct s1 { bool a[0]; volatile int1 *bar_1[10]; };
+C union s2 { int8 *qq[0]; volatile union s4 *qq(uint8, ...); };
+P bool * const * const qq(uint2 b(static int4 qq[-1], int8 **a))(uint4 inline a[-1][4], __cdecl bool foo, float8 ns::inner);
+P bool **bar_1[0](static int1 * const foo, float8 a[4](float4 qq, ...))(struct s1 , extern struct s4 ns::inner[0x10]);
+C union s1 { bool x[const 3](uint8, ...); float8 * const * const ns::inner[4]; struct s2 extern *b(extern restrict enum e2 (ns::inner)); float4 a[0]; };
+P struct s3 bar_1[0x10](enum e0 );
+T int4 typedef **ns::inner
+C struct s3 { extern enum e2 a[0]; float8 * const *a(code, ...); extern extern s0 * const ns::inner; extern typedef uint8 (**ns::inner); };
+C struct s4 { float4 ns::inner(__cdecl uint1 *bar_1, int8 (qq), char a[0x10]); struct s0 a(__stdcall bool *ns::inner); };
+P static code b[0](void);
+C struct s3 { struct s2 (foo); };
+T static int1 __stdcall * const qq[10]
+C struct s2 { int4 bar_1[0x10]; __cdecl extern union s4 (a); struct s0 ns::inner[0x10] : 2; };
+T float8 ** const ns::inner[0]
+P extern volatile enum e0 **b(float8 *);
+C struct s1 { void a[0](int4 *x, restrict struct s4 ); enum e0 const qq(void)(...); bool * const b; };
+P code * const b(extern uint1 *b[0x10])(float4 ** const bar_1(struct s1 __cdecl ((**b)), int4 (*a)[0]));
+C typedef volatile char *qq;
+T enum e3 b[0](union s2 *, union s3 **a)
+T __stdcall uint1 qq(int2 (qq))
+T uint1 * const *ns::inner // tail
+P int8 b[4](void);
+P int4 ** const b(uint1 ns::inner[0x10], struct s4 __stdcall b, ...);
+P enum e3 bar_1(...);
+P const void __stdcall foo(int2 *ns::inner, struct s2 [0], int4 __stdcall **(int4 a, ...));
+T int4 volatile **a
+P float4 const ((*qq))(uint2 inline (ns::inner()), const extern uint8 b, int4 char ** const bar_1[4]); // tail
+C union s2 { int1 volatile a[0]; volatile int4 * const b[0x10] : 5; enum e3 a(struct s4 ((ns::inner))); float8 bar_1(struct s5, ...); };
+P struct s3 __stdcall (a)(...);
+P bool *a(struct s3 ** const bar_1[10], int1 restrict restrict a[0x10], ...);
+T int4 ns::inner[0x10]
+C struct s5 { void *qq(int8 ns::inner, ...); char b(void); int4 b; };
+C typedef const enum e1 restrict (a[0x10]);
+P s5 restrict restrict ns::inner(static static enum e1 * const * const , union s2 , enum e2 *a, ...); x
+P uint4 **b(void *x, char static x[-1], ...);
+C struct s1 { volatile float8 n}s::inner[-1][4] : 8; };
+P float4 *x(enum e1 , code * const [0])(int4 restrict, ...);
+P char static ** const b[0x10](void qq(struct s3 restrict const ((* const *b)))(union s4, ...), struct s5 struct s0 **(struct s4 ((* const foo)), typedef inline uint8 ), s5 b);
+P int4 *qq(__cdecl typedef struct s0 **b(char ((foo)), ...));
+C extern int8 ** const bar_1[0x10][-1](...);
+C union s5 { float4 b[0x10]; enum e2 static x; float8 (x); };
+C enum e3 { V2_0 };
+C extern int4 * const *ns::inner[4](char extern const * const x, estrict enum e0 *ns::inner[0], ...);
+P char (bar_1)(...);
+T uint1 qq(enum e2 extern const * const * const (int2 * const *[-1], code *, bool static **qq), struct s4 b(enum e2 __stdcall **b[-1], char * const foo, int4 **foo, ...)[const 3], float8 (struct s1 b, uint2 (b)[0], ...))(extern s4, ...)
+C struct s2 { struct s0 b; struct s3 (b)[const 3]; s5 bar_1(uint1 (ns::inner), int4 * const [0x10], struct s1 bar_1); struct s4 volatile (* const ns::inner)[4]; };
+P int2 (bar_1)(uint2 *, float8 a);
+T struct s4 b[10](union s3 **[4], typedef __stdcall struct s4 **foo[0x10], inline float4 a(float4 union s3 b[0x10])[-1])
+T }float8 *a[0x10]
+C struct s4 { bool restrict bar_1 : 2; enum e3 * const a[-1](enum e0 __stdcall * const ) : 6; restrict uint4 b; };
+P struct s0 a(float4(a));
+T floa4 ** const ns::inner[const 3]
+C typedef int8 __cdecl ns::inner[4];
+T int4 qq(uint4 restrict, ...)
+T s3 ns::inner[const 3]
+P float8 *x[0x10](...)(__stdcall __stdcall char * const *foo[0x10], ...);
+P int2 ** const bar_1(float4 * const * const [10][4], char (foo)[10]);
+C union s3 { int4 qq; };
+T float4 b[const 3]
+P bool b(struct s4 foo[10][0], union s4 __stdcall * const *, ...)(inlie struct s2 *x);
+C struct s3 { static struct s1 *x(uint2 , uint1 **); struct s4 b; typedef const void * const bar_1; int4 __cdecl a; };
+T uint8 
+C typedef volatile int8 *foo;
+C union s5 { uint4 **b; s0 bar_1; uint2 restrict __stdcall ns::inner[const 3](float4 *); };
+P float4 b[0](void);
+C typedef void volatile b;
+T uint8 ns::inner
+P uint8 b(float4, ...)(uint8 [-1]);
+C struct s0 { typedef struct s5 * const * const foo[const 3][0]; };
+T enum e2 foo(vo*id)
+P struct s2 (*ns::inner)(void);
+P __stdcall enum e3 extern *b(char qq(const static enum e3 (*a))[const 3], __stdcall int1 * const qq[-1], ...)[4](bool (* const qq[const 3]), ...);
+T struct s4 foo
+C typedef union s3 x;
+P struct s3 *a(...);
+T struct s0 qq(int4 *foo[10])(struct s0 b, float4 a(uint2 *x), restrict __stdcall uint8 qq[0])
+T typedef extern float4 ** const foo(const bool x(uint8 , struct s3 foo, struct s0 ((ns::inner))))
+C struct s3 { uint2 ** const ns::inner[0]; };
+P s0 __stdcall qq(volatile s4 b, bool qq);
+T s5 b
+C enum e3 { V1_0 = 0x20, V1_1, };
+T restrict struct s0 
+C struct s0 { extern inline int4 b[0]; int4 *ns::inner[0]; s4 b; };
+T code b(code bar_1, struct s3 , struct s2 * const bar_1[0])[const 3]
+P struct s3 foo(enum e3 ** const [0], int4 a)(struct s1, ...);
+P s0 volatile b(enum e3 [const 3]);
+C typedef typedef uint2 a;
+P __stdcall restrict uint2 ns::inner(struct s5 (__stdcall uint8 * const *, ...)(uint4 float4 ** const , enum e0 [10], int2 (**b), ...), int1 restrict const b(enum e0 restrict b, s3 b[const 3]));
+C struct s3 { restrict enum e0 inline ns::inner(void); s5 bar_1; uint4 **a[0]; };
+P code *qq(uint2 __stdcall __cdecl [0x10][const 3], restrict int1 , int4 restrict b(s4 (foo[0]))(char, ...))(int4 *foo);
+T struct s4 const **ns::inner[const 3]
+T struct s0 *ns::inner(__cdecl int1 * const b[4][-1], uint2 restrict inline *, extern static struct s4 *a)[-1]
+P struct s1 foo[10](void *ns::inner, inline s5 const *a(void), struct s2 [0](enum e3 a[10], int4 ** const[4], s3 *));
+C typedef s4 ns::inner(union s0 inline static ns::inner[10], union s1 qq(struct s5 **a, bool (b), float8 ** const qq[4][0x10])(const __cdecl struct s3 bar_1[const 3], uint1 __stdcall inline (foo)[-1], struct s4 (** const a[4])));
+P struct s5 bar_1(void);
+T union s4 * const x(inline enum e3 )[0]
+P struct s0 (a)[0](union s5 __cdecl __stdcall bar_1(int4 *foo[const 3], int4 (b), volatile int2 restrict ), float8 , int8 (bar_1[10]));
+C extern float8 b(...);
+P __cdecl struct s3 ** const a(enum e3 * const ns::inner);
+C extern typedef float8 b(uint8 ns::inner, ...);
+P int4 static volatile b(...);
+C typedef void __cdecl x(float8 a, float4 *x[0x10]);
+P int2 b(char x[10][const 3], int1 static a)(void)(void *b, int4 qq, enum e2 **[co*nst 3](void));
+T int4 a[-1]
+T s0 static restrict * const a(enum e2 qq, struct s0 **b(void __stdcall a, int2 typedef static b[0x10], void (a[10])))
+P enum e0 * const a(char * const b[-1])(inline volatile void ** const b)(int8 inline restrict *b, restrict enum e3 **a, struct s5 ((qq){));
+C union s4 { struct s3 * const *bar_1[4] : 3; code qq; __stdcall int8 __cdecl (**a); enum e0 foo(); };
+T int4 a
+P restrict float4 qq(char typedef x[10])(int4 qq(struct s0 b[const 3], struct s1 qq, float8 (a)));
+T int8 (bar_1[0])
+T float4 bar_1
+P char * const * const ns::inner(void)[const 3](float8 * const *a[const 3](struct s0 (ns::inner)));
+P static enum e2 ((** const foo))(void);
+C extern union s5 foo(int8 foo, int4 union s0 [0], uint8 __cdecl *);
+T uint2 a(void)
+P float8 const **bar_1(void)(uint8 **a[10], int4 * const *, code * const *b);
+C struct s3 { const int4 foo; volatile struct s2 b; };
+T code * const a
+C union s3 { code volatile * const a; };
+T __cdecl float4 * const * const 
+P struct s2 foo[const 3](int4 x[const 3], struct s0 * const * const qq, int4 ns::inner);
+T vid inline * const *ns::inner(bool, ...)
+C struct s3 { float4 **bar_1[10][0x10]; };
+C struct s2 { struct s4 foo; uint4 (b[10]) : 4; uint8 ns::inner(void); };
+C union s1 { struct s2 ((*b)); };
+T bool typedef a
+C struct s2 { char typedef x[4]; code x(struct s4 __cdecl typedef a[10][0], struct s3 inline (b)); volatile __stdcall int4 ** const foo; };
+C typedef __cdecl struct s3 a[4];
+T int1 (x)
+P uint1 qq(extern float4 (ns::inner), int1 x(code * const [-1], typedef int2 * const ns::inner, ...))(union s1 );
+C enum e1 { V1_0 = -3, V0_1 };
+P void (*a[0])(typedef __stdcall s3 bar_1, s3 * const *foo, ...);
+T __cdecl union s1 a
+P s3 **ns::inner[10]("s"restrict struct s3 x);
+C struct s4 { __cdecl struct s0 extern x[4][4] : 4; float4 volatile extern a(union s5 a[0x10], float4 s0 qq[10][10]) : 4; struct s4 (bar_1); };
+C extern s0 ns::inner[-1](int4 __stdcall ** const bar_1(extern union s4, ...), static uint4 a[4], char typedef static s4 *bar_1);
+T void extern const b
+T int4 **(struct s4, ...)
+C enum e2 { V0_0, V2_1 = 1, };
+P int8 *a(int4 const foo(void)(void), typedef uint1 );
+P structs3 * const a(struct s5 inline __cdecl * const [0])(union s4 b[10]);
+P float4 b(struct s5 *qq[10], union s4 a, uint2 (bool [-1][0x10])[4])(__stdcall struct s1, ...);
+C typedef uint8 qq[10](extern int4 __stdcall **foo(void), char [4], enum e1 a, *...);
+T int4 (**a)
+T typedef union s2 ns::inner
+P struct s3 b[0](void);
+C struct s2 { inline bool inline a; };
+P __stdcall uint1 foo(int4 (a), const float4 * const * const foo[4], int4 b(typedef uint2 [0x10], enum e0 typedef , extern int4 static ))()(int4 *b[-1][const 3]);
+C typedef extern int4 ** const b(void);
+P struct s2 (foo)(enum e2 __cdecl int4 b, ...);
+C typedef float8 volatile ** const foo(int2 * const , uint1 volatile __stdcall (a)(inline __stdcall int4 (**x)), int4 (**a[-1]))[0];
+T code **ns::inner
+C enum e2 { V2_0 };
+P static float8 bar_1[-1](struct s2, ...);
+P __stdcall struct s4 * const *a(void)(void);
+T restrict code const **bar_1[const 3]
+C struct s4 { enum e2 x[0x10]; enum e1 x(struct s5 *, ...)(float4 *b[0][0x10]); char b[10][10]; };
+C struct s1 { __stdcall code (**a); };
+T code (b)
+T char ns::inner[0x10]
+P uint1 bar_1(struct s3 **[const 3], inline float8 typedef (int1 __cdecl b[4]), ...)(struct s5 * const *b, code bar_1, volatile __stdcall uint4 x[10], ...);
+P float8 **qq(inline int1 a[const 3], ...)(uint2 );
+T int4 * const * const x
+C struct s2 { int1 **bar_1[10]; uin;t4 const b; float4 volatile extern x; };
+P enum e3 volatile *foo[const 3](void); x
+C extern struct s0 a[0](extern uint8 );
+P const float8 __stdcall (*b)(void);
+T uint8 *x
+P __stdcall int4 *bar_1[0][10](int2 volatile static [0], int8 *bar_1);
+T float4 * const *
+T s1 * const * const b
+C enum e3 { V0_0 = 0x20, V0_1 = 'a', V0_2 = 'a' };
+C struct s0 { uint4 x[const 3]; union s3 (a)[-1]; extern int4 a; };
+T volatile union s3 b
+T int4 (* const *x)
+P float4 x(union s1 restrict [const 3]);
+T __cdecl uint4 (a)
+T struct s2 
+C typedef uint2 bar_1(__cdecl uint8 (enum e0 b))[0x10];
+T const extern enum e2 **
+T int4 **a[-1]
+P s2 qq(static unin s0 a, s1 ** const bar_1);
+C struct s1 { void * const * const b; int8 (** const bar_1); __cdecl uint8 (* const * const b); };
+P uint2 const typeef x(void);
+C typedef int4 x(enum e3 _cdecl x(int1 **), uint2 a)[const 3];
+T extern typedef int1 * const * const 
+C union s1 { int2 b(uint1 [0], __cdecl struct s2 [10]); int1 ns::inner(typedef static union s4 (* const * const qq), int4 extern **bar_1, const union s2 static ); struct s4 typedef ** const x(int4 (foo)); };
+P extern struct s4 a[-1](enum e0 ** const bar_1(char (*qq))[4], ...);
+P struct s4 * const a(const uint1 * const *[const 3]);
+C typedef int4 **x[0];
+P uint4 (foo)(bool (* const ns::inner), struct s1 __cdecl );
+T int4 a
+T int1 volatile extern 
+T uint2 **
+C typedef float8 ** const a(__cdecl union s1 * const *b, bool const volatile [4]);
+T char inline * const *(void (**qq[const 3]), ...)
+T float8 b
+T nion s3 extern const b[const 3]
+T __stdcall code a
+C struct s2 { int4 float8 * const qq; int4 __cdecl ns::inner; };
+C union s5 { restrict int1 b[0][0]; void qq[0x10]; void (a); };
+P typedef int4 (bar_1)(void (b))(extern int4 *[4][10], ...);
+P int4 a(...);
+P float4 inline volatile x(void)(__cdecl inline int8 foo(float8 int4 **), int2 foo[0x10], uint2 ns::inner, ...);
+C enum e0 { V1_0, V1_1 = 7, V1_2 = 1, V1_3 };
+P char foo(struct s0 *a[4][0x10]);
+T restrict union s2 restrict a
+P const int4 * const *foo[10](void);
+C struct s1 { int2 * const * const a; __stdcall char float8 b; int4 (* const *a); };
+T int8 * const x
+C typedef struct s2 __stdcall foo(union s2 a(uint8, ...));
+T inline struct s0 ((b))
+T int2 __cdecl *x
+P const volatile enum e2 ** const ns::inner(union s , char (a[0x10]), restrict int2 ns::inner);
+C typedef __stdcall bool __stdcall b(uint4 * const *a);
+C struct s0 { struct s0 ns::inner : 5; struct s1 inline foo; struct s1 b; };
+P float8 restrict ((bar_1))(float4 * const *a, union s3 (qq));
+P struct s3 bar_1(struct s5 typedef ** const foo[4])(code bar_1, ...);
+T __cdecl __cdecl uint2 *[0][0x10]
+T int8 ** const a
+C enum e3 { V0_0 = -3, V1_1 = -3 }; x
+T float4 *foo
+C union s0 { __stdcall int4 x; const uint4 (b); };
+C union s5 { bool ** const bar_1 : 2; void extern ns::inner; };
+P void foo[-1](s3 *x);
+T static enum e1 a
+T uint2 foo
+C union s2 { bool *foo(int4 (qq), extern bool inline (ns::inner[4]))[const 3]; inline __stdcall s5 **b; };
+C extern restrict struct s0 extern bar_1[const 3](code b(float8 [const 3], ...), ...)(volatile int8 a[const 3][0], ...);
+T uint2 b[0](void)
+T union s0 qq
+C enum e0 { V1_0, V0_1, };
+C extern int8 **qq(char *, enum e2 extern (bar_1[-1]))(__stdcall s0 * const *b[const 3])(volatile float8 ** const ns::inner, int2 ns::inner[4]);
+C extern s5 a(const enum e0 * const * const ns::inner, char __stdcall , uint2 a(code * const * const ));;
+P int1 * const *a(uint2 (* const *a));
+T s3 * const ns::inner
+T int8 * const a(uint2 __cdecl typedef a, void (b))
+P int1 x[-1](typedef union s2 * const * const b(void));
+C union s0 { struct s1 ((a)); code foo(char, ...); };
+T enum e1 (**bar_1)
+P int4 extern ns::inner(enum e3 restrict typedef * const foo(struct s3 __stdcall , float4 , float4 a, ...))(__stdcall int4 typedef qq, const int4 * const a[4], bool * const *[4], ...);
+T struct s0 (qq(enum e0 *b, uint8 (* const qq))) x
+T struct s4 a
+P __stdcall uint8 (x)(code foo(void)(restrict s0 b, struct s1 ), uint2 (* const *a), int8 bar_1);
+C typedef int2 b(char [10], inline inline enum e1 * const qq(enum e2 (foo))); x
+T const uint8 
+P float4 ** const b[const 3][0](restrict uint8 a, typedef char x, uint2 (*bar_1[-1]));
+C enum e3 { V0_0, V2_1 = 7, };
+C struct s2 { union s3 *x; };
+T int4 int4 a
+P int4 ns::inner(uint4 * const ())(char bar_1(union s1 __cdecl [const 3][0x10], code b), enum e1 ns::inner(uint2, ...));
+P union s4 x(void);
+P int4 b(__stdcall stuct s1 , ...);
+T code *foo[10]
+T const const enum e0 foo(struct s0 [-1], void * const b[10], ...)
+P int1 *bar_1[const 3](const enum e2 a[-1], ...); extra
+T volatile s*truct s5 **a(void)
+C typedef uint1 **b[0x10];
+P int2 x(int4 *b, uint4 uint8 b[4]);
+P uint1 * const bar_1[0x10](struct s3 , float8 b[const 3]);
+C typedef enum e2 ** const ns::inner;
+C extern float8 bar_1[0][0x10](void);;
+C union s3 { int4 b[const 3][0x10]; code a; float4 static b; };
+T struct s4 b[0]
+P uint2 ** const a(bool , struct s1 extern [0], (char a);
+T int4 a
+P int1 (** const qq)(union s0 **(struct s3 b), union s3 uint1 ns::inner, uint4 * const b)(union s3 *a[0][-1]);
+P char (b[0x10])(...);
+C enum e3 { V1_0, V0_1, V1_2, V2_3 = 'a', };
+P void ns::inner(volatile restrict enum e1 x[0x10], bool , ...);
+C enum e0 { V2_0 = 0x20, V0_1, V2_2, };
+T void (int4 (* const *a)(int1 **foo[0x10], struct s3 a[0x10], void *))
+C struct s0 { int4 qq; };
+P int1 (x)[10](union s3 extern, ...);
+P struct s4 qq(union s0 (a), uint2 **foo, uint1 **x);
+C extern uint8 * const *foo(union s4 typedef (int2 (** const ns::inner)[4]), char *b[-1]());
+C enum e2 { V2_0, V2_1 };
+P __stdcall typedef int8 a(void);
+C enum e3 { V1_0 =7, V1_1 = 0x20, V1_2 = 7 };
+C struct s4 { struct s4 a; int4 x; };
+C enum e3 { V0_0, V2_1, V0_2, };
+C typedef restrict int4 extern b[4];
+P typedef int2 volatile (* const qq)(enum e3 static b); x
+C struct s5 { struct s5 inline __cdecl **x[10] : 5; };
+T bool __cdecl foo
+T int4 **x
+P struct s0 (* const b)(s3 foo, typedef struct s4 [-1][0x10], int1 b(int4 * const a, enum e3 __stdcall __cdecl , code b), ...);
+C extern extern struct s4 static foo(uint8 a(restrict int4 bar_1));
+T int4 (* const a)
+C extern __stdcall int4 extern bar_1[const 3](float4, ...)(char (a));
+P void typedef qq()(void);
+T float4 ns::inner[const 3]
+T int1 * const *foo
+P int4 * const *a[10](uint1, ...);
+P code ** const qq(uint2 **bar_1(...), float8 inline * const *a(int4 ns::inner))[0](code bar_1);
+C typedef struct s4 extern a(float4 *b[0x10], const uint2 *qq[4], uint1 typedef b);
+T inline static int[1 * const *a[10]
+T code (bool **bar_1[10](uint4 * const , struct s2 (bar_1)[0x10]))(int8 typedef a(volatile float8 const , uint8 *, volatile static union s0 ns::inner), ...)
+C struct s4 { union s3 bar_1(void)[0]; enum e1 b; union s0 __stdcall b[0]; };
+P bool inline volatile (foo)(float4 * const * const b[const 3][4]);
+P s3 qq(enum e2, ...);
+P uint1 *b(char b, enum e2 volatile __stdcall (void)[const 3], int8 *b, ...)(restrict struct s5 x, float4 *);
+P const volatile float4 x(inline volatile void, ...)(s5 , struct s4 (a)[10]);
+T struct s1 *; const * const a[0x10]
+C typedef uint1 **qq[const 3][0x10];
+T int8 foo(int4, ...)[10]
+C struct s2 { code ** const a; };
+P uint8 * const *x(union s3, ..);
+T restrict code const (foo)
+P char bar_1(uint2 static *b[4])(union s2 static , struct s0 qq, struct s5 (extern struct s0 restrict [0], int1 **[-1][0]));
+P uint2 *foo[0x10][const 3](struct s4 (), extern void bar_1(struct s3 ));
+C struct s1 { union s2 __stdcall a; s4 a(float4 qq); };
+C union s4 { static uint8 * const b[const 3][0x10]; uint4 * const *bar_1[4][4] : 1; int2 (x); bool **b[0][-1]; };
+P s5 a(extern static uint8 * const *x, float8 **b[4]);
+P struct s4 inline b(struct s2 volatile [10][-1], enum e2 extern __cdecl );
+P enum e3 ns::inner(struct s5 (void)[-1], uint8 a, char * const *)(int8, ...);
+P char qq[10](int1 *b(void)[0x10], uint1 b, int1 );
+C typedef enum e3 (* const bar_1)(void);
+P int8 a(int4 foo(typedef struct s2 static *[4][const 3])[0x10], code , enum e2 );
+P int8 * const a(struct s2 volatile static foo);
+P extern typedef uint8 *ns::inner[const 3](enum e3 *b, struct s5 const , int4 * const a, ...);
+T uint4 static (b)[const 3]
+C struct s1 { uint8 **foo(...); enum e3 *b[const 3](code (foo)); float4 ns::inner; };
+T uint8 foo(void) /* c */
+T uint8 const (ns::inner)()
+P char qq(char , union s2 * const * const a, void * const ); /* c */
+T char (uint8 static **)
+T int4 (b)
+C struct s0 { struct s1 ns::inner(float4 * const *b, inline const float4 a, int8 (*a)); };
+C union s5 { typedef int8 x : 2; const enum e2 volatile b(const __cdecl struct s5 qq); struct s2 (**a)[10]; };
+T code foo
+T uint4 (b)(union s4, ...)
+T s5 * const a[]
+P nline bool const (foo)(uint2 volatile qq[0], uint4 volatile *a);
+T restrict __stdcall union s2 a(struct s0 restrict __cdecl, ...)
+P float4 b(bool volatile (b));
+P static inline int8 * const foo[0](uint1 **b[const 3](struct s3 volatile static (foo)[-1]), ...)(uint1 **foo);
+P const extern bool bar_1[0x10](int1 static, ...)(code static typedef , int4 , float4 foo(s3 , int4 volatile a, enum e0 a, ...));
+T struct s2 **
+T int1 bar_1(enum e0 bar_1[const 3], uint8 typedef x)
+P restrict int8 * const *bar_1(__stdcall int4 , char int4 , int4 ns::inner[0])(uint1 (...)(restrict enum e3 qq), const struct s4 volatile a, ...);
+T uint8 static b
+C typedef uint2 **qq;
+P int8 typedef const b(int4 b[0x10], code __stdcall extern b)(void);
+P struct s1 __stdcall __cdecl **ns::inner(enum e1 const const *bar_1(struct s4, ...)(int1 b[0], struct s1 ));
+P __stdcall union s3 bar_1(int1 ** const [0][-1])(int4 x[0])(__cdecl struct s3 (a));
+P s0 static static *bar_1(uint8* const qq, struct s0 restrict b(int1, ...)[const 3], struct s4 (int8 *a), ...);
+P inline int4 a[4](float8 extern ns::inner[10]);
+P float8 (* const *b)(int8 __cdecl volatile *x);
+C typedef struct s5 const *x;
+C union s3 { struct s1 a[0] : 5; uint4 (*b); s4 * const b; void (bar_1); };
+P typedef uint4 * const * const b[4](int2 * const a[10](void), uint1 * const b(uint1 inline st(atic *b[4][0x10], uint2 * const *a), enum e0 __stdcall ** const b[-1])(void);
+T char __stdcall * const *qq
+T union s2 typedef * const * const qq
+P float4 static __stdcall a(__stdcall uint4 *x);
+T code ** const (union s5 (char (b), ...), enum e3 **qq(float4 [-1], int8 (b)))
+T int1 [4]
+C struct s0 { int8 __stdcall *a; s1 foo; float4 *qq; int8 (*x[const 3]); };
+T uint2 __cdecl ** const 
+C typedef float4 b;;
+P struct s4 (* const x)(inline restrict enum e0 (x));
+P int4 *bar_1[4](union s3 qq, ...);
+T float4 (enum e2, ...)
+P enum e0 b[4](void);
+C union s0 { union s4 *b(int1 ** const [0])(s0, ...); static uint8 * const *b[0] : 6; float4 * const * const a(struct s1, ...) : 1; };
+C struct s1 { void static __cdecl *x; struct s4 foo[const 3]; int4 (**a); restrict int4 *ns::inner[-1](int4 foo, extern int4 b, float4 (a[const 3])) : 4; };
+T struct s5 (uint1 (int4 (bar_1), float8 (ns::inner), char extern __stdcall (* const a)[0]))[-1]
+T char a(__stdcall typedef float4 )
+C typedef extern uint1 * const a;
+C typedef int4 b[4][4];
+P char x(bool [4](void)); extra
+T bool a
+P enum e3 **ns::inner(__stdcall code ** const ns::inner, uint4 **foo, ...);
+C struct s4 { int2 (foo[-1]) : 6; enum e3 * const * const bar_1[-1]; };
+T restrict static float8 **b[4][10]
+T int2 __stdcall b
+P enum e3 typedef **a(union s4 qq);
+T uint1 *b
+T void b[const 3]
+C enum e2 { V2_0 };
+P char **qq[10](int2 (b), ...)(extern struct s5 static (struct s0 * const *a, volatile float8 (*a)[4], __stdcall int4 const ), ...);
+T inline bool __stdcall bar_1[10]
+T union s2 qq
+P int4 b[0x10](__stdcall int4 typedef a);
+P float4 qq(enum e3 qq(void), int4 *foo, float4 (ns::inner));
+T union s4 foo
+T inline int4 *avoid)(uint4 )
+C typedef int2 *a;
+C struct s2 { inline char *b; int4 (b)[-1]; };
+T enum e0 **bar_1[4]
+T enum e0 a
+C union s5 { char * const foo[10]; char (a); uint2 static static b; };
+C union s5 { s2 *bar_1; enum e0 * const b[-1]; float4 (** const b(void)); struct s2 foo; };
+P extern float8 typedef (*b)(...);
+P inline float8 a[0x10](...);
+P inline float8 bar_1[0x10](code, ...);
+C typedef extern inline float4 ns::inner;
+C struct s1 { char __stdcall *bar_1; char __stdcall *b[10]; };;
+P char ** const bar_1[const 3](void const, ...);
+C enum e3 { V1_0, V0_1 };
+P int4 x(extern union s2 int4 a)[const 3](bool __cdecl bar_1, enum e2 ** const x[-1]);
+C enum e3 { V0_0, V2_1, V1_2 = 0x20 };
+P __cdecl __stdcall uint4 enum e2 **x[-1](__stdcall __stdcall union s4, ...);
+P inline int4 static *x[10](int1 static b[4], float8 *x[0], int8 ns::inner[10]);
+C extern enum e2 ns::inner[4](int1 *bar_1(struct s5 (*bar_1))[const 3], const s3 a, ...)(float4 static (int4 * const *qq[10], uint2 ));
+C typedef struct s1 (qq);
+T struct s0 volatile a(struct s3 extern *a)(int1 a)
+C typedef code *foo(restrict int4, ...)[0];
+P bool __cdecl **a(enum e0 (** const a))(void)(void);
+T s0 (**qq)
+C union s0 { union s3 *ns::inner(enum e3 restrict ns::inner, struct s4 * const a[0]) : 1; int2 (qq); };
+P struct s3 * const * const ns::inner(__stdcall uint2 bar_1);
+C struct s4 { uint4 uint8 (foo); };
+P restrict int4 const foo(int8, ...);
+P char bar_1(uint4 *qq()[const 3]);
+P enum e3 __cdecl b[10](char b(float4 __stdcall static **bar_1[const 3][const 3], float4 static (ns::inner[0x10]), ...))(float8 * const *qq);
+C union s5 { uint1 (* const( qq); int1 *a; struct s0 (* const b); int8 ns::inner; };
+P float4 a(float4 const extern *foo);
+C struct s3 { int4 b[10]; uint8 bar_1; char **b[4]; __stdcall int1 ((foo)); };
+C struct s3 { enum e3 * const *ns::inner[-1]; s0 * const * const bar_1; s4 *x(char inline code [0x10], restrict float8 static *b, uint4 **qq); };
+T char 
+P struct s3 (a[0])(restrict float4 ** const foo(void)[4], const struct s4 , ...);
+P char (*x(const uint1 a[0]))(struct s4 x);
+C enum e3 { V0_0, V1_1 = 7, V0_2, V0_3 = 7, };
+P int1 b(enum e0 qq);
+P void a[-1](const union s2 [const 3][4]);
+P bool restrict * const * const b(char *qq[0], struct s0 bar_1(union s2 restrict **, int4 inline ** const [0], void *b)(bool ), const float4 )(uint2, ...);
+P bool b(void)(...);
+T int1 *
+C union s0 { struct s3 __stdcall (** const x); s4 ** const bar_1; code (bar_1)[10]; };
+T char foo(uint8 )[10]
+C typedef uint4 ns::inner;
+P uint8 *ns::inner(void (int4, ...), uint8 [-1], char *x[10]);
+T bool a[10][4]
+T struct s5 x[const 3][const 3]
+P enum e2 qq[10](void);
+P uint1 ** const ns::inner(float4 float4 * const foo[const 3], void __stdcall **b[10])(uint4 volatile b[0x10], union s3 qq[4][const 3]);
+T int2 __cdec extern bar_1
+P __cdecl uint2 bar_1(int8 (* const *foo), float4 * const (), struct s1 *b(void));
+P extern float4 foo[0][const 3](volatile typedef int1 , __cdecl inline uint2 b[0], struct s2 *bar_1);
+P bool b[4](__cdecl int4 extern, ...);
+P float4 qq(uint8 a(void), struct s3 typedef ((foo)), char extern b[0][10], ...)(__cdecl uint8, ...);
+C extern char restrict ns::inner(void);
+C typedef s3 inline qq;
+T int2 restrict inline a
+P __stdcall char ns::inner(struct s3 )(static __stdcall float4 ((bar_1)));
+P volatile __cdecl struct s4 b[-1](struct s0 **, __stdcall int4 b(int8 x, code foo[const 3], ...)(volatile typedef uint1 foo), ...);
+P uint8 const a(int8 * const bar_1, struct s4 *[4], struct s3 b);
+P uint1 a(enum e0 x[0x10], bool **a[const 3]);
+C extern s0 **a[0](struct s2 (b), uint2 __stdcall *);
+C struct s3 { float8 (a);( };
+T char const ns::inner(uint1 * const *(union s3 * const ns::inner, float8 (* const *ns::inner[4]), bool __stdcall ](ns::inner)))
+C struct s1 { uint2 __cdecl ns::inner(volatile restrict int2 (**a), __cdecl struct s2 ); volatile __cdecl void a(...); s2 (* const *b)[4]; float4 * const *b; };
+P uint2 qq(int4, ...)(void);
+T struct s2 typedef a(enum e0 * const qq[-1], char b(inline void a)[0])
+T enum e2 foo[10]
+P float4 *b[4](float4 * const x(void), typedef int4 bar_1(__cdecl enum e0 x), uint1 *a);
+P void inline qq(int4 *a);
+C struct s3 { int1 x[const 3][0x10]; enum e0 **a; void a[0x10]; };
+T static bool (**bar_1)
+P float4 *ns::inner(bool __cdecl b[-1], enum e2 static (a), bool * const * const a)[4](void);
+T int4 b(bool typedef typedef x[-1])
+T volatile char __stdcall (**a)
+P union s0 foo(void)(const __stdcall bool (**ns::inner[const 3]), __cdecl struct s1 x);
+C extern const float4 ** const ns::inner(int4, ...);
+P uint1 ns::inner[0](__cdecl struct s5 static *, float8 b);
+P __stdcall struct s4 a(code bar_1, extern it4 __stdcall a[0]);
+T res::trict float4 inline a
+T int2 (* const x)(struct s0 *a, __cdecl enum e3 [0])
+C enum e0 { V1_0, V2_1, V0_2, };
+P const char **bar_1(void);
+T static struct s0 **x[0x10]
+P float4 b[0x10][0](...);
+C extern char ]__stdcall bar_1(...);
+T int4 ns::inner(enum e2 static )
+T enum e1 (x)
+C struct s0 { int4 ns::inner; int2 a(enum e0 volatile typedef (**ns::inner)[10], float4 ns::inner, uint8 qq); int4 **b[0x10]; };
+C struct s3 { uint4 typedef volatile **a[0] : 1; float8 bar_1; };
+T s4 * const *
+P struct s1 **qq[const 3](bool );
+T int8 volatile (*qq)
+P __stdcall s4 foo[0x10][10](s4 __stdcall, ...);
+T uint4 [0]
+T typedef int8 restrict [4](int8 bar_1, float8 foo[4], int2 x)
+C enum e2 { V0_0 = 7, V0_1, };
+C struct s3 { uint2 **x(union s5 bar_1[0][const 3])(struct s1 ** const ); };
+P int2 * const *ns::inner(bool, ...);
+P int4 restrict * const *a[0](enum e2, ...); // tail
+P struct s5 (ns::inner)(...);
+C union s4 { char * const * const bar_1[-1] : 5; };
+C enum e0 { V1_0, V0_1, V2_2, V2_3 };
+C union s4 { uint2 ns::inner(uint1 ns::inner, struct s3 x, uint4 __cdecl ((qq)))[4]; uint2 const a; struct s4 typedef (foo)(int4 *, int4 **[-1], int8 ); };"s"
+P uint1 (** const bar_1)(enum e3 *a, typedef s0 , union s3 (uint1, ...))(void);
+T uint8 (ns::inner)(uint8 qq(int1, ...))
+T struct s4 (a[10])
+P static int2 a[-1](void);
+P int4 static x[0x10](enum e2 **[-1], int8 , struct s4 (char (foo), void (**b)[const 3]));
+P s1 x(enum e3 foo, char **b);
+C extern char a(float8 b(void typedef *ns::inner[0x10], char *b, uint8 **)[4], ...);
+P bool static (*foo)(enum e0 restrict ns::inner, float4 (void));
+C struct s3 { union s1 **bar_1 : 6; };;
+T s4 (bar_1)
+T bool extern __stdcall (float4 foo, uint4 extern x(__stdcall restrict struct s2 b[0x10], enum e1 ))(int1 __stdcall a(extern __stdcall union s4 bar_1[0x10], char typedef a[-1], float4 *foo)(void))
+C enum e2 { V1_0, V2_1 = 'a', V2_2, V0_3, };
+P float4 * const b(void);
+C union s1 { int8 ** const qq[-1] : 4; enum e2 a[4]; int8 b[0]; s1 ns::inner[4] : 1; };
+T uint2 a
+T typedef uint8 ns::inner(struct s3 restrict qq[0x10])
+C struct s5 { enum e3 b; int4 b; int2 *qq(uint4, ...); s1 *bar_1[4][10]; };
+C typedef volatile int4 **foo;
+P enum e0 (*a)(enum e3, ...)(uint8 ((a)), void *qq, code );
+P s2 typedef bar_1[10][-1](float4 *x);
+C enum e1 { V0_0, V0_1 = 0x20, V0_2 = 1, };
+T struct s0 foo[0x10]
+T __cdecl struct s5 *ns::inner(float4, ...)[const 3]
+T union s4 inline inline * const b(__stdcall struct s5 (__cdecl struct s1 (foo)[4]), inline float4 (b))
+T uit2 const volatile (a[0x10])
+C enum e2 { V2_0, };
+T int4 b[const 3]
+C struct s2 { struct s0 * const ns::inner(s4 *, ...) : 3; char static const foo; __cdecl int1 ns::inner(float8 typedef *x[4], union s1 const (b)[4]); __cdecl char a; };
+P uint4 ns::inner[10](static char bar_1);
+P char a(void);
+P enum e3 b();
+C struct s0 { struct s4 ** const x; int1 const b; union s5 ns::inner(void); __stdcall static uint1 x; };
+P volatile s4 const b[0](void);
+T enum e2 foo
+C typedef enum e3 b[0][4];
+T enum e0 * const *a[10][10]
+P __stdcall char * const ns::inner[10](void);
+C typedef struct s0 __stdcall * const *x;
+T struct s4 bar_1
+P struct s1 static __stdcall (b)(union s2, ...)(s3 * const *b, uint2 a);
+C enum e1 { V0_0, V1_1 = -3, V2_2, };
+C struct s5 { enm e3 inline __cdecl b; const struct s3 *b : 5; int4 *x[4]; bool *qq; };
+T int2 (void)[0x10]
+C union s2 { int1 a(int2 [0], enum e0 (*b[const 3]), volatile s4 **)(uint4 const (x), static union s0 inline (b), float4 (bar_1)) : 3; enum e0 __stdcall b[0x10]; s4 (* const ns::inner); struct s4 ns::inner[-1]; };
+C typedef static uint4 ns::inner;
+C typedef struct s3 b;
+T struct s0 (bool **x[0x10])
+C typedef bool b[0x10](const code __stdcall , enum e1 foo(...), float8 a(int1 (b[4]), typedef uint1 x[-1]));
+C struct s5 { uint8 a; };
+P char (**foo)(restrict const int1, ...);
+P int8 a(float8 inline (void), float4 foo[0x10], uint4 static static * const *foo[const 3]);
+T union s0 x(struct s4 b, struct s1 foo[-1])[-1]
+T struct s4 (ns::inner(int1 *x[0x10][const 3]))
+T enum e0 b(union s2 *a(static int8 restrict bar_1[const 3]), ...)[0x10]
+P uint8 * const * const a[0](s1, ...);
+C struct s3 { inline float4 (bar_1); restrict enum e0 b; };
+P __cdecl struct s2 static *bar_1(enum e3 ** const a, ...);
+C struct s3 { struct s4 a; int4 volatile ((**qq)); s1 __stdcall __cdecl x[4]; int4 *bar_1(void); };
+P typedef uint8 qq(int2 (x[const 3]), __cdecl restrictstruct s4 a[10], uint4 **(uint1 __cdecl typedef bar_1));
+C extern code extern bar_1(void)(...);
+C struct s2 { int8 *foo(float4 * const *ns::inner, uint8 extern (*bar_1), float4 bar_1[10][10]); int4 __cdecl b[4]; };
+P struct s3 ns::inner(int4 __stdcall, ...);
+P bool __stdcall inline qq(uint8 volatile , void b(char (b), void **, ...), char (int2 b, typedef uint4 * const *[10]), ...);
+C typedef const __cdecl float8 x[-1];
+C union s1 { uint2 x; enum e0 __stdcall a[const 3]; union s2 * const qq[0]; };
+C enum e3 { V2_0 };
+C typedef int4 inline const * const a;
+P s3 * const *a[const 3](int4 *[10][4]);
+P struct s2 typedef typedef x(void, ...)(int4 , int2 (enum e3 * const *a, void inline x, enum e3 ), restrict uint1 (bar_1));
+T uint4 (* const b)[const 3]
+P char * const *b[const 3]()(void);
+C typedef char **ns::inner;
+T inline struct s3 __stdcall 
+T uint8 
+C typedef const s3 foo;
+T struct s0 (foo)
+T bool b
+C typedef enum e3 (** const foo);
+T struct s0 enum e2 [10]
+T union s3 a
+P struc s0 *a(enum e2 __stdcall *b[0x10], float4 (** const b));
+C extern float4 a(float4 volatile (*ns::inner)(void), restrict struct s2 extern * const a, restrict bool b[0]);
+C enum e0 { V0_0, V0_1, V2_2 };
+C struct s3 { int8 a(__cdecl int1 volatile x); inline s2 a; inline int1 * const *bar_1; struct s2 a(void); };
+T float8 
+C enum e0 { V1_0, V2_1 = 7, V0_2 };
+P char * const bar_1(uint2 [const 3][10], int4 [4], int8 a[0])();
+C typedef int8 a;
+C typedef int4 a;
+T float8 restrict typedef *b
+P int4 **foo(int4 (**a), char , code [-1], ...);
+P float4 *a(struct s4 typedef a, struct s3 volatile bar_1(char bar_1), int4 );
+P float4 a(void);
+C typedef struct s5 restrict const bar_1;
+C typedef restrict int4 qq(__stdcall __cdecl int2 , typedef int4 [4], float4 bar_1(int8 const (x))(void));
+P enum e2 b(__cdecl char inline * const ns::inner, union s1 qq, enum e3 (qq))(int8, ...)(uint1 restrict b);
+P bool x(struct s3 volatile qq, ...)(static const uint4, ...)(float8 a, struct s2 a[0](extern char *));
+C typedef int1 (* const *bar_1);
+P struct s3 ns::inner(extern restrict union s3, ...);
+C struct s3 { __stdcall float4 **bar_1; struct s5 **b; uint2 a : 5; };
+C enum e2 { V1_0, V0_1 };
+C union s0 { int2 * const *b[-1][10]; };
+T char inline [4][0]
+P float8 a(unio s1 );
+C typedef enum e0 b[-1];
+T volatile union s1 extern **(extern struct s1 foo(union s4 b[0x10])[-1], int1 **, enum e2 ns::inner)(char )
+C type[def enum e3 * const * const qq(int4 * const *bar_1[4][const 3], __stdcall __stdcall char *bar_1[10])[-1];
+P enum e0 *x[10](code foo[-1], void ** const [10]);
+C enum e2 { V0_0 = 1, };
+C typedef float8 (foo);
+C enum e0 { V1_0, V1_1 = -3, V0_2 = -3 };
+T enum e3 **b[0]
+T const struct s3 (* const *qq)
+C struct s1 { bool static __cdecl * const *qq(uint8 (*foo), union s2 * const *qq[const 3][4]); struct s4 * const foo[10] : 7; int4 qq; };;
+C typedef int4 volatile **b;
+P int4 __cdecl qq(uint1 __cdecl );
+P struct s2 **a(struct s2 b, void [10], struct s2 );
+C enum e1 { V1_0 = 'a', V0_1, V0_2, V1_3, };
+C enum e3 { V1_0, V1_1, V0_2, V1_3 };
+T struct s2 restrict b
+T float4 b[0]
+C struct s1 { enum e2 *bar_1 : 7; };
+P float4 a(enum e2 typedef , ...)[4](__stdcall uint8 *, struct s2 (b), int8 foo(char ns::inner, static int4 const bar_1)[4]);
+T restrict enum e2 *a
+C struct s4 { static float8 **a(struct s2 b[0], uint1 qq[const 3], restrict code (**qq), ...); };
+T enum e3 * const a(enum e0, ...)
+T code ** const b
+P int4 (a)(__stdcall float4, ...);
+C enum e2 { V0_0 = 7, V2_1 = -3, };
+C struct s1 { uint1 **b; };
+C enum e1 { V1_0, V2_1, };
+P struct s1 ns::inner(__cdecl float8 qq[0x10], uint2 a);
+C struct s0 { int4 b[0x10] : 8; char (bar_1)[0x10]; };
+P const uint2 a(union s1 enum e3 *[const 3], static struct s5 a, ...);
+C union s3 { const extern struct s5 a[10](volatile typedef union s2 (* const b), bool ((qq))); float4 b(s3 (* const foo)); inline const struct s5 ** const ns::inner; struct s5 *qq[10]; };
+C enum e0 { V0_0, };
+P __stdcall const float4 x();
+C typedef int4 ns::inner;
+P char b(struct s4 (...), ...);
+T uint8 static a(struct s2 ** const ns::inner)(code a(char __cdecl __stdcall * const *)(code extern (**qq)[-1], int2 static * const * const , char (*b)), float4 ns::inner, int8 * const *a(struct s5 extern foo[const 3], int4 *[10], int1 (x)))
+T code extern [-1]
+T char __stdcall (b)
+T struct s3 bar_1(inline s0 const **a, s5 bar_1[0x10][const 3], char (void), ...)
+T uint4 typedef *b
+C typedef char (* const * const x)(char (qq(static __stdcall void, ...)), volatile float4 b);
+P unin s4 **a(void);
+C struct s1 { __cdecl float4 bar_1(void)(__stdcall void ** const qq); char typedef a[-1][10] : 2; struct s4 (bar_1)(); enum e3 x[0x10] : 5; };
+P uint4 **qq(s0 *bar_1, int2 (** const b), __cdecl __stdcall struct s2 **, ...)(struct s2 * const x[4], static struct s3 x(int4 * const *foo[const 3], ...));
+P int4 (a)(void);
+C enum e0 { V0_0 = 1), V2_1 = 0x20, V2_2 = -3 };
+C enum e0 { V1_0 = -3 };
+T struct s0 b
+P float4 ns::inner(code b(bool (b), s2 __stdcall __stdcall (bar_1), int2 (* const *ns::inner)))(void);
+T float4 qq[-1]
+T __stdcall int8 a
+C struct s5 { int4 *a; __cdecl enum e0 foo[0x10]; };
+P char **ba,r_1(char **(int8 restrict [4], char *), ...)(union s1 ** const foo, int4 inline * const a, s4 *foo[4], ...);
+P __cdecl extern struct s4 (qq)(struct s3 *b(uint2, ...), code );
+T uint2 qq(int2 *(char static int4, ...), enum e1 qq(enum e0 qq))
+C extern union s2 qq();
+T char **b
+C union s2 { char *foo; bool * const b[0][0]; };
+C typedef struct s1 (b);
+P const int4 restrict (qq(static int8 volatile, ...))(char a(void), char * const );
+P char *a(void);
+C extern struct s5 qq[0x10](int4 __cdecl const, ...);
+C struct s2 { int1 b[4]; uint2 b[4]; };
+C extern bool * const * const qq(void)(uint1 )(int2 void **ns::inner[-1][4], volatile struct s4 * const a);
+C enum e2 { V1_0 = -3, V0_1, V1_2 };
+T void * const * const a[const 3]
+T int4 ** const x(enum e3 (ns::inner), ...)
+T struct s1 b
+P union s5 ** const qq(char * const * const x[0]);
+P __cdecl uint2 **b(__stdcall float4 *, code * const *b, enum e3 *ns::inner)(void); // tail
+P __cdecl const enum e3 *qq(char b, __stdcall int4 (**a), int4 *foo[const 3], ...);
+P float4 *x(uint2 * const ns::inner);
+P struct s3 qq(inline union s2 b);
+P union s0 a[0x10][const 3](extern float4 );
+C typedef static uint4 static b;
+C enum e3 { V1_0 = 'a', V1_1 = 7, V1_2, V2_3, };
+C struct s2 { int4 b; char __stdcall restrict * const *a[0]; struct s1 b; float4 b[10]; };
+C extern uint8 __stdcall a[4](uint4 (foo[4]));
+T char const __stdcall b
+P uint2 (** const x)(__cdecl struct s4 __stdcall a, ...);
+T int4 *b
+P code (* const a)(__cdecl uint1 * const *ns::inner, int4 static qq[-1][0], struct s0 b);
+C typedef uint1 (* const * const x); /* c */
+C union s3 { void typedef b[4]; uint2 (ns::inner); volatile bool ** const x(float8 , char struct s0 b, ...); uint1 static (bar_1); };
+T enum e3 "s"qq
+P int4 (a)(void ((*foo)), restrict code static **x(volatile char, ...), int2 __stdcall );
+T bool volatile x
+T uint4 b,
+T union s0 *bar_1
+T s1qq
+P typedef float8 (qq)(int4 volatile (ns::inner), __stdcall s3 typedef qq, char static * const *a(int2 * const a[0x10][10], inline enum e3 **qq)[4]);
+C struct s3 { uint2 * const *ns::inner(struct s2 restrict, ...); uint4 a[10]; };
+T int8 __stdcall * const *b[10]
+P __cdecl union s2 (**x)[10]();
+P restrict struct s2 static ns::inner[0](void)(void);
+T __stdcall uint4 (**ns::inner)
+C union s1 { __cdecl int2 bar_1; inline int2 (b)[const 3] : 8; __stdcall inline struct s3 x; };
+C extern inline char *a(static volatile int2, ...)(uint4 (**ns::inner), int2 *(bool x[const 3]))(...);
+T const inline enum e0 bar_1[0]
+C enum e3 { V0_0, V1_1, V0_2, V1_3 = 0x20 };
+C typedef char **a[0x10];
+C typedef struct s1 extern **x()(uint2 bar_1(...)[const 3], ...);
+P char uint4 bar_1(float4 bar_1);
+T restrict float4 extern b
+C struct s2 { char ns::inner[10]; }$;
+T inline struct s0 foo(static bool b[const 3])(s0 )
+T const extern enum e3 a[0x10]
+C enum e0 { V2_0, V0_1 = 1 };
+C extern uint4 * const bar_1(typedef union s1 inline * const ns::inner[0]);
+P uint2 bar_1(nt4 (a)[0], struct s0 inline *ns::inner, volatile void a, ...);
+P code (** const ns::inner)(void const *(uint2 typedef __cdecl [0], ...), struct s2 [-1], int2 , ...);
+T uint4 foo
+P void x(union s2 __stdcall __cdecl b, int8 x);
+T uint4 *
+P float8 restrict ns::inner(int4 __stdcall *qq(...));
+C struct s1 { union s0 restrict **foo[-1](char, ...); float4 b[10]; struct s3 *b; char b[-1]; };
+T int4  /* c */
+T uint1 **foo
+C typedef enum e3 ns::inner(void);
+P struct s2 *foo(void)(void);
+P enum e2 a(int4 * const * const qq[0x10]);
+P typedef int4 (b[4])(int4 (bar_1[10]));
+P __stdcall struct s1 qq(typedef inline int4 ns::inner(const int1 , int8 b[0]), extern float4 *);
+T float8 **a[10]
+T int4 inline bar_1(extern{ s4 x(__cdecl float4 b, enum e3 __cdecl * const *, ...), void (b), ...)
+P uint8 foo[-1](bool b(int4 * const [0]));
+C union s1 { struct s0 * const qq(s0 ns::inner[0x10], code *b, int8 * const *qq[0]) : 3; int4 volatile * const ns::inner(void, ...); volatile int1 * const *a[const 3]; };
+C struct s3 { uint1 a; uint2 **a; struct s5 b(enum e1, ...); };
+P void x(struct s3 )(float8 restrict ** const bar_1[0x10][4])(void);
+C typedef struct s5 const a;
+P struct s0 **x(code restrict **bar_1, ...);
+P union s4 (**foo)(struct s5 * const *a[0], struct s4 **, float4 __cdecl * const bar_1[0x10](void));
+P __stdcall enum e3 ns::inner[-1][10](struct s0 qq);
+C union s1 { float4 *a; uint8 *bar_1 : 2; };
+C typedef int2 **foo[4];
+T float4 restrict volatile bar_1
+T uint1 (a)
+P float8 foo(restrict uint2 a, enum e2 __stdcall x, bool *a);
+C typedef s2 ns::inner;
+P __stdcall struct s0 __stdcall b[-1](code a, ...)(void volatile foo(char extern enum e0 (a))[0x10]);
+T __cdecl enum e0 extern 
+T inline char typedef * const *a
+C union s0 { union s4 *b[0x10](union s1 inline restrict b, struct s1 * const *, int1 ((* const * const a)), ...); inline enum e0 * const a; enum e1 (* const b); };
+T int4 * const 
+T __cdecl int8 **
+T void (a[0])
+T int2 x[-1]
+P bool (a[0x10])(void);
+P s0 __stdcall typedef a(enum e3, ...);
+T uint4 a
+P char **foo(int4 static * const b);
+P struct s5 ns::inner(s0 * const * const (static uint8, ...)[4]);
+P union s2 **bar_1(__cdecl restrict union s5 qq);
+T uint1 
+T typedef union s0 * const qq
+P char bar_1(const s4, ...);
+C union s2 { int2 __stdcall b; inline volatile s4 ** const b; union s2 (b); };
+C union s1 { struct s2 extern ns::inner[0x10]; float8 foo; void **foo[0x10](uint2 , s2 (a), float4 a); char * const a; };
+P float8 static * const *x(onst bool static qq, ...);
+T int4 *
+T uint1 
+T const static struct s3 qq(int4 **foo)
+T const union s4 inline (b)
+C struct s4 { enum e0 * const *foo; uint1 foo; char (a); };
+T int1 [10](enum e2 , char b[0x10], ...)
+P struct s0 extern *ns::inner(struct s2 *, restrict enum e2 enum e2 *b[0x10](void), bool **a)(__cdecl uint4 * const qq(char [0x10], union s4 static **), union s3 const *);
+P volatile int4 a(typedef static enum e3 *qq, char ns::inner[0]);
+C enum e1 { V2_0 = 7, V0_1, V2_2 = 7, V0_3 = -3, };
+C enum e3 { V2_0, }; /* c */
+P int4 b[10](int4 *x, ...);
+P __stdcall int2 static *qq(int2 extern * const *);
+C enum e1 { V1_0 };
+C struct s0 { struct s4 (foo); struct s4 a; int4 qq; float4 (**bar_1) : 6; };
+P int2 foo[0x10](float4 ** const , static int4 b[0], enum e2 **b);
+P float4 **foo(void);
+T restrict s4 b(void)
+P union s4 (a)(int4 **a[-1](s0 (*qq), ...), ...);
+T inline float8 *ns::inner(void)
+T restrict uint8 (*bar_1)(typedef inline float4 ** const )
+P extern union s1 *x[-1](s5 * const * const [10], float4 enum e1 *b[0]);
+C extern __stdcall float4 extern x(void);
+C extern enum e1 restrict * const *qq[4](restrict __stdcall enum e1 (uint4 __stdcall *bar_1), int8 a, union s2 * const );
+T enum e3 qq
+P bool b(int4 (* const a)(uint2 (* const qq), ...), uint2 * const b, uint8 b[const 3])(union s0 foo);
+P enum e3 b[const 3][10](uint2 *, float4 a, ...);
+T code *bar_1
+T static enum e3 restrict *foo
+C struct s1 { float4 a(char const typedef b, char x[0x10], uint1 typedef volatile x[0]); };
+T f*loat8 qq(...)
+P s0 qq(void)(struct s3 *x(char **foo[-1], struct s5 ), int4 *x[-1]);
+C struct s3 { bool (* const bar_1(int2 bar_1[const 3])); char (qq); int4 b; void * const *a[10]; };
+P int8 static const qq(int1 ** const );
+T char foo[0x10][-1]
+C typedef inline uint4 b[-1](typedef const enum e3 x, s4 volatile * const (struct s0 (b)[0x10], [enum e2 __stdcall *b, __stdcall const struct s2 (** const b), ...), ...);
+T const uint1 ** const x(void)(__stdcall struct s2 __stdcall , float8 ns::inner)
+C typedef enum e1 b[4](void);
+T uint2 **bar_1[0][-1]
+T inline bool bar_1
+C typedef __cdecl const struct s1 b[0x10][const 3];
+C struct s3 { int4 (* const bar_1); };
+P s3 * const * const a(float8 (foo), void ns::inner[0][0x10], char *b);
+C enum e0 { V2_0, V2_1, V1_2 = -3, };
+T __stdcall struct s0 inline **bar_1[4]
+C typedef s0 ** cnst qq;
+P volatile struct s4 (b)(struct s4, ...);
+C union s0 { void *a[0]; uint8 * const *x(union s5 inline ns::inner); };
+P int4 __cdecl *x(void);
+P bool (foo)(int8 *bar_1);
+P bool a(enum e3 ** const b);
+C enum e3 { V1_0 = 0x20, };
+C enum e0 { V0_0, V2_1 = 'a', V1_2 = -3 };
+C extern int4 b[4](enum e1 *b[0x10], int2 *)(char foo, ...);
+C enum e2 { V1_0, V2_1, V1_2 = -3, };
+P float4 b(const struct s3 [const 3][0], uint1 *[4]);
+P struct s5 ((qq))(...);
+C enum e2 { V2_0, V1_1, V0_2 = 1, V0_3 };
+T int2 *x(...)(float4 )
+C typedef struct s3 foo[4](s0 const b(char , const uint2 **b[10][10], __stdcall char __stdcall ((*a)), ...)(struct s3 inline typedef (bar_1)), int4 );
+C extern code **a(const enum e0 (qq(struct s0, ...)), inline char bar_1[0], float8 *x(int8 [0x10])[10])(enum e0 x, char **bar_1);
+C extern struct s0 (* const ns::inner(s0, ...))(void);
+P union s2 *qq(int4, ...);
+P uint2 *foo(void * const *b, enum e3 **a(__stdcall char a), volatile uint4 __stdcall foo(enum e2, ...));
+P struct s0 struct s0 *b[-1][4](uint8 __stdcall ((* const *a)));
+T extern uint2 ** const a[0x10]
+T enum e2 b
+C extern __stdcall struct s3 foo(enum e3 **bar_1(...)[0x10], union s0 inline ** const a, __cdecl const struct s1 *foo[-1]);
+T float8 **bar_1
+T uint2 * const bar_1(...)
+C union s3 { code **ns::inner(int1 *qq[const 3], struct s4 ); struct s5 extern a : 4; };
+P struct s2 extern *bar_1(union s0 [10], ...);
+P int4 bar_1(bool (* const a));
+T bool __stdcall (* const qq)
+P enum e3 foo(struct s5 (a[10]))(int8, ...);
+C struct s4 { code * const ns::inner(union s3 [-1]); float4 x[10]; const __cdecl s4 ns::inner(uint2 a, float4 __stdcall *ns::inner[-1], inline struct s3 static ns::inner, ...); };
+P int1 *a(void);
+C enum e3 { V2_0, V2_1, V0_2, V0_3 = 0x20, };
+P uint8 * const foo(uint1, ...);
+C struct s5 { int4 static __stdcall bar_1; volatile enum e2 bar_1; };
+P bool * const *x(inline int8 __cdecl x(char (bar_1))(uint8, ...));
+P int4 inline a(...);
+C extern int4 typedef __stdcall a(char **b, int4 [10])(__stdcall struct s2 __cdecl bar_1[4]);
+P static s0 __stdcall *foo(code (b), uint2 (a)(s4 b, char __stdcall a));
+C enum e1 { V0_0 = 0x20, V2_1 };
+C struct s1 { union s4 bar_1; __stdcall struct s3 **ns::inner(struct s4 bar_1, float4 bar_1, __stdcall float4 ); float4 *b; restrict char b[-1](extern volatile s4 ); };
+P inline code **bar_1(__cdecl restrict enum e0, ...);
+T int4 __stdcall **x[const 3]
+P uint2 *foo(inline static float4 foo[-1](char ** const ns::inner, int4 (* const * const qq), ...), struct s4 , bool typedef foo(inline struct s4 ns::inner, s5 inline const qq[-1], int4 [-1]));;
+T uint1 qq(struct s0 , float4 **foo[0x10], ...)[-1]
+C struct s0 { struct s1 a(bool, ...) : 3; bool static ** const b; s5 static b(inline struct s4 * const ns::inner, int8 volatile bar_1, uint1 ); struct s5 __stdcall qq[0x10]; };
+T s0 a
+P inline char (ns::inner(void))(int4 [10]);
+T volatile extern union s4 x
+C union )s3 { typedef float8 * const *ns::inner[0]; };
+P volatile enum e0 **a(int8 bar_1(enum e2 ((qq)), int1 static (* const bar_1)), void b[const 3], struct s3 (* const *a))[0](void);
+T char static (qq)
+T nt4 *ns::inner
+P float4 b[4](...);
+T int4 restrict b
+T enum e3 typedef b(void (enum e0 *qq, ...), ...)
+C struct s5 { int4 **b[10](uint2 (x), int4 **x); struct s0 inline ** const a(void); };
+P union s5 qq();
+C enum e0 { V0_0, V0_1, V1_2 = 0x20, };
+P struct s0 * const bar_1(float4 * const ns::inner, struct s3 [10], static code x);
+T int8 ns::inner(__stdcall uint4 ** const [const 3])
+T struct s0 (struct s0 *, uint2 *, const char )
+C enum e3 { V0_0, }; extra
+C extern uint4 (a)(__stdcall extern enum e3 bar_1[0]);
+P s2 **x[const 3](void, ...);
+C union s0 { void (bar_1); };
+C struct s3 { inline uint8 foo; s2 b(struct s2 **b) : 7; };
+C struct s3 { __cdecl uint4 a[-1] : 8; int1 const (a[const 3]); struct s1 bar_1[-1][-1]; float8 *b(int4 (* const a), void (bar_1[const 3]), int4 a)[0x10] :3; };
+C extern inline union s4 *a(typedef float4 __cdecl, ...);
+P void x(restrict float4, ...);
+T uint4 x[const 3]
+P s1 x[10](int1 qq(typedef uint8 *, ...), ...);
+P struct s1 bar_1(__stdcall uint8 (void))(union s3 uint1 a);
+P int2 (* const x)(void)(struct s3 ** const qq[10], enum e3 inline volatile x(enum e0 extern const [0]), ...);
+P char *a(...);
+T enum e2 static *b[-1]
+P enum e2 foo[10](union s3 __stdcall b, float4 b);
+T uint8 
+P int8 static inline * const * const bar_1[-1](inline s2 ns::inner)(char qq[4]);
+C enum e3 { V1_0, V0_1 = -3, V2_2, };
+C struct s2 { float4 **qq[0]; extern uint2 static b; __stdcall typedef int4 ns::inner; int4 b; };
+P struct s0 foo[0x10](struct s2 (*foo), const enum e3 ** const a(restrict static uint2 foo, ...)[const 3]);
+T float4 a(union s3 inline ** const a[-1][-1])
+T restrict s3 (x)
+P float4 * const bar_1()(bool *bar_1(void), struct s4 **a[0], int8 b[4]);
+C union s0 { float4 restrict volatile b[4] : 1; };
+C enum e1 { V1_0 = 0x20, };
+P char * const * const bar_1(void)[10](int4 , typedef union s0 [-1], float4 ** const a);
+T float4 a
+P int8 ns::inner[4](uint1 (ns::inner));
+T const struct s3 volatile ** const bar_1
+T struct s3 __cdecl a(char const , int8 *, uint2 )(struct s3 (*qq)[const 3], struct s5 foo, enum e1 * const qq, ...)
+P extern extern struct s5 qq(union s5 *a)(...)(...);
+P __cdecl int1 a(s1 a(void))(enum e0 foo(struct s2 *ns::inner, __stdcall void extern (b), struct s0 (bar_1[-1])));
+P struct s1 a(int4, ...);
+P int4 inline x(...);
+C typedef inline enum e2 ** const x[0];
+T int4 (bar_1)[0x10]
+P const int1 qq[const 3](...);
+C struct s4 { int1 *qq; };
+C struct s0 { int8 a(struct s4 static typedef, ...); int4 typedef qq; };
+C struct s3 { extern struct s1 **x(void)(void a); struct s3 **x[4]; };
+C struct s0 { code restrict **foo(bool (* const x), __cdecl enum e2 (ns::inner), int2 __stdcall (**b)[0x10]); volatile char * const x[0](void b[0x10], s5 (ns::inner[const 3]), static uint4 restrict (* const *x[0x10])); struct s4 *ns::inner(restrict struct s3 static (x))(__stdcall int4 ((ns::inner)), ...); };
+C extern struct s2 *foo(typedef uint8 (enum e2 **b[0], static int4 **[-1]), int4 extern (ns::inner), uint2 , ...);
+C extern struct s0 (*b)(void);
+T float8 [0][0]
+T char (bar_1(int8 volatile (b[0])))
+C extern s4 *ns::inner[10](struct s1, ...);
+C enum e1 { V2_0 = -3, V0_1 = 'a', V1_2 = -3, V2_3 };
+T int2 __stdcall 
+P int8 restrict a(union s5 const * const ns::inner[const 3], __cdecl s0 *a)(typedef uint4 ** const foo[-1]);
+P restrict struct s2 __stdcall **a(struct s1 b, extern int1 *a[const 3]);
+T char 
+C union s2 { struct s3 bar_1; uint4 ns::inner[-1]; uint8 ns::inner; };
+P uint2 b(uint2 (*qq), uint1 foo(enum e0 const ((* const ns::inner))));
+C union s5 { struct s0 __stdcall qq; struct s1 restrict a; };
+T void inlin]e b
+C extern int4 * const *x(int4 (uint1 b))(uint8 qq[-1], int4 b, bool * const *a);
+P struct s3 extern __stdcall (a)(float4, ...);
+C struct s4 { __cdecl union s4 __stdcall **a(struct s0 extern __stdcall qq, float8 [4], bool (bar_1), ...); };
+P __stdcall uint8 b[0][4](volatile extern float8 b[0x10]);
+C enum e1 { V1_0 = 0x20, V2_1, V1_2 };
+T volatile volatile float8 foo(extern int4 const, ...)
+T int4 b
+T float8 b[const 3][-1]
+P uint8 * const bar_1[10](uint8 foo, struct s1 *b);
+T typedef satic struct s3 qq
+C struct s1 { int4 (qq); union s4 const (ns::inner[4]); enum e3 *b; };
+T int4 a[const 3]
+T int2 ns::inner[10]
+T extern code __cdec"s"l a[4]
+P uint4 qq(enum e0 *qq(union s0 __stdcall, ...));
+P typedef float4 * const a(void);
+C struct s4 { uint4 (a)[const 3]; inline char b[10]; };
+P enum e0 const __stdcall * const *b(__cdecl s3 , void **);
+C typedef restrict int8 static * const ns::inner;
+T volatie uint1 a[0]
+C struct s1 { void __stdcall bar_1 : 8; uint8 (qq[-1]); };
+T code * const * const foo[0]
+T union s2 extern 
+P uint8 *a(struct s3 (b(int8 __stdcall ((x)), float8 (**bar_1)[const 3])), struct s0 static **foo, s1 qq[0]);
+P char b[const 3](struct ,s4 foo);
+T struct s2 qq
+T enum e2 inline uint8 ns::inner(struct s0 static, ...)(void ** const a[0][const 3], s3 restrict ns::inner)
+T int1 b[0]
+T uint8 ns::inner
+T uint2 b
+C typedef extern enum e1 *a[4][const 3];
+T extern int2 foo[10]
+T typedef uint2 a
+T union s0 (**b[4])
+P int1 *b(void);
+P char * const *a(struct s4 );
+P enum e0 qq(void);
+P static enum e3 restrict (b[10])(float8 (struct s5 a, uint2 **[4])[10]);
+C union s0 { int8 bar_1; };
+C struct s2 { inline uint2 b[0]; code (bar_1[-1]); enum e2 (bar_1); };
+C union s3 { uint8 b : 2; };
+C struct s0 { code * const * const x; int4 typedef b; };
+C typedef float8 b;
+P int2 foo[0](float4 __stdcall foo(void)[0x10], bool *, const struct s1 __stdcall (* const ns::inner), ...);
+C enum e3 { V0_0, V0_1, V0_2, V1_3 = 7, };
+P char * const a(struct s1 (ns::inner), char inline * const *x[-1], typedef __stdcall char a)(static union s3, ...);
+C typedef float8 extern bar_1;
+C union s1 { __stdcall void __stdcall **a[0](int4 (**bar_1), void ); struct s1 * const b(int8 ); int4 volatile b(s4 __stdcall * const * const foo, int8 static *b); };
+C enum e0 \n{ V2_0, V2_1 = -3, V0_2, };
+T uint1 inline inline (uint1 **ns::inner)(uint2 b[const 3])
+T volatile float8 **bar_1[10]
+C typedef float4 qq;
+C typedef enum e0 * const b(void a(uint2, ...));
+C union s0 { int2 qq; };
+C struct s2 { int1 a(void)[-1] : 4; const s0 *a; };
+C typedef typedef struct s2 * const *qq;
+C struct s3 { enum e2 *foo; };
+C enum e1 { V0_0, V0_1 = 0x20, V2_2 = 7, };
+P __stdcall struct s0 a(void);
+C union s3 { it2 (a)[0x10]; code *foo[10]; };
+C union s1 { float4 (** const qq[4]); int1 __stdcall extern char b(inline uint8 (**a)[0x10], extern float4 ((b)), char ); struct s3 *x; struct s0 b[const 3]; };
+C struct s2 { char qq(enum e1 volatile ** const ns::inner, s4 ((a)))[10]; char (a(bool **[10])) : 5; };
+C struct s0 { int4 qq[const 3]; code ns::inner; int2 bar_1; };
+P static float4 __cdecl foo[0x10][0x10](void);
+T char foo[10]
+C struct s2 { float8 ** const a[0x10]; };
+P uint8 bar_1[const 3](float4 (ns::inner), bool **bar_1[0x10](code __stdcall ((bar_1))));
+P uint2 *a(int1, ...); extra
+P uint2 ** const qq(int2 (void), int4 __cdecl b, union s3 **)(enum e0, ...)(uint1 b[-1], int4 __stdcall (*a), char (qq[-1]));
+P uint1 * const bar_1[10](const restrict int4, ...);
+T float4 *b
+C extern float8 ns::inner(int4 extern typedef )(uint2, ...);
+P uint2 __stdcall (*qq(int4 **b))(int4 **bar_1[0][-1], float4 bar_1);
+T struct s1 * const *[-1]
+T inline float4 (*ns::{inner[-1])
+P __stdcall char bar_1(uint1 *(void), uint1 b[0x10])(int8 **);
+T volatile code foo
+C struct s4 { char * const qq[-1]; uint8 a; int4 qq(int2 **, uint2 *, __cdecl inline code ** const x[const 3][0]); enum e3 (b)[-1]; };
+C typedef int2 *a;
+P enum e2 * const a(void)(int4 **b, int4 const (struct s4 restrict (* const x), extern struct s1 static uint4 (x)), ...);
+P float8 ((foo))(volatile union s1 *ns::inner[const 3]);
+T enum e0 restrict __cdecl a(void)
+P static struct s2 const qq[0](union s2 volatile b);
+C typedef int1 ns::inner;
+T void b[0]
+C enum e0 { V2_0, V1_1, };
+C enum e2 { V0_0, };
+P uint2 *b[-1](...);
+C struct s2 { s3 b(uint8 restrict volatile [const 3], enum e2 ((qq)), typedef __cdecl bool *x[4])[4]; struct s1 ** const x[0x10]; float4 inline __stdcall a(int4 *)(struct s4 const __cdecl , float8 **ns::inner[10][-1], ...) : 7; uint2 **b[4]; };
+P const uint1 foo(int1 bar_1[0], typedef uint2 extern );
+T float4 a
+C typedef enum e0 __cdecl inline * const *a;
+T s2 
+T __stdcall s5 *a[0x10]
+T struct s1 [0]
+C union s2 { struct s1 *a; int4 qq; bool b : 3; typedef struct s5 bar_1; };
+P void inline static *a(void);
+P float4 * const * const a(union s2 a, ...);
+P float4 b(int4 inline **[10]);
+P int4 (* const *a(int8 __stdcall, ...))(s1 (b));
+P bool bar_1[const 3](char foo[0x10]);
+P s4 (a)(uint8 const , uint2 b(float8 *b, void (a), ...));
+C struct s3 { float8 *b; float4 typedef static foo; s3 __cdecl * const *ns::inner[0](float8 **foo, int4 b[0x10]); };
+P bool * const ns::inner[0x10](__cdecl enum e1 volatile **, typedef __stdcall float8 * const *[0x10][0], extern int1 b);
+C struct s2 { int8 * const *x[10]; };
+C enum e2 { V1_0 = 'a', V0_1 = 7, V0_2 = 1, V2_3 };
+P uint8 x(__cdecl int2 static, ...);
+C struct s1 { float4 (**b); };
+C typedef code (*a);
+P int2 ** const b[4](extern uint2 *);
+T char **[4]
+P restrict extern char a[0x10](void);
+C union s0 { s3 volatile * const qq; void * const a; };
+T s1 **bar_1(float8 ** const [10], uint1 *(float4 *, float4 ), struct s1 *)
+P __stdcall restrict uint4 x(struct s0 x)[0](volatile struct s4 inline **a[0][0x10]);
+T restrict struct s3** const bar_1
+P uint2 typedef a(void);
+C struct s4 { int8 * const ns::inner : 4; union s0 **b : 6; char b[10][10]; float4 *foo[0][4]; };
+P struct s4 b[4](s0 __stdcal inline *(uint2 , struct s2 * const a));
+T struct s2 (struct s4 a, struct s5 qq, char *)[const 3]
+T int4 inline foo(uint1, ...)
+T __cdecl int2 * const x[10]
+T int4 **foo
+T int1 *x /* c */
+T union s4 **x
+P extern int2 x[4](uint1 (*foo), int4 (a), static static uint8 *x);
+T float4 b
+C typedef struct s0 volatile b;
+C extern struct s3 *ns::inner[0x10](...);
+C struct s4 { int2 a;};
+P struct s1 x(s3 inline (x)(volatile struct s0 __cdecl * const b, uint8 , __stdcall float4 ((* const b))));
+T float8 x[4](void)
+P uint8 x[const 3](uint2 ns::inner, uint4 (*x), int8 **);
+T int2 * const b[-1][const 3]
+P typedef) enum e1 **ns::inner(uint8 * const *[10]);
+P struct s1 bar_1(bool (a), float8 *foo(static int4 (a), int2 (**x)[10]));
+P s4[ const *qq(void);
+C extern union s4 __stdcall const *a(void)(int8 ** const x[10]);
+C struct s4 { enum e2 * const x; union s0 __stdcall int4 a(uint4 bar_1); };
+T int4 ns::inner(void)
+C struct s0 { char * const b(bool restrict (foo)); code (* const x)(void); struct s0 typedef __stdcall * const *a; };
+C extern enum e0 a(void qq)(void);
+C union s2 { enum e1 bar_1[4] : 3; uint4 b[0x10]; enum e0 **a(int2 ); int2 ** const foo(...)[4] : 4; };
+P struct s1 ** const qq(int4 __cdecl **a[0x10]);
+T uint1 __stdcall **
+T union s2 a
+P code static __stdcall (b)(typedef int2 (float4 restrict ));
+C union s0 { struct s1 *a; float4 extern qq; };
+P int8 const volatile a(int8 (* const *b(void)))(struct s2 * const [-1])(char , ...);
+P int1 typedef (b)(struct s0, ...);
+C struct s0 { int4 (b)[0x10]; uint1 __stdcall ns::inner[4]; struct s4 foo(restrict int4 **); enum e3 qq; };
+T inline static struct s3 b[0]
+C struct s3 { enum e3 ns::inner; };
+P union s0 a(struct s0 ** const x, ...);
+P uint1 qq(float8 __cdecl )(volatile float4 extern (**b), int2 bar_1[4]);
+P code ** const a(__stdcall int4 * const *a, ...);
+P char extern ** const x[4](void);
+T uint2 foo[0]
+C typedef uint1 b(void);
+C enum e1 { V1_0 };
+T uint2 __stdcall b[10]
+T int4 * const a[0]
+T float4 a[-1]
+C struct s2 { uint4 ** const foo[10]; struct s4 *bar_1 : 1; };
+P uint8 foo();
+T code bar_1(extern restrict enum e0 enum e0 (b(int8 inline extern (**foo), volatile __stdcall char x[0])), ...)
+C typedef int2 (a[0]);
+T void x
+T uint4 ** const a
+C struct s1 { typedef struct s5 **a[0x10]; };
+P restrict struct s0 __cdecl a(struct s3 (void), enum e0 bar_1)(inline __stdcall float4 (*b));
+T uint4 *ns::inner(void)
+P enum e2 foo(float4 (b))(void)(void);
+T enum e3 static foo
+C union s2 { uint2 const (bar_1); };
+P uint4 typedef bar_1(float8 , enum e3 int4 (**a));
+T extern float8 **qq
+P int4 bar_1(uint1, ...)(__cdecl uint4 volatile qq, int1 (*foo), uint8 foo[10])(void);
+C struct s0 { bool (bar_1) : 3; };
+C enum e1 { V0_0, V2_1, };
+P struct s0 bar_1(inline const int2 char , uint2 * const * const (float4 (* const * const ns::inner)), char **foo(int4 (* const x)));
+P int8 b(uint4 static a);
+T typedef struct s3 inline * const bar_1
+C extern uint8 ** const ns::inner(float4 extern inline (**b), float4 extern const qq, ...);
+T enum e1 volatile bar_1[const 3][const 3]
+T int2 x
+P struct s3 volatile inline b(char )(void);;
+P int8 (**b[0x10])(int1 *x, uint2 const *);
+C typedef int4 __stdcall b;
+C enum e1 { V2_0, V0_1 = 1, V0_2, };
+P bool (*b)(int4 b);
+T union s3 foo
+P enum e2 foo[0x10](char foo, extern int8 static *b);
+C union s3 { enum e0 inline b : 6; };
+C union s2 { extern code inline **a : 7; };
+T s2 volatile qq
+C enum e0 { V1_0, V1_1, V2_2 = 'a', V0_3 = 1 };
+T enum e1 qq(st(ruct s2 foo(float8 (* const *x))[4], char bar_1, volatile enum e3 **(void))[10]
+T __stdcall int2 const (** const x)
+C enum e1 { V0_0 = -3, V0_1, V2_2 };
+T int4 
+C typedef code bar_1(struct s3 * const *ns::inner(uint4 *[0x10]), enum e2 **a[4]);
+C struct s2 { union s0 * const * const bar_1(void); struct s3 *a; struct s1 **a; };
+T float4 (a)
+C typedef char qq;
+T uint2 bar]_1
+P bool qq[-1](void);
+C union s4 { __stdcall uint8 *b; };
+P float4 const bar_1(__cdecl bool , uint2 [0x10](s5 int4 **[0], __cdecl uint4 * const [4], struct s0 __stdcall inline (ns::inner)), ...);
+P typedef enum e0 __stdcall * const x(void);
+P s1 qq(void)(enum e2 *a);
+T struct s0 float4 **x(int4 (int2 extern bar_1, int8 (bar_1), enum e2 const * const *b))
+P char (* const * const a)[4](bool , const char * const *(...), int1 (void, ...));
+P float8 enum e0 foo(extern struct s0 , code qq[4], int8 b(void))(s4 typedef );
+C union s5 { union s5 qq(char inline b[0][const 3], volatile uint4 (*a), void *b, ...) : 5; s3 *x(float8 (x[4]), ...)[const 3]; struct s0 * const bar_1; };
+P float8 bar_1(const union s1 , s1 qq);
+C enum e1 { V2_0, V2_1, V2_2 = -3, V0_3, };
+T float8 qq(float4 x, int1 (*bar_1))(volatile void b(struct s3 ns::inner[0], void [0x10], struct s1 const qq[-1], ...))
+T inline enum e2 __cdecl ()
+T int4 foo
+C extern __cdecl typedef uint1 (* const a)(char [const 3](char * const x));
+P int2 ns::inner(struct s4 * const b(s0 **, int4 (** const b), int4 __cdecl ), const static struct s4 *a, union s3 a[-1]);
+P bool bar_1[4][10](void);
+C typedef enum e3 bar_1;
+C typedef int4 qq;
+P __stdcall union s0 ** const a[0](int4 a[0x10], char * const foo, __stdcall float4 );
+P uint8 *b[4](int2 __stdcall , enum e0 [-1], char restrict extern a, ...);
+C ext\nern inline extern int4 **ns::inner(void);
+C union s5 { char volatile extern (qq); };
+T float4 a
+C extern inline float4 a(bool __stdcall a)(__cdecl float4 qq);
+C typedef enum e3 inline (ns::inner);
+C struct s0 { static enum e0 volatile x; enum e2 * const bar_1[const 3]; enum e0 const a[10][0]; uint8 (a[-1]) : 5; };
+C union s2 { char *ns::inner[const 3]; struct s2 * const *a[0x10]; };
+T stru$ct s4 **a(enum e1, ...)
+T struct s4 (*a)
+T int4 foo
+P __stdcall struct s4 __stdcall (*ns::inner)(enum e1, ...);
+C extern inline restrict char b(float4 __cdecl * const * const , uint8 (struct s4 (*foo), code __stdcall (*qq), int2 __cdecl ));
+C extern restrict code * const * const x(__cdecl int4 **x(float4 a, struct s3 , static const int2 ns::inner), ...);
+P enum e0 __stdcall __stdcall qq(extern int4 [-1][0x10]);
+C struct s5 { extern int8 **x[0x10][10]; typedef __cdecl enum e3 b(int2 (b)[0]); uint4 restrict const foo[const 3](void); };
+C enum e0 { V2_0, V1_1, V1_2 = -3, V2_3 = 'a' };
+T int4 bar_1
+P volatile struct s4 foo(uint4, ...)(inline int4 volatile, ...);
+C typedef int2 * const * const a(restrict bool a(int8 a[0x10], bool __cdecl __stdcall *a, inline enum e1 typedef ))[const 3];
+T s0 extern volatile 
+T int1 b[const 3][4]
+P uint1 a[-1](extern enum e1 );
+C typedef enum e0 **b[4][const 3];
+T float8 
+C struct s1 { struct s3 restrict x; struct s2 inline volatile x(inline struct s5 ); uint1 * const foo[const 3]; restrict int1 *qq; };
+C extern uint4 foo(struct s0 * const *bar_1, int4 a);
+C union s3 { __cdecl struct s0 static *x[const 3]; };
+C struct s4 { int8 *a(void); uint1 qq[10]; };
+P enum e3 * const foo(struct s1 * const foo(float8 __stdcall, ...), ...);
+C enum e1 { V2_0 };
+C struct s1 { char b; };
+P bool *qq(void)(struct s3 *foo[0x10]);
+T enum e2 ** const a(struct s4 typedef qq)
+C union s1 { const int4 (qq); };
+C struct s4 { inline struct s1 *x[0] : 8; int4 b[const 3]; };
+C extern int4 bar_1(bool (uint2 *foo, enum e1 foo[4], enum e0 __cdecl *ns::inner), ...);
+C enum e1 { V0_0 = 0x20, V2_1, V2_2, V2_3, };
+C struct s4 { typedef uint4 * const a(...)[4]; struct s4 qq; enum e0 ns::inner(int4, ...)[10] : 6; struct s3 * const a(int4 ns::inner[0])(struct s2 x, bool * const *ns::inner[4]); };
+C typedef __stdcall enum e1 * const *ns::inner;
+C union s0 { char foo[-1]; bool b : 4; __stdcall float8 __stdcall ** const qq; };
+C typedef code *a;
+T struct s2 *(int2 [0], int2 static *bar_1(extern const struct s0 (bar_1)), enum e2 struct s5 **)
+T s0 volatile bar_1
+C struct s0 { bool * const *foo; int1 bar_1; s0 **b; float4 inline __stdcall *qq; };
+T bool *[0x10]
+C union s4 { int4 (a[0x10]); };
+C typedef int4 const a;
+P struct s0 b[-1](...);
+T union s2 * const *qq
+T float8 **b
+C enum e3 { V2_0, V1_1 = -3, V1_2, };
+C enum e2 { V1_0 = 1, V0_1 = 7, V1_2 = 0x20, V0_3 };
+C struct s1 { enum e2 ns::inner[const 3](void); bool static qq(struct s0 ((b)))(union s3 **b[10], void __stdcall extern (*x)); void bar_1(uint8 restrict * const *a, ...); };
+C enum e2 { V1_0 };
+T int4 *a(__stdcall restrict struct s1 [4](__stdcall bool, ...), code x(extern enum e3 ((b))), void __cdecl a(float8 qq, char (** const a), int4 *bar_1))(volatile enum e3 *x[const 3])
+C extern float8 * const *x(union s3 *a(__cdecl struct s3 extern x[const 3], typedef void __cdecl ))(uint8 b[0], char **[0x10]);
+C typedef inline float4 inline * const * const x;
+C union s1 { float4 *a[4] : 4; extern int2 ns::inner; s2 inline a[-1]; };
+C union s1 { uint4 b; uint1 const ns::inner[0][0x10]; };
+C extern uint2 const __cdecl **b(...)(int1 const foo[10], typedef s5 (b), ...);
+P int2 **a[const 3][10](void);
+P code *bar_1(struct s3 b);
+P enum e0 (b)[const 3](enum e1 bar_1);
+C union s2 { struct s4 a(uint8 ); int1 (*a); }; // tail
+C extern s4 * const *a(void *foo, restrict enum e0 (a), struct s1 b);
+T struct s2 __stdcall * const *
+C typedef float8 static volatile * const * const qq;
+C union s5 { code x[-1]; struct s1 b[const 3][4]; };
+T enum e3 (void)
+P float4 b(enum e1 bar_1[0]);
+P uint8 * const *b(s4 *qq[-1](enum e0 x, __stdcall uint2 foo, restrict float8 int4 (** const foo)), uint4 __stdcall ns::inner[0x10], void __cdecl ns::inner(int4 b, char **bar_1, s3 typedef __cdecl , ...)[-1], ...);
+P enum e3 qq(union s4 int2 qq[-1], ...);
+C extern void extern qq(restrict enum e1 (b)(char ns::inner, __stdcall enum e2 __stdcall * const qq, struct s3 (**qq)), char (qq), char b);
+P inline int4 __cdecl (foo)(int4 struct s4 bar_1[const 3]);
+C extern int8 b(bool __cdecl, ...);
+T float4 bar_1(int4 * const bar_1[const 3])
+P code *a[0](extern uint2 volatile x);
+P enum e2 b(uint4 * const a);
+C extern const char __cdecl b(int4 inline qq, uint8 __stdcall typedef ns::inner);
+P float4 __stdcall x(void)(void)(float4 **bar_1(float8 bar_1[-1]), ...);
+P int4 * const b(void)(union s5 (b)(float4 , float4 typedef x, __stdcall float4 (a)), inline char * const * const x(volatile int4 (**x)), volatile int1 __stdcall (** const x)[10]);
+T inline __stdcall enum e2 
+P int4 * const qq(restrict inline char [0x10], bool qq[0]);
+P __cdecl enum e2 bar_1(void);
+C struct s3 { code *bar_1 : 4; int2 * const * const qq; char qq[0x10](int1 __stdcall const ns::inner); };
+P enum e2 bar_1(enum e3 foo, ...)[4](struct s3 __stdcall a, ...);
+C typedef code const typedef **foo[0];
+P struct s0 qq(struct s0 [10](__stdcall inline union s5 (a)[4]), uint1 , inline char *foo, ...);
+T int4 * const *b(inline struct s1 **[0x10][4], ...)
+C enum e2 { V2_0, V1_1 };
+P static s4 x(int4 *);
+P int4 b(extern s1 __stdcall a(uint2 restrict *x[0]), uint1 a[4]);
+C extern void b(int4 qq(struct s4 *[0x10], int2 b, int2 typedef __stdcall *, ...), struct s2 *foo, void * const foo); /* c */
+C enum e1 { V0_0 = -3, V2_1, V2_2, };
+T restr*ict char x(uint1 b()[4])
+P code *x[-1](...);
+P inline enum e1 const **a(int1 __stdcall extern, ...);
+T chr extern ** const a[-1]
+C typedef code inline const *bar_1;
+T struct s5] bar_1
+T int4 bar_1[4]
+T restrict struct s0 a(s4 x[-1][0], ...)
+T char * const 
+P float4 * const bar_1[0](int1 * const [const 3], uint2 b, ...)(void);
+P inlin]e struct s1 (a(struct s1 [4]))(extern struct s1 (**b));
+C struct s4 { struct s5 ** const x[0x10] : 1; int4 __cdecl (b); code x(enum e2 __stdcall x, struct s2 b[0][4], struct s0 char ) : 5; };
+C extern volatile enum e1 (*foo)[-1](uint2 *a[-1], uint1 * const , ...);
+P inline int4 __cdecl b(uint4 (*x)(union s1 * const *a, struct s2 bar_1));
+P __cdecl:: struct s4 __stdcall *b(char b, code x, ...);
+P s4 __cdecl *a[0]();
+P __stdcall __cdecl enum e3 bar_1(inline enum e2 * const *b[0][-1], ...);
+P int4 *foo(void);
+C union s5 { code b; struct s4 ns::inner(void)(int8 __cdecl b[0x10], ...); };
+C typedef int8 b;
+T uint1 foo
+C typedef int4 bar_1;
+T uint8 ns::inner
+T typedef enum e0 restrict ((*x));
+P uint4 restrict (b)(uint4, ...);
+P struct s0 ns::inner[-1][-1](int4, ...);
+T inline struct s5 __cdecl *
+P enum e2 volatile *x[const 3](uint8 foo(float8 **, static extern struct s3 (** const foo)), uint4 foo, float8 ns::inner[const 3]);
+C enum e1 { V0_0, V2_1, };
+T __stdcall extern enum e2 (foo) x
+P typedef int4 ns::inner(struct s3 typedef, ...);
+P extern enum e0 __cdecl **b(void)(char a, restrict float4 (*x), bool __cdecl ** const ns::inner)(int4 (x), __stdcall struct s4 foo, int2 a);
+P const uint2 (bar_1)(struct s0 extern, ...);
+T int4 b[-1]
+C typedef s4 *b[0];
+P const struct s2 __cdecl * const *ns::inner(struct s0 *qq(code bool *, uint2 (b))(int4 ((b))))[-1](uint8, ...);
+T struct s2 **(char a)
+C extern typedef struct s2 bar_1(code x, ...)(uint1 b[4], code __stdcall (x));
+C struct s0 { float8 volatile foo; int8 ns::inner : 4; };
+C union s1 { int8 restrict inline ns::inner; };
+P struct s1 * const *b(int1 __cdecl restrict (ns::inner(enum e3 [0x10])));
+T int4 **b
+C union s2 { float4 foo : 3; int1 static * const * const qq : 2; };
+T restrict uint8 bar_1[0]
+C struct s1 { enum e3 a(uint2 __cdecl ); uint2 a(void); bool a(char , int1 foo, s1 *[-1])[10] : 3; void (a)[-1]; };
+P void static (ns::inner)(struct s1 b[0][0x10]);
+C typedef code ns::inner;
+C struct s4 { float4 *x() : 6; float4 a[4]; int4 const bar_1[0x10][0x10]; };
+C union s3 { enum e2 __stdcall int2 * const b; code foo; };
+T uint1 *bar_1[-1][0]
+C typedef volatile char a[10](s3 qq);
+P enum e1 ((x))(vo"s"id);
+C struct s5 { int4 b[0x10][-1]; extern float4 (**a[10]); struct s0 bar_1; uint4 ns::inner(void foo); };
+T static uint4 typedef b(int4 , int2 **ns::inner, struct s0 (*bar_1[const 3]))(uint8 (uint8 __cdecl **bar_1, int4 **a, code ns::inner), int2 a)
+T uint1 static extern bar_1
+P uint4 char qq(code (b[4]))(struct s2, ...);
+T bool *b[10]
+T static uint8 x[0](void)
+P struct s1 b(union s4 ns::inner[10]());
+C struct s2 { struct s4 *b[const 3]; extern float4 b[0](bool, ...); float4 typedef bar_1; int2 a : 2; };
+C enum e1 { V0_0 = 0x20, V1_1 = 0x20, V1_2, V1_3, };
+C typedef int1 x[-1];
+P uint4 *a[0x10](float4 *ns::inner[0x10]);
+C struct s2 { float4 *a(__stdcall enum e2 ** const b[const 3], code ** const b[0]); };
+C struct s2 { s4 const ns::inner(bool (a)); enum e1 __stdcall enum e1 * const *qq(void); struct s4 bar_1[-1]; };
+T eum e3 a
+C union s0 { float8 bar_1; __cdecl int2 *x; };
+T char ns::inner
+T struct s4 const static **qq
+P restrict enum e3 x[10](float4 (struct s0 *b, ...));
+C union s3 { struct s0 __stdcall ns::inner; struct s0 **a; int4 extern **bar_1 : 6; };
+P float4 qq(int1 * const bar_1, __cdecl struct s3 [-1](), ...);
+P struct s2 * const * const a(float4, ...)(struct s1 )(s1 **foo, ...);
+P s2 a(restrict restrict int4, ...);
+T volatile bool ** const b // tail
+P int8 int1 b(float4 *[10], code bar_1(code, ...), struct s1 * const a[4], ...);
+T struct s2 (** const x)[10]
+C extern void (bar_1[0x10])(char ** const a);
+T float4 * const *[0x10](void)
+C enum e0 { V1_0 = 0x20, V1_1 = 7, V1_2, V0_3 };
+P uint1 x(int4 *[10])(struct s4 b[10](s5 restrict *));
+C typedef struct s1 *b;
+C enum e2 { V2_0 = 1, V1_1 = 1, V0_2, V2_3, };
+C enum e3 { V1_0 = 0x20, V2_1, };
+C struct s4 { void b; };
+P int4 *x[const 3](...);
+C struct s0 { char extern static **a; };
+P struct s3 __cdecl __cdecl foo[4](void);
+T char uint1 * const x
+C union s2 { uint1 static a; };
+C extern s0 qq(void);
+T struct s2 bar_1
+P s0 __cdecl (*a)(uint1 uint1 b, int2 (b(__stdcall bool a, void bar_1, s3 (x))), void * const a);
+P typedef float8 static ** const a(int1, ...);
+T int2 * const ns::inner
+P bool * const *a[-1](void __cdecl foo[0], restrict enum e2 bar_1[10], struct s0 );
+C en,um e3 { V2_0, };
+P enum e2 ** const foo(void); // tail
+P struct s1 **b(void);
+C union s1 { float4 *a; };
+T __stdcall float8 *ns::inner
+C extern __stdcall int4 b(struct s2 * const , int4 ns::inner, __stdcall struct s0 b[10](volatile bool, ...));
+P typedef void foo(struct s1 extern restrict bar_1(static uint2 bar_1[0]), char * const qq(char (bar_1[0x10]), uint8 , volatile struct s3 (** const ns::inner))(uint4 __cdecl b));
+C typdef struct s3 static (x);
+C struct s0 { int4 * const * const a; struct s1 (a); };
+C struct s3 { uint8 (* const x(uint4 const )); };
+P restrict struct s5 *a[0x10](int2, ...);
+T char ** const ns::inner[4]
+C struct s1 { s0 * const foo[10]; restrict struct s2 (qq(int2 uint8 * const , typedef int4 *, uint2 bar_1)); union s5 x[-1][10]; };
+T __stdcall struct s3 [0x10]
+C struct s1 { uint8 * const *b(float4, ...); };
+C struct s3 { struct s0 __stdcall *bar_1; char (x); code x; restrict enum e3 ns::inner[-1]; };
+C struct s4 { typedef union s4 **ns::inner; };
+C enum e3 { V2_0 = 0x20, V0_1, V1_2 = 0x20 };
+C union s5 { s1 * const * const x(...); restrict float4 static qq[0x10][4]; s0 extern **bar_1; int2 a; };
+T enum e2 bar_1
+P s0 (foo)(int1 b, uint1 *qq[10](code (b), int1 (bar_1), restrict inline struct s4 * const *x));
+C extern char ns::inner(struct s1 (b[0]));
+P float4 a[-1$](char , struct s1 b[0x10][-1], volatile uint8 x);
+P void volatile a(union s3 (** const ns::inner[const 3]), ...)(enum e1 qq, ...);
+P struct s4 foo(float4 extern, ...);
+C enum e2 { V2_0, V1_1 = 7, V1_2, };
+C typedef struct s1 foo;
+P s2 a(int4 ** const ns::inner(struct s1 [0], struct s0 ((ns::inner)), int2 * const * const x, ...))(uint4 [4]);
+P void ns::inner[0](void);
+C extern int1 bar_1[0][-1](char qq, uint1 a);
+C union s3 { enum e0 char foo(s0 volatile (b))[4]; float8 ** const a; struct s3 (qq); char * const ns::inner; };
+T float4 x
+C union s1 { static enum e3 a(enum e0 __cdecl (qq[const 3]), int8 *ns::inner, char )(union s1 (**ns::inner)[const 3]); };
+T __stdcall typedefs0 (*qq)
+C enum e1 { V2_0, V2_1, V2_2, V0_3, };
+T extern const enum e0 *b[const 3](code __stdcall foo, ...)
+T union s1 * const *b[4]
+C union s2 { static s4 qq[-1]; };
+T \nstruct s0 static (void)
+C extern inline enum e3 __stdcall ** const a[10](void);
+T static enum e2 *a(const int2 *bar_1[4][0x10])(int1 *(uint2 ), code * const *b[0x10][const 3]) x
+C enum e0 { V2_0 };
+T float8 *b(float4 , ...)(void)
+P s3 bar_1(typedef bool [0][-1], struct s0 a[10]);
+T extern bool (struct s5 inline bar_1, extern float4 static a) extra
+C enum e0 { V1_0 = 'a', V1_1 = -3, V0_2 = -3, };
+C struct s3 { float4 const enum e0 a[0](volatile extern float4 (*ns::inner[0x10])); s4 qq; code ** const b() : 2; };
+C union s0 { uint8 (**a)(int2 b[const 3][0]); char x; };
+C struct s2 { int4 **b[4]; inline enum e2 __cdecl a : 5; static struct s3 (** const foo); code * const * const x[-1]; };
+P struct s2 **qq[10](union s1 (* const * const ns::inner), int1 **x, int4 *ns::inner(extern void (** const a)));
+T u[int1 typedef b(code bar_1[const 3], struct s1 **[const 3], float8 *a, ...)(char **bar_1, char ** const [4][const 3], ...)
+P s4 x(void);
+C struct s4 { bool **x[const 3]; };
+C extern static int8 qq[0](int4 *, ...);
+P uint8 (qq)(char (* const * const a));
+C struct s2 { uint8 (bar_1) : 1; code ** const b; struct s0 x : 3; };
+C enum e2 { V2_0, V1_1, V0_2, };
+P int4 (x)(int2, ...);
+P int4 **b(uint2 qq[const 3])[0](inline char * const bar_1, union s3 __stdcall (a), __stdcall int4 * const foo);
+C enum e1 { V2_0 = 'a' };
+C enum e1 { V1_0, V1_1 = 7, V0_2 = 7, V2_3 = 'a' };
+P void b(char qq, struct s4 x, struct s1 volatile * const *b(char * const [0][const 3], struct s0 foo[4]))(void);
+C struct s1 { enum e2 (*foo); void void x[-1]; float8 a; };
+C typedef union s4 **qq;
+C struct s2 { int8 ns::inner[const 3][const 3]; volatile char *a; void b; s0 a[-1][-1]; };
+T __stdcall inline float4 (b(union s2 *[const 3]))
+P uint4 * const * const foo(void);
+P uint1 (** const foo[4])(code extern [10][0]);
+P int2 a(uint4 inline *, int2 *ns::inner(static int1 * const *bar_1));
+T union s3 typedef __stdcall ns::inner
+C struct s3 { s0 (x[0x10]) : 3; };
+C struct s4 { volatile enum e3 __cdecl ns::inner[0][const 3]; uint1 a[0][-1]; union s0 * const *foo[4]; };
+T inline restrict uint4 ns::inner
+C typedef struct s2 * const a[0];
+P struct s1 const __cdecl b(void __stdcall * const *a);
+P __cdecl int8 **a(void);
+P __stdcall char foo(void);
+C struct s1 { uint1 * const *x; typedef int4 struct s4 * const *b; };
+P static __stdcall enum e0 **foo(typedef const code (b)[4], __cdecl void restrict , ...)(typedef bool, ...);
+T enum e3 b[4]
+C extern enum e2 (bar_1)(struct s0 , struct s0 (qq), float4 __stdcall bar_1);
+T uint2 **foo[4][-1]
+T uint4 uint1 b
+P char extern extern * const a(int1 *ns::inner[0x10]);
+P int4 *a(struct s2 restrict a)[0](uint2 *ns::inner[0x10]);
+T struct s4 qq(float8 ** const , typedef s1 * const *, void __cdecl bar_1(struct s0 __stdcall *b, s3 ))
+P char b(struct s2 *);
+T enum e1 foo[4]
+T char x
+P uint8 a(int2 qq);
+C extern struct s1 float4 *ns::inner[4](int1, ...);
+T struct s3 * const *ns::inner[0][4]
+P restrict restrict code (*ns::inner)(code qq(struct s1 inline, ...), bool (**ns::inner), ...);
+P struct s5 qq(uint8, ...);
+C typedef __stdcall float8 *qq(struct s1 *(int2 * const )(int1 (**bar_1)), __cdecl struct s2 foo)[0];
+C typedef static const int8 qq(int2 (typedef enum e1 b));
+P int2 (a)[-1](extern uint8 const, ...);
+T const uint4 * const *b(enum e2 x[4], const in{t4 ** const b[10], struct s3 restrict *[0x10](uint4 foo))
+C struct s4 { uint8 *foo[4][4]; __cdecl char (b); __stdcall code b; extern code __stdcall * const a[0][const 3]; };
+P char typedef ** const ns::inner(uint4 b, uint2 [const 3][const 3], ...);
+P extern int1 ** const b(struct s5 *, __cdecl char (bool [10], const struct s3 (*a), int4 inline bar_1[0], ...))(int4 **, union s0 qq[-1][const 3]);
+T code foo(bool * const a, char b)[4]
+T char static (struct s4 (** const a)[0x10], ...)
+C typedef __cdecl const union s3 **x[0x10];
+C typedef int4 ns::inner;
+T char **bar_1[0]
+P uint8 a[0][4](struct s2 ** const bar_1);
+C typedef int4 static qq;
+C enum e2 { V1_0 = 'a', };
+C typedef uint4 foo;
+T union s0 * const b x
+C union s5 { struct s3 (x)(inline enum e0 (bar_1), typedef float8 inline int4 * const *b, int4 (** const ns::inner)[0]) : 7; bool *bar_1(struct s5 (bar_1)[0x10])[4]; const code ns::inner; __stdcall int1 (b)(int1 * const *ns::inner[4]); };
+P struct s3 **a[-1](struct s1 extern volatile * const foo[const 3]);
+C struct s2 { extern float4 a(inline int4 (*a)); __stdcall int1 b : 2; };
+T s3 [4]
+T uint8 qq[-1]
+P struct s3 ns::inner(inline enum e0 * const *);
+P inline float8 qq[0](struct s2 volatile * const *a);
+C typedef char *ns::inner;
+T void
+P int1 foo(__stdcall code static * const *b(int8 a), union s2 const (a), float4 *[0]);
+T void * const *b(int1 const *)
+T struct s1 extern bar_1
+T restrict int4 const (bar_1)
+C extern struct s3 **b[10](void)(enum e0 * const *(code * const * const b, extern code b[0], float4 ** const ns::inner));
+C struct s3 { struct s5 a; uint2 a; volatile int1 bar_1(uint2 ); };
+T int4 uint2 [10] // tail
+C enum e0 { V1_0 };
+P struct s0 b[const 3](void);
+C enum e2 { V1_0, V1_1, V2_2 = -3, };
+C typedef inline __cdecl float4 b;
+T uint4 __stdcall * const b[10]
+P int4 **b[10](int4 **);
+T struct s1 (x)
+C struct s0 { uint8 restrict b[-1]; volatile typedef uint1 a[0x10]; };
+P s0 __stdcall typedef ns::inner[const 3](void)(code *ns::inner, enum e3 * const *b, restrict restrict int2 foo[10], ...);
+T float4 foo
+P static restrict union s ** const foo(char * const *[-1], union s2 * const , uint2 *b);
+P enum e2 bar_1(typedef enum e2 __cdecl );
+C typedef typedef float4 qq;
+P char __cdecl foo[const 3](float8, ...)(const volatile int4 *x);
+T uint1 bar_1(uint2 (* const *a))
+C union s5 { uint8 __stdcall b[4]; int1 * const *b[4]; };
+P __cdecl enum e1 volatile b(char volatile foo(typedef struct s1 inline, ...), uint8 b)(enum e2 * const *a(static enum e0 * const *b, union s0 * const *foo[const 3]), enum e1 );
+P uint2 a(uint8 (foo), int1 [const 3], ...); x
+T enum e1 (bool **x(float4 __stdcall *), typedef char bar_1)
+P union s5 bool **ns::inner[const 3](struct s2 **b, __stdcall code * const [-1][0], bool );
+P int4 volatile volatile foo(const code inline *a[4], s4 , union s0 [4]);
+C struct s3 { float4 x; int1 * const *qq(__stdcall enum e2 const *qq, int8 int4 , float4 **[-1]); };
+P float4 inline extern x(float8 bar_1)(code ** const ns::inner, int8 a, enum e3 __cdecl static );
+C enum e3 { V2_0 = 1, V2_1 = 0x20 };
+T inline struct s2 a
+P uint8 (*a)(enum e2 inline (b[4]));
+P struct s1 **a[const 3](void);
+T struct s4 [4](void)
+P enum e1 **ns::inner(int2, ...);
+P int4 b(enum e0, ...);
+P struct s2 * const *ns::inner(__stdcall struct s1 __stdcall * const foo(void), __stdcall s2 volatile , static struct s4 *(code, ...))(__cdecl float8 __cdecl *);
+T void b
+P int4 (**a(char ** const b(float4 , bool (bar_1), __stdcall s1 * const *b[10]), ...))(extern int4 re}strict x);
+P typedef float8 bar_1(void);
+C union s1 { typedef void bar_1 : 8; uint2 b[const 3]; };
+C extern __stdcall const uint1 (bar_1)(bool, ...)(volatile volatile int2 a[0][const 3], enum e1 inline bar_1(__stdcall float4 __stdcall qq, int4 bar_1[10]));
+C struct s2 { uint1 * const * const b; static static float4 qq; union s2 (*ns::inner); };
+T struct s0 ((b))
+T struct s0 const (b(int4 qq(enum e3 (* const * const b))))
+C union s2 { struct s0 ns::inner(...)[-1]; float4 * const bar_1[0x10](char , s0 [0], int8 __cdecl ) : 8; uint2 x[10]; int2 b; };
+C struct s4 { const uint2 *foo : 3; };
+P enum e0 b[10](__cdecl struct s1 const , static struct s4 , float4 qq[-1]);
+C typedef enum e1 b[4];
+P char * const *a(struct s2 static [-1]);
+P enum e1 extern a(...);
+C union s5 { struct s4 uint2 *bar_1(int4 (foo), union s0 __stdcall (x), code ** const a[4]); float4 char a[0x10] : 4; float8 (a[const 3]); };
+C struct s5 { struct s4 **qq; volatile inline char * const qq(void); };
+P float4 foo(uint1 __stdcall , extern union s5 ns::inner(int2 qq)[0x10], float4 * const (void)(void))();
+C struct s2 { int1 a; };
+C enum e3 { V2_0, V0_1 = 1, V1_2 = 7, };
+T int8 [4][10]
+C union s5 { struct s4 * const *ns::inner(float4 ((* const *x))); int2 * const * const bar_1[0][10]; inline uint8 a[10]; int4 b; };
+C struct s2 { extern code const *ns::inner; };
+C extern float4 __stdcall a[4](int2 (ns::inner));
+C struct s4 { __cdecl char bar_1(float8 foo[const 3], float4 qq, ...) : 2; extern int4 ** const foo[const 3](int8 __stdcall a); code b[-1](__stdcall float4 inline (**ns::inner), uint8 (* const a)[const 3], char __stdcall (b)) : 7; int4 *ns::inner[const 3]; };
+C typedef const float8 const foo[0x10];
+T __stdcall s2 (union s4 static , char [10], uint4 (int4 __stdcall x))(...)
+P uint2 qq(union s0 typedef * const , float4 (bar_1), ...);
+P int4 foo(void);
+T bool * const *
+C struct s2 { enum e0 qq; }
+P __cdecl int4 a(uint8 *ns::inner(void [10], int1 bar_1))(__cdecl int4 *, extern enum e0 (**b), ...)(void);
+P int1 **x(uint1, ...);
+C typedef __stdcall typedef union s2 **a;
+C enum e0 { V1_0, V2_1 = 0x20 };
+C typedef float4 foo;
+P extern s1 restrict *qq(void * const *foo, struct s3 foo(char **, float4 __cdecl foo), int1 bar_1(enum e2 foo[10], struct s4 a[0x10], typedef void b));
+C typedef __cdecl enum e0 __stdcall *foo;
+C struct s0 { int4 volatile (*qq(volatile uint4 (a))); };
+P char * const qq(uint1 __cdecl (*b)(char , int1 restrict *ns::inner, int4 char a));
+C union s3 { union s2 x(int4 (b)[-1], __stdcall int2 ns::inner, char ); restrict float8 (a); restrict int1 * const * const ns::inner[-1]; union s3 a[0]; };
+P code inline struct s4 ** const a(struct s0, ...);
+T code 
+C typedef float4 **x;
+T uint4 *qq[4]
+P extern uint2 (ns::inner)(f]loat4 b[0x10], int4 **foo[0x10](struct s1 static b[10]), enum e1 bar_1(float4 , ...))(restrict void (* const *a)());
+P char * const * const bar_1[0x10](uint8 inline (qq[const 3]))(int2 restrict * const * const a, ...);
+C typedef int4 ** const bar_1[const 3];
+P float4 b[4](void);
+T int4 foo
+P float4 restrict extern *bar_1[const 3](union s1 * const * const [0x10](float8 (**x)), bool extern * const a, ...);
+C struct s3 { enum e0 * const * const a[0x10]; }; extra
+P __stdcall uint1 foo(int4 a[0x10], union s2 * const qq[10], int1 (a)[4]);
+P union s4 b[const 3](typedef extern struct s2 a[4], char __stdcall , ...);
+C struct s2 { struct s1 __stdcall b(float8 [10], struct s1 (**a), struct s0 bar_1, ...); };
+P union s0 **b(int4 extern *[0]);
+T uint2 ** const b[4][10]
+T char static x
+C typedef s1 qq[-1];
+P uint4 volatile *foo(struct s1 (qq), ...);
+C extern struct s0 qq(struct s0 **qq, float4 b[0x10][10], uint)8 );
+T __stdcall int4 (**b)(__cdecl uint1 qq[10][10], ...)
+C union s5 { inline uint1 inline qq[-1]; };
+T struct s5 b[0x10]
+C union s0 { s4 const qq(float4 * const ns::inner[-1], struct s3 (x), float8 * const * const [const 3], ...); int4 foo; };
+P uint1 ns::inner(const char **foo[4](uint8 **x[0], typedef int1 __cdecl a, ...));
+C struct s2 { bool a(struct s4 (**b), static const uint8 [0x10], struct s3 ((b))); uint8 __cdecl inline (* const * const a); };
+C union s5 { static int4 a; __stdcall extern uint4 x; uint4 ** const b(int4 , code **); char **b; };
+T int4 * const a
+P char foo[4](void)(float4, ...);
+P uint4 b(int8 static b(float4 bar_1[0], char ** const , ...), static __stdcall int8 ns::inner(...))(void);
+T int1 * const *
+P char foo[0x10](void);
+P int8 *bar_1(int4 **, code __stdcall *foo(s2 b, float8 **, void (*a)))(void);
+T enum e2 * const *[const 3]
+P union s5 **foo(void)[0x10](static uint4 **[0], ...);
+T typedef int1 a(...)
+P float8 b[0x10](bool x, struct s3 )(float8 **b(void));
+C union s3 { __stdcall union s3 (a) : 3; };
+C enum e0 { V0_0, V1_1, V2_2, };
+P restrict code *a(...);
+T uint2 __cdecl b[0](int1, ...)
+C struct s5 { char b[10]; enum e0 __stdcall qq[const 3]; };
+P float8 qq(enum e0 (ns::inner)[4]);
+P int8 a(float4 x, float8 **(static uint8 ), typedef int8 * const a);
+P uint4 __stdcall static **a[const 3][const 3](void); /* c */
+C union s3 { struct s5 __stdcall a; uint4 **foo : 7; inline union s0 __cdecl **a; };
+C enum e1 { ::V2_0, V2_1 };
+C union s0 { volatile s3 restrict * const qq(uint2 ((ns::inner)), uint8 * const a, float8 (b)); };
+C enum e3 { V0_0, V1_1 };
+C struct s3 { uint8 foo; };
+C enum e0 { V1_0, V1_1, V2_2 = -3, V0_3, };
+P restrict __stdcall char b(union s5, ...)(uint8 *, int8 x[10]);
+C struct s5 { struct s1 (a(enum e0 inline , int4 * const foo)); };
+P volatile bool (a)(enum e2 * const * const x[4](code , struct s0 (**bar_1)))(uint4 ns::inner(enum e1, ...)[const 3], volatile int2 bar_1(struct s4 ** const , int1 const , int4 [0x10][0]));
+C typedef union s5 volatile b;
+C extern int8 __cdecl * const *foo[4](void)(union s3 *, ...);
+T int8 *foo
+C extern uint8 *a(float4 * const x, void __stdcall extern ns::inner, float4 bar_1);
+C struct s2 { __cdecl float8 qq(...) : 8; __stdcall inline int4 *ns::inner : 8; };
+T float8 b(void)[-1]
+P int1 static __stdcall *a(struct s0 ((*foo)));
+T struct s4 *a[const 3](int4 ns::inner, restrict int4 , float4 __stdcall *, ...)
+C struct s2 { int8 **foo(uint8 float4 ((ns::inner)))[0x10]; };
+P float4 qq[-1](inline s2 foo);
+T int2 (b[-1]) /* c */
+P __cdecl const int4 a(void)(void);
+P extern const int8 **b(code b, code **a)(code restrict, ...);
+P float4 static b(int2 (**ns::inner), float4 * const a, ...);
+T inline __stdcall char b(struct s2 **a[const 3])
+T uint2 (uint1 a, uint2 static )
+C struct s3 { int2 b(enum e0 a, const uint8 (a), float4 ** const ); struct s5 bar_1; int1 const **x[0]; __stdcall struct s0 __stdcall (* const *a); };
+T struct s1 extern **b
+T uint4 ns::inner[0]
+C union s5 { struct s2 uint4 x; int2 *a(struct s3 (**x)[0]); };
+P float8 **foo[(void);
+C typedef bool qq[-1];
+T __stdcall enum e2 __stdcall *x(char __stdcall , void bar_1[-1][-1], static enum e3 const qq)(float4, ...)
+T uint1 const * cost * const a[10]
+P enum e3 (qq[10])(int8 foo, s3 *ns::inner[-1], enum e1 );
+P float8 volatile b(void);
+C typedef const int4 bar_1;
+T extern in4 * const x[0x10]
+P uint1 foo[0](enum e1 **);
+P s2 (*foo)(inline typedef struct s3, ...); // tail
+P int2 const *a(char *b, inline uint8 * const *, code (a));
+T typedef union s0 ns::inner
+P float4 __stdcall a(float8 *b, float4 **)(__stdcall int2 const , inline s4 b[-1], restrict int4 inline * const *qq[0](uint4 ** const b, volatile char **ns::inner[0x10]));
+T in4 foo
+P extern struct s2 __stdcall **b(volatile restrict char **b);
+P struct s5 __cdecl (**a)(int4, ...)(__stdcall volatile void [0], union s3 *, struct s5 (** const ns::inner(void)));
+P typedef uint4 *b(__stdcall __cdecl char foo);
+T void * const qq
+T int1 bar_1[0](void)
+C struct s4 { char a(int8 typedef (*x), __stdcall union s3 b); float4 *b; struct s5 a; };
+T struct s4 ** const x[10]
+P int2 * const b(enum e3 (void)(uint1 *foo, ...), float4 * const * const x[-1], enum e0 (enum e3 (b)[0x10], uint1 foo, enum e2 b[0x10]));
+C enum e0 { V1_0 = 1, V2_1, V1_2 ='a' };
+P int2 x(void);
+P bool *b(restrict __cdecl union s2 x, typedef uint1 bar_1(void)[0]);
+C typedef int1 qq;
+C typedef float4 *a(void);
+P float4 __stdcall a(inline char *x)[4](float4 x, struct s0 , struct s3 );
+C struct s3 { enum e2 b; };
+C union s2 { enum e0 *bar_1(code, ...)[0]; };
+T int4 typedef volatile ns::inner
+P int4 __stdcall * const * const bar_1[4](uint4 *qq, int4 a, struct s3 __cdecl *a)(void);
+P struct s3 x(void)[0x10](code [10]);
+C t]ypedef typedef int2 __stdcall ** const x;
+P struct s4 b(void);
+T float4 [10][const 3]
+P char ** const bar_1(char a[10], void ns::inner(__stdcall uint8 (qq))(code __stdcall (foo), enum e3 b, int1 ), s0 x);
+T inline unt2 union s0 a
+C struct s2 { bool * const * const a(enum e2 (* const *a[0]), int2 foo, int4 * const * const qq[0x10][0x10]); union s2 qq(void); };
+T uint8 b
+C union s2 { int2 x; s3 foo[0](enum e1, ...) : 3; };
+C extern code ns::inner(bool qq);
+C enum e3 { V2_0 = -3, V1_1 = 'a', V1_2, V1_3 = 'a', };
+P char x(char qq[-1], inline int2 (ns::inner)[const 3], s4 foo, ...);
+T struct s1 a
+T char a[4]
+P int4 b(int2, ...);
+C typedef float4 * const b[-1];
+P int4 __stdcall foo(void)[0](typedef s1 (*b));
+P struct s1 a(void);
+T void ** const foo
+P __cdecl const enum e2 a(int4 a(), ...);
+P struct s4 (foo)(enum e3 **a, inline int1 __stdcall (** const qq), int1 foo(int2 **, ...));
+C typedef __stdcall uint4 __stdcall (bar_1)[4];
+P struct s2 inline static *qq(int4 * const *qq, ...);
+C union s3 { void restrict **a[10]; struct s5 * const a[10]; int4 a(__cdecl float8 * const [0], void * const a[0], int1 (**bar_1[0]), ...); uint2 __stdcall typedef ns::inner; };
+T int4 (*bar_1())
+C struct s3 { struct s2 __cdecl volatile x(union s2, ...)[4]; enum e2 foo; };
+T int4 
+P restrict code (a)[4](bool *a, uint1 a, uint1 a[0x10]);
+P char **ns::inner(void)(code typedef b[0x10], restrict struct s2 foo[const 3][10], struct s3 (b(char ns::inner[10])));
+P struct s3 b(const uint2 __cdecl );
+C struct s3 { float8 a[10] : 2; char *b; uint8 typedef * const foo; };
+P int4 x(int4 b[const 3], int1 **[0]);
+T int8 ns::inner[0]
+C extern int4 b[0](struct s5 a[4]);
+P char a(uint2 extern __stdcall *ns::inner, struct s4 * const *);
+P enum e0 * const a(int4 (bar_1)[-1]);
+C union s1 { int8 __stdcall extern qq(int4 __stdcall int4 , inline int1 static (x)[4], int4 *, ...); inline char (bar_1); __stdcall void bar_1(int4 * const *bar_1[0x10], extern const struct s0 (b))[10]; };
+T __stdcall s5 __cdecl *
+T enum e2 * const *a
+P __stdcall extern int8 b(__stdcall struct s4 *(code , enum e2 * const *b[0x10], ...), uint4 __stdcall a, struct s5 b, ...);
+C extern uint1 *foo[0x10](void);
+C typedef static struct s1 const * const *b;
+P static struct s0 const ns::inner(inline static char *a, struct s2 qq, union s4 a(int4 [-1], struct s2 **b[-1])(struct s2 **bar_1), ...)(int4 typedef * const *qq, enum e2 );
+C struct s1 { struct s0 __cdecl *bar_1(inline float8 , enum e0 (*b[0x10])); struct s1 * const * const a; volatile int4 * const *bar_1; };
+T struct s2 *ns::inner[-1][-1]
+C extern enum e1 * const *b(char bar_1)(float4 x[0x10][4], ...);
+C enum e0 { V1_0, V1_1 = 'a', V0_2 = 1, V2_3 = -3 };
+P char b[4](bool bar_1[const 3]);
+C typedef float4 static * const bar_1[0](uint1 **[-1], int1 __stdcall [-1], uint1 * const *b(code [10], ...));
+T bool typedef __stdcall a[10]
+C extern bool * const b(enum e1 inline const, ...)(struct s0 *b[10], typedef struct s3 )(int2 **[0](char bar_1), __stdcall code ns::inner(volatile char **qq[4])); // tail
+T int1 bar_1[0]
+P s3 ns::inner(void);
+P extern const uint4 ((*a))(union s4 * const qq(enum e0 int4 ), struct s0 (x(struct s0 ((* const *bar_1)), ...)), enum e3 **);
+C struct s2 { __cdecl void __stdcall *a[const 3]; };
+P int2 * const * const x(static int2 *bar_1);
+P volatile struct s1 b(const struct s1 inline * const a(int4 (x))[10], bool volatile )(void)(void);
+C struct s4 { int2 b; float4 *a : 6; };
+C enum e2 { V0_0 = 'a' };
+T typedef struct s3 static b(enum e3 , float4 **(float8 (qq)), float8 ** const (enum e1, ...)(extern struct s2 __stdcall (* const *b[-1]), ...))
+P void __stdcall x(enum e1 ns::inner, uint1 , struct s3 foo, ...);
+T float4 bar_1
+P static void * const *x[0x10](static s2 a, void extern __stdcall , ...);
+C typedef struct s5 (b[10]);
+T bool __cdecl a
+C struct s3 { bool (b) : 6; int4 (ns::inner)[-1]; restrict int4 b; };
+T void static (__stdcall int1 volatile * const * const b, typedef s0 b[0], uint1 b(int8 __cdecl inline foo[0])(bool x, int4 a, struct s0 ns::inner))(inline s0 (b), struct s3 **x, enum e2 (int4, ...))
+T char typedef (a[10]) // tail
+P s5 inline *b(enum e0 a());
+C enum e3 { V2_0 };
+T code x[-1]
+C enum e2 { V0_0 = 1, V2_1 = 1, V2_2 = 'a', V0_3 };
+T void (a[10])
+P float4 ns::inner(void);
+C enum e1 { V0_0 = 0x20, V2_1, V0_2 = 0x20, };
+C enum e1 { V2_0, V1_1 = 7, };
+T int4 *[4]
+P float8 qq(void);
+T static code **a
+C struct s3 { float8 (ns::inner)[0x10]; float8 foo; };
+P int8 (foo[const 3])(uint2 int4 b(void)[const 3]);
+P struct s1 bar_1(struct s3 (b));
+P float8 (a)(union s3, ...);
+P enum e3 **b[0]()(struct s3, ...); /* c */
+P int4 a(typedef char * const bar_1, ...);
+C union s5 { int8 (* const *foo); int1 qq[10]; };
+P float4 __stdcall (*x)(volatile float8 b);
+C extern uint4 **ns::inner[const 3](float4 __cdecl , __stdcall code static b, float8 **bar_1, ...);
+C struct s3 { uint1 a; };
+T int4 
+C struct s5 { uint8 __stdcall **foo[10]; enum e2 (foo) : 2; char const const foo[0][10]; };
+C struct s5 { int8 ** const bar_1; char __stdcall b; struct s3 inline b; inline int4 typedef foo(s2 qq)[-1]; };
+T struct s4 __stdcall **b(s3 __stdcall inline * const a, volatile inline bool a, float4 **foo, ...)
+T uint8 **qq(void)
+P restrict struct s1 (a)(struct s2 (* const x[0]))(void);
+P void volatile a(uint2 __cde]cl a, uint4 x[const 3]);
+P float8 ns::inner[4](uint2 [-1]);
+P int8 x[0](struct s1 b(struct s0 (a), uint4 bar_1, char (* const *b)), int4 typedef *ns::inner, int1 *);
+C union s1 { uint4 b(char , float4 (bar_1)[10], struct s0 restrict (qq))(enum e3 b, uint4 * const *, const code __stdcall (* const * const foo)); };
+P float4 *a[const 3](char , ...);
+C typedef union s3 b(int1 * const x, float8 (*x)[0]);
+C struct s2 { uint2 enum e3 * const qq(extern struct s3 )[const 3] : 2; };
+P restrict code inline b(void);
+P int8 a[10](uint4 * const x[-1], struct s1 b, ...)(...);
+C enum e3 { V1_0 = 'a', V_1, };
+P int8 foo(char [-1], s3 bar_1, struct s0 *);
+T const enum e2 (b)[4]
+P uint4 uint4 qq(char * const [0][0], volatile int2 , static int1 (**b)(restrict float8 (bar_1), code * const a, s4 *foo[-1]))(void);
+P restrict uint2 x(s2 *a); // tail
+P uint2 a[0](const restrict void *(s1 qq));
+P const s0 (b)(char **b);
+C struct s0 { uint2 b(volatile inline code, ...); struct s2 ** const a; };
+T struct s0 ** const b
+P const int4 **qq(volatile union s4 [10](bool ((* const a)), ...), const int1 **)(uint8 ** const foo, uint4 struct s1 x, typedef enum e2 );
+C enum e0 { V2_0 };
+P int4 a[0x10](extern restrict float8 b[const 3]);
+P __stdcall uint4 (x)(uint1 __cdecl, ...);
+C extern __stdcall struct s1 __stdcall (bar_1)(int4 , union s1 [10](int4 *a[0x10], int2 (*foo)), ...);
+C enum e3 { V0_0 = 0x20, V1_1 };
+C struct s0 { struct s1 const (a) : 5; s0 bar_1; };
+T int4 ns::inner(...)
+P int8 typedef qq(__stdcall bool __cdecl b, union s2 x(struct s3 (** const a), struct s1 qq[const 3], ...), int8 b);
+C struct s,2 { float4 * const a(restrict enum e2 extern, ...); };
+P struct s4 (bar_1)();
+T uint8 x
+T __cdecl uint8 restrict * const *(uint1 const * const bar_1)(uint1 __stdcall **[0x10][4], inline enum e2 **a, float4 __cdecl *qq)
+P uint2 ** const a(float8 qq[0x10], char * const bar_1[0x10])[4](__stdcall struct s4 * const qq(struct s5, ...), struct s5 __stdcall *ns::inner);
+T void bar_1(uint8 a[-1], enum e3 **a, float8 (foo[4]))
+P __cdecl int4 qq(char *foo, bool *a(uint8 *, int4 *a[10]), s3 **(void));
+T uint4 const __stdcall * const * const qq(float4 __cdecl volatile ** const , ...)
+C struct s1 { uint1 (b[10]); enum e2 foo[4]; s2 * const a[10][4]; };
+P struct s1 const qq(void * const foo, char (ns::inner), union s5 * const a, ...);
+P restrict extern struct s4 * const *qq(char bar_1(void qq, ...));
+P int1 (* const b)(float4 qq(uint8 volatile (b), bool (ns::inner), float4 inline [10], ...))(float4 qq[0], enum e3 [0x10]);
+C typedef void * const * const bar_1;
+P restrict int4 int4 bar_1(float8, ...)(struct s4 __cdecl **foo[10][0])(uint2 inline * const b[const 3](char (*b)[4]), bool *, ...);
+T enum e0 b[-1]
+T struct s1 *a
+C union s1 { float4 **a[0](enum e0 qq, struct s5 foo, char volatile **b) : 1; bool extern typedef b; char a; int4 *a; };
+P float8 *x(int1, ...)[4](int4 ((a)), struct s4 int1 * const b(int4, ...), uint4 [4](float4 foo));
+P enum e3 extern enum e0 *bar_1(__cdecl uint1 , ...);
+T volatile int8 const a[10]
+C union s2 { __stdcall float4 * const foo; int4 inline b[const 3]; };
+C typedef enum e0 a[0];
+T static uint8 * const ns::inner(__stdcall __cdecl struct s5 )
+C struct s5 { union s5 __stdcall ns::inner(int4 ((b)), bool restrict restrict x, bool volatile __cdecl ); uint8 b(int4 (*qq[4]))[0]; };
+T struct s4 volatile __stdcall foo[10](int4 *x(...), ...)
+C struct s4 { struct s1 x; int2 (* const * const b[const 3]) : 1; uint1 ns::inner(__stdcall enum e3 bar_1, ...); };
+T __cdecl int4 extern (** const foo)
+P float4 (*foo)(void);
+C extern uint1 ** const qq(float4 a(void))(char (a));
+P extern struct s1 ** const ns::inner(extern bool typedef (a), enum e1 );
+T uint2 (void)
+C enum e1 { V2_0 = 'a', V1_1 };
+T inline union s3 foo
+C struct s0 { char * const bar_1 : 6; bool (ns::inner); };
+T uint8 b(...)
+C struct s4 { enum e1 __stdcall ** const b(bool * const * const x) : 5; s4 a[const 3]; uint2 __cdecl bar_1[const 3]; };
+C typedef uint2 (ns::inner);
+C struct s2 { enum e2 restrict x(int4 (b)[0]); char x(struct s1, ...)[-1] : 8; };
+T uint8 (bar_1(char static (*a[0])))
+T uint8 **
+T volatile struct s3 (b)[0x10]
+C union s5 { int2 foo; inline inline code **a; struct s1 qq(char inline a); code b; };
+T int1 (*ns::inner)
+P int8 **a(const int4 static * const (int4 (* const a[0x10]), ...));
+P char b[0](struct s4 ns::inner, int8 );
+C enum e0 { V2_0 };
+T struct s5 qq
+T struct s3 extern foo(void static a[0], int4 extern ns::inner, static uint2 typedef b[0x10])(void)
+T float8 __stdcal foo
+C enum e0 { V2_0 = 0x20, V1_1 = -3, };
+T float4 b
+C enum e0 { V1_0, V0_1, };
+C typedef struct s2 bar_1(void);
+P void __stdcall a[0](int4 a, struct s0 * const *bar_1, ...)(char __stdcall b(struct s1 b, enum e3 (b)));
+C struct s2 { enum e3 b[0x10](struct s1 __stdcall , float4 restrict b[0x10], enum e0 (b)); struct s3 (bar_1); int1 a(float4 static b, __stdcall int2 [-1], void **); extern void b; };
+P uint4 restrict extern ** const a(float4, ...)(typedef int8 (x));
+P union s4 * const *foo(float8 )(s3, ...);
+T int2 a
+C extern struct s0 (ns::inner)(...);
+P inline s0 __stdcall *a[0][const 3](struct s5 const inline *, stuct s2 a(float4 foo, float4 *bar_1[0][10], struct s2 **b[0x10], ...), int8 * const [0]);
+C struct s5 { code qq(struct s0 volatile, ...); uint2 (a)(code (a), ...); typedef extern uint2 **bar_1(struct s4 (qq)); };
+C struct s2 { char * const a; __stdcall uint4 x[const 3] : 2; code *b; __stdcall typedef code x; };
+T enu(m e3 *a
+T char __cdecl a
+P int4 b{(__stdcall int4 * const a[-1], ...);
+P float4 * const *ns::inner[0](struct s1 **b[0]);
+T uint2 *bar_1
+P int4 ns::inner[10][const 3](typedef int2 x, struct s2 __stdcall qq, struct s3 bar_1);
+P struct s1 inline **bar_1[0]();
+C enum e2 { V1_0 = 7, V0_[1 = 1 };
+T struct s4 bar_1
+P enum e3 * const * const a[10](void * const * const a[0x10](int4 * const [-1]), int1 **x[10](bool foo), __stdcall int8 x)(code **foo);
+C enum e3 { V2_0 = 7, V0_1 = 1, V0_2, };
+P enum e1 (* const *ns::inner)[0x10](union s0 *qq, code (inline uint2 restrict ns::inner)(__cdecl enum e0 x, ...));
+C union s0 { uint8 (* const foo) : 3; restrict float8 __cdecl bar_1 : 4; union s1 ns::inner(s1 a, float4 static **a[const 3]); };
+C struct s3 { char b[0][4]; char (ns::inner) : 6; enum e2 uint2 *b; int2 restrict a; };
+C struct s1 { int4 __stdcall **a(enum e3 , uint1 (qq[-1]), char *)[0x10]; void * const *foo; };
+T enum e0 *b
+P bool (* const qq)(int4 volatile b, const restrict union s2 [0x10], enum e1 **a);
+T float8 
+C struct s4 { enum e3 *b(bool inline (x))[10]; int4 ns::inner(int4 __cdecl, ...); float8 * const * const x; char foo[10]; };
+C typedef int1 *bar_1;
+T enum e0 [-1]
+P struct s0 *b(void);
+P int2 bar_1(void);
+P char * const * const foo(struct s5 (a), s1 (**ns::inner)[0], ...)(void);
+C struct s2 { const volatile struct s4 x[0][4]; struct s4 **a(enum e1 ** const [4], ...); s3 (foo)[0x10]; s2 foo(int4, ...)(struct s3 (*b), extern char (**x)); };
+P const struct s3 qq(code x, ...);
+T void a
+T uint2 *x[10];
+T float4 foo()
+C extern s1 **bar_1(enum e1 **a[0], uint1 b[10], ...);
+C typedef int4 * const b;
+P struct s0 static (*a)(uint1 static ** const x(bool volatile [const 3], ...)[0]);
+T char bar_1[-1](float4 **qq)
+C union s1 { inline s1 typedef **a; };
+P uint4 *x(inline restrict code **a[const 3](const uint8 (**a)[10]), int4 __stdcall restrict (b), ...);
+P inline int1 ((qq))(code (a)(enum e0 ns::inner, void inline *[0][0x10], uint1 const **a[10], ...), ...);
+T code __cdecl static x
+C extern int4 bar_1(__stdcall volatile struct s4 (enum e2 * const foo, uint2 (a))[-1]);
+T s2 * const x
+T float4 **
+C typedef uint2 __cdecl typedef (*b[4])::;
+C enum e0 { V0_0 = 7, V1_1, };
+T __cdecl enum e0 (*bar_1)
+C enum e2 { V0_0, V2_1 = 1, V0_2, V1_3 };
+C typedef code qq;
+T int4 * const * const b(uint8 bar_1(bool **a, uint8 (foo), int1 (*bar_1), ...), int8 ** const [4])
+P uint4 typedef **ns::inner(const float8 , int4 __stdcall typedef ( const a), uint2 (a[4]));
+P char static x(...);
+C union s5 { int1 ns::inner; union s2 __stdcall ns::inner[0x10] : 1; uint1 uint1 * const *qq; const enum e0 qq; };
+C union s5 { struct s2 * const *x(float4 , char **[const 3][0]); struct s0 ((b)) : 2; __stdcall int4 bar_1; enum e0 *a; };
+T code bar_]1
+P int4 restrict *foo(const struct s4 [4][const 3], struct s5 **);
+T union s1 b(const struct s5 )
+C enum e0 { V1_0, V0_1, V2_2, V0_3, };
+T code qq;
+P char *b(float4 __cdecl ** const a);
+T char *ns::inner
+T int2 [0]
+C extern typedef enum e3 b(enum e3 a[-1])(static uint1 qq(char (a[0])), s3 x, ...);
+P uint4 (b)[-1](union s4 **foo(float4 (a)), uint8 qq);
+T code (qq)
+C enum e1 { V1_0, V1_1, V0_2} = 0x20, V0_3 };
+C struct s5 { int4 __stdcall b : 4; }; x
+C struct s1 { bool *ns::inner(static unt2 extern * const *[0], enum e0 , struct s0 x); };
+T __}stdcall float8 __cdecl b
+C typedef uint2 const volatile *qq;
+P struct s4 *x(union s0, ...)(void [10]);
+T int2 
+P struct s3 *bar_1(void);
+C union s0 { extern s1 *b; struct s1 a; const int4 qq[4] : 8; int8 * const *b(void); }; /* c */
+P struct s5 qq[-1][4](void);
+T in::line float8 a[0][0x10]
+P struct s2 (* const foo[0x10])();;
+T uint1 bar_1[10]
+T int4 *foo[4]
+T float8 ns::inner[-1]
+P uint2 a(s2 **foo[4](code (**a)));
+T enum e2 static *qq
+P union s0 foo[0](enum e3 (extern enum e3 *a)[4], float4 (ns::inner)[0]);
+C struct s1 { code *a(enum e3 (qq[10]), ...) : 7; float4 b : 6; };
+C union s4 { int8 qq; };
+T struct s5 a
+P enum e0 *foo(char b, code **bar_1(uint8 [-1][-1], s2 *qq, int2 ), int4 );
+T int2 ** const a[-1]
+P bool *ns::inner(int1 a);
+P uint8 volatile __stdcall (**qq)(float4 * const * const ns::inner(uint1 inline * const *x), __cdecl code *qq[10](struct s5, ...), uint1 ** const qq[-1](int4 (b)));
+T volatile s a(__stdcall uint2 ** const , enum e2 a)
+T uint8 x0]
+P struct s2 b(s2 *, int4 ** const bar_1);
+T char * const *x[const 3](float4 *bar_1, int2 x)
+P char **b(float4, ...);
+T uint2 a[0x10]
+T int4 (enum e2 [0](code (b)[10], int8 *), __stdcall int4 [0][4])[const 3]
+T uint8 a[0]
+P int2 (* const qq)(enum e3 ty(pedef ** const b[10]);
+P enum e1 const x(char volatile )(struct s1 **qq[10])(uint1 * const *[0]);
+C typedef void x[0](void);
+C union s1 { float4 bar_1; };
+C extern int4 *ns::inner[4][0x10](volatile enum e2 x);
+T static __stdcall int1 *a"s"[0x10]
+T float4 (qq)
+C struct s1 { float8 foo[0x10][0]; enum e0 **qq[-1]; int1 __cdecl b; };
+P volatile char ns:inner(...);
+C union s2 { code **b(inline const code, ...); union s5 *a; float8 *foo; }; /* c */
+T code * co;nst * const [0x10]
+P int4 * const bar_1(int2 static, ...);
+T float4 [4]
+P int4 *b(float4 qq)(int4 x);
+T uint2 volatile  x
+P struct s2 a(void);
+C struct s5 { uint1 * const *ns::inner(int8 static restrict, ...)[10]; int8 qq; uint4 const bar_1(...); int4 b[-1]; };
+C enum e3 { V0_0 = 1, V2_1 = 1 };
+T enum e3 __cdecl (ns::inner)[4]
+C enum e3 { V0_0 };
+C extern code ** const b(char b);
+P uint1 x(enum e3 b);
+C typedef struct s0 *b(uint2 typedef bar_1(enum e1 *ns::inner, ...), enum e2 __stdcall b, int1 const (s5 [0x10]))(enum e3 const, ...);
+P uint8 * const *a();
+P enum e1 static bar_1(float4, ...)(restrict union s0 bar_1(), extern char __stdcall b[10], int2 __stdcall inline ns::inner[const 3], ...);
+T bool b
+C union s3 { char foo[0]; restrict static struct s2 ** const b(typedef int4 **b)[0x10] : 5; int8 ns::inner : 6; };
+C struct s3 { int4 * const *a(extern code __stdcall (*x)); int1 ns::inner(int4 **b[const 3]); enum e0 const *a(int4, ...)[-1]; };
+T __stdcall float4 __cdecl bar_1(union s2, ...)
+P const int8 x(volatile int2 static, ...);
+P int1 *a(__cdecl union s3 (uint1 , float4 [10]), s4 * const * const (void), restrict uint8 foo[0x10], ...);
+C union s0 { int4 (b); s1 qq[10]; };
+C union s2 { struct s2 a[0]; };
+P code a[10](restrict s2 *b[const 3]);
+T char typedef qq[0]
+P struct s2 * const * const a(int4 [10], ...); /* c */
+P union s5 * const *bar_1[0x10](volatile enum e2 ** const ns::inner);
+T static uint1 __stdcall ((*a))
+T uint8 *a(float4 *, uint1 * const [4], float4 __stdcall *foo) x
+T int4 foo
+T uint2 __stdcall *(int1 inlne __cdecl (__stdcall int4, ...))(void)
+C typedef inline float4 extern a[0];
+T constint8 typedef * const qq
+C typedef char (b);
+T code * const * const a(restrict enum e0, ...)
+P int1 (** const foo)(void);
+C union s1 { uint4 a[10] : 7; char (*qq); int1 qq[4](char *[const 3][10]); float4 *x; };
+P int4 typedef foo(struct s4 typedef ns::inner(void))[const 3](struct s5 ((*bar_1)), int4 __stdcall * const *qq[-1], struct s5 __stdcall );
+P int4 ns::inner(uint4 [const 3]);
+P inline uint2 (a[const 3])(float4 a[4], inline float8 volatile qq, int8 * const bar_1, ...);
+C struct s4 { float4 b; enum e0 ns::inner[10]; union s5 **b; float8 ** const a : 1; };
+C struct s3 { enum e0 a(void)[10]; };
+T extern union s2 (*foo)
+C struct s1 { enum e0 static __cdecl a; struct (s1 b(float4, ...); int4 ** const a : 8; };
+C struct s1 { s0 __stdcall * const a(inline inline int4 (b)); };
+T __stdcall float4 __cdecl x(struct s0 **(void)[const 3])
+P struct s4 b[0x10](int4 * const b);
+C extern s1 (* const *qq)(extern struct s1, ...); // tail
+P int4 *a[-1 ](uint2 * const b, ...);
+T float4 
+T void * const *foo(code **foo, float4 * const * const ns::inner, ...)[0x10]
+P static enum e1 x[4](s2 * const , code restrict * const *b, int8 x[0], ...);
+P struct s4 (bar_1)(__stdcall float4, ...); extra
+T restrict int2 (bar_1[const 3])
+C typedef uint4 static a[const 3][4];
+P int2 b[0](enum e3 *a, s0 restrict a(void), int2 **qq);
+P uint1 a()(volatile inline int4 (*x)[10], char (b)(__cdecl struct s0 foo[-1]), ...);
+T int4 [4](int8 x[0x10])
+P s2 b(static static code b);
+C enum e1 { V1_0, V0_1, V0_2 = 7, V1_3 = -3, };
+C extern typedef enum e0 * const qq(struct s1 a, int8 , volatile const uint8 a[0]);
+P struct s0 a()[0](enum e0 __stdcall extern **(void));
+T enum e0 *foo(float4 foo)
+P volatile code b(struct s4 __stdcall const bar_1);
+T bool x
+T int8 foo
+T uint1 bar_1
+T struct s1 *
+C union s1 { float4 extern qq(int2 (x), int4 __stdcall ); };
+T int2 foo
+T bool (foo)
+C typedef char foo[-1];
+P int4 foo(typedef int4 __stdcall (* const x), volatile struct s3 ** const ); // tail
+T uint1 * const ns::inner[10](restrict uint1 (*a))
+P enum e2 ns::inner(void)(struct s3 (b(volatile uint8 foo[-1], union s4 inline __cdecl [0x10])))(enum e3 [-1], inline float4 ** const , char [const 3]);
+T int4 **bar_1[-1]
+C enum e3 { V2_0, };
+T enum e2 bar_1[4]
+P typedef struct s5 ns::inner[0](void);
+T union s1 *a[4]
+C struct s3 { typedef __stdcall float8 ns::inner; struct s1 __stdcall b; int1 __stdcall b(__stdcall float4 (** const ns::inner), __stdcall static uint4 (x)); uint2 inline * const bar_1[10][10] : 4; };
+C struct s5 { struct s4 x; code __cdecl *b; int8 foo; };
+T enum e2 ** const x[-1][0]
+P float4 *foo(struct s1 **(char * const a[const 3])(uint1 *, ...), float8 const * const , static struct s0 *a)(float8 , uint8 static __stdcall ns::inner(enum e0 * const * const , char const , union s4 **[10])[0x10], ...);
+T restrict struct s5 __stdcall x
+C typedef char * const qq;
+T __cdecl const enum e3 *
+C struct s1 { inline float4 * const foo(void); };
+T float8 foo
+P int1 foo(...)(enum e0 *ns::inner)(uint1 , enum e0 ns::inner);
+T int1 qq(volatile uint1 [-1])[-1]
+C struct s1 { float4 **a[10]; extern code * const qq; enum e2 * const *a; struct s2 a; };
+T const char extern foo[-1][0]
+T float4 * const * con]st foo
+T int2 ns::inner
+T union s3 *
+T uint1 volatile const b(struct s4 *(flat8 __stdcall (ns::inner), int4 a, ...), union s3 **foo[-1])
+P struct s1 qq(__stdcall code [const 3])[-1](void);
+C extern typedef int1 b(void);
+P int4 (ns::inner)(void);
+T volatile int4 static b[10][10]
+C enum e3 { V0_0, V1_1, V1_2, V2_3, };
+T char * const * const b[const 3]
+T inline char a
+C enum e0 { V0_0, };
+T int2 (qq[const 3])
+C struct s5 { int4 (ns::inner); struct s0 (*bar_1); };
+T void inline *x(void)
+P code * const b(struct s2 * const *ns::inner, struct s3 ns::inner[4], char (*foo))();
+C extern restrict const int1 a[const 3]();
+C extern int1 bar_1(inline enum e3 bar_1, int4 **qq[const 3], float4 __cdecl b[4][0])(void);
+C union s5 { __stdcall char * const *b; char extern static s1 b(void, ...)[-1]; struct s1 *a(int1 (a), int2 *b, union s1 b[const 3]); };
+T const union s1 [0x10]
+T code a
+C extern enum e3 a(void);
+T enum e3 b(int2 qq)
+C enum e0 { V0_0, };
+T float4 __stdcall b[4]
+P uint8 *b(int4 typedef, ...)(...);
+C extern void volatile * const a(int4 ns::inner(static char (**bar_1)))(...)(uint2 __stdcall (*x[0x10]));
+C extern union s1 (*ns::inner)(bool );
+P struct s2 a[const 3](...);
+T enum e2 *b
+C extern char **ns::inner(const struct s3, ...);
+T int2 x[0][0x10]
+C enum e2 { V1_0, V2_1, V2_2 = -3, V0_3 };
+P uint1 qq(int8, ...);
+P uint2 * const b[0](union s4 x, __cdecl static enum e3 b)(enum e1 const static b, uint1 (ns::inner));
+P inline int1 *a(struct s5 );
+T enum e1 
+P s2 static b(void);
+P inline uint4 static ** const ns::inner(volatile union s5 ** const a[const 3]);
+T uint8 (qq[10])
+C extern __cdecl ]bool __stdcall a[0x10](__stdcall enum e2 a, ...)(struct s5 (x), union s4 **, ...);
+T __cdecl uint2 *a[4](float4 bar_1(void), ...)
+C struct s0 { void bar_1[const 3]; struct s0 foo(void); };
+T uint8 
+C extern int1 b[0x10](void);
+T int2 const qq(s5 foo[-1][0])
+C struct s1 { code a[0x10]; uint2 static b(enum e2 * const x[4]); bool const * const *qq[4] : 7; restrict struct s2 ns::inner(...)[4]; };

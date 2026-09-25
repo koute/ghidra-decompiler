@@ -1,0 +1,137 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-and-test-linux:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [test, release]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain
+      run: rustup toolchain install
+    - name: Build and test
+      run: ./ci/jobs/build-and-test.sh ${{ matrix.profile }}
+  build-and-test-macos:
+    runs-on: macos-15
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [test, release]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain
+      run: rustup toolchain install
+    - name: Build and test
+      run: ./ci/jobs/build-and-test.sh ${{ matrix.profile }}
+  build-and-test-windows:
+    runs-on: windows-2025
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: [test, release]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain
+      shell: bash
+      run: rustup toolchain install
+    - name: Build and test
+      shell: bash
+      run: ./ci/jobs/build-and-test.sh ${{ matrix.profile }}
+  check-msrv:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check (minimum supported Rust version)
+      run: ./ci/jobs/check-msrv.sh
+  clippy:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain (base)
+      run: rustup toolchain install
+    - name: Install toolchain (fuzz)
+      run: cd fuzz && rustup toolchain install
+    - name: Run clippy
+      run: ./ci/jobs/clippy.sh
+  rustfmt:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain (base)
+      run: rustup toolchain install
+    - name: Install toolchain (fuzz)
+      run: cd fuzz && rustup toolchain install
+    - name: Run rustfmt
+      run: ./ci/jobs/rustfmt.sh
+  doc:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain
+      run: rustup toolchain install
+    - name: Build documentation
+      run: ./ci/jobs/doc.sh
+  package:
+    runs-on: ubuntu-24.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install toolchain
+      run: rustup toolchain install
+    - name: Package
+      run: ./ci/jobs/package.sh
+  fuzz:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [sleigh, decompile]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install C++ reference dependencies
+      run: sudo apt-get update && sudo apt-get install -y binutils-dev bison flex zlib1g-dev clang
+    - name: Install toolchain (fuzz)
+      run: cd fuzz && rustup toolchain install
+    - name: Install cargo fuzz
+      run: cargo install --locked --version 0.13.1 cargo-fuzz
+    - name: Cache C++ reference
+      uses: actions/cache@v4
+      with:
+        path: reference/ghidra
+        key: reference-${{ hashFiles('tools/build_reference.sh', 'tools/trace/action_trace.patch', 'tools/fuzz/reference_fixes.patch') }}
+    - name: Fuzz
+      run: ./ci/jobs/fuzz.sh ${{ matrix.target }}
+    - name: Upload crash inputs
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: fuzz-artifacts-${{ matrix.target }}
+        path: fuzz/artifacts
+  required-checks:
+    runs-on: ubuntu-latest
+    if: always()
+    needs:
+      - build-and-test-linux
+      - build-and-test-macos
+      - build-and-test-windows
+      - check-msrv
+      - clippy
+      - rustfmt
+      - doc
+      - package
+      - fuzz
+    steps:
+    - name: Fail if any dependency failed or was cancelled
+      if: ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}
+      run: exit 1

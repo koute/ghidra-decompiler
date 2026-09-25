@@ -1,0 +1,2564 @@
+=== function main
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function main
+Function main: 0x100000a0
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+int4 main(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  int4 iVar12;
+  int4 iVar13;
+  int4 iVar14;
+  int4 iVar15;
+  int4 iVar16;
+  int4 iVar17;
+  int4 iVar18;
+  int4 iVar19;
+  int4 iVar20;
+  int4 iVar21;
+  int4 iVar22;
+  int4 iVar23;
+  int4 extraout_r4;
+  int4 extraout_r4_00;
+  int4 extraout_r4_01;
+  int4 extraout_r4_02;
+  int4 extraout_r4_03;
+  uint4 uVar24;
+  int4 iVar25;
+  float8 fVar26;
+  float8 fVar27;
+  float8 fVar28;
+  xunknown1 axStack_148 [32];
+  int4 iStack_128;
+  xunknown1 axStack_124 [36];
+  xunknown1 axStack_100 [16];
+  int4 iStack_f0;
+  xunknown4 xStack_e0;
+  xunknown2 xStack_dc;
+  xunknown1 xStack_da;
+  xunknown4 xStack_d9;
+  xunknown4 xStack_d5;
+  xunknown1 xStack_d1;
+  xunknown4 xStack_d0;
+  xunknown4 xStack_cc;
+  xunknown8 xStack_c8;
+  xunknown4 xStack_c0;
+  xunknown4 xStack_bc;
+  xunknown4 xStack_b8;
+  xunknown4 xStack_b4;
+  xunknown4 xStack_b0;
+  xunknown4 xStack_ac;
+  xunknown4 xStack_a8;
+  xunknown4 xStack_a4;
+  xunknown4 xStack_a0;
+  xunknown4 xStack_9c;
+  xunknown4 xStack_98;
+  xunknown4 xStack_94;
+  xunknown4 xStack_90;
+  xunknown4 xStack_8c;
+  xunknown4 xStack_88;
+  xunknown4 *pxStack_84;
+  xunknown4 xStack_80;
+  xunknown4 xStack_7c;
+  xunknown1 axStack_78 [8];
+  xunknown1 axStack_70 [8];
+  xunknown4 *pxStack_68;
+  int4 *piStack_64;
+  xunknown4 xStack_60;
+  int4 iStack_5c;
+  xunknown4 axStack_58 [6];
+  xunknown4 xStack_40;
+  xunknown4 xStack_3c;
+  xunknown4 xStack_38;
+  xunknown4 xStack_34;
+  int8 iStack_30;
+  xunknown4 axStack_28 [3];
+  
+  iVar1 = sum_array(0x100124c8,8);
+  iVar2 = find_max(0x100124c8,8);
+  bubble_sort(0x100124c8,8);
+  iVar3 = collatz_steps(0x1b);
+  iVar4 = count_bits(0xf0f0);
+  uVar24 = iVar3 + iVar4 + iVar1 + iVar2;
+  iVar1 = switch_dense(uVar24 & 0xf,uVar24);
+  iVar2 = switch_sparse(uVar24);
+  iVar25 = iVar1 + iVar2 + uVar24;
+  weekday_name(iVar25 % 7);
+  iVar1 = my_strlen();
+  make_point(axStack_70,1,2);
+  make_point(axStack_78,4,6);
+  iVar2 = point_distance2(axStack_70,axStack_78);
+  xStack_98 = xRam10002408;
+  xStack_40 = xRam10002408;
+  xStack_94 = xRam1000240c;
+  xStack_3c = xRam1000240c;
+  xStack_8c = xRam10002414;
+  xStack_34 = xRam10002414;
+  xStack_90 = xRam10002410;
+  xStack_38 = xRam10002410;
+  iVar3 = rect_area(&xStack_40);
+  iVar4 = rect_contains(&xStack_98,&iStack_30);
+  pxStack_84 = &xStack_80;
+  xStack_80 = 3;
+  xStack_88 = 4;
+  xStack_7c = 0;
+  iVar5 = list_length(&xStack_88);
+  list_reverse(&xStack_88);
+  iVar6 = list_sum();
+  my_strcpy(0x100124e8,0x10002398);
+  reverse_string(0x100124e8);
+  to_upper(0x100124e8);
+  iVar7 = count_char(0x100124e8,0x4f);
+  iVar8 = my_strcmp(0x100124e8,0x100023a8);
+  iVar9 = parse_decimal(0x100023ac);
+  iVar10 = factorial(6);
+  iVar11 = fibonacci(10);
+  iVar12 = gcd(0x54,0x24);
+  iVar13 = ackermann(2,3);
+  xStack_c0 = xRam10002418;
+  xStack_bc = xRam1000241c;
+  xStack_b8 = xRam10002420;
+  xStack_b4 = xRam10002424;
+  xStack_b0 = xRam10002428;
+  xStack_ac = xRam1000242c;
+  xStack_a8 = xRam10002430;
+  xStack_a4 = xRam10002434;
+  xStack_a0 = xRam10002438;
+  xStack_9c = xRam1000243c;
+  poly_eval(xRam10002378,&xStack_c0,2);
+  iVar14 = float_to_int();
+  fVar26 = (float8)average_float(&xStack_a8,4);
+  iStack_30 = (int8)(int4)fVar26;
+  fVar27 = (float8)dot_product(&xStack_c0,&xStack_c0,3);
+  fVar28 = (float8)clamp_double(xRam10002388,xRam10002358,xRam10002380);
+  iVar15 = float_to_int(fVar27 + fVar28);
+  iVar16 = float_to_bits((float8)fRam10002404);
+  iVar17 = call_varargs();
+  iVar18 = format_hex(0x100124e8,0x100023b4,0xdeadbeef);
+  axStack_58[0] = 0;
+  set_flags(axStack_58,3,5);
+  iVar19 = get_mode(axStack_58);
+  axStack_28[0] = axStack_58[0];
+  iVar20 = pack_flags(axStack_28);
+  mul64(1,3,0,7);
+  add64(0xffffffff,0xfffffffb,0,9);
+  shift64(0x80000000,1,4);
+  iVar21 = compare64(0xffffffff,0xffffffff,0,1);
+  fnv1a64(0x100124e8,8);
+  rotate_left64(0,3,0x3e);
+  xStack_e0 = xRam10002440;
+  xStack_c8 = xRam10002390;
+  xStack_dc = xRam10002444;
+  xStack_da = xRam10002446;
+  xStack_d0 = 7;
+  xStack_cc = 0x27900;
+  xStack_d9 = 0;
+  xStack_d5 = 0;
+  xStack_d1 = 0;
+  copy_record(axStack_100,&xStack_e0);
+  clear_record(&xStack_e0);
+  iVar22 = apply_op(add_ints,3,4);
+  iVar23 = apply_op(sub_ints,9,2);
+  piStack_64 = &iStack_5c;
+  pxStack_68 = &xStack_60;
+  iStack_5c = 1;
+  xStack_60 = 2;
+  iVar3 = iStack_f0 + iVar22 + iVar23 +
+          iVar21 + extraout_r4_02 + extraout_r4_03 +
+          extraout_r4 + extraout_r4_00 + extraout_r4_01 +
+          iVar20 + iVar19 +
+          iVar17 + iVar18 +
+          iVar16 + (int4)fVar26 + iVar14 +
+                   iVar10 + iVar11 + iVar12 + iVar13 +
+                   iVar7 + iVar8 + iVar9 + iVar5 + iVar6 + iVar3 + iVar4 + iVar1 + iVar25 + iVar2 +
+                   iVar15;
+  swap_ptrs(&piStack_64,&pxStack_68);
+  iVar4 = *piStack_64;
+  iVar1 = divide_constants(iVar3,0x1e240);
+  iVar2 = crc8(0x100124e8,10);
+  iVar3 = iVar2 + iVar4 + iVar1 + iVar3;
+  iVar1 = global_counter_bump(iVar3);
+  memcpy(axStack_124,0x10002450,0x24);
+  matrix_multiply(axStack_148,axStack_124);
+  return iVar3 + iVar1 + iStack_128;
+}
+[decomp]> quit
+--- exit 0
+=== function mul64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function mul64
+Function mul64: 0x10000620
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 mul64(uint4 param_1,uint4 param_2,int4 param_3,uint4 param_4)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = param_1 * 0x20000000 + (param_2 >> 3);
+  return CONCAT44(param_2 * param_4 + uVar1,
+                  param_1 * param_4 + param_3 * param_2 +
+                  (int4)((uint8)param_2 * (uint8)param_4 >> 0x20) + (param_1 >> 3) +
+                  (uint4)CARRY4(param_2 * param_4,uVar1));
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function add64
+Function add64: 0x10000660
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 add64(int4 param_1,uint4 param_2,int4 param_3,uint4 param_4)
+
+{
+  return CONCAT44(param_2 + param_4 + 0xdcba9877,
+                  param_1 + param_3 + (uint4)CARRY4(param_2,param_4) + -2 +
+                  (uint4)(0x23456788 < param_2 + param_4));
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function shift64
+Function shift64: 0x10000680
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 shift64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  
+  if ((int4)(param_3 - 0x20) < 0) {
+    uVar2 = param_2 << (param_3 & 0x3f);
+    uVar3 = ((param_2 >> 1) >> (0x1f - param_3 & 0x3f)) + (param_1 << (param_3 & 0x3f));
+  }
+  else {
+    uVar3 = param_2 << (param_3 - 0x20 & 0x3f);
+    uVar2 = 0;
+  }
+  uVar1 = -param_3 & 0x3f;
+  if ((int4)(uVar1 - 0x20) < 0) {
+    return CONCAT44(uVar2 | ((param_1 << 1) << (0x1f - uVar1 & 0x3f)) + (param_2 >> uVar1),
+                    uVar3 | param_1 >> uVar1);
+  }
+  return CONCAT44(uVar2 | param_1 >> (uVar1 - 0x20 & 0x3f),uVar3);
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function compare64
+Function compare64: 0x10000710
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+xunknown4 compare64(int4 param_1,uint4 param_2,int4 param_3,uint4 param_4)
+
+{
+  if ((param_1 < param_3) || ((param_3 == param_1 && (param_2 < param_4)))) {
+    return 0xffffffff;
+  }
+  if ((param_3 < param_1) || ((param_1 == param_3 && (param_4 < param_2)))) {
+    return 1;
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x10000780
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 fnv1a64(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint1 *puVar4;
+  
+  if (param_2 < 1) {
+    return 0x84222325cbf29ce4;
+  }
+  puVar4 = (uint1 *)(param_1 + -1);
+  iVar1 = -0x340d631c;
+  uVar2 = 0x84222325;
+  do {
+    puVar4 = puVar4 + 1;
+    uVar3 = *puVar4 ^ uVar2;
+    uVar2 = uVar3 * 0x1b3;
+    iVar1 = iVar1 * 0x1b3 + uVar3 * 0x100 + (int4)((uint8)uVar3 * 0x1b3 >> 0x20);
+    param_2 = param_2 + -1;
+  } while (param_2 != 0);
+  return CONCAT44(uVar2,iVar1);
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x10000800
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 rotate_left64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  
+  param_3 = param_3 & 0x3f;
+  if ((int4)(param_3 - 0x20) < 0) {
+    uVar2 = param_2 << param_3;
+    uVar3 = ((param_2 >> 1) >> (0x1f - param_3 & 0x3f)) + (param_1 << param_3);
+  }
+  else {
+    uVar3 = param_2 << (param_3 - 0x20 & 0x3f);
+    uVar2 = 0;
+  }
+  uVar1 = -param_3 & 0x3f;
+  if ((int4)(uVar1 - 0x20) < 0) {
+    return CONCAT44(uVar2 | ((param_1 << 1) << (0x1f - uVar1 & 0x3f)) + (param_2 >> uVar1),
+                    uVar3 | param_1 >> uVar1);
+  }
+  return CONCAT44(uVar2 | param_1 >> (uVar1 - 0x20 & 0x3f),uVar3);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function set_flags
+Function set_flags: 0x10000890
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint2 *param_1,int4 param_2,int4 param_3)
+
+{
+  *param_1 = (uint2)(param_2 << 0xc) & 0x7000 | 0x8000 | (uint2)(param_3 << 8) & 0xf00 |
+             (int2)(param_2 + param_3) * 4 & 0xfcU | *param_1 & 3;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function get_mode
+Function get_mode: 0x100008d0
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+uint4 get_mode(uint4 *param_1)
+
+{
+  if ((int4)*param_1 < 0) {
+    return *param_1 >> 0x18 & 0x7f;
+  }
+  return 0xffffffff;
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function pack_flags
+Function pack_flags: 0x10000900
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 *param_1)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = *param_1;
+  return uVar1 >> 0x1b & 0xe | uVar1 >> 10 & 0x3f00 | uVar1 >> 0x1f;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function poly_eval
+Function poly_eval: 0x10000920
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+float8 poly_eval(float8 param_1,int4 param_2,uint4 param_3)
+
+{
+  float8 *pfVar1;
+  float8 *pfVar2;
+  float8 *pfVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  uint4 uVar6;
+  float8 *pfVar7;
+  float8 fVar8;
+  
+  if ((int4)param_3 < 0) {
+    return fRam10002358;
+  }
+  uVar5 = param_3 + 1;
+  uVar4 = uVar5 & 3;
+  pfVar7 = (float8 *)(param_3 * 8 + param_2 + 8);
+  fVar8 = fRam10002358;
+  if (uVar4 != 0) {
+    uVar6 = uVar5;
+    if (uVar4 != 1) {
+      if (uVar4 != 2) {
+        pfVar7 = pfVar7 + -1;
+        fVar8 = param_1 * fRam10002358 + *pfVar7;
+        uVar6 = param_3;
+      }
+      pfVar7 = pfVar7 + -1;
+      uVar6 = uVar6 - 1;
+      fVar8 = param_1 * fVar8 + *pfVar7;
+    }
+    pfVar7 = pfVar7 + -1;
+    fVar8 = param_1 * fVar8 + *pfVar7;
+    if (uVar6 == 1) {
+      return fVar8;
+    }
+  }
+  uVar5 = uVar5 >> 2;
+  do {
+    pfVar1 = pfVar7 + -1;
+    pfVar2 = pfVar7 + -2;
+    pfVar3 = pfVar7 + -3;
+    pfVar7 = pfVar7 + -4;
+    fVar8 = param_1 * (param_1 * (param_1 * (param_1 * fVar8 + *pfVar1) + *pfVar2) + *pfVar3) +
+            *pfVar7;
+    uVar5 = uVar5 - 1;
+  } while (uVar5 != 0);
+  return fVar8;
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function average_float
+Function average_float: 0x100009d0
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float8 average_float(float4 *param_1,uint4 param_2)
+
+{
+  float4 *pfVar1;
+  float4 *pfVar2;
+  float4 *pfVar3;
+  float4 fVar4;
+  uint4 uVar5;
+  float4 *pfVar6;
+  uint4 uVar7;
+  
+  if ((int4)param_2 < 1) {
+    return (float8)fRam10002358;
+  }
+  uVar5 = param_2 & 3;
+  pfVar6 = param_1 + -1;
+  fVar4 = fRam10002358;
+  if (uVar5 != 0) {
+    uVar7 = param_2;
+    if (uVar5 != 1) {
+      if (uVar5 != 2) {
+        fVar4 = fRam10002358 + *param_1;
+        pfVar6 = param_1;
+        uVar7 = param_2 - 1;
+      }
+      pfVar6 = pfVar6 + 1;
+      uVar7 = uVar7 - 1;
+      fVar4 = fVar4 + *pfVar6;
+    }
+    pfVar6 = pfVar6 + 1;
+    fVar4 = fVar4 + *pfVar6;
+    if (uVar7 == 1) goto code_r0x10000a60;
+  }
+  uVar5 = param_2 >> 2;
+  do {
+    pfVar1 = pfVar6 + 1;
+    pfVar2 = pfVar6 + 2;
+    pfVar3 = pfVar6 + 3;
+    pfVar6 = pfVar6 + 4;
+    fVar4 = fVar4 + *pfVar1 + *pfVar2 + *pfVar3 + *pfVar6;
+    uVar5 = uVar5 - 1;
+  } while (uVar5 != 0);
+code_r0x10000a60:
+  return (float8)(fVar4 / (float4)((float8)CONCAT44(0x43300000,param_2 ^ 0x80000000) - fRam10002360)
+                 );
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function float_to_int
+Function float_to_int: 0x10000aa0
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(float8 param_1)
+
+{
+  if (fRam10002358 <= param_1) {
+    return (int4)(param_1 + fRam10002368);
+  }
+  return -(int4)(fRam10002368 - param_1);
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function dot_product
+Function dot_product: 0x10000b00
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+float8 dot_product(float8 *param_1,float8 *param_2,uint4 param_3)
+
+{
+  float8 *pfVar1;
+  float8 *pfVar2;
+  float8 *pfVar3;
+  float8 *pfVar4;
+  float8 fVar5;
+  
+  if ((int4)param_3 < 1) {
+    return fRam10002358;
+  }
+  pfVar3 = param_2 + -1;
+  pfVar4 = param_1 + -1;
+  fVar5 = fRam10002358;
+  if (((param_3 & 1) != 0) &&
+     (fVar5 = *param_1 * *param_2 + fRam10002358, pfVar3 = param_2, pfVar4 = param_1, param_3 == 1))
+  {
+    return fVar5;
+  }
+  param_3 = param_3 >> 1;
+  do {
+    pfVar1 = pfVar4 + 1;
+    pfVar2 = pfVar3 + 1;
+    pfVar4 = pfVar4 + 2;
+    pfVar3 = pfVar3 + 2;
+    fVar5 = *pfVar4 * *pfVar3 + *pfVar1 * *pfVar2 + fVar5;
+    param_3 = param_3 - 1;
+  } while (param_3 != 0);
+  return fVar5;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x10000b90
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+float4 float_to_bits(float8 param_1)
+
+{
+  return (float4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function clamp_double
+Function clamp_double: 0x10000bb0
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+float8 clamp_double(float8 param_1,float8 param_2,float8 param_3)
+
+{
+  if (param_1 < param_2) {
+    return param_2;
+  }
+  if (param_3 < param_1) {
+    return param_3;
+  }
+  return param_1 * fRam10002370;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function sum_array
+Function sum_array: 0x10000c00
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 *param_1,uint4 param_2)
+
+{
+  int4 *piVar1;
+  int4 *piVar2;
+  int4 *piVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 *piVar8;
+  
+  if ((int4)param_2 < 1) {
+    return 0;
+  }
+  uVar5 = param_2 & 3;
+  piVar8 = param_1 + -1;
+  iVar7 = 0;
+  iVar6 = 0;
+  if (uVar5 != 0) {
+    uVar4 = param_2;
+    if (uVar5 != 1) {
+      if (uVar5 != 2) {
+        iVar7 = *param_1;
+        uVar4 = param_2 - 1;
+        piVar8 = param_1;
+      }
+      piVar8 = piVar8 + 1;
+      uVar4 = uVar4 - 1;
+      iVar7 = iVar7 + *piVar8;
+    }
+    piVar8 = piVar8 + 1;
+    iVar7 = iVar7 + *piVar8;
+    if (uVar4 == 1) goto code_r0x10000c88;
+  }
+  param_2 = param_2 >> 2;
+  do {
+    piVar1 = piVar8 + 1;
+    piVar2 = piVar8 + 2;
+    piVar3 = piVar8 + 3;
+    piVar8 = piVar8 + 4;
+    iVar7 = iVar7 + *piVar1 + *piVar3;
+    iVar6 = iVar6 + *piVar2 + *piVar8;
+    param_2 = param_2 - 1;
+  } while (param_2 != 0);
+code_r0x10000c88:
+  return iVar7 + iVar6;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function find_max
+Function find_max: 0x10000ca0
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+void find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  uint4 uVar2;
+  
+  iVar1 = *param_1;
+  if (param_2 < 2) {
+    return;
+  }
+  uVar2 = param_2 - 1;
+  if ((uVar2 & 1) != 0) {
+    param_1 = param_1 + 1;
+    if (iVar1 < *param_1) {
+      iVar1 = *param_1;
+    }
+    if (uVar2 == 1) {
+      return;
+    }
+  }
+  uVar2 = uVar2 >> 1;
+  do {
+    if (iVar1 < param_1[1]) {
+      iVar1 = param_1[1];
+    }
+    if (iVar1 < param_1[2]) {
+      iVar1 = param_1[2];
+    }
+    uVar2 = uVar2 - 1;
+    param_1 = param_1 + 2;
+  } while (uVar2 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x10000d20
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 *param_1,int4 param_2)
+
+{
+  int4 *piVar1;
+  bool bVar2;
+  int4 *piVar3;
+  int4 iVar4;
+  int4 iVar5;
+  
+  if (param_2 < 2) {
+    return;
+  }
+  param_2 = param_2 + -1;
+  while( true ) {
+    bVar2 = false;
+    piVar3 = param_1;
+    iVar5 = param_2;
+    do {
+      iVar4 = *piVar3;
+      piVar1 = piVar3 + 1;
+      if (*piVar1 < iVar4) {
+        *piVar3 = *piVar1;
+        *piVar1 = iVar4;
+        bVar2 = true;
+      }
+      iVar5 = iVar5 + -1;
+      piVar3 = piVar1;
+    } while (iVar5 != 0);
+    if (!bVar2) break;
+    param_2 = param_2 + -1;
+    if (param_2 == 0) {
+      return;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x10000d80
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+void collatz_steps(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  do {
+    if ((param_1 & 1) != 0) {
+      param_1 = param_1 * 3 + 1;
+      iVar1 = iVar1 + 1;
+      if (param_1 < 2) {
+        return;
+      }
+      if (iVar1 == 1000) {
+        return;
+      }
+    }
+    param_1 = param_1 >> 1;
+    iVar1 = iVar1 + 1;
+    if (param_1 < 2) {
+      return;
+    }
+  } while (iVar1 != 1000);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function count_bits
+Function count_bits: 0x10000dd0
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+int4 count_bits(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  if (param_1 == 0) {
+    return iVar1;
+  }
+  do {
+    param_1 = param_1 & param_1 - 1;
+    if (param_1 == 0) {
+      return iVar1 + 1;
+    }
+    iVar1 = iVar1 + 2;
+    param_1 = param_1 & param_1 - 1;
+  } while (param_1 != 0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x10000e10
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int4 param_1,int4 *param_2,int4 param_3)
+
+{
+  int4 *piVar1;
+  int4 *piVar2;
+  int4 *piVar3;
+  int4 *piVar4;
+  
+  piVar4 = (int4 *)(param_1 + -4);
+  do {
+    piVar2 = piVar4;
+    piVar3 = (int4 *)(param_3 + -4);
+    do {
+      piVar1 = piVar3 + 1;
+      piVar2 = piVar2 + 1;
+      *piVar2 = param_2[2] * piVar3[7] + *piVar1 * *param_2 + param_2[1] * piVar3[4];
+      piVar3 = piVar1;
+    } while (piVar1 != (int4 *)(param_3 + 8));
+    piVar4 = piVar4 + 3;
+    param_2 = param_2 + 3;
+  } while ((int4 *)(param_1 + 0x20) != piVar4);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function _start
+Function _start: 0x10000e90
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function memcpy
+Function memcpy: 0x10000ec0
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+void memcpy(xunknown1 *param_1,xunknown1 *param_2,uint4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  
+  if (param_3 == 0) {
+    return;
+  }
+  pxVar1 = param_2 + -1;
+  pxVar2 = param_1 + -1;
+  if (((param_3 & 1) != 0) &&
+     (*param_1 = *param_2, pxVar1 = param_2, pxVar2 = param_1, param_3 == 1)) {
+    return;
+  }
+  param_3 = param_3 >> 1;
+  do {
+    pxVar2[1] = pxVar1[1];
+    pxVar2[2] = pxVar1[2];
+    param_3 = param_3 - 1;
+    pxVar1 = pxVar1 + 2;
+    pxVar2 = pxVar2 + 2;
+  } while (param_3 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function memset
+Function memset: 0x10000f30
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+void memset(xunknown1 *param_1,xunknown1 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  xunknown1 *pxVar3;
+  
+  pxVar3 = param_1 + -1;
+  if (param_3 == 0) {
+    return;
+  }
+  uVar2 = param_3 & 3;
+  if (uVar2 != 0) {
+    uVar1 = param_3;
+    if (uVar2 != 1) {
+      if (uVar2 != 2) {
+        *param_1 = param_2;
+        uVar1 = param_3 - 1;
+        pxVar3 = param_1;
+      }
+      pxVar3 = pxVar3 + 1;
+      *pxVar3 = param_2;
+      uVar1 = uVar1 - 1;
+    }
+    pxVar3 = pxVar3 + 1;
+    *pxVar3 = param_2;
+    if (uVar1 == 1) {
+      return;
+    }
+  }
+  param_3 = param_3 >> 2;
+  do {
+    pxVar3[1] = param_2;
+    pxVar3[2] = param_2;
+    pxVar3[3] = param_2;
+    pxVar3 = pxVar3 + 4;
+    *pxVar3 = param_2;
+    param_3 = param_3 - 1;
+  } while (param_3 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function memmove
+Function memmove: 0x10000fa0
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+void memmove(xunknown1 *param_1,xunknown1 *param_2,uint4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  
+  if (param_2 <= param_1) {
+    param_2 = param_2 + param_3;
+    param_1 = param_1 + param_3;
+    if (param_3 == 0) {
+      return;
+    }
+    if ((param_3 & 1) != 0) {
+      param_2 = param_2 + -1;
+      param_1 = param_1 + -1;
+      *param_1 = *param_2;
+      if (param_3 == 1) {
+        return;
+      }
+    }
+    param_3 = param_3 >> 1;
+    do {
+      param_1[-1] = param_2[-1];
+      param_1[-2] = param_2[-2];
+      param_3 = param_3 - 1;
+      param_2 = param_2 + -2;
+      param_1 = param_1 + -2;
+    } while (param_3 != 0);
+    return;
+  }
+  if (param_3 == 0) {
+    return;
+  }
+  pxVar1 = param_2 + -1;
+  pxVar2 = param_1 + -1;
+  if (((param_3 & 1) != 0) &&
+     (*param_1 = *param_2, pxVar1 = param_2, pxVar2 = param_1, param_3 == 1)) {
+    return;
+  }
+  param_3 = param_3 >> 1;
+  do {
+    pxVar2[1] = pxVar1[1];
+    pxVar2[2] = pxVar1[2];
+    param_3 = param_3 - 1;
+    pxVar1 = pxVar1 + 2;
+    pxVar2 = pxVar2 + 2;
+  } while (param_3 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function memcmp
+Function memcmp: 0x10001080
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+xunknown4 memcmp(uint1 *param_1,uint1 *param_2,uint4 param_3)
+
+{
+  uint1 *puVar1;
+  uint1 *puVar2;
+  uint1 uVar3;
+  uint1 uVar4;
+  
+  if (param_3 != 0) {
+    puVar1 = param_2 + -1;
+    puVar2 = param_1 + -1;
+    if ((param_3 & 1) != 0) {
+      uVar4 = *param_1;
+      uVar3 = *param_2;
+      if (uVar4 != uVar3) {
+code_r0x100010e4:
+        if (uVar4 < uVar3) {
+          return 0xffffffff;
+        }
+        return 1;
+      }
+      puVar1 = param_2;
+      puVar2 = param_1;
+      if (param_1 == param_1 + (param_3 - 1)) {
+        return 0;
+      }
+    }
+    param_3 = param_3 >> 1;
+    do {
+      uVar4 = puVar2[1];
+      uVar3 = puVar1[1];
+      if (uVar4 != uVar3) goto code_r0x100010e4;
+      uVar4 = puVar2[2];
+      uVar3 = puVar1[2];
+      if (uVar4 != uVar3) goto code_r0x100010e4;
+      param_3 = param_3 - 1;
+      puVar1 = puVar1 + 2;
+      puVar2 = puVar2 + 2;
+    } while (param_3 != 0);
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function raise
+Function raise: 0x10001130
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+void raise(void)
+
+{
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function copy_record
+Function copy_record: 0x10001140
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  xunknown4 xVar2;
+  int4 iVar3;
+  xunknown4 xVar4;
+  
+  xVar1 = param_2[1];
+  xVar4 = param_2[2];
+  xVar2 = param_2[3];
+  *param_1 = *param_2;
+  param_1[1] = xVar1;
+  param_1[2] = xVar4;
+  param_1[3] = xVar2;
+  iVar3 = param_2[4];
+  xVar1 = param_2[6];
+  xVar2 = param_2[7];
+  param_1[5] = param_2[5];
+  param_1[4] = iVar3 + 1;
+  param_1[6] = xVar1;
+  param_1[7] = xVar2;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function clear_record
+Function clear_record: 0x10001190
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(xunknown4 *param_1)
+
+{
+  xunknown8 xVar1;
+  
+  xVar1 = xRam10002358;
+  param_1[4] = 0xffffffff;
+  *(xunknown1 *)((int4)param_1 + 0x16) = 0x78;
+  *param_1 = 0;
+  param_1[1] = 0;
+  *(xunknown8 *)(param_1 + 6) = xVar1;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  *(xunknown2 *)(param_1 + 5) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function apply_op
+Function apply_op: 0x100011d0
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function add_ints
+Function add_ints: 0x10001200
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 + param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function sub_ints
+Function sub_ints: 0x10001210
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x10001220
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function divide_constants
+Function divide_constants: 0x10001240
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+int4 divide_constants(int4 param_1,uint4 param_2)
+
+{
+  return param_1 / 7 + param_1 % 10 + param_2 / 3 + param_2 % 1000;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function crc8
+Function crc8: 0x100012b0
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint4 crc8(int4 param_1,int4 param_2)
+
+{
+  uint4 uVar1;
+  uint1 *puVar2;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  puVar2 = (uint1 *)(param_1 + -1);
+  uVar1 = 0;
+  do {
+    puVar2 = puVar2 + 1;
+    uVar1 = uVar1 << 4 ^ (uint4)*(uint1 *)(((*puVar2 ^ uVar1) >> 4 & 0xf) + 0x10002474);
+    uVar1 = uVar1 << 4 ^ (uint4)*(uint1 *)((uVar1 >> 4 & 0xf ^ *puVar2 & 0xf) + 0x10002474);
+    param_2 = param_2 + -1;
+  } while (param_2 != 0);
+  return uVar1 & 0xff;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x10001320
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+int4 global_counter_bump(int4 param_1)
+
+{
+  iRam10012528 = param_1 + iRam10012528;
+  if (1000 < iRam10012528) {
+    iRam10012528 = 0;
+  }
+  return iRam10012528;
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function factorial
+Function factorial: 0x10001350
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(uint4 param_1)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  int4 iVar3;
+  int4 iVar4;
+  uint4 uVar5;
+  int4 iVar6;
+  uint4 uVar7;
+  int4 iVar8;
+  int4 iVar9;
+  
+  uVar5 = 1;
+  if ((int4)param_1 < 2) {
+    return 1;
+  }
+  uVar7 = param_1 - 1;
+  iVar4 = 1;
+  uVar2 = uVar7 & 3;
+  uVar1 = param_1;
+  if (uVar2 != 0) {
+    if (uVar2 != 1) {
+      if (uVar2 != 2) {
+        uVar1 = uVar7;
+        uVar5 = param_1;
+      }
+      uVar5 = uVar5 * uVar1;
+      param_1 = uVar1 - 1;
+    }
+    uVar1 = param_1 - 1;
+    uVar5 = uVar5 * param_1;
+    if (uVar1 == 1) goto code_r0x100013cc;
+  }
+  uVar7 = uVar7 >> 2;
+  do {
+    iVar8 = uVar1 - 1;
+    iVar6 = uVar5 * uVar1;
+    iVar3 = uVar1 - 2;
+    iVar9 = uVar1 - 3;
+    uVar1 = uVar1 - 4;
+    uVar5 = iVar6 * iVar3;
+    iVar4 = iVar4 * iVar8 * iVar9;
+    uVar7 = uVar7 - 1;
+  } while (uVar7 != 0);
+code_r0x100013cc:
+  return uVar5 * iVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function fibonacci
+Function fibonacci: 0x100013f0
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+uint4 fibonacci(uint4 param_1)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  int4 iVar4;
+  uint4 uVar5;
+  uint4 uVar6;
+  uint4 uVar7;
+  int4 iVar8;
+  int4 iVar9;
+  uint4 uVar10;
+  uint4 uVar11;
+  int4 iVar12;
+  uint4 uVar13;
+  int4 iVar14;
+  uint4 uVar15;
+  int4 iVar16;
+  int4 iVar17;
+  uint4 uVar18;
+  int4 iVar19;
+  uint4 uVar20;
+  int4 iVar21;
+  uint4 uVar22;
+  uint4 uVar23;
+  int4 iVar24;
+  int4 iVar25;
+  uint4 uVar26;
+  int4 iVar27;
+  uint4 uVar28;
+  uint4 uVar29;
+  uint4 uVar30;
+  int4 iVar31;
+  int4 iVar32;
+  int4 iVar33;
+  uint4 uVar34;
+  
+  if ((int4)param_1 < 2) {
+    return param_1;
+  }
+  uVar7 = param_1 - 1;
+  uVar10 = uVar7 & 0xfffffffe;
+  iVar33 = 0;
+  uVar2 = param_1;
+  do {
+    if (uVar2 == param_1 - uVar10) {
+      return uVar7 + iVar33;
+    }
+    uVar15 = uVar2 - 2;
+    iVar16 = 0;
+    uVar28 = uVar7 - (uVar15 & 0xfffffffe);
+    do {
+      uVar20 = uVar7 - 1;
+      if (uVar7 == uVar28) {
+        iVar16 = uVar20 + iVar16;
+        goto joined_r0x10001884;
+      }
+      uVar7 = uVar7 - 2;
+      iVar24 = 0;
+      uVar26 = uVar20 - (uVar7 & 0xfffffffe);
+      do {
+        uVar18 = uVar20 - 1;
+        if (uVar26 == uVar20) {
+          iVar24 = uVar18 + iVar24;
+          goto code_r0x100017e4;
+        }
+        uVar20 = uVar20 - 2;
+        iVar21 = 0;
+        uVar22 = uVar18 - (uVar20 & 0xfffffffe);
+        do {
+          uVar29 = uVar18 - 1;
+          if (uVar22 == uVar18) {
+            iVar21 = uVar29 + iVar21;
+            goto code_r0x100017c0;
+          }
+          uVar18 = uVar18 - 2;
+          uVar34 = uVar29 - (uVar18 & 0xfffffffe);
+          iVar19 = 0;
+          do {
+            uVar11 = uVar29 - 1;
+            if (uVar34 == uVar29) {
+              iVar19 = uVar11 + iVar19;
+              goto code_r0x10001710;
+            }
+            uVar29 = uVar29 - 2;
+            iVar17 = 0;
+            uVar5 = uVar11;
+            do {
+              iVar8 = uVar5 - 1;
+              if (uVar5 == uVar11 - (uVar29 & 0xfffffffe)) {
+                iVar17 = iVar8 + iVar17;
+                goto code_r0x100016ec;
+              }
+              uVar30 = uVar5 - 2;
+              uVar5 = uVar5 - 4;
+              iVar12 = 0;
+              iVar9 = iVar8;
+              do {
+                if (iVar9 == iVar8 - (uVar30 & 0xfffffffe)) {
+                  iVar12 = iVar9 + -1 + iVar12;
+                  goto code_r0x1000176c;
+                }
+                iVar14 = iVar9 + -2;
+                uVar23 = iVar9 - 4;
+                iVar25 = 0;
+                iVar32 = iVar14;
+                uVar1 = uVar5;
+                do {
+                  uVar3 = uVar1;
+                  if (iVar32 == 1) {
+                    iVar25 = iVar25 + 1;
+                    goto code_r0x100016ac;
+                  }
+                  uVar1 = uVar23 >> 1;
+                  uVar13 = uVar1 + 1;
+                  iVar27 = 0;
+                  iVar31 = 0;
+                  uVar6 = uVar3;
+                  if ((uVar13 & 1) != 0) {
+                    iVar27 = fibonacci(uVar3);
+                    uVar6 = uVar3 - 2;
+                    uVar13 = uVar1;
+                    goto joined_r0x10001744;
+                  }
+                  do {
+                    iVar4 = fibonacci(uVar6);
+                    iVar27 = iVar27 + iVar4;
+                    iVar4 = fibonacci(uVar6 - 2);
+                    uVar13 = uVar13 - 2;
+                    uVar6 = uVar6 - 4;
+                    iVar31 = iVar31 + iVar4;
+joined_r0x10001744:
+                  } while (uVar13 != 0);
+                  iVar32 = iVar32 + -2;
+                  uVar23 = uVar23 - 2;
+                  iVar25 = iVar25 + uVar1 * -2 + iVar32 + iVar27 + iVar31;
+                  uVar1 = uVar3 - 2;
+                } while ((iVar9 + -5) - (uVar5 & 0xfffffffe) != uVar3 - 2);
+                iVar25 = uVar3 + iVar25;
+code_r0x100016ac:
+                iVar12 = iVar12 + iVar25;
+                uVar5 = uVar5 - 2;
+                iVar9 = iVar14;
+              } while (iVar14 != 1);
+              iVar12 = iVar12 + 1;
+code_r0x1000176c:
+              iVar17 = iVar17 + iVar12;
+              uVar5 = uVar30;
+            } while (uVar30 != 1);
+            iVar17 = iVar17 + 1;
+code_r0x100016ec:
+            iVar19 = iVar19 + iVar17;
+          } while (uVar29 != 1);
+          iVar19 = iVar19 + 1;
+code_r0x10001710:
+          iVar21 = iVar21 + iVar19;
+        } while (uVar18 != 1);
+        iVar21 = iVar21 + 1;
+code_r0x100017c0:
+        iVar24 = iVar24 + iVar21;
+      } while (uVar20 != 1);
+      iVar24 = iVar24 + 1;
+code_r0x100017e4:
+      iVar16 = iVar16 + iVar24;
+    } while (uVar7 != 1);
+    iVar16 = iVar16 + 1;
+joined_r0x10001884:
+    iVar33 = iVar33 + iVar16;
+    if (uVar15 == 1) {
+      return iVar33 + 1;
+    }
+    uVar7 = uVar2 - 3;
+    uVar2 = uVar15;
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function gcd
+Function gcd: 0x10001930
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  
+  if (param_2 == 0) {
+    return param_1;
+  }
+  while (iVar1 = param_1 - (param_1 / param_2) * param_2, iVar1 != 0) {
+    param_1 = param_2;
+    param_2 = iVar1;
+  }
+  return param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function ackermann
+Function ackermann: 0x10001980
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  
+  for (; param_1 != 0; param_1 = param_1 + -1) {
+    if (param_2 == 0) {
+      param_1 = param_1 + -1;
+      param_2 = 1;
+      if (param_1 == 0) break;
+    }
+    param_2 = param_2 + -1;
+    iVar3 = param_1;
+    do {
+      if (param_2 == 0) {
+        iVar3 = iVar3 + -1;
+        param_2 = 1;
+        if (iVar3 == 0) break;
+      }
+      param_2 = param_2 + -1;
+      iVar4 = iVar3;
+      do {
+        if (param_2 == 0) {
+          iVar4 = iVar4 + -1;
+          param_2 = 1;
+          if (iVar4 == 0) break;
+        }
+        param_2 = param_2 + -1;
+        iVar5 = iVar4;
+        do {
+          if (param_2 == 0) {
+            iVar5 = iVar5 + -1;
+            param_2 = 1;
+            if (iVar5 == 0) break;
+          }
+          param_2 = param_2 + -1;
+          iVar6 = iVar5;
+          do {
+            if (param_2 == 0) {
+              iVar6 = iVar6 + -1;
+              param_2 = 1;
+              if (iVar6 == 0) break;
+            }
+            param_2 = param_2 + -1;
+            iVar7 = iVar6;
+            do {
+              if (param_2 == 0) {
+                iVar7 = iVar7 + -1;
+                param_2 = 1;
+                if (iVar7 == 0) break;
+              }
+              param_2 = param_2 + -1;
+              iVar9 = iVar7;
+              do {
+                if (param_2 == 0) {
+                  iVar9 = iVar9 + -1;
+                  param_2 = 1;
+                  if (iVar9 == 0) break;
+                }
+                param_2 = param_2 + -1;
+                iVar11 = iVar9;
+                do {
+                  if (param_2 == 0) {
+                    iVar11 = iVar11 + -1;
+                    param_2 = 1;
+                    if (iVar11 == 0) break;
+                  }
+                  param_2 = param_2 + -1;
+                  iVar2 = iVar11;
+                  iVar10 = iVar11;
+                  do {
+                    iVar1 = iVar2 + -1;
+                    if (param_2 == 0) {
+                      iVar10 = iVar10 + -1;
+                      param_2 = 1;
+                      iVar8 = iVar2 + -2;
+                      iVar2 = iVar1;
+                      iVar1 = iVar8;
+                      if (iVar10 == 0) break;
+                    }
+                    param_2 = ackermann(iVar2,param_2 + -1);
+                    iVar10 = iVar10 + -1;
+                    iVar2 = iVar1;
+                  } while (iVar10 != 0);
+                  iVar11 = iVar11 + -1;
+                  param_2 = param_2 + 1;
+                } while (iVar11 != 0);
+                iVar9 = iVar9 + -1;
+                param_2 = param_2 + 1;
+              } while (iVar9 != 0);
+              iVar7 = iVar7 + -1;
+              param_2 = param_2 + 1;
+            } while (iVar7 != 0);
+            iVar6 = iVar6 + -1;
+            param_2 = param_2 + 1;
+          } while (iVar6 != 0);
+          iVar5 = iVar5 + -1;
+          param_2 = param_2 + 1;
+        } while (iVar5 != 0);
+        iVar4 = iVar4 + -1;
+        param_2 = param_2 + 1;
+      } while (iVar4 != 0);
+      iVar3 = iVar3 + -1;
+      param_2 = param_2 + 1;
+    } while (iVar3 != 0);
+    param_2 = param_2 + 1;
+  }
+  return param_2 + 1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function my_strlen
+Function my_strlen: 0x10001b90
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int4 my_strlen(char *param_1)
+
+{
+  char *pcVar1;
+  
+  if (*param_1 == '\0') {
+    return 0;
+  }
+  pcVar1 = param_1;
+  do {
+    pcVar1 = pcVar1 + 1;
+  } while (*pcVar1 != '\0');
+  return (int4)pcVar1 - (int4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x10001bd0
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  
+  uVar1 = (uint4)*param_1;
+  if (uVar1 == 0) {
+    uVar2 = (uint4)*param_2;
+  }
+  else {
+    while( true ) {
+      uVar2 = (uint4)*param_2;
+      if (uVar2 != uVar1) break;
+      param_1 = param_1 + 1;
+      uVar1 = (uint4)*param_1;
+      if (uVar1 == 0) {
+        return -(uint4)param_2[1];
+      }
+      param_2 = param_2 + 1;
+    }
+  }
+  return uVar1 - uVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x10001c30
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+void my_strcpy(int4 param_1,int4 param_2)
+
+{
+  char cVar1;
+  char *pcVar2;
+  char *pcVar3;
+  
+  pcVar2 = (char *)(param_2 + -1);
+  pcVar3 = (char *)(param_1 + -1);
+  do {
+    cVar1 = pcVar2[1];
+    pcVar3[1] = cVar1;
+    if (cVar1 == '\0') {
+      return;
+    }
+    pcVar2 = pcVar2 + 2;
+    cVar1 = *pcVar2;
+    pcVar3 = pcVar3 + 2;
+    *pcVar3 = cVar1;
+  } while (cVar1 != '\0');
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function reverse_string
+Function reverse_string: 0x10001c70
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(char *param_1)
+
+{
+  char cVar1;
+  char *pcVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  uint4 uVar6;
+  
+  if (*param_1 == '\0') {
+    return;
+  }
+  pcVar2 = param_1;
+  do {
+    pcVar2 = pcVar2 + 1;
+  } while (*pcVar2 != '\0');
+  if ((int4)pcVar2 - (int4)param_1 == 0) {
+    return;
+  }
+  uVar3 = ((int4)pcVar2 - (int4)param_1) - 1;
+  if (uVar3 == 0) {
+    return;
+  }
+  uVar6 = 0;
+  do {
+    cVar1 = param_1[uVar6];
+    param_1[uVar6] = param_1[uVar3];
+    param_1[uVar3] = cVar1;
+    uVar5 = uVar6 + 1;
+    uVar4 = uVar3 - 1;
+    if (uVar4 <= uVar5) {
+      return;
+    }
+    cVar1 = param_1[uVar5];
+    param_1[uVar5] = param_1[uVar4];
+    param_1[uVar4] = cVar1;
+    uVar6 = uVar6 + 2;
+    uVar3 = uVar3 - 2;
+  } while (uVar6 < uVar3);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function count_char
+Function count_char: 0x10001cf0
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(uint1 *param_1,uint4 param_2)
+
+{
+  uint1 *puVar1;
+  int4 iVar2;
+  uint4 uVar3;
+  
+  uVar3 = (uint4)*param_1;
+  iVar2 = 0;
+  if (uVar3 == 0) {
+    return iVar2;
+  }
+  do {
+    puVar1 = param_1 + 1;
+    iVar2 = iVar2 + (uint4)(uVar3 == param_2);
+    if (*puVar1 == 0) {
+      return iVar2;
+    }
+    param_1 = param_1 + 2;
+    uVar3 = (uint4)*param_1;
+    iVar2 = iVar2 + (uint4)(*puVar1 == param_2);
+  } while (uVar3 != 0);
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x10001d50
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+int4 parse_decimal(uint1 *param_1)
+
+{
+  uint1 uVar1;
+  int4 iVar2;
+  uint4 uVar3;
+  int4 iVar4;
+  
+  uVar1 = *param_1;
+  iVar2 = 1;
+  if (uVar1 == 0x2d) {
+    uVar1 = param_1[1];
+    iVar2 = -1;
+    param_1 = param_1 + 1;
+  }
+  uVar3 = (uint4)uVar1;
+  iVar4 = 0;
+  if (9 < (uVar3 - 0x30 & 0xff)) {
+    return 0;
+  }
+  do {
+    param_1 = param_1 + 1;
+    iVar4 = (uVar3 - 0x30) + iVar4 * 10;
+    uVar3 = (uint4)*param_1;
+  } while ((*param_1 - 0x30 & 0xff) < 10);
+  return iVar4 * iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function to_upper
+Function to_upper: 0x10001dd0
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(char *param_1)
+
+{
+  char cVar1;
+  
+  cVar1 = *param_1;
+  if (cVar1 == '\0') {
+    return;
+  }
+  do {
+    if ((uint1)(cVar1 + 0x9fU) < 0x1a) {
+      *param_1 = cVar1 + -0x20;
+    }
+    param_1 = param_1 + 1;
+    cVar1 = *param_1;
+  } while (cVar1 != '\0');
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function point_distance2
+Function point_distance2: 0x10001e20
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(int4 *param_1,int4 *param_2)
+
+{
+  return (*param_1 - *param_2) * (*param_1 - *param_2) +
+         (param_1[1] - param_2[1]) * (param_1[1] - param_2[1]);
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function make_point
+Function make_point: 0x10001e50
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+void make_point(xunknown4 *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  *param_1 = param_2;
+  param_1[1] = param_3;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function rect_area
+Function rect_area: 0x10001e60
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(int4 param_1)
+
+{
+  return *(int4 *)(param_1 + 8) * *(int4 *)(param_1 + 0xc);
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function rect_contains
+Function rect_contains: 0x10001e70
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+uint4 rect_contains(int4 *param_1,int4 *param_2)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  
+  uVar2 = param_2[1];
+  if (*param_2 < *param_1) {
+    return 0;
+  }
+  if ((int4)uVar2 < param_1[1]) {
+    return 0;
+  }
+  if (*param_2 < *param_1 + param_1[2]) {
+    uVar1 = param_1[1] + param_1[3];
+    return (((int4)uVar2 >> 0x1f) - ((int4)uVar1 >> 0x1f)) + (uint4)(uVar1 <= uVar2) ^ 1;
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function list_length
+Function list_length: 0x10001ee0
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  if (param_1 == 0) {
+    return iVar1;
+  }
+  do {
+    if (*(int4 *)(param_1 + 4) == 0) {
+      return iVar1 + 1;
+    }
+    param_1 = *(int4 *)(*(int4 *)(param_1 + 4) + 4);
+    iVar1 = iVar1 + 2;
+  } while (param_1 != 0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function list_sum
+Function list_sum: 0x10001f20
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 iVar1;
+  int4 *piVar2;
+  int4 iVar3;
+  
+  iVar1 = 0;
+  if (param_1 == (int4 *)0x0) {
+    return iVar1;
+  }
+  do {
+    iVar3 = *param_1;
+    piVar2 = (int4 *)param_1[1];
+    if (piVar2 == (int4 *)0x0) {
+      return iVar1 + iVar3;
+    }
+    param_1 = (int4 *)piVar2[1];
+    iVar1 = iVar1 + iVar3 + *piVar2;
+  } while (param_1 != (int4 *)0x0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function list_reverse
+Function list_reverse: 0x10001f60
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+void list_reverse(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  if (param_1 == 0) {
+    return;
+  }
+  iVar1 = *(int4 *)(param_1 + 4);
+  *(xunknown4 *)(param_1 + 4) = 0;
+  if (iVar1 == 0) {
+    return;
+  }
+  do {
+    iVar2 = iVar1;
+    iVar1 = *(int4 *)(iVar2 + 4);
+    *(int4 *)(iVar2 + 4) = param_1;
+    param_1 = iVar2;
+  } while (iVar1 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function switch_dense
+Function switch_dense: 0x10001fa0
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Removing unreachable block (ram,0x10001938) */
+
+uint4 switch_dense(xunknown4 param_1,uint4 param_2)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  int4 iVar3;
+  int4 iVar4;
+  uint4 uVar5;
+  int4 iVar6;
+  uint4 uVar7;
+  int4 iVar8;
+  int4 iVar9;
+  
+  switch(param_1) {
+  case 0:
+    return param_2 + 0x11;
+  case 1:
+    return param_2 * 0x1f + 4;
+  case 2:
+    return (int4)param_2 / 3;
+  case 3:
+    return param_2 << 5;
+  case 4:
+    uVar5 = 0x4d2;
+    while (uVar7 = param_2 - ((int4)param_2 / (int4)uVar5) * uVar5, uVar7 != 0) {
+      param_2 = uVar5;
+      uVar5 = uVar7;
+    }
+    return uVar5;
+  case 5:
+    return -param_2;
+  case 6:
+    return param_2 ^ 0x55;
+  case 7:
+    uVar5 = 0;
+    if (param_2 == 0) {
+      return uVar5;
+    }
+    do {
+      param_2 = param_2 & param_2 - 1;
+      if (param_2 == 0) {
+        return uVar5 + 1;
+      }
+      uVar5 = uVar5 + 2;
+      param_2 = param_2 & param_2 - 1;
+    } while (param_2 != 0);
+    return uVar5;
+  case 8:
+    return param_2 - 100;
+  case 9:
+    break;
+  default:
+    return 0xffffffff;
+  }
+  param_2 = param_2 & 7;
+  uVar5 = 1;
+  if (param_2 < 2) {
+    return 1;
+  }
+  uVar7 = param_2 - 1;
+  iVar4 = 1;
+  uVar2 = uVar7 & 3;
+  uVar1 = param_2;
+  if (uVar2 != 0) {
+    if (uVar2 != 1) {
+      if (uVar2 != 2) {
+        uVar1 = uVar7;
+        uVar5 = param_2;
+      }
+      uVar5 = uVar5 * uVar1;
+      param_2 = uVar1 - 1;
+    }
+    uVar1 = param_2 - 1;
+    uVar5 = uVar5 * param_2;
+    if (uVar1 == 1) goto code_r0x100013cc;
+  }
+  uVar7 = uVar7 >> 2;
+  do {
+    iVar8 = uVar1 - 1;
+    iVar6 = uVar5 * uVar1;
+    iVar3 = uVar1 - 2;
+    iVar9 = uVar1 - 3;
+    uVar1 = uVar1 - 4;
+    uVar5 = iVar6 * iVar3;
+    iVar4 = iVar4 * iVar8 * iVar9;
+    uVar7 = uVar7 - 1;
+  } while (uVar7 != 0);
+code_r0x100013cc:
+  return uVar5 * iVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x10002080
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_sparse(int4 param_1)
+
+{
+  if (param_1 == 1000) {
+    return 3;
+  }
+  if (1000 < param_1) {
+    if (param_1 == 0x1000) {
+      return 4;
+    }
+    if (param_1 == 0x12fd1) {
+      return 6;
+    }
+    return 0;
+  }
+  if (param_1 == 3) {
+    return 1;
+  }
+  if (param_1 == 100) {
+    return 2;
+  }
+  if (param_1 == -0x32) {
+    return 5;
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function weekday_name
+Function weekday_name: 0x10002100
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+xunknown4 weekday_name(uint4 param_1)
+
+{
+  if (param_1 < 7) {
+    return *(xunknown4 *)(param_1 * 4 + 0x100024ac);
+  }
+  return 0x100023b8;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x10002140
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1,xunknown4 param_2,xunknown4 param_3,xunknown4 param_4,
+                xunknown4 param_5,xunknown4 param_6,xunknown4 param_7,xunknown4 param_8)
+
+{
+  bool bVar1;
+  int4 *piVar2;
+  int4 iVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  int4 iVar6;
+  int4 aiStack_28 [4];
+  xunknown4 xStack_18;
+  xunknown4 xStack_14;
+  xunknown4 xStack_10;
+  xunknown4 xStack_c;
+  
+  aiStack_28[1] = param_2;
+  aiStack_28[2] = param_3;
+  aiStack_28[3] = param_4;
+  xStack_18 = param_5;
+  xStack_14 = param_6;
+  xStack_10 = param_7;
+  xStack_c = param_8;
+  if (param_1 < 1) {
+    return 0;
+  }
+  uVar4 = 1;
+  iVar3 = 0;
+  iVar6 = param_1;
+  do {
+    uVar5 = uVar4 & 0xff;
+    uVar4 = uVar4 + 1;
+    piVar2 = (int4 *)register0x00000004;
+    if (7 < uVar5) {
+      do {
+        bVar1 = param_1 == 1;
+        param_1 = param_1 + -2;
+        iVar3 = iVar3 + piVar2[2];
+        if (bVar1) {
+          return iVar3;
+        }
+        iVar3 = iVar3 + piVar2[3];
+        piVar2 = piVar2 + 2;
+      } while (param_1 != 0);
+      return iVar3;
+    }
+    param_1 = param_1 + -1;
+    iVar3 = iVar3 + aiStack_28[uVar5];
+    iVar6 = iVar6 + -1;
+  } while (iVar6 != 0);
+  return iVar3;
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function call_varargs
+Function call_varargs: 0x10002200
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5);
+  return iVar1 + iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-PowerPC:BE:32:default:default ppc-O2
+ppc-O2 successfully loaded: PowerPC 32-bit big endian w/Altivec, G2
+[decomp]> read symbols
+[decomp]> load function format_hex
+Function format_hex: 0x10002270
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Removing unreachable block (ram,0x10002350) */
+/* WARNING: Heritage AFTER dead removal. Example location: s0xfffffff8 : 0x100022f0 */
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+
+void format_hex(int4 param_1,char *param_2)
+
+{
+  char cVar1;
+  int4 iVar2;
+  uint4 uVar3;
+  char *pcVar4;
+  char cVar5;
+  uint4 uVar6;
+  int4 iVar7;
+  uint4 uStack_8;
+  
+  iVar2 = 0;
+  cVar1 = *param_2;
+  while (cVar1 != '\0') {
+    iVar2 = iVar2 + 1;
+    *(char *)(param_1 + -1 + iVar2) = cVar1;
+    cVar1 = param_2[iVar2];
+  }
+  pcVar4 = (char *)(param_1 + -1 + iVar2);
+  uVar3 = 0x1c;
+  iVar7 = 8;
+  do {
+    uVar6 = uStack_8 >> (uVar3 & 0x3f) & 0xf;
+    cVar1 = (char)uVar6;
+    cVar5 = cVar1 + '0';
+    if (9 < uVar6) {
+      cVar5 = cVar1 + 'W';
+    }
+    pcVar4 = pcVar4 + 1;
+    *pcVar4 = cVar5;
+    uVar3 = uVar3 - 4;
+    iVar7 = iVar7 + -1;
+  } while (iVar7 != 0);
+  *(xunknown1 *)(param_1 + iVar2 + 8) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0

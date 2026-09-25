@@ -1,0 +1,168 @@
+diff --git a/Ghidra/Features/Decompiler/src/decompile/cpp/action.cc b/Ghidra/Features/Decompiler/src/decompile/cpp/action.cc
+index 0ac689536e..2303d675b9 100644
+--- a/Ghidra/Features/Decompiler/src/decompile/cpp/action.cc
++++ b/Ghidra/Features/Decompiler/src/decompile/cpp/action.cc
+@@ -13,6 +13,7 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
++#include <iostream>
+ #include "action.hh"
+ #include "funcdata.hh"
+ 
+@@ -93,7 +94,7 @@ bool Action::turnOffDebug(const string &nm)
+ void Action::printStatistics(ostream &s) const
+ 
+ {
+-  s << name << dec << " Tested=" << count_tests << " Applied=" << count_apply << endl;
++  s << name << dec << " Tested=" << count_tests << " Applied=" << count_apply << std::endl;
+ }
+ 
+ /// \param data is the new function \b this Action may affect
+@@ -295,6 +296,26 @@ Rule *Action::getSubRule(const string &specify)
+ /// A successive call to perform() will "continue" from the break point.
+ /// \param data is the function being acted on
+ /// \return the number of changes or -1
++static bool actionTraceEnabled(void)
++{
++  static int4 state = -1;
++  if (state < 0) state = (getenv("GHIDRA_ACTION_TRACE") != (char *)0) ? 1 : 0;
++  return state == 1;
++}
++
++static void actionTraceDump(Funcdata &data)
++{
++  if (getenv("GHIDRA_ACTION_TRACE_DUMP") == (char *)0) return;
++  list<PcodeOp *>::const_iterator iter;
++  for(iter=data.beginOpAlive();iter!=data.endOpAlive();++iter) {
++    PcodeOp *op = *iter;
++    ostringstream s;
++    s << hex << op->getAddr().getOffset() << ':' << dec << op->getTime() << ' ';
++    op->printRaw(s);
++    std::cerr << "  " << s.str() << std::endl;
++  }
++}
++
+ int4 Action::perform(Funcdata &data)
+ 
+ {
+@@ -325,6 +346,10 @@ int4 Action::perform(Funcdata &data)
+ 	return res;
+       }
+       else if (lcount < count) { // Action has been applied
++	if (actionTraceEnabled()) {
++	  std::cerr << "A " << getName() << ' ' << (count - lcount) << std::endl;
++	  actionTraceDump(data);
++	}
+ 	issueWarning(data.getArch());
+ 	count_apply += 1;
+ 	if (checkActionBreak()) {
+@@ -431,12 +456,12 @@ int4 ActionGroup::print(ostream &s,int4 num,int4 depth) const
+   vector<Action *>::const_iterator titer;
+ 
+   num = Action::print(s,num,depth);
+-  s << endl;
++  s << std::endl;
+   for(titer=list.begin();titer!=list.end();++titer) {
+     num = (*titer)->print(s,num,depth+1);
+     if (state == titer)
+       s << "  <-- ";
+-    s << endl;
++    s << std::endl;
+   }
+   return num;
+ }
+@@ -697,7 +722,7 @@ bool Rule::turnOffDebug(const string &nm)
+ void Rule::printStatistics(ostream &s) const
+ 
+ {
+-  s << name << dec << " Tested=" << count_tests << " Applied=" << count_apply << endl;
++  s << name << dec << " Tested=" << count_tests << " Applied=" << count_apply << std::endl;
+ }
+ 
+ /// This method is called every time the Rule successfully applies. If it returns
+@@ -746,7 +771,7 @@ int4 ActionPool::print(ostream &s,int4 num,int4 depth) const
+   int4 i;
+ 
+   num = Action::print(s,num,depth);
+-  s << endl;
++  s << std::endl;
+   depth += 1;
+   for(iter=allrules.begin();iter!=allrules.end();++iter) {
+     rl = *iter;
+@@ -756,7 +781,7 @@ int4 ActionPool::print(ostream &s,int4 num,int4 depth) const
+     for(i=0;i<depth*5+2;++i)
+       s << ' ';
+     s << rl->getName();
+-    s << endl;
++    s << std::endl;
+     num += 1;
+   }
+   return num;
+@@ -833,6 +858,10 @@ int4 ActionPool::processOp(PcodeOp *op,Funcdata &data)
+     data.debugModPrint(rl->getName());
+ #endif
+     if (res>0) {
++      if (actionTraceEnabled()) {
++	std::cerr << "R " << rl->getName() << ' ' << hex << op->getAddr().getOffset() << ':' << dec << op->getTime() << std::endl;
++	actionTraceDump(data);
++      }
+       rl->count_apply += 1;
+       count += res;
+       rl->issueWarning(data.getArch()); // Check if we need to issue a warning
+diff --git a/Ghidra/Features/Decompiler/src/decompile/cpp/op.cc b/Ghidra/Features/Decompiler/src/decompile/cpp/op.cc
+index 55de3ff93b..f37b78b94e 100644
+--- a/Ghidra/Features/Decompiler/src/decompile/cpp/op.cc
++++ b/Ghidra/Features/Decompiler/src/decompile/cpp/op.cc
+@@ -14,6 +14,7 @@
+  * limitations under the License.
+  */
+ #include "op.hh"
++#include <iostream>
+ #include "funcdata.hh"
+ 
+ namespace ghidra {
+@@ -980,10 +981,19 @@ void PcodeOpBank::clearCodeLists(void)
+ /// \param inputs is the number of input slots
+ /// \param pc is the Address to associate with the PcodeOp
+ /// \return the newly allocated PcodeOp
++static bool opTraceEnabled(void)
++{
++  static int4 state = -1;
++  if (state < 0) state = (getenv("GHIDRA_OP_TRACE") != (char *)0) ? 1 : 0;
++  return state == 1;
++}
++
+ PcodeOp *PcodeOpBank::create(int4 inputs,const Address &pc)
+ 
+ {
+   PcodeOp *op = new PcodeOp(inputs,SeqNum(pc,uniqid++));
++  if (opTraceEnabled())
++    std::cerr << "O " << std::hex << pc.getOffset() << ':' << std::dec << op->getTime() << std::endl;
+   optree[op->getSeqNum()] = op;
+   op->setFlag(PcodeOp::dead);		// Start out life as dead
+   op->insertiter = deadlist.insert(deadlist.end(),op);
+@@ -1020,6 +1030,8 @@ PcodeOp *PcodeOpBank::createIndirect(int4 inputs,const Address &addr)
+ 
+ {
+   PcodeOp *op = new PcodeOp(2,SeqNum(addr,uniqid++));
++  if (opTraceEnabled())
++    std::cerr << "O " << std::hex << addr.getOffset() << ':' << std::dec << op->getTime() << " indirect" << std::endl;
+   alttree[op->getSeqNum()] = op;
+   op->setFlag(PcodeOp::dead);		// Start out life as dead
+   op->insertiter = deadlist.insert(deadlist.end(),op);
+diff --git a/Ghidra/Features/Decompiler/src/decompile/cpp/testfunction.cc b/Ghidra/Features/Decompiler/src/decompile/cpp/testfunction.cc
+index 6b5b716500..42f1645d3c 100644
+--- a/Ghidra/Features/Decompiler/src/decompile/cpp/testfunction.cc
++++ b/Ghidra/Features/Decompiler/src/decompile/cpp/testfunction.cc
+@@ -328,6 +328,10 @@ void FunctionTestCollection::runTests(list<string> &lateStream)
+     return;
+   }
+   string result = bulkout.str();
++  if (getenv("GHIDRA_TEST_OUTPUT") != (char *)0) {
++    std::ofstream dump(getenv("GHIDRA_TEST_OUTPUT"), std::ios::app);
++    dump << "===\n" << result;
++  }
+   if (result.size() == 0) {
+     ostringstream fs;
+     fs << "No output for " << fileName;

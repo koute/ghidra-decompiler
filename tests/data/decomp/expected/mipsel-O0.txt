@@ -1,0 +1,1883 @@
+=== function mul64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function mul64
+Function mul64: 0x00020250
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+void mul64(void)
+
+{
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function add64
+Function add64: 0x000202f4
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+void add64(void)
+
+{
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function shift64
+Function shift64: 0x00020364
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 shift64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  
+  uVar2 = param_1 << (param_3 & 0x1f);
+  uVar3 = uVar2;
+  uVar1 = param_2 << (param_3 & 0x1f) | (param_1 >> 1) >> ((param_3 ^ 0x1f) & 0x1f);
+  if ((param_3 & 0x20) != 0) {
+    uVar3 = 0;
+    uVar1 = uVar2;
+  }
+  param_3 = 0x40 - param_3;
+  uVar4 = param_2 >> (param_3 & 0x1f);
+  uVar5 = uVar4;
+  uVar2 = (param_2 << 1) << ((param_3 ^ 0x1f) & 0x1f) | param_1 >> (param_3 & 0x1f);
+  if ((param_3 & 0x20) != 0) {
+    uVar5 = 0;
+    uVar2 = uVar4;
+  }
+  return CONCAT44(uVar1 | uVar5,uVar3 | uVar2);
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function compare64
+Function compare64: 0x00020400
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+xunknown4 compare64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  bool bVar1;
+  xunknown4 xStack_c;
+  
+  bVar1 = param_2 < param_4;
+  if (param_2 == param_4) {
+    bVar1 = param_1 < param_3;
+  }
+  if (bVar1) {
+    xStack_c = 0xffffffff;
+  }
+  else {
+    bVar1 = param_4 < param_2;
+    if (param_2 == param_4) {
+      bVar1 = param_3 < param_1;
+    }
+    if (bVar1) {
+      xStack_c = 1;
+    }
+    else {
+      xStack_c = 0;
+    }
+  }
+  return xStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x000204d8
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 fnv1a64(int4 param_1,int4 param_2)
+
+{
+  int8 iVar1;
+  uint4 uVar2;
+  int4 iStack_1c;
+  uint4 uStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = -0x340d631c;
+  uStack_18 = 0x84222325;
+  for (iStack_1c = 0; iStack_1c < param_2; iStack_1c = iStack_1c + 1) {
+    uVar2 = uStack_18 ^ *(uint1 *)(param_1 + iStack_1c);
+    iVar1 = (uint8)uVar2 * 0x1b3;
+    uStack_18 = (uint4)iVar1;
+    iStack_14 = (int4)((uint8)iVar1 >> 0x20) + uVar2 * 0x100 + iStack_14 * 0x1b3;
+  }
+  return CONCAT44(iStack_14,uStack_18);
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x000205dc
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 rotate_left64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  uint4 uStack_10;
+  uint4 uStack_c;
+  
+  uVar1 = param_3 & 0x3f;
+  if (uVar1 == 0) {
+    uStack_10 = param_1;
+    uStack_c = param_2;
+  }
+  else {
+    uVar2 = param_1 << (param_3 & 0x1f);
+    uStack_10 = uVar2;
+    uStack_c = param_2 << (param_3 & 0x1f) | (param_1 >> 1) >> ((uVar1 ^ 0x1f) & 0x1f);
+    if ((param_3 & 0x20) != 0) {
+      uStack_10 = 0;
+      uStack_c = uVar2;
+    }
+    uVar1 = 0x40 - uVar1;
+    uVar3 = param_2 >> (uVar1 & 0x1f);
+    uVar4 = uVar3;
+    uVar2 = (param_2 << 1) << ((uVar1 ^ 0x1f) & 0x1f) | param_1 >> (uVar1 & 0x1f);
+    if ((uVar1 & 0x20) != 0) {
+      uVar4 = 0;
+      uVar2 = uVar3;
+    }
+    uStack_c = uStack_c | uVar4;
+    uStack_10 = uStack_10 | uVar2;
+  }
+  return CONCAT44(uStack_c,uStack_10);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function set_flags
+Function set_flags: 0x000206d0
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint4 *param_1,uint4 param_2,uint4 param_3)
+
+{
+  *param_1 = *param_1 | 1;
+  *param_1 = *param_1 & 0xfffffff1 | (param_2 & 7) << 1;
+  *param_1 = *param_1 & 0xffffff0f | (param_3 & 0xf) << 4;
+  *param_1 = *param_1 & 0xffffc0ff | (param_2 + param_3 & 0x3f) << 8;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function get_mode
+Function get_mode: 0x00020788
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+uint4 get_mode(uint4 *param_1)
+
+{
+  uint4 uStack_c;
+  
+  if ((*param_1 & 1) == 0) {
+    uStack_c = 0xffffffff;
+  }
+  else {
+    uStack_c = (*param_1 & 0xe) << 3 | (*param_1 & 0xff) >> 4;
+  }
+  return uStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function pack_flags
+Function pack_flags: 0x00020808
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 param_1)
+
+{
+  return param_1 & 0x3f0f;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function poly_eval
+Function poly_eval: 0x00020840
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+float8 poly_eval(int4 param_1,int4 param_2,xunknown4 param_3,xunknown4 param_4)
+
+{
+  int4 iStack_24;
+  float8 fStack_20;
+  
+  fStack_20 = 0.0;
+  for (iStack_24 = param_2; -1 < iStack_24; iStack_24 = iStack_24 + -1) {
+    fStack_20 = fStack_20 * (float8)CONCAT44(param_4,param_3) + *(float8 *)(param_1 + iStack_24 * 8)
+    ;
+  }
+  return fStack_20;
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function average_float
+Function average_float: 0x000208f4
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float4 average_float(int4 param_1,int4 param_2)
+
+{
+  float4 fStack_1c;
+  int4 iStack_18;
+  float4 fStack_14;
+  
+  fStack_14 = 0.0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    fStack_14 = fStack_14 + *(float4 *)(param_1 + iStack_18 * 4);
+  }
+  if (param_2 < 1) {
+    fStack_1c = 0.0;
+  }
+  else {
+    fStack_1c = fStack_14 / (float4)param_2;
+  }
+  return fStack_1c;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function float_to_int
+Function float_to_int: 0x000209d0
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(float8 param_1)
+
+{
+  int4 unaff_gp;
+  int4 iStack_c;
+  
+  if (param_1 < 0.0) {
+    iStack_c = -(int4)(*(float8 *)(unaff_gp + -0x7fe8) - param_1);
+  }
+  else {
+    iStack_c = (int4)(param_1 + *(float8 *)(unaff_gp + -0x7fe8));
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function dot_product
+Function dot_product: 0x00020a68
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+float8 dot_product(int4 param_1,int4 param_2,int4 param_3)
+
+{
+  int4 iStack_24;
+  float8 fStack_20;
+  
+  fStack_20 = 0.0;
+  for (iStack_24 = 0; iStack_24 < param_3; iStack_24 = iStack_24 + 1) {
+    fStack_20 = *(float8 *)(param_1 + iStack_24 * 8) * *(float8 *)(param_2 + iStack_24 * 8) +
+                fStack_20;
+  }
+  return fStack_20;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x00020b1c
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+xunknown4 float_to_bits(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function clamp_double
+Function clamp_double: 0x00020b54
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+float8 clamp_double(float8 param_1,float8 param_2)
+
+{
+  int4 unaff_gp;
+  float8 in_stack_00000010;
+  float8 fStack_10;
+  
+  if (param_1 < param_2) {
+    fStack_10 = param_2;
+  }
+  else if (in_stack_00000010 < param_1) {
+    fStack_10 = in_stack_00000010;
+  }
+  else {
+    fStack_10 = param_1 * *(float8 *)(unaff_gp + -0x7fe0);
+  }
+  return fStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function sum_array
+Function sum_array: 0x00020c00
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 param_1,int4 param_2)
+
+{
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    iStack_14 = iStack_14 + *(int4 *)(param_1 + iStack_18 * 4);
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function find_max
+Function find_max: 0x00020c9c
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+int4 find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = *param_1;
+  for (iStack_18 = 1; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    if (iStack_14 < param_1[iStack_18]) {
+      iStack_14 = param_1[iStack_18];
+    }
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x00020d70
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 param_1,int4 param_2)
+
+{
+  bool bVar1;
+  int4 *piVar2;
+  xunknown4 xVar3;
+  xunknown4 *pxVar4;
+  int4 iStack_1c;
+  uint4 uStack_14;
+  
+  uStack_14 = 0;
+  while( true ) {
+    if (param_2 + -1 <= (int4)uStack_14) {
+      return;
+    }
+    bVar1 = false;
+    for (iStack_1c = 0; iStack_1c < (int4)(~uStack_14 + param_2); iStack_1c = iStack_1c + 1) {
+      piVar2 = (int4 *)(param_1 + iStack_1c * 4);
+      if (piVar2[1] < *piVar2) {
+        xVar3 = *(xunknown4 *)(param_1 + iStack_1c * 4);
+        pxVar4 = (xunknown4 *)(param_1 + iStack_1c * 4);
+        *pxVar4 = pxVar4[1];
+        *(xunknown4 *)(iStack_1c * 4 + param_1 + 4) = xVar3;
+        bVar1 = true;
+      }
+    }
+    if (!bVar1) break;
+    uStack_14 = uStack_14 + 1;
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x00020edc
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+int4 collatz_steps(uint4 param_1)
+
+{
+  uint4 uStack_14;
+  int4 iStack_10;
+  
+  iStack_10 = 0;
+  uStack_14 = param_1;
+  do {
+    if ((uStack_14 & 1) == 0) {
+      uStack_14 = uStack_14 >> 1;
+    }
+    else {
+      uStack_14 = uStack_14 * 3 + 1;
+    }
+    iStack_10 = iStack_10 + 1;
+  } while (1 < uStack_14 && iStack_10 < 1000);
+  return iStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function count_bits
+Function count_bits: 0x00020fc8
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+int4 count_bits(uint4 param_1)
+
+{
+  int4 iStack_10;
+  uint4 uStack_c;
+  
+  iStack_10 = 0;
+  for (uStack_c = param_1; uStack_c != 0; uStack_c = uStack_c & uStack_c - 1) {
+    iStack_10 = iStack_10 + 1;
+  }
+  return iStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x0002103c
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int4 param_1,int4 param_2,int4 param_3)
+
+{
+  int4 iStack_24;
+  int4 iStack_20;
+  int4 iStack_1c;
+  int4 iStack_18;
+  
+  for (iStack_18 = 0; iStack_18 < 3; iStack_18 = iStack_18 + 1) {
+    for (iStack_1c = 0; iStack_1c < 3; iStack_1c = iStack_1c + 1) {
+      iStack_20 = 0;
+      for (iStack_24 = 0; iStack_24 < 3; iStack_24 = iStack_24 + 1) {
+        iStack_20 = iStack_20 +
+                    *(int4 *)(param_2 + iStack_18 * 0xc + iStack_24 * 4) *
+                    *(int4 *)(param_3 + iStack_24 * 0xc + iStack_1c * 4);
+      }
+      *(int4 *)(param_1 + iStack_18 * 0xc + iStack_1c * 4) = iStack_20;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function main
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function main
+Function main: 0x000211c0
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+int4 main(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  xunknown4 xVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 unaff_gp;
+  xunknown8 xVar6;
+  float8 fVar7;
+  float8 fVar8;
+  xunknown1 axStack_108 [32];
+  int4 iStack_e8;
+  xunknown4 xStack_e4;
+  xunknown4 xStack_e0;
+  xunknown4 xStack_dc;
+  xunknown4 xStack_d8;
+  xunknown4 xStack_d4;
+  xunknown4 xStack_d0;
+  xunknown4 xStack_cc;
+  xunknown4 xStack_c8;
+  xunknown4 xStack_c4;
+  xunknown4 *pxStack_c0;
+  int4 *piStack_bc;
+  xunknown4 xStack_b8;
+  int4 iStack_b4;
+  xunknown1 axStack_b0 [16];
+  int4 iStack_a0;
+  xunknown4 xStack_90;
+  xunknown4 xStack_8c;
+  xunknown4 xStack_88;
+  xunknown4 xStack_84;
+  xunknown4 xStack_80;
+  xunknown4 xStack_7c;
+  xunknown4 xStack_78;
+  xunknown4 xStack_74;
+  xunknown4 xStack_6c;
+  xunknown4 xStack_68;
+  xunknown4 xStack_64;
+  xunknown4 xStack_60;
+  xunknown4 xStack_5c;
+  xunknown4 xStack_58;
+  xunknown4 xStack_54;
+  xunknown4 xStack_50;
+  xunknown4 xStack_4c;
+  xunknown4 xStack_48;
+  xunknown4 xStack_44;
+  xunknown4 xStack_3c;
+  xunknown4 *pxStack_38;
+  xunknown4 xStack_34;
+  xunknown4 xStack_30;
+  xunknown4 xStack_2c;
+  xunknown4 xStack_28;
+  xunknown4 xStack_24;
+  xunknown4 xStack_20;
+  xunknown4 xStack_1c;
+  xunknown4 xStack_18;
+  xunknown1 axStack_14 [8];
+  uint4 uStack_c;
+  
+  iVar1 = sum_array();
+  iVar2 = find_max(0x33220,8);
+  uStack_c = iVar1 + iVar2;
+  bubble_sort(0x33220,8);
+  iVar1 = collatz_steps(0x1b);
+  iVar2 = count_bits(0xf0f0);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  iVar1 = switch_dense(uStack_c & 0xf);
+  iVar2 = switch_sparse(uStack_c);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  xVar3 = weekday_name((int4)uStack_c % 7);
+  iVar1 = my_strlen(xVar3);
+  uStack_c = uStack_c + iVar1;
+  make_point();
+  make_point();
+  iVar1 = point_distance2(axStack_14,&xStack_1c);
+  uStack_c = uStack_c + iVar1;
+  xStack_20 = xRam00010154;
+  xStack_24 = xRam00010150;
+  xStack_28 = xRam0001014c;
+  xStack_2c = xRam00010148;
+  iVar1 = rect_area(xRam00010148,xRam0001014c,xRam00010150,xRam00010154);
+  iVar2 = rect_contains(&xStack_2c,xStack_1c,xStack_18);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  xStack_30 = *(xunknown4 *)(unaff_gp + -0x7fc0);
+  xStack_34 = *(xunknown4 *)(unaff_gp + -0x7fc4);
+  xStack_3c = 4;
+  pxStack_38 = &xStack_34;
+  iVar1 = list_length();
+  xVar3 = list_reverse(&xStack_3c);
+  iVar2 = list_sum(xVar3);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  my_strcpy(0x332b0,0x10168);
+  reverse_string(0x332b0);
+  to_upper(0x332b0);
+  iVar1 = count_char(0x332b0,0x4f);
+  iVar2 = my_strcmp(0x332b0,unaff_gp + -0x7fbc);
+  iVar4 = parse_decimal(unaff_gp + -0x7fb8);
+  uStack_c = uStack_c + iVar1 + iVar2 + iVar4;
+  iVar1 = factorial(6);
+  iVar2 = fibonacci();
+  iVar4 = gcd(0x54,0x24);
+  iVar5 = ackermann(2);
+  uStack_c = uStack_c + iVar1 + iVar2 + iVar4 + iVar5;
+  xStack_44 = xRam000101ac;
+  xStack_48 = xRam000101a8;
+  xStack_4c = xRam000101a4;
+  xStack_50 = xRam000101a0;
+  xStack_54 = xRam0001019c;
+  xStack_58 = xRam00010198;
+  xStack_5c = xRam00010164;
+  xStack_60 = xRam00010160;
+  xStack_64 = xRam0001015c;
+  xStack_68 = xRam00010158;
+  xVar6 = *(xunknown8 *)(unaff_gp + -0x7fd8);
+  poly_eval(&xStack_58,2,(int4)xVar6,(int4)((uint8)xVar6 >> 0x20));
+  iVar1 = float_to_int(xVar6);
+  average_float(&xStack_68,4);
+  fVar7 = (float8)CONCAT44((int4)((uint8)xVar6 >> 0x20),(int4)(float4)xVar6);
+  uStack_c = uStack_c + iVar1 + (int4)(float4)xVar6;
+  dot_product(&xStack_58,&xStack_58,3);
+  fVar8 = fVar7;
+  clamp_double(*(xunknown8 *)(unaff_gp + -0x7fd0),0);
+  iVar1 = float_to_int(fVar7 + fVar8);
+  uStack_c = uStack_c + iVar1;
+  iVar1 = float_to_bits(*(xunknown4 *)(unaff_gp + -0x7fc8));
+  uStack_c = uStack_c + iVar1;
+  iVar1 = call_varargs();
+  iVar2 = format_hex(0x332b0,unaff_gp + -0x7fb2,0xdeadbeef);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  xStack_6c = 0;
+  set_flags(&xStack_6c,3,5);
+  iVar1 = get_mode(&xStack_6c);
+  iVar2 = pack_flags(xStack_6c);
+  uStack_c = uStack_c + iVar1 + iVar2;
+  iVar1 = mul64(3,1,7);
+  iVar2 = add64(0xfffffffb,0xffffffff,9,0);
+  iVar4 = shift64(1,0x80000000,4);
+  uStack_c = uStack_c + iVar1 + iVar2 + iVar4;
+  iVar1 = compare64(0xffffffff,0xffffffff,1,0);
+  iVar2 = fnv1a64(0x332b0,8);
+  iVar4 = rotate_left64(3,0,0x3e);
+  uStack_c = uStack_c + iVar1 + iVar2 + iVar4;
+  xStack_74 = xRam000101f4;
+  xStack_78 = xRam000101f0;
+  xStack_7c = xRam000101ec;
+  xStack_80 = xRam000101e8;
+  xStack_84 = xRam000101e4;
+  xStack_88 = xRam000101e0;
+  xStack_8c = xRam000101dc;
+  xStack_90 = xRam000101d8;
+  copy_record(axStack_b0);
+  clear_record(&xStack_90);
+  iVar1 = apply_op(add_ints,3,4);
+  iVar2 = apply_op(sub_ints,9,2);
+  uStack_c = uStack_c + iStack_a0 + iVar1 + iVar2;
+  iStack_b4 = 1;
+  xStack_b8 = 2;
+  piStack_bc = &iStack_b4;
+  pxStack_c0 = &xStack_b8;
+  swap_ptrs(&piStack_bc,&pxStack_c0);
+  iVar1 = *piStack_bc;
+  iVar2 = divide_constants(uStack_c,0x1e240);
+  iVar4 = crc8(0x332b0,10);
+  uStack_c = uStack_c + iVar1 + iVar2 + iVar4;
+  iVar1 = global_counter_bump(uStack_c);
+  uStack_c = uStack_c + iVar1;
+  xStack_c4 = xRam000101d0;
+  xStack_c8 = xRam000101cc;
+  xStack_cc = xRam000101c8;
+  xStack_d0 = xRam000101c4;
+  xStack_d4 = xRam000101c0;
+  xStack_d8 = xRam000101bc;
+  xStack_dc = xRam000101b8;
+  xStack_e0 = xRam000101b4;
+  xStack_e4 = xRam000101b0;
+  matrix_multiply(axStack_108,&xStack_e4);
+  return uStack_c + iStack_e8;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function _start
+Function _start: 0x00021994
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function memcpy
+Function memcpy: 0x000219d0
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memcpy(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxStack_1c;
+  xunknown1 *pxStack_18;
+  int4 iStack_14;
+  
+  pxStack_1c = param_2;
+  pxStack_18 = param_1;
+  iStack_14 = param_3;
+  while (iStack_14 != 0) {
+    *pxStack_18 = *pxStack_1c;
+    pxStack_1c = pxStack_1c + 1;
+    pxStack_18 = pxStack_18 + 1;
+    iStack_14 = iStack_14 + -1;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function memset
+Function memset: 0x00021a64
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memset(xunknown1 *param_1,xunknown1 param_2,int4 param_3)
+
+{
+  xunknown1 *pxStack_18;
+  int4 iStack_14;
+  
+  pxStack_18 = param_1;
+  iStack_14 = param_3;
+  while (iStack_14 != 0) {
+    *pxStack_18 = param_2;
+    pxStack_18 = pxStack_18 + 1;
+    iStack_14 = iStack_14 + -1;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function memmove
+Function memmove: 0x00021ae4
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memmove(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxStack_1c;
+  xunknown1 *pxStack_18;
+  int4 iStack_14;
+  
+  pxStack_1c = param_2;
+  pxStack_18 = param_1;
+  iStack_14 = param_3;
+  if (param_1 < param_2) {
+    while (iStack_14 != 0) {
+      *pxStack_18 = *pxStack_1c;
+      pxStack_1c = pxStack_1c + 1;
+      pxStack_18 = pxStack_18 + 1;
+      iStack_14 = iStack_14 + -1;
+    }
+  }
+  else {
+    while (iStack_14 != 0) {
+      iStack_14 = iStack_14 + -1;
+      param_1[iStack_14] = param_2[iStack_14];
+    }
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function memcmp
+Function memcmp: 0x00021bf0
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+xunknown4 memcmp(int4 param_1,int4 param_2,uint4 param_3)
+
+{
+  xunknown4 xVar1;
+  uint4 uStack_24;
+  
+  uStack_24 = 0;
+  while( true ) {
+    if (param_3 <= uStack_24) {
+      return 0;
+    }
+    if (*(char *)(param_1 + uStack_24) != *(char *)(param_2 + uStack_24)) break;
+    uStack_24 = uStack_24 + 1;
+  }
+  xVar1 = 1;
+  if (*(uint1 *)(param_1 + uStack_24) < *(uint1 *)(param_2 + uStack_24)) {
+    xVar1 = 0xffffffff;
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function raise
+Function raise: 0x00021cec
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+xunknown4 raise(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function copy_record
+Function copy_record: 0x00021d20
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  param_1[7] = param_2[7];
+  param_1[6] = param_2[6];
+  param_1[5] = param_2[5];
+  param_1[4] = param_2[4];
+  param_1[3] = param_2[3];
+  param_1[2] = param_2[2];
+  param_1[1] = param_2[1];
+  *param_1 = *param_2;
+  param_1[4] = param_1[4] + 1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function clear_record
+Function clear_record: 0x00021da8
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(xunknown4 *param_1)
+
+{
+  param_1[3] = 0;
+  param_1[2] = 0;
+  param_1[1] = 0;
+  *param_1 = 0;
+  param_1[4] = 0xffffffff;
+  *(xunknown2 *)(param_1 + 5) = 0;
+  *(xunknown1 *)((int4)param_1 + 0x16) = 0x78;
+  *(xunknown8 *)(param_1 + 6) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function apply_op
+Function apply_op: 0x00021e20
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function add_ints
+Function add_ints: 0x00021e6c
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 + param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function sub_ints
+Function sub_ints: 0x00021ea8
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x00021ee4
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function divide_constants
+Function divide_constants: 0x00021f3c
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+int4 divide_constants(int4 param_1,uint4 param_2)
+
+{
+  return param_1 / 7 + param_1 % 10 + param_2 / 3 + param_2 % 1000;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function crc8
+Function crc8: 0x0002200c
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint1 crc8(int4 param_1,int4 param_2)
+
+{
+  uint1 uVar1;
+  int4 iStack_18;
+  uint1 uStack_11;
+  
+  uStack_11 = 0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    uVar1 = *(uint1 *)((uint1)((uStack_11 ^ *(uint1 *)(param_1 + iStack_18)) >> 4) + 0x101f8);
+    uStack_11 = uVar1 << 4 ^
+                *(uint1 *)(((uint4)((uint1)(uStack_11 << 4 ^ uVar1) >> 4) ^
+                           *(uint1 *)(param_1 + iStack_18) & 0xf) + 0x101f8);
+  }
+  return uStack_11;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x000220fc
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+xunknown4 global_counter_bump(int4 param_1)
+
+{
+  int4 unaff_gp;
+  
+  *(int4 *)(unaff_gp + -0x7f40) = *(int4 *)(unaff_gp + -0x7f40) + param_1;
+  if (1000 < *(int4 *)(unaff_gp + -0x7f40)) {
+    *(xunknown4 *)(unaff_gp + -0x7f40) = 0;
+  }
+  return *(xunknown4 *)(unaff_gp + -0x7f40);
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function factorial
+Function factorial: 0x00022160
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(int4 param_1)
+
+{
+  int4 iStack_c;
+  
+  if (param_1 < 2) {
+    iStack_c = 1;
+  }
+  else {
+    iStack_c = factorial(param_1 + -1);
+    iStack_c = param_1 * iStack_c;
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function fibonacci
+Function fibonacci: 0x000221e0
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+int4 fibonacci(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iStack_c;
+  
+  if (param_1 < 2) {
+    iStack_c = param_1;
+  }
+  else {
+    iStack_c = fibonacci(param_1 + -1);
+    iVar1 = fibonacci(param_1 + -2);
+    iStack_c = iStack_c + iVar1;
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function gcd
+Function gcd: 0x00022274
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  int4 iStack_c;
+  
+  if (param_2 == 0) {
+    iStack_c = param_1;
+  }
+  else {
+    if (param_2 == 0) {
+      trap(7);
+    }
+    iStack_c = gcd(param_2,param_1 % param_2);
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function ackermann
+Function ackermann: 0x000222f4
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  xunknown4 xVar1;
+  int4 iStack_c;
+  
+  if (param_1 == 0) {
+    iStack_c = param_2 + 1;
+  }
+  else if (param_2 == 0) {
+    iStack_c = ackermann(param_1 + -1,1);
+  }
+  else {
+    xVar1 = ackermann(param_1,param_2 + -1);
+    iStack_c = ackermann(param_1 + -1,xVar1);
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function my_strlen
+Function my_strlen: 0x000223c0
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int4 my_strlen(char *param_1)
+
+{
+  char *pcStack_10;
+  
+  for (pcStack_10 = param_1; *pcStack_10 != '\0'; pcStack_10 = pcStack_10 + 1) {
+  }
+  return (int4)pcStack_10 - (int4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x00022434
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  bool bVar1;
+  uint1 *puStack_10;
+  uint1 *puStack_c;
+  
+  puStack_10 = param_2;
+  puStack_c = param_1;
+  while( true ) {
+    bVar1 = false;
+    if (*puStack_c != 0) {
+      bVar1 = *puStack_c == *puStack_10;
+    }
+    if (!bVar1) break;
+    puStack_c = puStack_c + 1;
+    puStack_10 = puStack_10 + 1;
+  }
+  return (uint4)*puStack_c - (uint4)*puStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x000224fc
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+char * my_strcpy(char *param_1,char *param_2)
+
+{
+  char cVar1;
+  char *pcStack_14;
+  char *pcStack_10;
+  
+  pcStack_14 = param_1;
+  pcStack_10 = param_2;
+  do {
+    cVar1 = *pcStack_10;
+    *pcStack_14 = cVar1;
+    pcStack_14 = pcStack_14 + 1;
+    pcStack_10 = pcStack_10 + 1;
+  } while (cVar1 != '\0');
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function reverse_string
+Function reverse_string: 0x00022578
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(int4 param_1)
+
+{
+  xunknown1 xVar1;
+  uint4 uStack_18;
+  uint4 uStack_14;
+  
+  uStack_18 = my_strlen(param_1);
+  if (uStack_18 != 0) {
+    for (uStack_14 = 0; uStack_18 = uStack_18 - 1, uStack_14 < uStack_18; uStack_14 = uStack_14 + 1)
+    {
+      xVar1 = *(xunknown1 *)(param_1 + uStack_14);
+      *(xunknown1 *)(param_1 + uStack_14) = *(xunknown1 *)(param_1 + uStack_18);
+      *(xunknown1 *)(param_1 + uStack_18) = xVar1;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function count_char
+Function count_char: 0x00022670
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(char *param_1,char param_2)
+
+{
+  int4 iStack_14;
+  char *pcStack_c;
+  
+  iStack_14 = 0;
+  for (pcStack_c = param_1; *pcStack_c != '\0'; pcStack_c = pcStack_c + 1) {
+    if (*pcStack_c == param_2) {
+      iStack_14 = iStack_14 + 1;
+    }
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x00022714
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+int4 parse_decimal(char *param_1)
+
+{
+  bool bVar1;
+  int4 iStack_14;
+  int4 iStack_10;
+  char *pcStack_c;
+  
+  iStack_10 = 1;
+  iStack_14 = 0;
+  pcStack_c = param_1;
+  if (*param_1 == '-') {
+    iStack_10 = -1;
+    pcStack_c = param_1 + 1;
+  }
+  while( true ) {
+    bVar1 = false;
+    if ('/' < *pcStack_c) {
+      bVar1 = *pcStack_c < ':';
+    }
+    if (!bVar1) break;
+    iStack_14 = (int4)*pcStack_c + iStack_14 * 10 + -0x30;
+    pcStack_c = pcStack_c + 1;
+  }
+  return iStack_10 * iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function to_upper
+Function to_upper: 0x00022824
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(char *param_1)
+
+{
+  char *pcStack_c;
+  
+  for (pcStack_c = param_1; *pcStack_c != '\0'; pcStack_c = pcStack_c + 1) {
+    if (('`' < *pcStack_c) && (*pcStack_c < '{')) {
+      *pcStack_c = *pcStack_c + -0x20;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function point_distance2
+Function point_distance2: 0x000228e0
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(int4 *param_1,int4 *param_2)
+
+{
+  return (*param_1 - *param_2) * (*param_1 - *param_2) +
+         (param_1[1] - param_2[1]) * (param_1[1] - param_2[1]);
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function make_point
+Function make_point: 0x00022954
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+xunknown4 * make_point(xunknown4 *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  *param_1 = param_2;
+  param_1[1] = param_3;
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function rect_area
+Function rect_area: 0x00022998
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(xunknown4 param_1,xunknown4 param_2,int4 param_3,int4 param_4)
+
+{
+  return param_3 * param_4;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function rect_contains
+Function rect_contains: 0x000229dc
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+bool rect_contains(int4 *param_1,int4 param_2,int4 param_3)
+
+{
+  bool bVar1;
+  
+  bVar1 = false;
+  if (((*param_1 <= param_2) && (bVar1 = false, param_1[1] <= param_3)) &&
+     (bVar1 = false, param_2 < *param_1 + param_1[2])) {
+    bVar1 = param_3 < param_1[1] + param_1[3];
+  }
+  return bVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function list_length
+Function list_length: 0x00022abc
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int4 param_1)
+
+{
+  int4 iStack_10;
+  int4 iStack_c;
+  
+  iStack_10 = 0;
+  for (iStack_c = param_1; iStack_c != 0; iStack_c = *(int4 *)(iStack_c + 4)) {
+    iStack_10 = iStack_10 + 1;
+  }
+  return iStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function list_sum
+Function list_sum: 0x00022b2c
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 *piStack_14;
+  int4 iStack_10;
+  
+  iStack_10 = 0;
+  for (piStack_14 = param_1; piStack_14 != (int4 *)0x0; piStack_14 = (int4 *)piStack_14[1]) {
+    iStack_10 = iStack_10 + *piStack_14;
+  }
+  return iStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function list_reverse
+Function list_reverse: 0x00022bb4
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+int4 list_reverse(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iStack_10;
+  int4 iStack_c;
+  
+  iStack_10 = 0;
+  iStack_c = param_1;
+  while (iStack_c != 0) {
+    iVar1 = *(int4 *)(iStack_c + 4);
+    *(int4 *)(iStack_c + 4) = iStack_10;
+    iStack_10 = iStack_c;
+    iStack_c = iVar1;
+  }
+  return iStack_10;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function switch_dense
+Function switch_dense: 0x00022c40
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+uint4 switch_dense(xunknown4 param_1,uint4 param_2)
+
+{
+  int4 iVar1;
+  uint4 uStack_c;
+  
+  switch(param_1) {
+  case 0:
+    uStack_c = param_2 + 0x11;
+    break;
+  case 1:
+    uStack_c = param_2 * 0x1f + 4;
+    break;
+  case 2:
+    iVar1 = (int4)param_2 / 3 + ((int4)param_2 >> 0x1f);
+    uStack_c = iVar1 - (iVar1 >> 0x1f);
+    break;
+  case 3:
+    uStack_c = param_2 << 5;
+    break;
+  case 4:
+    uStack_c = gcd(param_2,0x4d2);
+    break;
+  case 5:
+    uStack_c = -param_2;
+    break;
+  case 6:
+    uStack_c = param_2 ^ 0x55;
+    break;
+  case 7:
+    uStack_c = count_bits(param_2);
+    break;
+  case 8:
+    uStack_c = param_2 - 100;
+    break;
+  case 9:
+    uStack_c = factorial(param_2 & 7);
+    break;
+  default:
+    uStack_c = 0xffffffff;
+  }
+  return uStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x00022db0
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_sparse(int4 param_1)
+
+{
+  xunknown4 xStack_c;
+  
+  if (param_1 == -0x32) {
+    xStack_c = 5;
+  }
+  else if (param_1 == 3) {
+    xStack_c = 1;
+  }
+  else if (param_1 == 100) {
+    xStack_c = 2;
+  }
+  else if (param_1 == 1000) {
+    xStack_c = 3;
+  }
+  else if (param_1 == 0x1000) {
+    xStack_c = 4;
+  }
+  else if (param_1 == 0x12fd1) {
+    xStack_c = 6;
+  }
+  else {
+    xStack_c = 0;
+  }
+  return xStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function weekday_name
+Function weekday_name: 0x00022ee4
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+int4 weekday_name(int4 param_1)
+
+{
+  int4 unaff_gp;
+  int4 iStack_c;
+  
+  if ((param_1 < 0) || (6 < param_1)) {
+    iStack_c = unaff_gp + -0x7faf;
+  }
+  else {
+    iStack_c = *(int4 *)(param_1 * 4 + 0x10230);
+  }
+  return iStack_c;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x00022f80
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1)
+
+{
+  xunknown1 axStackX_0 [16];
+  int4 iStack_18;
+  int4 iStack_14;
+  int4 *piStack_10;
+  
+  iStack_14 = 0;
+  for (iStack_18 = 0; piStack_10 = (int4 *)((int4)register0x00000074 + 4), iStack_18 < param_1;
+      iStack_18 = iStack_18 + 1) {
+    iStack_14 = iStack_14 + *piStack_10;
+    register0x00000074 = (BADSPACEBASE *)piStack_10;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function call_varargs
+Function call_varargs: 0x00023028
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5);
+  return iVar1 + iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-MIPS:LE:32:default:default mipsel-O0
+mipsel-O0 successfully loaded: MIPS32 32-bit addresses, little endian, with mips16e
+[decomp]> read symbols
+[decomp]> load function format_hex
+Function format_hex: 0x000230a4
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+
+int4 format_hex(int4 param_1,char *param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  char cStack_28;
+  uint4 uStack_20;
+  int4 iStack_18;
+  char *pcStack_10;
+  
+  iStack_18 = 0;
+  pcStack_10 = param_2;
+  while (*pcStack_10 != '\0') {
+    *(char *)(param_1 + iStack_18) = *pcStack_10;
+    iStack_18 = iStack_18 + 1;
+    pcStack_10 = pcStack_10 + 1;
+  }
+  for (uStack_20 = 0x1c; -1 < (int4)uStack_20; uStack_20 = uStack_20 - 4) {
+    uVar1 = param_3 >> (uStack_20 & 0x1f) & 0xf;
+    cStack_28 = (char)uVar1;
+    if (uVar1 < 10) {
+      cStack_28 = cStack_28 + '0';
+    }
+    else {
+      cStack_28 = cStack_28 + 'W';
+    }
+    *(char *)(param_1 + iStack_18) = cStack_28;
+    iStack_18 = iStack_18 + 1;
+  }
+  *(xunknown1 *)(param_1 + iStack_18) = 0;
+  return iStack_18;
+}
+[decomp]> quit
+--- exit 0

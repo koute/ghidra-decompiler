@@ -1,0 +1,285 @@
+--- a/context.hh	2026-09-24 11:44:41.667727126 +0000
++++ b/context.hh	2026-09-24 17:09:43.758606684 +0000
+@@ -111,7 +111,7 @@
+   Translate *translate;			///< The parent instruction parser
+   parse_state parsestate;		///< Overall state of the parse
+   AddrSpace *const_space;		///< Address space for constants
+-  uint1 buf[MAX_INSTRUCTION_LEN];	///< Buffer of bytes in the instruction stream
++  uint1 buf[MAX_INSTRUCTION_LEN + 4];	///< Buffer of bytes in the instruction stream
+   uintm *context;			///< Pointer to local context
+   int4 contextsize;			///< Number of entries in local context array
+   ContextCache *contcache;   		///< Interface for getting/setting context
+@@ -273,6 +273,13 @@
+   ConstructState *opstate = state[alloc--];
+   opstate->parent = walker.point;
+   opstate->ct = (Constructor *)0;
++  opstate->hand.space = (AddrSpace *)0;
++  opstate->hand.size = 0;
++  opstate->hand.offset_space = (AddrSpace *)0;
++  opstate->hand.offset_offset = 0;
++  opstate->hand.offset_size = 0;
++  opstate->hand.temp_space = (AddrSpace *)0;
++  opstate->hand.temp_offset = 0;
+   walker.point->resolve[i] = opstate;
+   if (walker.depth > MAX_DEPTH-2)
+     throw LowlevelError("SLEIGH exceeded maximum parse depth");
+--- a/context.cc	2026-09-24 11:44:41.667783606 +0000
++++ b/context.cc	2026-09-24 11:44:41.691438413 +0000
+@@ -56,6 +56,7 @@
+ 
+ {
+   parsestate = uninitialized;
++  memset(buf,0,sizeof(buf));
+   contcache = ccache;
+   translate = trans;
+   if (ccache != (ContextCache *)0) {
+--- a/semantics.cc	2026-09-24 17:05:50.858332641 +0000
++++ b/semantics.cc	2026-09-24 17:08:11.701691737 +0000
+@@ -196,30 +196,38 @@
+   return 0;			// Should never reach here
+ }
+ 
++static AddrSpace *requireSpace(AddrSpace *spc)
++
++{
++  if (spc == (AddrSpace *)0)
++    throw BadDataError("ConstTpl space is not defined");
++  return spc;
++}
++
+ AddrSpace *ConstTpl::fixSpace(const ParserWalker &walker) const
+ 
+ {				// Get the value of the ConstTpl in context
+ 				// when we know it is a space
+   switch(type) {
+   case j_curspace:
+-    return walker.getCurSpace();
++    return requireSpace(walker.getCurSpace());
+   case handle:
+     {
+       const FixedHandle &hand(walker.getFixedHandle(value.handle_index));
+       switch(select) {
+       case v_space:
+ 	if (hand.offset_space == (AddrSpace *)0)
+-	  return hand.space;
+-	return hand.temp_space;
++	  return requireSpace(hand.space);
++	return requireSpace(hand.temp_space);
+       default:
+ 	break;
+       }
+       break;
+     }
+   case spaceid:
+-    return value.spaceid;
++    return requireSpace(value.spaceid);
+   case j_flowref:
+-    return walker.getRefAddr().getSpace();
++    return requireSpace(walker.getRefAddr().getSpace());
+   default:
+     break;
+   }
+--- a/funcdata.cc	2026-09-24 17:01:53.873892159 +0000
++++ b/funcdata.cc	2026-09-24 17:01:53.885338192 +0000
+@@ -880,6 +880,8 @@
+   PcodeOp *op;
+   Varnode *vn;
+ 
++  if (outvar != (VarnodeData *)0 && outvar->space->getType() == IPTR_CONSTANT)
++    return;
+   if (outvar != (VarnodeData *)0) {
+     Address oaddr(outvar->space,outvar->offset);
+     op = fd->newOp(isize,addr);
+--- a/funcdata_varnode.cc	2026-09-24 12:08:38.248639315 +0000
++++ b/funcdata_varnode.cc	2026-09-24 12:08:38.267729131 +0000
+@@ -913,6 +913,8 @@
+       }
+       // Traverse edge indicated by slot
+       Varnode *vn = node.op->getIn(oldslot);
++      if (vn == (Varnode *)0)
++	throw LowlevelError("reference crash: null input " + to_string(oldslot) + " of " + string(get_opname(node.op->code())) + " in calcNZMask");
+       if (!vn->isWritten()) {
+ 	if (vn->isConstant())
+ 	  vn->nzm = vn->getOffset();
+--- a/action.cc	2026-09-24 16:59:00.060047101 +0000
++++ b/action.cc	2026-09-24 16:59:00.074655815 +0000
+@@ -320,6 +320,7 @@
+ 
+ {
+   int4 res;
++  int4 repeatCount = 0;
+ 
+   do {
+     switch(status) {
+@@ -372,6 +373,13 @@
+       break;			// we either repeat, or return our count
+     }
+     status = status_repeat;
++    if ((lcount<count)&&((flags&rule_repeatapply)!=0)) {
++      repeatCount += 1;
++      if (repeatCount >= 100) {
++	data.warningHeader("Exceeded maximum repeat count for action " + getName());
++	break;
++      }
++    }
+   } while((lcount<count)&&((flags&rule_repeatapply)!=0));
+ 
+   if ((flags&(rule_onceperfunc|rule_oneactperfunc))!=0) {
+--- a/database.cc	2026-09-24 16:59:29.270090728 +0000
++++ b/database.cc	2026-09-24 16:59:29.288547713 +0000
+@@ -1947,7 +1947,9 @@
+   sym->mapentry.push_back(entry);
+   // Find or create the appropriate rangemap
+   AddrSpace *spc = entry->addr.getSpace();
+-  EntryMap *rangemap = maptable[spc->getIndex()];
++  if (spc->getIndex() >= maptable.size())
++    maptable.resize(spc->getIndex() + 1,(EntryMap *)0);
++  EntryMap *rangemap = ((spc->getIndex()) < maptable.size() ? maptable[spc->getIndex()] : (EntryMap *)0);
+   if (rangemap == (EntryMap *)0) {
+     rangemap = new EntryMap();
+     maptable[spc->getIndex()] = rangemap;
+@@ -2222,7 +2224,7 @@
+     SymbolEntry *entry = *iter;
+     if (!entry->isDynamic()) {
+       AddrSpace *spc = ((MapEntry *)entry)->getAddr().getSpace();
+-      EntryMap *rangemap = maptable[spc->getIndex()];
++      EntryMap *rangemap = ((spc->getIndex()) < maptable.size() ? maptable[spc->getIndex()] : (EntryMap *)0);
+       rangemap->erase( ((MapEntry *)entry)->mapIterator );
+     }
+     else
+@@ -2277,7 +2279,7 @@
+     if (!entry->isDynamic() && entry->isAddrTied()) {
+       Address addr(((MapEntry *)entry)->getAddr());		// Save the starting address of map
+ 
+-      EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];	// Find the correct rangemap
++      EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);	// Find the correct rangemap
+       rangemap->erase(((MapEntry *)entry)->mapIterator);		// Remove the map entry
+       sym->mapentry.pop_back();	// Remove reference to map entry
+       delete entry;
+@@ -2320,7 +2322,7 @@
+ MapEntry *ScopeInternal::findAddr(const Address &addr,const Address &usepoint) const
+ 
+ {
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     if (usepoint.isInvalid())
+@@ -2347,7 +2349,7 @@
+ 
+ {
+   MapEntry *bestentry = (MapEntry *)0;
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     if (usepoint.isInvalid())
+@@ -2381,7 +2383,7 @@
+ 
+ {
+   MapEntry *bestentry = (MapEntry *)0;
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     if (usepoint.isInvalid())
+@@ -2418,7 +2420,7 @@
+ 
+ {
+   FunctionSymbol *sym;
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     res = rangemap->find(addr.getOffset());
+@@ -2439,7 +2441,7 @@
+ 
+ {
+   ExternRefSymbol *sym = (ExternRefSymbol *)0;
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     res = rangemap->find(addr.getOffset());
+@@ -2465,7 +2467,7 @@
+ 
+ {
+   LabSymbol *sym = (LabSymbol *)0;
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     pair<EntryMap::const_iterator,EntryMap::const_iterator> res;
+     res = rangemap->find(addr.getOffset(),
+@@ -2488,7 +2490,7 @@
+ MapEntry *ScopeInternal::findOverlap(const Address &addr,int4 size) const
+ 
+ {
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     EntryMap::const_iterator iter;
+     iter = rangemap->find_overlap(addr.getOffset(),addr.getOffset()+size-1);
+@@ -2501,7 +2503,7 @@
+ MapEntry *ScopeInternal::findSymbolBefore(const Address &addr,const Address &usepoint) const
+ 
+ {
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     EntryMap::const_iterator iter = rangemap->find_last_before(addr.getOffset());
+     if (iter != rangemap->end()) {
+@@ -2519,7 +2521,7 @@
+ MapEntry *ScopeInternal::findSymbolAfter(const Address &addr,const Address &usepoint) const
+ 
+ {
+-  EntryMap *rangemap = maptable[ addr.getSpace()->getIndex() ];
++  EntryMap *rangemap = ((addr.getSpace()->getIndex()) < maptable.size() ? maptable[addr.getSpace()->getIndex()] : (EntryMap *)0);
+   if (rangemap != (EntryMap *)0) {
+     EntryMap::const_iterator iter = rangemap->find_first_after(addr.getOffset());
+     while (iter != rangemap->end()) {
+--- a/varmap.cc	2026-09-24 16:59:29.270257728 +0000
++++ b/varmap.cc	2026-09-24 16:59:29.288770263 +0000
+@@ -1399,7 +1399,7 @@
+ #endif
+   state.gatherVarnodes(*fd); // Gather stack type information from varnodes
+   state.gatherOpen(*fd);
+-  state.gatherSymbols(maptable[space->getIndex()]);
++  state.gatherSymbols(space->getIndex() < maptable.size() ? maptable[space->getIndex()] : (EntryMap *)0);
+   openParamRefs = state.hasParamRangeHit();
+   overlapProblems = restructure(state);
+ 
+@@ -1466,7 +1466,7 @@
+ void ScopeLocal::markUnaliased(const vector<uintb> &alias)
+ 
+ {
+-  EntryMap *rangemap = maptable[space->getIndex()];
++  EntryMap *rangemap = (space->getIndex() < maptable.size() ? maptable[space->getIndex()] : (EntryMap *)0);
+   if (rangemap == (EntryMap *)0) return;
+   list<SymbolRange>::iterator iter,enditer;
+   set<Range>::const_iterator rangeIter, rangeEndIter;
+--- a/funcdata_op.cc	2026-09-24 18:26:44.031171370 +0000
++++ b/funcdata_op.cc	2026-09-24 18:26:44.047781189 +0000
+@@ -1598,7 +1598,7 @@
+     if ((*liter1).first == (*liter2).first) {
+       op1 = (*liter1).second;
+       op2 = (*liter2).second;
+-      if ((!op1->isDead())&&(!op2->isDead())&&op1->isCseMatch(op2)) {
++      if ((op1 != op2)&&(!op1->isDead())&&(!op2->isDead())&&op1->isCseMatch(op2)) {
+ 	Varnode *outvn1 = op1->getOut();
+ 	Varnode *outvn2 = op2->getOut();
+ 	if ((outvn1 == (Varnode *)0)||isHeritaged(outvn1)) {
+--- a/heritage.cc
++++ b/heritage.cc
+@@ -2281,6 +2281,12 @@ void Heritage::processJoins(void)
+     if (joinrec->getUnified().size != vn->getSize())
+       throw LowlevelError("Joined varnode does not match size of record");
+     if (vn->isFree()) {
++      if (vn->hasNoDescend()) {
++	fd->deleteVarnode(vn);
++	continue;
++      }
++      if (vn->loneDescend() == (PcodeOp *)0)
++	throw LowlevelError("Free join varnode with multiple descendants");
+       if (joinrec->isFloatExtension())
+ 	floatExtensionRead(vn,joinrec);
+       else

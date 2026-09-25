@@ -1,0 +1,2241 @@
+=== function main
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function main
+Function main: 0x00400100
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+int4 main(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  int4 iVar12;
+  int4 iVar13;
+  int4 iVar14;
+  int4 iVar15;
+  int4 iVar16;
+  int4 iVar17;
+  int4 iVar18;
+  int4 iVar19;
+  int4 iVar20;
+  int4 iVar21;
+  int4 iVar22;
+  int4 iVar23;
+  int4 iVar24;
+  int4 iVar25;
+  int4 iVar26;
+  int4 iVar27;
+  int4 iVar28;
+  int4 iVar29;
+  uint4 uVar30;
+  float4 fVar31;
+  float8 fVar32;
+  float8 fVar33;
+  xunknown4 axStack_120 [2];
+  int4 aiStack_118 [2];
+  xunknown8 xStack_110;
+  xunknown8 xStack_108;
+  int4 *piStack_100;
+  int4 *piStack_f8;
+  xunknown8 xStack_f0;
+  xunknown8 xStack_e8;
+  xunknown8 xStack_e0;
+  xunknown8 xStack_d8;
+  xunknown4 xStack_c8;
+  xunknown8 xStack_c4;
+  xunknown4 xStack_bc;
+  xunknown8 xStack_b8;
+  xunknown4 *pxStack_b0;
+  xunknown8 xStack_a8;
+  xunknown8 xStack_a0;
+  xunknown8 xStack_98;
+  xunknown8 xStack_90;
+  xunknown8 xStack_88;
+  xunknown8 xStack_80;
+  xunknown8 xStack_78;
+  xunknown1 axStack_70 [16];
+  int4 iStack_60;
+  xunknown8 xStack_50;
+  xunknown8 xStack_48;
+  xunknown8 xStack_40;
+  xunknown8 xStack_38;
+  xunknown4 xStack_30;
+  xunknown1 axStack_28 [32];
+  int4 iStack_8;
+  
+  iVar1 = sum_array(0x411a60,8);
+  iVar2 = find_max(0x411a60,8);
+  bubble_sort(0x411a60,8);
+  iVar3 = collatz_steps(0x1b);
+  iVar4 = count_bits(0xf0f0);
+  uVar30 = iVar3 + iVar4 + iVar1 + iVar2;
+  iVar1 = switch_dense(uVar30 & 0xf,uVar30);
+  iVar2 = switch_sparse(uVar30);
+  iVar1 = iVar1 + iVar2 + uVar30;
+  weekday_name(iVar1 % 7);
+  iVar2 = my_strlen();
+  xStack_110 = make_point(1,2);
+  xStack_108 = make_point(4,6);
+  iVar3 = point_distance2(&xStack_110,&xStack_108);
+  xStack_f0 = xRam0000000000401990;
+  xStack_e8 = xRam0000000000401998;
+  iVar4 = rect_area(xRam0000000000401990,xRam0000000000401998);
+  iVar5 = rect_contains(&xStack_f0,xStack_108);
+  pxStack_b0 = &xStack_c8;
+  xStack_c8 = 3;
+  xStack_c4 = 0;
+  xStack_bc = 0;
+  xStack_b8 = 4;
+  iVar6 = list_length(&xStack_b8);
+  list_reverse(&xStack_b8);
+  iVar7 = list_sum();
+  my_strcpy(0x411a80,0x401900);
+  reverse_string(0x411a80);
+  to_upper(0x411a80);
+  iVar8 = count_char(0x411a80,0x4f);
+  iVar9 = my_strcmp(0x411a80,0x401918);
+  iVar10 = parse_decimal(0x401920);
+  iVar11 = factorial(6);
+  iVar12 = fibonacci(10);
+  iVar13 = gcd(0x54,0x24);
+  iVar14 = ackermann(2,3);
+  xStack_98 = xRam00000000004019c0;
+  xStack_a8 = xRam00000000004019b0;
+  xStack_a0 = xRam00000000004019b8;
+  xStack_e0 = xRam00000000004019a0;
+  xStack_d8 = xRam00000000004019a8;
+  poly_eval(0x4008000000000000,&xStack_a8,2);
+  iVar15 = float_to_int();
+  fVar31 = (float4)average_float(&xStack_e0,4);
+  fVar32 = (float8)dot_product(&xStack_a8,&xStack_a8,3);
+  fVar33 = (float8)clamp_double(0x4000000000000000,0,0x3ff0000000000000);
+  iVar16 = float_to_int(fVar32 + fVar33);
+  iVar17 = float_to_bits(0x3fc00000);
+  iVar18 = call_varargs();
+  iVar19 = format_hex(0x411a80,0x401928,0xdeadbeef);
+  axStack_120[0] = 0;
+  set_flags(axStack_120,3,5);
+  iVar20 = get_mode(axStack_120);
+  iVar21 = pack_flags(axStack_120[0]);
+  iVar22 = mul64(0x100000003,7);
+  iVar23 = add64(0xfffffffffffffffb,9);
+  iVar24 = shift64(0x8000000000000001,4);
+  iVar25 = compare64(0xffffffffffffffff,1);
+  iVar26 = fnv1a64(0x411a80,8);
+  iVar27 = rotate_left64(3,0x3e);
+  xStack_90 = 0x656c706d6173;
+  xStack_88 = 0;
+  xStack_80 = 0x79000200000007;
+  xStack_78 = 0x400a000000000000;
+  copy_record(axStack_70,&xStack_90);
+  clear_record(&xStack_90);
+  iVar28 = apply_op(add_ints,3,4);
+  iVar29 = apply_op(sub_ints,9,2);
+  aiStack_118[0] = 1;
+  aiStack_118[1] = 2;
+  piStack_100 = aiStack_118;
+  piStack_f8 = aiStack_118 + 1;
+  swap_ptrs(&piStack_100,&piStack_f8);
+  iVar1 = iStack_60 + iVar28 + iVar29 +
+          iVar25 + iVar26 + iVar27 +
+          iVar22 + iVar23 + iVar24 +
+          iVar21 + iVar20 +
+          iVar18 + iVar19 +
+          iVar17 + (int4)fVar31 + iVar15 +
+                   iVar11 + iVar12 + iVar13 + iVar14 +
+                   iVar8 + iVar9 + iVar10 + iVar6 + iVar7 + iVar4 + iVar5 + iVar1 + iVar2 + iVar3 +
+                   iVar16;
+  iVar2 = *piStack_100;
+  iVar3 = divide_constants(iVar1,0x1e240);
+  uVar30 = crc8(0x411a80,10);
+  iVar1 = iVar2 + iVar3 + (uVar30 & 0xff) + iVar1;
+  iVar2 = global_counter_bump(iVar1);
+  xStack_30 = xRam00000000004019e8;
+  xStack_50 = xRam00000000004019c8;
+  xStack_48 = xRam00000000004019d0;
+  xStack_38 = xRam00000000004019e0;
+  xStack_40 = xRam00000000004019d8;
+  matrix_multiply(axStack_28,&xStack_50);
+  return iVar1 + iVar2 + iStack_8;
+}
+[decomp]> quit
+--- exit 0
+=== function mul64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function mul64
+Function mul64: 0x00400560
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+int8 mul64(uint8 param_1,int8 param_2)
+
+{
+  return (param_1 >> 3) + param_1 * param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function add64
+Function add64: 0x0040056c
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+int8 add64(int8 param_1,int8 param_2)
+
+{
+  return param_1 + param_2 + -0x123456789;
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function shift64
+Function shift64: 0x00400584
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+uint8 shift64(uint8 param_1,int4 param_2)
+
+{
+  return param_1 >> ((uint8)(uint4)-param_2 & 0x3f) |
+         param_1 << 0x40 - ((uint8)(uint4)-param_2 & 0x3f);
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function compare64
+Function compare64: 0x00400590
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+uint4 compare64(int8 param_1,int8 param_2)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = (uint4)(param_2 < param_1);
+  if (param_1 < param_2) {
+    uVar1 = 0xffffffff;
+  }
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x004005a0
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+uint8 fnv1a64(uint1 *param_1,int4 param_2)
+
+{
+  uint8 uVar1;
+  uint1 *puVar3;
+  uint1 *puVar2;
+  
+  if (param_2 < 1) {
+    return 0xcbf29ce484222325;
+  }
+  uVar1 = 0xcbf29ce484222325;
+  puVar3 = param_1;
+  do {
+    puVar2 = puVar3 + 1;
+    uVar1 = (*puVar3 ^ uVar1) * 0x100000001b3;
+    puVar3 = puVar2;
+  } while (param_1 + param_2 != puVar2);
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x00400600
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+uint8 rotate_left64(uint8 param_1,int4 param_2)
+
+{
+  return param_1 >> ((uint8)(uint4)-param_2 & 0x3f) |
+         param_1 << 0x40 - ((uint8)(uint4)-param_2 & 0x3f);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function set_flags
+Function set_flags: 0x00400620
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint2 *param_1,uint2 param_2,uint2 param_3)
+
+{
+  *param_1 = (param_2 + param_3) * 0x100 & 0x3f00 | (param_2 & 7) << 1 | 1 | (param_3 & 0xf) << 4 |
+             *param_1 & 0xc000;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function get_mode
+Function get_mode: 0x00400650
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+int4 get_mode(uint4 *param_1)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = *param_1;
+  if ((uVar1 & 1) == 0) {
+    return -1;
+  }
+  return (uVar1 >> 4 & 0xf) + (uVar1 >> 1 & 7) * 0x10;
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function pack_flags
+Function pack_flags: 0x00400670
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 param_1)
+
+{
+  return param_1 & 0x3f0f;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function poly_eval
+Function poly_eval: 0x00400680
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+xunknown1  [16] poly_eval(float8 param_1,int8 param_2,int4 param_3)
+
+{
+  int8 iVar1;
+  int8 iVar2;
+  xunknown1 axVar3 [16];
+  float8 fVar4;
+  
+  if (param_3 < 0) {
+    return ZEXT816(0);
+  }
+  fVar4 = 0.0;
+  iVar2 = (int8)param_3;
+  do {
+    iVar1 = iVar2 * 8;
+    iVar2 = iVar2 + -1;
+    fVar4 = *(float8 *)(param_2 + iVar1) + fVar4 * param_1;
+  } while (-1 < (int4)iVar2);
+  axVar3._8_8_ = 0;
+  axVar3._0_8_ = fVar4;
+  return axVar3;
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function average_float
+Function average_float: 0x004006b0
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float4 average_float(float4 *param_1,uint4 param_2)
+
+{
+  float4 *pfVar2;
+  float4 *pfVar1;
+  float4 fVar3;
+  
+  if ((int4)param_2 < 1) {
+    return 0.0;
+  }
+  fVar3 = 0.0;
+  pfVar1 = param_1;
+  do {
+    pfVar2 = pfVar1 + 1;
+    fVar3 = fVar3 + *pfVar1;
+    pfVar1 = pfVar2;
+  } while (pfVar2 != param_1 + param_2);
+  return fVar3 / (float4)(int4)param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function float_to_int
+Function float_to_int: 0x004006e4
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(float8 param_1)
+
+{
+  if (0.0 <= param_1) {
+    return (int4)(param_1 + 0.5);
+  }
+  return -(int4)(0.5 - param_1);
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function dot_product
+Function dot_product: 0x00400710
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+xunknown1  [16] dot_product(int8 param_1,int8 param_2,uint4 param_3)
+
+{
+  float8 *pfVar1;
+  float8 *pfVar2;
+  int8 iVar3;
+  xunknown1 axVar4 [16];
+  
+  if ((int4)param_3 < 1) {
+    return ZEXT816(0);
+  }
+  axVar4._0_8_ = 0.0;
+  iVar3 = 0;
+  do {
+    pfVar1 = (float8 *)(param_1 + iVar3);
+    pfVar2 = (float8 *)(param_2 + iVar3);
+    iVar3 = iVar3 + 8;
+    axVar4._0_8_ = axVar4._0_8_ + *pfVar2 * *pfVar1;
+  } while ((uint8)param_3 * 8 != iVar3);
+  axVar4._8_8_ = 0;
+  return axVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x00400748
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+xunknown4 float_to_bits(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function clamp_double
+Function clamp_double: 0x00400750
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+xunknown1  [16] clamp_double(float8 param_1,float8 param_2,float8 param_3)
+
+{
+  xunknown1 axVar1 [16];
+  
+  if ((param_2 <= param_1) && (param_2 = param_3, param_1 <= param_3)) {
+    param_2 = param_1 * 1.5;
+  }
+  axVar1._8_8_ = 0;
+  axVar1._0_8_ = param_2;
+  return axVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function sum_array
+Function sum_array: 0x00400780
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 *param_1,uint4 param_2)
+
+{
+  int4 iVar1;
+  int4 *piVar3;
+  int4 *piVar2;
+  
+  if ((int4)param_2 < 1) {
+    return 0;
+  }
+  iVar1 = 0;
+  piVar2 = param_1;
+  do {
+    piVar3 = piVar2 + 1;
+    iVar1 = iVar1 + *piVar2;
+    piVar2 = piVar3;
+  } while (piVar3 != param_1 + param_2);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function find_max
+Function find_max: 0x004007c0
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+int4 find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 *piVar3;
+  int4 *piVar2;
+  
+  iVar1 = *param_1;
+  if (1 < param_2) {
+    piVar2 = param_1 + 1;
+    do {
+      piVar3 = piVar2 + 1;
+      if (iVar1 < *piVar2) {
+        iVar1 = *piVar2;
+      }
+      piVar2 = piVar3;
+    } while (piVar3 != param_1 + (uint8)(param_2 - 2) + 2);
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x00400800
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 *param_1,uint4 param_2)
+
+{
+  int4 iVar1;
+  bool bVar2;
+  int4 *piVar3;
+  int4 *piVar4;
+  
+  if (1 < (int4)param_2) {
+    piVar4 = param_1 + ((uint8)param_2 - 1);
+    do {
+      bVar2 = false;
+      piVar3 = param_1;
+      do {
+        iVar1 = *piVar3;
+        if (piVar3[1] < iVar1) {
+          bVar2 = true;
+          *piVar3 = piVar3[1];
+          piVar3[1] = iVar1;
+        }
+        piVar3 = piVar3 + 1;
+      } while (piVar3 != piVar4);
+    } while ((bVar2) &&
+            (piVar4 = piVar4 + -1, piVar4 != param_1 + (((uint8)param_2 - 2) - (uint8)(param_2 - 2))
+            ));
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x00400860
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+void collatz_steps(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  do {
+    if ((param_1 & 1) != 0) {
+      iVar1 = iVar1 + 1;
+      param_1 = param_1 * 3 + 1;
+      if (iVar1 == 1000 || param_1 < 2) {
+        return;
+      }
+    }
+    iVar1 = iVar1 + 1;
+    param_1 = param_1 >> 1;
+  } while ((iVar1 != 1000 && param_1 != 0) && (iVar1 == 1000 || param_1 != 1));
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function count_bits
+Function count_bits: 0x004008a0
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+char count_bits(xunknown4 param_1)
+
+{
+  return POPCOUNT((char)param_1) + POPCOUNT((char)((uint4)param_1 >> 8)) +
+         POPCOUNT((char)((uint4)param_1 >> 0x10)) + POPCOUNT((char)((uint4)param_1 >> 0x18));
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x004008c0
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int8 param_1,int4 *param_2,int8 param_3)
+
+{
+  int4 *piVar1;
+  int8 iVar2;
+  
+  piVar1 = param_2 + 9;
+  do {
+    iVar2 = 0;
+    do {
+      *(int4 *)(param_1 + iVar2) =
+           *param_2 * *(int4 *)(param_3 + iVar2) + *(int4 *)(param_3 + 0xc + iVar2) * param_2[1] +
+           *(int4 *)(param_3 + 0x18 + iVar2) * param_2[2];
+      iVar2 = iVar2 + 4;
+    } while (iVar2 != 0xc);
+    param_2 = param_2 + 3;
+    param_1 = param_1 + 0xc;
+  } while (param_2 != piVar1);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function _start
+Function _start: 0x00400920
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function memcpy
+Function memcpy: 0x00400940
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+void memcpy(int8 param_1,int8 param_2,int8 param_3)
+
+{
+  int8 iVar1;
+  
+  if (param_3 != 0) {
+    iVar1 = 0;
+    do {
+      *(xunknown1 *)(param_1 + iVar1) = *(xunknown1 *)(param_2 + iVar1);
+      iVar1 = iVar1 + 1;
+    } while (iVar1 != param_3);
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function memset
+Function memset: 0x00400960
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+void memset(xunknown1 *param_1,xunknown1 param_2,int8 param_3)
+
+{
+  xunknown1 *pxVar2;
+  xunknown1 *pxVar1;
+  
+  pxVar2 = param_1;
+  if (param_3 != 0) {
+    do {
+      pxVar1 = pxVar2 + 1;
+      *pxVar2 = param_2;
+      pxVar2 = pxVar1;
+    } while (param_1 + param_3 != pxVar1);
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function memmove
+Function memmove: 0x00400980
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+void memmove(uint8 param_1,uint8 param_2,int8 param_3)
+
+{
+  int8 iVar1;
+  
+  if (param_1 < param_2) {
+    if (param_3 != 0) {
+      iVar1 = 0;
+      do {
+        *(xunknown1 *)(param_1 + iVar1) = *(xunknown1 *)(param_2 + iVar1);
+        iVar1 = iVar1 + 1;
+      } while (iVar1 != param_3);
+    }
+  }
+  else {
+    while (param_3 != 0) {
+      param_3 = param_3 + -1;
+      *(xunknown1 *)(param_1 + param_3) = *(xunknown1 *)(param_2 + param_3);
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function memcmp
+Function memcmp: 0x004009c0
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+xunknown4 memcmp(int8 param_1,int8 param_2,int8 param_3)
+
+{
+  xunknown4 xVar1;
+  int8 iVar2;
+  
+  if (param_3 != 0) {
+    iVar2 = 0;
+    do {
+      if (*(uint1 *)(param_1 + iVar2) != *(uint1 *)(param_2 + iVar2)) {
+        xVar1 = 0xffffffff;
+        if (*(uint1 *)(param_2 + iVar2) <= *(uint1 *)(param_1 + iVar2)) {
+          xVar1 = 1;
+        }
+        return xVar1;
+      }
+      iVar2 = iVar2 + 1;
+    } while (param_3 != iVar2);
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function raise
+Function raise: 0x00400a00
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+void raise(void)
+
+{
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function copy_record
+Function copy_record: 0x00400a20
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(xunknown8 *param_1,xunknown8 *param_2)
+
+{
+  xunknown8 xVar1;
+  int4 iVar2;
+  xunknown4 xVar3;
+  xunknown4 xVar4;
+  xunknown4 xVar5;
+  
+  xVar1 = *param_2;
+  iVar2 = *(int4 *)(param_2 + 2);
+  xVar3 = *(xunknown4 *)((int8)param_2 + 0x14);
+  xVar4 = *(xunknown4 *)(param_2 + 3);
+  xVar5 = *(xunknown4 *)((int8)param_2 + 0x1c);
+  param_1[1] = param_2[1];
+  *param_1 = xVar1;
+  *(int4 *)(param_1 + 2) = iVar2;
+  *(xunknown4 *)((int8)param_1 + 0x14) = xVar3;
+  *(xunknown4 *)(param_1 + 3) = xVar4;
+  *(xunknown4 *)((int8)param_1 + 0x1c) = xVar5;
+  *(int4 *)(param_1 + 2) = iVar2 + 1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function clear_record
+Function clear_record: 0x00400a40
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(xunknown8 *param_1)
+
+{
+  *param_1 = 0;
+  param_1[1] = 0;
+  *(xunknown4 *)(param_1 + 2) = 0xffffffff;
+  *(xunknown2 *)((int8)param_1 + 0x14) = 0;
+  *(xunknown1 *)((int8)param_1 + 0x16) = 0x78;
+  param_1[3] = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function apply_op
+Function apply_op: 0x00400a60
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function add_ints
+Function add_ints: 0x00400a84
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 + param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function sub_ints
+Function sub_ints: 0x00400a8c
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x00400aa0
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown8 *param_1,xunknown8 *param_2)
+
+{
+  xunknown8 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function divide_constants
+Function divide_constants: 0x00400ac0
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+int4 divide_constants(int4 param_1,uint4 param_2)
+
+{
+  return param_1 / 7 + param_1 % 10 + param_2 / 3 + param_2 % 1000;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function crc8
+Function crc8: 0x00400b24
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint4 crc8(uint1 *param_1,int4 param_2)
+
+{
+  uint4 uVar1;
+  uint1 *puVar3;
+  uint1 *puVar2;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  uVar1 = 0;
+  puVar3 = param_1;
+  do {
+    puVar2 = puVar3 + 1;
+    uVar1 = (uint4)*(uint1 *)((int8)(int4)((*puVar3 ^ uVar1) >> 4 & 0xf) + 0x4019f0) ^ uVar1 << 4;
+    uVar1 = (uint4)*(uint1 *)((int8)(int4)(uVar1 >> 4 & 0xf ^ *puVar3 & 0xf) + 0x4019f0) ^
+            uVar1 << 4;
+    puVar3 = puVar2;
+  } while (param_1 + param_2 != puVar2);
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x00400b80
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+int4 global_counter_bump(int4 param_1)
+
+{
+  iRam0000000000411ac0 = param_1 + iRam0000000000411ac0;
+  if (1000 < iRam0000000000411ac0) {
+    iRam0000000000411ac0 = 0;
+  }
+  return iRam0000000000411ac0;
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function factorial
+Function factorial: 0x00400bc0
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 1;
+  if (1 < param_1) {
+    do {
+      iVar1 = iVar1 * param_1;
+      param_1 = param_1 + -1;
+    } while (param_1 != 1);
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function fibonacci
+Function fibonacci: 0x00400be4
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+uint8 fibonacci(uint8 param_1)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  int4 iVar5;
+  uint4 uVar6;
+  uint4 uVar7;
+  uint4 uVar8;
+  uint4 uVar9;
+  uint4 uVar10;
+  uint4 uVar11;
+  uint4 uVar12;
+  uint4 uVar13;
+  int4 iVar14;
+  uint4 uVar15;
+  int4 iVar16;
+  int4 iVar17;
+  uint4 uVar18;
+  int4 iVar19;
+  int4 iVar20;
+  uint4 uVar21;
+  int4 iVar22;
+  uint4 uVar23;
+  int4 iVar24;
+  int4 iVar25;
+  uint4 uVar26;
+  int4 iVar27;
+  int4 iVar28;
+  uint4 uVar29;
+  int4 iVar30;
+  int4 iVar31;
+  int4 iVar32;
+  uint4 uVar33;
+  
+  uVar13 = (uint4)param_1;
+  if ((int4)uVar13 < 2) {
+    return param_1;
+  }
+  uVar33 = uVar13 - 1;
+  iVar28 = 0;
+  uVar7 = uVar13 - (uVar33 & 0xfffffffe);
+  do {
+    if (uVar13 == uVar7) {
+      return (uint8)(uVar33 + iVar28);
+    }
+    iVar14 = (int4)param_1;
+    uVar13 = iVar14 - 2;
+    uVar8 = uVar33 - (uVar13 & 0xfffffffe);
+    iVar24 = 0;
+    do {
+      uVar15 = uVar33 - 1;
+      if (uVar8 == uVar33) {
+        iVar24 = uVar15 + iVar24;
+        goto joined_r0x00400f68;
+      }
+      uVar33 = uVar33 - 2;
+      uVar9 = uVar15 - (uVar33 & 0xfffffffe);
+      iVar31 = 0;
+      do {
+        uVar18 = uVar15 - 1;
+        if (uVar9 == uVar15) {
+          iVar31 = uVar18 + iVar31;
+          goto code_r0x00400f10;
+        }
+        uVar15 = uVar15 - 2;
+        uVar10 = uVar18 - (uVar15 & 0xfffffffe);
+        iVar20 = 0;
+        do {
+          uVar26 = uVar18 - 1;
+          if (uVar10 == uVar18) {
+            iVar20 = uVar26 + iVar20;
+            goto code_r0x00400ed0;
+          }
+          uVar18 = uVar18 - 2;
+          uVar11 = uVar26 - (uVar18 & 0xfffffffe);
+          iVar22 = 0;
+          do {
+            uVar2 = uVar26 - 1;
+            if (uVar11 == uVar26) {
+              iVar22 = uVar2 + iVar22;
+              goto code_r0x00400e94;
+            }
+            uVar29 = uVar26 - 4;
+            uVar26 = uVar26 - 2;
+            iVar32 = 0;
+            uVar21 = uVar2;
+            do {
+              if (uVar21 == uVar2 - (uVar26 & 0xfffffffe)) {
+                iVar32 = (uVar21 - 1) + iVar32;
+                goto code_r0x00400e68;
+              }
+              uVar3 = uVar21 - 2;
+              iVar30 = 0;
+              iVar16 = uVar29 + 1;
+              uVar12 = uVar29;
+              while ((uVar21 - 3) - (uVar3 & 0xfffffffe) != uVar12) {
+                uVar4 = uVar12 - 2;
+                iVar25 = 0;
+                uVar6 = uVar4;
+                uVar23 = uVar12;
+                do {
+                  if (uVar23 == 1) break;
+                  iVar5 = iVar16 + -2;
+                  iVar27 = 0;
+                  iVar19 = iVar5;
+                  do {
+                    iVar17 = fibonacci(iVar19);
+                    iVar27 = iVar27 + iVar17;
+                    iVar19 = iVar19 + -2;
+                  } while ((iVar16 + -4) - (uVar6 & 0xfffffffe) != iVar19);
+                  uVar1 = uVar6 >> 1;
+                  uVar23 = uVar23 - 2;
+                  uVar6 = uVar6 - 2;
+                  iVar25 = iVar25 + uVar23 + uVar1 * -2 + iVar27;
+                  iVar16 = iVar5;
+                } while (iVar5 != 1);
+                iVar30 = iVar30 + iVar25 + 1;
+                if ((uVar21 - 5) - (uVar29 & 0xfffffffe) == uVar4) {
+                  iVar16 = uVar12 + iVar30;
+                  goto code_r0x00400e44;
+                }
+                iVar16 = uVar12 - 1;
+                uVar12 = uVar4;
+              }
+              iVar16 = iVar16 + iVar30;
+code_r0x00400e44:
+              iVar32 = iVar32 + iVar16;
+              uVar29 = uVar29 - 2;
+              uVar21 = uVar3;
+            } while (uVar3 != 1);
+            iVar32 = iVar32 + 1;
+code_r0x00400e68:
+            iVar22 = iVar22 + iVar32;
+          } while (uVar26 != 1);
+          iVar22 = iVar22 + 1;
+code_r0x00400e94:
+          iVar20 = iVar20 + iVar22;
+        } while (uVar18 != 1);
+        iVar20 = iVar20 + 1;
+code_r0x00400ed0:
+        iVar31 = iVar31 + iVar20;
+      } while (uVar15 != 1);
+      iVar31 = iVar31 + 1;
+code_r0x00400f10:
+      iVar24 = iVar24 + iVar31;
+    } while (uVar33 != 1);
+    iVar24 = iVar24 + 1;
+joined_r0x00400f68:
+    iVar28 = iVar28 + iVar24;
+    if (uVar13 == 1) {
+      return (uint8)(iVar28 + 1);
+    }
+    param_1 = (uint8)uVar13;
+    uVar33 = iVar14 - 3;
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function gcd
+Function gcd: 0x00400fa8
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  
+  if (param_2 == 0) {
+    return param_1;
+  }
+  while( true ) {
+    iVar1 = 0;
+    if (param_2 != 0) {
+      iVar1 = param_1 / param_2;
+    }
+    iVar1 = param_1 - iVar1 * param_2;
+    if (iVar1 == 0) break;
+    param_1 = param_2;
+    param_2 = iVar1;
+  }
+  return param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function ackermann
+Function ackermann: 0x00400fe0
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  
+  if (param_1 == 0) {
+    return param_2 + 1;
+  }
+  do {
+    iVar1 = param_1 + -1;
+    if (param_2 == 0) {
+      if (iVar1 == 0) {
+        return 2;
+      }
+      iVar10 = param_1 + -2;
+      param_2 = 1;
+      param_1 = iVar1;
+      iVar1 = iVar10;
+    }
+    param_2 = param_2 + -1;
+    do {
+      iVar10 = param_1 + -1;
+      if (param_2 == 0) {
+        if (iVar10 == 0) {
+          param_2 = 2;
+          goto joined_r0x004011c0;
+        }
+        param_2 = 1;
+        iVar9 = param_1 + -2;
+      }
+      else {
+        iVar9 = iVar10;
+        iVar10 = param_1;
+      }
+      param_1 = iVar9;
+      param_2 = param_2 + -1;
+      do {
+        iVar9 = iVar10 + -1;
+        if (param_2 == 0) {
+          if (iVar9 == 0) {
+            param_2 = 2;
+            goto joined_r0x004011b0;
+          }
+          param_2 = 1;
+          iVar8 = iVar10 + -2;
+        }
+        else {
+          iVar8 = iVar9;
+          iVar9 = iVar10;
+        }
+        iVar10 = iVar8;
+        param_2 = param_2 + -1;
+        do {
+          iVar8 = iVar9 + -1;
+          if (param_2 == 0) {
+            if (iVar8 == 0) {
+              param_2 = 2;
+              goto joined_r0x004011a0;
+            }
+            param_2 = 1;
+            iVar7 = iVar9 + -2;
+          }
+          else {
+            iVar7 = iVar8;
+            iVar8 = iVar9;
+          }
+          iVar9 = iVar7;
+          param_2 = param_2 + -1;
+          do {
+            iVar7 = iVar8 + -1;
+            if (param_2 == 0) {
+              if (iVar7 == 0) {
+                param_2 = 2;
+                goto joined_r0x00401190;
+              }
+              param_2 = 1;
+              iVar6 = iVar8 + -2;
+            }
+            else {
+              iVar6 = iVar7;
+              iVar7 = iVar8;
+            }
+            iVar8 = iVar6;
+            param_2 = param_2 + -1;
+            do {
+              iVar6 = iVar7 + -1;
+              if (param_2 == 0) {
+                if (iVar6 == 0) {
+                  param_2 = 2;
+                  goto joined_r0x00401180;
+                }
+                param_2 = 1;
+                iVar5 = iVar7 + -2;
+              }
+              else {
+                iVar5 = iVar6;
+                iVar6 = iVar7;
+              }
+              iVar7 = iVar5;
+              param_2 = param_2 + -1;
+              do {
+                iVar5 = iVar6 + -1;
+                if (param_2 == 0) {
+                  if (iVar5 == 0) {
+                    param_2 = 2;
+                    goto joined_r0x00401170;
+                  }
+                  param_2 = 1;
+                  iVar4 = iVar6 + -2;
+                }
+                else {
+                  iVar4 = iVar5;
+                  iVar5 = iVar6;
+                }
+                iVar6 = iVar4;
+                param_2 = param_2 + -1;
+                do {
+                  iVar4 = iVar5 + -1;
+                  if (param_2 == 0) {
+                    if (iVar4 == 0) {
+                      param_2 = 2;
+                      goto joined_r0x00401160;
+                    }
+                    param_2 = 1;
+                    iVar2 = iVar5 + -2;
+                  }
+                  else {
+                    iVar2 = iVar4;
+                    iVar4 = iVar5;
+                  }
+                  iVar5 = iVar2;
+                  param_2 = param_2 + -1;
+                  do {
+                    iVar2 = iVar4 + -1;
+                    if (param_2 == 0) {
+                      if (iVar2 == 0) {
+                        param_2 = 2;
+                        goto joined_r0x00401150;
+                      }
+                      param_2 = 1;
+                      iVar3 = iVar4 + -2;
+                    }
+                    else {
+                      iVar3 = iVar2;
+                      iVar2 = iVar4;
+                    }
+                    iVar4 = iVar3;
+                    param_2 = ackermann(iVar2,param_2 + -1);
+                  } while (iVar4 != 0);
+                  param_2 = param_2 + 1;
+joined_r0x00401150:
+                } while (iVar5 != 0);
+                param_2 = param_2 + 1;
+joined_r0x00401160:
+              } while (iVar6 != 0);
+              param_2 = param_2 + 1;
+joined_r0x00401170:
+            } while (iVar7 != 0);
+            param_2 = param_2 + 1;
+joined_r0x00401180:
+          } while (iVar8 != 0);
+          param_2 = param_2 + 1;
+joined_r0x00401190:
+        } while (iVar9 != 0);
+        param_2 = param_2 + 1;
+joined_r0x004011a0:
+      } while (iVar10 != 0);
+      param_2 = param_2 + 1;
+joined_r0x004011b0:
+    } while (param_1 != 0);
+    param_2 = param_2 + 1;
+joined_r0x004011c0:
+    param_1 = iVar1;
+    if (iVar1 == 0) {
+      return param_2 + 1;
+    }
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function my_strlen
+Function my_strlen: 0x004012a0
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int8 my_strlen(char *param_1)
+
+{
+  char *pcVar1;
+  
+  if (*param_1 == '\0') {
+    return 0;
+  }
+  pcVar1 = param_1;
+  do {
+    pcVar1 = pcVar1 + 1;
+  } while (*pcVar1 != '\0');
+  return (int8)pcVar1 - (int8)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x004012c4
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  uint1 uVar1;
+  uint4 uVar2;
+  
+  uVar2 = (uint4)*param_1;
+  if (*param_1 == 0) {
+    uVar1 = *param_2;
+  }
+  else {
+    for (; uVar1 = *param_2, uVar1 == uVar2; param_2 = param_2 + 1) {
+      param_1 = param_1 + 1;
+      uVar2 = (uint4)*param_1;
+      if (*param_1 == 0) {
+        return -(uint4)param_2[1];
+      }
+    }
+  }
+  return uVar2 - uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x00401304
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+void my_strcpy(int8 param_1,int8 param_2)
+
+{
+  char cVar1;
+  int8 iVar2;
+  
+  iVar2 = 0;
+  do {
+    cVar1 = *(char *)(param_2 + iVar2);
+    *(char *)(param_1 + iVar2) = cVar1;
+    iVar2 = iVar2 + 1;
+  } while (cVar1 != '\0');
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function reverse_string
+Function reverse_string: 0x00401320
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(char *param_1)
+
+{
+  char cVar1;
+  char *pcVar2;
+  uint8 uVar3;
+  uint8 uVar4;
+  
+  if (*param_1 != '\0') {
+    pcVar2 = param_1;
+    do {
+      pcVar2 = pcVar2 + 1;
+    } while (*pcVar2 != '\0');
+    if (((int8)pcVar2 - (int8)param_1 != 0) &&
+       (uVar3 = ((int8)pcVar2 - (int8)param_1) - 1, uVar3 != 0)) {
+      uVar4 = 0;
+      do {
+        cVar1 = param_1[uVar4];
+        param_1[uVar4] = param_1[uVar3];
+        uVar4 = uVar4 + 1;
+        param_1[uVar3] = cVar1;
+        uVar3 = uVar3 - 1;
+      } while (uVar4 < uVar3);
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function count_char
+Function count_char: 0x0040136c
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(char *param_1,char param_2)
+
+{
+  char cVar1;
+  bool bVar2;
+  int4 iVar3;
+  
+  cVar1 = *param_1;
+  iVar3 = 0;
+  while (cVar1 != '\0') {
+    bVar2 = param_2 == cVar1;
+    param_1 = param_1 + 1;
+    cVar1 = *param_1;
+    if (bVar2) {
+      iVar3 = iVar3 + 1;
+    }
+  }
+  return iVar3;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x004013a0
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+int4 parse_decimal(uint1 *param_1)
+
+{
+  uint1 uVar1;
+  uint4 uVar2;
+  int4 iVar3;
+  int4 iVar4;
+  
+  uVar1 = *param_1;
+  iVar4 = 1;
+  if (uVar1 == 0x2d) {
+    uVar1 = param_1[1];
+    param_1 = param_1 + 1;
+    iVar4 = -1;
+  }
+  uVar2 = uVar1 - 0x30;
+  iVar3 = 0;
+  if (9 < (uVar2 & 0xff)) {
+    return 0;
+  }
+  do {
+    iVar3 = uVar2 + iVar3 * 10;
+    param_1 = param_1 + 1;
+    uVar2 = *param_1 - 0x30;
+  } while ((uVar2 & 0xff) < 10);
+  return iVar3 * iVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function to_upper
+Function to_upper: 0x00401400
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(char *param_1)
+
+{
+  char cVar1;
+  
+  cVar1 = *param_1;
+  while (cVar1 != '\0') {
+    if ((uint1)(cVar1 + 0x9fU) < 0x1a) {
+      *param_1 = cVar1 + -0x20;
+    }
+    param_1 = param_1 + 1;
+    cVar1 = *param_1;
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function point_distance2
+Function point_distance2: 0x00401440
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(xunknown8 *param_1,xunknown8 *param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = (int4)*param_1 - (int4)*param_2;
+  iVar2 = (int4)((uint8)*param_1 >> 0x20) - (int4)((uint8)*param_2 >> 0x20);
+  return iVar1 * iVar1 + iVar2 * iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function make_point
+Function make_point: 0x00401460
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+uint8 make_point(uint8 param_1,int8 param_2)
+
+{
+  return param_1 & 0xffffffff | param_2 << 0x20;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function rect_area
+Function rect_area: 0x0040146c
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(xunknown8 param_1,xunknown8 param_2)
+
+{
+  return (int4)((uint8)param_2 >> 0x20) * (int4)param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function rect_contains
+Function rect_contains: 0x00401480
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+bool rect_contains(int4 *param_1,xunknown8 param_2)
+
+{
+  int4 iVar1;
+  bool bVar2;
+  
+  iVar1 = (int4)((uint8)param_2 >> 0x20);
+  bVar2 = false;
+  if (*param_1 <= (int4)param_2) {
+    bVar2 = false;
+    if ((param_1[1] <= iVar1) && ((int4)param_2 < *param_1 + param_1[2])) {
+      bVar2 = iVar1 < param_1[1] + param_1[3];
+    }
+  }
+  return bVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function list_length
+Function list_length: 0x004014cc
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int8 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  for (; param_1 != 0; param_1 = *(int8 *)(param_1 + 8)) {
+    iVar1 = iVar1 + 1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function list_sum
+Function list_sum: 0x004014f0
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  for (; param_1 != (int4 *)0x0; param_1 = *(int4 **)(param_1 + 2)) {
+    iVar1 = iVar1 + *param_1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function list_reverse
+Function list_reverse: 0x00401520
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+void list_reverse(int8 param_1)
+
+{
+  int8 iVar1;
+  int8 iVar2;
+  
+  if (param_1 != 0) {
+    iVar2 = 0;
+    while( true ) {
+      iVar1 = param_1;
+      param_1 = *(int8 *)(iVar1 + 8);
+      *(int8 *)(iVar1 + 8) = iVar2;
+      if (param_1 == 0) break;
+      iVar2 = iVar1;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function switch_dense
+Function switch_dense: 0x00401560
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Removing unreachable block (ram,0x00400fb4) */
+
+uint4 switch_dense(int4 param_1,uint8 param_2)
+
+{
+  int4 iVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  
+  uVar3 = (uint4)param_2;
+  if (param_1 == 5) {
+    uVar4 = -uVar3;
+  }
+  else if (param_1 < 6) {
+    if (param_1 == 2) {
+      uVar4 = (int4)uVar3 / 3;
+    }
+    else if (param_1 < 3) {
+      uVar4 = uVar3 + 0x11;
+      if ((param_1 != 0) && (uVar4 = uVar3 * 0x1f + 4, param_1 != 1)) {
+        uVar4 = 0xffffffff;
+      }
+    }
+    else {
+      if (param_1 != 3) {
+        uVar4 = 0x4d2;
+        do {
+          uVar2 = uVar4;
+          iVar1 = 0;
+          if (uVar2 != 0) {
+            iVar1 = (int4)uVar3 / (int4)uVar2;
+          }
+          uVar4 = uVar3 - iVar1 * uVar2;
+          uVar3 = uVar2;
+        } while (uVar4 != 0);
+        return uVar2;
+      }
+      uVar4 = uVar3 << 5;
+    }
+  }
+  else if (param_1 == 8) {
+    uVar4 = uVar3 - 100;
+  }
+  else if (param_1 < 9) {
+    if (param_1 != 6) {
+      return (uint4)(uint1)(POPCOUNT((char)param_2) + POPCOUNT((char)(param_2 >> 8)) +
+                            POPCOUNT((char)(param_2 >> 0x10)) + POPCOUNT((char)(param_2 >> 0x18)));
+    }
+    uVar4 = uVar3 ^ 0x55;
+  }
+  else {
+    uVar4 = 0xffffffff;
+    if (param_1 == 9) {
+      uVar3 = uVar3 & 7;
+      uVar4 = 1;
+      if (uVar3 != 1 && (param_2 & 7) != 0) {
+        do {
+          uVar4 = uVar4 * uVar3;
+          uVar3 = uVar3 - 1;
+        } while (uVar3 != 1);
+      }
+      return uVar4;
+    }
+  }
+  return uVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x00401620
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_sparse(int4 param_1)
+
+{
+  xunknown4 xVar1;
+  
+  if (param_1 == 1000) {
+    return 3;
+  }
+  if (param_1 < 0x3e9) {
+    xVar1 = 1;
+    if (((param_1 != 3) && (xVar1 = 2, param_1 != 100)) && (xVar1 = 0, param_1 == -0x32)) {
+      xVar1 = 5;
+    }
+  }
+  else {
+    xVar1 = 4;
+    if (param_1 != 0x1000) {
+      xVar1 = 0;
+      if (param_1 == 0x12fd1) {
+        xVar1 = 6;
+      }
+      return xVar1;
+    }
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function weekday_name
+Function weekday_name: 0x0040168c
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+xunknown8 weekday_name(uint4 param_1)
+
+{
+  if (param_1 < 7) {
+    return *(xunknown8 *)((int8)(int4)param_1 * 8 + 0x401a00);
+  }
+  return 0x401930;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x004016c0
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1)
+
+{
+  int4 *piVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  xunknown4 xStack0000000000000000;
+  int4 iStack0000000000000008;
+  
+  if (param_1 < 1) {
+    return 0;
+  }
+  iVar3 = 0;
+  iVar2 = 0;
+  iVar4 = -0x38;
+  do {
+    if (-1 < iVar4) {
+code_r0x00401730:
+      do {
+        iVar4 = *(int4 *)register0x00000008;
+        if (param_1 == iVar3 + 1) {
+          return iVar2 + iVar4;
+        }
+        piVar1 = (int4 *)((int8)register0x00000008 + 8);
+        iVar3 = iVar3 + 2;
+        register0x00000008 = (BADSPACEBASE *)((int8)register0x00000008 + 0x10);
+        iVar2 = iVar2 + iVar4 + *piVar1;
+      } while (param_1 != iVar3);
+      return iVar2;
+    }
+    if (0 < iVar4 + 8) {
+      iVar3 = iVar3 + 1;
+      iVar2 = iVar2 + xStack0000000000000000;
+      if (iVar3 == param_1) {
+        return iVar2;
+      }
+      register0x00000008 = (BADSPACEBASE *)&iStack0000000000000008;
+      goto code_r0x00401730;
+    }
+    iVar3 = iVar3 + 1;
+    iVar2 = iVar2 + *(int4 *)((int8)&xStack0000000000000000 + (int8)iVar4);
+    if (param_1 == iVar3) {
+      return iVar2;
+    }
+    iVar4 = iVar4 + 8;
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function call_varargs
+Function call_varargs: 0x0040178c
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5,iVar1);
+  return iVar1 + iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-AARCH64:LE:64:v8A:default aarch64-O2
+aarch64-O2 successfully loaded: Generic ARM64 v8.5-A LE instructions, LE data, missing some 8.5 vector
+[decomp]> read symbols
+[decomp]> load function format_hex
+Function format_hex: 0x004017e0
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Heritage AFTER dead removal. Example location: s0xfffffffffffffff8 : 0x00401844 */
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+
+void format_hex(int8 param_1,char *param_2)
+
+{
+  int8 iVar1;
+  int8 iVar2;
+  char cVar3;
+  char cVar4;
+  uint8 uVar5;
+  uint8 uVar6;
+  uint8 uVar7;
+  uint8 uVar8;
+  char cVar9;
+  char cVar10;
+  uint8 uVar11;
+  xunknown4 xStack_8;
+  
+  cVar3 = *param_2;
+  if (cVar3 == '\0') {
+    iVar2 = 0;
+  }
+  else {
+    iVar1 = 1;
+    do {
+      iVar2 = iVar1;
+      *(char *)(param_1 + -1 + iVar2) = cVar3;
+      cVar3 = param_2[iVar2];
+      iVar1 = iVar2 + 1;
+    } while (cVar3 != '\0');
+  }
+  uVar11 = NEON_ushl(CONCAT44(xStack_8,xStack_8),xRam0000000000401a38,4);
+  uVar6 = NEON_ushl(CONCAT44(xStack_8,xStack_8),xRam0000000000401a40,4);
+  uVar5 = NEON_ushl(CONCAT44(xStack_8,xStack_8),xRam0000000000401a48,4);
+  uVar11 = uVar11 & 0xf0000000f;
+  uVar7 = NEON_ushl(CONCAT44(xStack_8,xStack_8),xRam0000000000401a50,4);
+  uVar6 = uVar6 & 0xf0000000f;
+  uVar5 = uVar5 & 0xf0000000f;
+  uVar7 = uVar7 & 0xf0000000f;
+  cVar9 = (char)(uVar5 >> 0x20);
+  cVar10 = (char)(uVar7 >> 0x20);
+  cVar3 = (char)(uVar11 >> 0x20);
+  cVar4 = (char)(uVar6 >> 0x20);
+  uVar8 = CONCAT17(cVar10 + 'W',
+                   CONCAT16((char)uVar7 + 'W',
+                            CONCAT15(cVar9 + 'W',
+                                     CONCAT14((char)uVar5 + 'W',
+                                              CONCAT13(cVar4 + 'W',
+                                                       CONCAT12((char)uVar6 + 'W',
+                                                                CONCAT11(cVar3 + 'W',
+                                                                         (char)uVar11 + 'W')))))));
+  *(uint8 *)(param_1 + (int4)iVar2) =
+       uVar8 ^ (uVar8 ^ CONCAT17(cVar10 + '0',
+                                 CONCAT16((char)uVar7 + '0',
+                                          CONCAT15(cVar9 + '0',
+                                                   CONCAT14((char)uVar5 + '0',
+                                                            CONCAT13(cVar4 + '0',
+                                                                     CONCAT12((char)uVar6 + '0',
+                                                                              CONCAT11(cVar3 + '0',
+                                                                                       (char)uVar11
+                                                                                       + '0'))))))))
+               & CONCAT17(-((uint4)(uVar7 >> 0x20) < 10),
+                          CONCAT16(-((uint4)uVar7 < 10),
+                                   CONCAT15(-((uint4)(uVar5 >> 0x20) < 10),
+                                            CONCAT14(-((uint4)uVar5 < 10),
+                                                     CONCAT13(-((uint4)(uVar6 >> 0x20) < 10),
+                                                              CONCAT12(-((uint4)uVar6 < 10),
+                                                                       CONCAT11(-((uint4)(uVar11 >>
+                                                                                         0x20) < 10)
+                                                                                ,-((uint4)uVar11 <
+                                                                                  10))))))));
+  *(xunknown1 *)(param_1 + ((int4)iVar2 + 8)) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0

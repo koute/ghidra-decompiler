@@ -1,0 +1,1842 @@
+=== function mul64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function mul64
+Function mul64: 0x000100b4
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 mul64(uint4 param_1,uint4 param_2,uint4 param_3,int4 param_4)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = param_1 * param_3 + (param_1 >> 3) + param_2 * 0x20000000;
+  return CONCAT44((uint4)(uVar1 < param_1 * param_3) +
+                  param_2 * param_3 + param_4 * param_1 +
+                  (int4)((uint8)param_1 * (uint8)param_3 >> 0x20) + (param_2 >> 3),uVar1);
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function add64
+Function add64: 0x0001013c
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 add64(uint4 param_1,int4 param_2,int4 param_3,int4 param_4)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = param_1 + param_3;
+  return CONCAT44((uint4)(uVar1 + 0xdcba9877 < uVar1) +
+                  (uint4)(uVar1 < param_1) + param_2 + param_4 + -2,uVar1 + 0xdcba9877);
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function shift64
+Function shift64: 0x000101a2
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 shift64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  
+  if ((int4)(param_3 - 0x20) < 0) {
+    uVar2 = (param_2 << (param_3 & 0x1f)) + ((param_1 >> 1) >> (0x1f - param_3 & 0x1f));
+    uVar1 = param_1 << (param_3 & 0x1f);
+  }
+  else {
+    uVar2 = param_1 << (param_3 - 0x20 & 0x1f);
+    uVar1 = 0;
+  }
+  uVar3 = (-param_3 & 0x3f) - 0x20;
+  if ((int4)uVar3 < 0) {
+    uVar3 = (param_1 >> (-param_3 & 0x1f)) + ((param_2 << 1) << (0x1f - (-param_3 & 0x3f) & 0x1f));
+    param_2 = param_2 >> (-param_3 & 0x1f);
+  }
+  else {
+    uVar3 = param_2 >> (uVar3 & 0x1f);
+    param_2 = 0;
+  }
+  return CONCAT44(param_2 | uVar2,uVar3 | uVar1);
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function compare64
+Function compare64: 0x00010266
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+xunknown4 compare64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  xunknown4 xVar1;
+  
+  if ((param_2 < param_4) || ((param_4 == param_2 && (param_1 < param_3)))) {
+    xVar1 = 0xffffffff;
+  }
+  else if ((param_4 < param_2) || ((param_2 == param_4 && (param_3 < param_1)))) {
+    xVar1 = 1;
+  }
+  else {
+    xVar1 = 0;
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x000102da
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 fnv1a64(int4 param_1,int4 param_2)
+
+{
+  uint4 uVar1;
+  int4 iStack_1c;
+  uint4 uStack_18;
+  int4 iStack_14;
+  
+  uStack_18 = uRam00011f38;
+  iStack_14 = iRam00011f3c;
+  for (iStack_1c = 0; iStack_1c < param_2; iStack_1c = iStack_1c + 1) {
+    uVar1 = uStack_18 ^ *(uint1 *)(iStack_1c + param_1);
+    uStack_18 = uVar1 * 0x1b3;
+    iStack_14 = iStack_14 * 0x1b3 + uVar1 * 0x100 + (int4)((uint8)uVar1 * 0x1b3 >> 0x20);
+  }
+  return CONCAT44(iStack_14,uStack_18);
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x0001039a
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 rotate_left64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  
+  uVar4 = param_3 & 0x3f;
+  if (uVar4 != 0) {
+    if ((int4)(uVar4 - 0x20) < 0) {
+      uVar2 = (param_2 << (param_3 & 0x1f)) + ((param_1 >> 1) >> (0x1f - uVar4 & 0x1f));
+      uVar1 = param_1 << (param_3 & 0x1f);
+    }
+    else {
+      uVar2 = param_1 << (uVar4 - 0x20 & 0x1f);
+      uVar1 = 0;
+    }
+    uVar3 = (-uVar4 & 0x3f) - 0x20;
+    if ((int4)uVar3 < 0) {
+      param_1 = (param_1 >> (-uVar4 & 0x1f)) + ((param_2 << 1) << (0x1f - (-uVar4 & 0x3f) & 0x1f));
+      param_2 = param_2 >> (-uVar4 & 0x1f);
+    }
+    else {
+      param_1 = param_2 >> (uVar3 & 0x1f);
+      param_2 = 0;
+    }
+    param_1 = param_1 | uVar1;
+    param_2 = param_2 | uVar2;
+  }
+  return CONCAT44(param_2,param_1);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function set_flags
+Function set_flags: 0x0001047a
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint4 *param_1,uint4 param_2,uint4 param_3)
+
+{
+  *param_1 = *param_1 | 1;
+  *param_1 = (param_2 & 7) << 1 | *param_1 & 0xfffffff1;
+  *param_1 = (param_3 & 0xf) << 4 | *param_1 & 0xffffff0f;
+  *param_1 = ((param_3 & 0xff) + (param_2 & 0xff) & 0x3f) << 8 | *param_1 & 0xffffc0ff;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function get_mode
+Function get_mode: 0x00010510
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+int4 get_mode(uint4 *param_1)
+
+{
+  int4 iVar1;
+  
+  if ((*param_1 & 1) == 0) {
+    iVar1 = -1;
+  }
+  else {
+    iVar1 = (*param_1 >> 1 & 7) * 0x10 + (*param_1 >> 4 & 0xf);
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function pack_flags
+Function pack_flags: 0x00010554
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 param_1)
+
+{
+  return (param_1 >> 8 & 0x3f) << 8 | param_1 & 1 | (param_1 >> 1 & 7) << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function poly_eval
+Function poly_eval: 0x00010598
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+float8 poly_eval(float8 param_1,int4 param_2,int4 param_3)
+
+{
+  int4 iStack_1c;
+  float8 fStack_18;
+  
+  fStack_18 = 0.0;
+  for (iStack_1c = param_3; -1 < iStack_1c; iStack_1c = iStack_1c + -1) {
+    fStack_18 = fStack_18 * param_1 + *(float8 *)(iStack_1c * 8 + param_2);
+  }
+  return fStack_18;
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function average_float
+Function average_float: 0x00010602
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float4 average_float(int4 param_1,int4 param_2)
+
+{
+  int4 iStack_18;
+  float4 fStack_14;
+  
+  fStack_14 = 0.0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    fStack_14 = fStack_14 + (float4)*(xunknown8 *)(iStack_18 * 4 + param_1);
+  }
+  if (param_2 < 1) {
+    fStack_14 = 0.0;
+  }
+  else {
+    fStack_14 = fStack_14 / (float4)param_2;
+  }
+  return fStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function float_to_int
+Function float_to_int: 0x00010676
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(float8 param_1)
+
+{
+  int4 iVar1;
+  
+  if (param_1 < 0.0) {
+    iVar1 = -(int4)(fRam00011f40 - param_1);
+  }
+  else {
+    iVar1 = (int4)(param_1 + fRam00011f40);
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function dot_product
+Function dot_product: 0x000106c6
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+float8 dot_product(int4 param_1,int4 param_2,int4 param_3)
+
+{
+  int4 iStack_1c;
+  float8 fStack_18;
+  
+  fStack_18 = 0.0;
+  for (iStack_1c = 0; iStack_1c < param_3; iStack_1c = iStack_1c + 1) {
+    fStack_18 = fStack_18 +
+                *(float8 *)(iStack_1c * 8 + param_1) * *(float8 *)(iStack_1c * 8 + param_2);
+  }
+  return fStack_18;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x0001073a
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+xunknown4 float_to_bits(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function clamp_double
+Function clamp_double: 0x0001075c
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+float8 clamp_double(float8 param_1,float8 param_2,float8 param_3)
+
+{
+  if (param_2 <= param_1) {
+    if (param_3 < param_1) {
+      param_2 = param_3;
+    }
+    else {
+      param_2 = param_1 * fRam00011f48;
+    }
+  }
+  return param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function sum_array
+Function sum_array: 0x000107b6
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 param_1,int4 param_2)
+
+{
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    iStack_14 = *(int4 *)(iStack_18 * 4 + param_1) + iStack_14;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function find_max
+Function find_max: 0x0001080c
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+int4 find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = *param_1;
+  for (iStack_18 = 1; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    if (iStack_14 < param_1[iStack_18]) {
+      iStack_14 = param_1[iStack_18];
+    }
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x0001087a
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 param_1,int4 param_2)
+
+{
+  bool bVar1;
+  xunknown4 xVar2;
+  int4 iStack_1c;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  while( true ) {
+    if (param_2 + -1 <= iStack_14) {
+      return;
+    }
+    bVar1 = false;
+    for (iStack_1c = 0; iStack_1c < (param_2 + -1) - iStack_14; iStack_1c = iStack_1c + 1) {
+      if (*(int4 *)((iStack_1c + 1) * 4 + param_1) < *(int4 *)(iStack_1c * 4 + param_1)) {
+        xVar2 = *(xunknown4 *)(iStack_1c * 4 + param_1);
+        *(xunknown4 *)(iStack_1c * 4 + param_1) = *(xunknown4 *)(param_1 + (iStack_1c + 1) * 4);
+        *(xunknown4 *)((iStack_1c + 1) * 4 + param_1) = xVar2;
+        bVar1 = true;
+      }
+    }
+    if (!bVar1) break;
+    iStack_14 = iStack_14 + 1;
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x00010954
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+int4 collatz_steps(uint4 param_1)
+
+{
+  uint4 uStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  uStack_18 = param_1;
+  do {
+    if ((uStack_18 & 1) == 0) {
+      uStack_18 = uStack_18 >> 1;
+    }
+    else {
+      uStack_18 = uStack_18 * 3 + 1;
+    }
+    iStack_14 = iStack_14 + 1;
+  } while ((1 < uStack_18) && (iStack_14 < 1000));
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function count_bits
+Function count_bits: 0x000109be
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+int4 count_bits(uint4 param_1)
+
+{
+  uint4 uStack_24;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (uStack_24 = param_1; uStack_24 != 0; uStack_24 = uStack_24 - 1 & uStack_24) {
+    iStack_14 = iStack_14 + 1;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x000109fe
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int4 param_1,int4 param_2,int4 param_3)
+
+{
+  int4 iStack_20;
+  int4 iStack_1c;
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  for (iStack_14 = 0; iStack_14 < 3; iStack_14 = iStack_14 + 1) {
+    for (iStack_18 = 0; iStack_18 < 3; iStack_18 = iStack_18 + 1) {
+      iStack_1c = 0;
+      for (iStack_20 = 0; iStack_20 < 3; iStack_20 = iStack_20 + 1) {
+        iStack_1c = *(int4 *)(iStack_20 * 4 + iStack_14 * 0xc + param_2) *
+                    *(int4 *)(iStack_18 * 4 + iStack_20 * 0xc + param_3) + iStack_1c;
+      }
+      *(int4 *)(iStack_18 * 4 + iStack_14 * 0xc + param_1) = iStack_1c;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function main
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function main
+Function main: 0x00010adc
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+int4 main(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  xunknown4 xVar3;
+  int4 iVar4;
+  int4 iVar5;
+  float4 fVar6;
+  xunknown8 xVar7;
+  float8 fVar8;
+  float8 fVar9;
+  xunknown4 xStack_130;
+  xunknown4 xStack_12c;
+  xunknown4 xStack_128;
+  xunknown4 xStack_124;
+  xunknown1 axStack_120 [32];
+  int4 iStack_100;
+  xunknown4 xStack_fc;
+  xunknown4 xStack_f8;
+  xunknown4 xStack_f4;
+  xunknown4 xStack_f0;
+  xunknown4 xStack_ec;
+  xunknown4 xStack_e8;
+  xunknown4 xStack_e4;
+  xunknown4 xStack_e0;
+  xunknown4 xStack_dc;
+  xunknown4 *pxStack_d8;
+  int4 *piStack_d4;
+  xunknown4 xStack_d0;
+  int4 iStack_cc;
+  xunknown1 axStack_c8 [16];
+  int4 iStack_b8;
+  xunknown4 xStack_a8;
+  xunknown4 xStack_a4;
+  xunknown4 xStack_a0;
+  xunknown4 xStack_9c;
+  xunknown4 xStack_98;
+  xunknown4 xStack_94;
+  xunknown8 xStack_90;
+  xunknown4 xStack_84;
+  xunknown4 xStack_80;
+  xunknown4 xStack_7c;
+  xunknown4 xStack_78;
+  xunknown4 xStack_74;
+  xunknown4 xStack_70;
+  xunknown4 xStack_6c;
+  xunknown4 xStack_68;
+  xunknown4 xStack_64;
+  xunknown4 xStack_60;
+  xunknown4 xStack_5c;
+  xunknown4 xStack_54;
+  xunknown4 *pxStack_50;
+  xunknown4 xStack_4c;
+  xunknown4 xStack_48;
+  xunknown4 xStack_44;
+  xunknown4 xStack_40;
+  xunknown4 xStack_3c;
+  xunknown4 xStack_38;
+  xunknown8 xStack_34;
+  xunknown8 xStack_2c;
+  uint4 uStack_24;
+  
+  iVar1 = sum_array(0x13070,8);
+  iVar2 = find_max(0x13070,8);
+  uStack_24 = iVar2 + iVar1;
+  bubble_sort(0x13070,8);
+  iVar1 = collatz_steps(0x1b);
+  iVar2 = count_bits(0xf0f0);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  iVar1 = switch_dense(uStack_24 & 0xf,uStack_24);
+  iVar2 = switch_sparse(uStack_24);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  xVar3 = weekday_name((int4)uStack_24 % 7);
+  iVar1 = my_strlen(xVar3);
+  uStack_24 = uStack_24 + iVar1;
+  xStack_2c = make_point(1,2);
+  xStack_34 = make_point(4,6);
+  iVar1 = point_distance2(&xStack_2c,&xStack_34);
+  uStack_24 = uStack_24 + iVar1;
+  xStack_44 = xRam00011f70;
+  xStack_40 = xRam00011f74;
+  xStack_3c = xRam00011f78;
+  xStack_38 = xRam00011f7c;
+  xStack_130 = xRam00011f70;
+  xStack_12c = xRam00011f74;
+  xStack_128 = xRam00011f78;
+  xStack_124 = xRam00011f7c;
+  iVar1 = rect_area(&xStack_130);
+  iVar2 = rect_contains(&xStack_44,(xunknown4)xStack_34,xStack_34._4_4_);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  xStack_4c = 3;
+  xStack_48 = 0;
+  xStack_54 = 4;
+  pxStack_50 = &xStack_4c;
+  iVar1 = list_length(&xStack_54);
+  xVar3 = list_reverse(&xStack_54);
+  iVar2 = list_sum(xVar3);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  my_strcpy(0x13090,0x11f50);
+  reverse_string(0x13090);
+  to_upper(0x13090);
+  iVar1 = count_char(0x13090,0x4f);
+  iVar2 = my_strcmp(0x13090,0x11f60);
+  iVar4 = parse_decimal(0x11f64);
+  uStack_24 = iVar4 + iVar1 + iVar2 + uStack_24;
+  iVar1 = factorial(6);
+  iVar2 = fibonacci(10);
+  iVar4 = gcd(0x54,0x24);
+  iVar5 = ackermann(2,3);
+  uStack_24 = iVar5 + iVar1 + iVar2 + iVar4 + uStack_24;
+  xStack_70 = xRam00011f80;
+  xStack_6c = xRam00011f84;
+  xStack_68 = xRam00011f88;
+  xStack_64 = xRam00011f8c;
+  xStack_60 = xRam00011f90;
+  xStack_5c = xRam00011f94;
+  xStack_80 = xRam00011f98;
+  xStack_7c = xRam00011f9c;
+  xStack_78 = xRam00011fa0;
+  xStack_74 = xRam00011fa4;
+  xVar7 = poly_eval(xRam00011fd0,&xStack_70,2);
+  iVar1 = float_to_int(xVar7);
+  fVar6 = (float4)average_float(&xStack_80,4);
+  uStack_24 = (int4)fVar6 + iVar1 + uStack_24;
+  fVar8 = (float8)dot_product(&xStack_70,&xStack_70,3);
+  fVar9 = (float8)clamp_double(xRam00011fe0,0,xRam00011fd8);
+  iVar1 = float_to_int(fVar8 + fVar9);
+  uStack_24 = uStack_24 + iVar1;
+  iVar1 = float_to_bits(xRam00011fe8);
+  uStack_24 = uStack_24 + iVar1;
+  iVar1 = call_varargs();
+  iVar2 = format_hex(0x13090,0x11f6c,0xdeadbeef);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  xStack_84 = 0;
+  set_flags(&xStack_84,3,5);
+  iVar1 = get_mode(&xStack_84);
+  iVar2 = pack_flags(xStack_84);
+  uStack_24 = iVar2 + iVar1 + uStack_24;
+  xVar7 = mul64(3,1,7,0);
+  iVar1 = add64(0xfffffffb,0xffffffff,9,0,(int4)xVar7,(int4)((uint8)xVar7 >> 0x20));
+  iVar2 = shift64(1,0x80000000,4);
+  uStack_24 = iVar2 + (int4)xVar7 + iVar1 + uStack_24;
+  iVar1 = compare64(0xffffffff,0xffffffff,1,0);
+  iVar2 = fnv1a64(0x13090,8);
+  iVar4 = rotate_left64(3,0,0x3e);
+  uStack_24 = iVar4 + iVar1 + iVar2 + uStack_24;
+  xStack_a8 = 0x706d6173;
+  xStack_a4 = 0x656c;
+  xStack_a0 = 0;
+  xStack_9c = 0;
+  xStack_98 = 7;
+  xStack_94 = 0x790002;
+  xStack_90 = xRam00011ff0;
+  copy_record(axStack_c8,&xStack_a8);
+  clear_record(&xStack_a8);
+  iVar1 = apply_op(add_ints,3,4);
+  iVar2 = apply_op(sub_ints,9,2);
+  uStack_24 = iVar2 + iStack_b8 + iVar1 + uStack_24;
+  iStack_cc = 1;
+  xStack_d0 = 2;
+  piStack_d4 = &iStack_cc;
+  pxStack_d8 = &xStack_d0;
+  swap_ptrs(&piStack_d4,&pxStack_d8);
+  iVar1 = *piStack_d4;
+  iVar2 = divide_constants(uStack_24,0x1e240);
+  iVar4 = crc8(0x13090,10);
+  uStack_24 = iVar4 + iVar1 + iVar2 + uStack_24;
+  iVar1 = global_counter_bump(uStack_24);
+  uStack_24 = uStack_24 + iVar1;
+  xStack_fc = xRam00011fa8;
+  xStack_f8 = xRam00011fac;
+  xStack_f4 = xRam00011fb0;
+  xStack_f0 = xRam00011fb4;
+  xStack_ec = xRam00011fb8;
+  xStack_e8 = xRam00011fbc;
+  xStack_e4 = xRam00011fc0;
+  xStack_e0 = xRam00011fc4;
+  xStack_dc = xRam00011fc8;
+  matrix_multiply(axStack_120,&xStack_fc,&xStack_fc);
+  return iStack_100 + uStack_24;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function _start
+Function _start: 0x00011078
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function memcpy
+Function memcpy: 0x00011094
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memcpy(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  int4 iStack_2c;
+  xunknown1 *pxStack_18;
+  xunknown1 *pxStack_14;
+  
+  iStack_2c = param_3;
+  pxStack_18 = param_2;
+  pxStack_14 = param_1;
+  while (iStack_2c != 0) {
+    *pxStack_14 = *pxStack_18;
+    iStack_2c = iStack_2c + -1;
+    pxStack_18 = pxStack_18 + 1;
+    pxStack_14 = pxStack_14 + 1;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function memset
+Function memset: 0x000110f6
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memset(xunknown1 *param_1,xunknown1 param_2,int4 param_3)
+
+{
+  int4 iStack_2c;
+  xunknown1 *pxStack_14;
+  
+  iStack_2c = param_3;
+  pxStack_14 = param_1;
+  while (iStack_2c != 0) {
+    *pxStack_14 = param_2;
+    iStack_2c = iStack_2c + -1;
+    pxStack_14 = pxStack_14 + 1;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function memmove
+Function memmove: 0x00011148
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memmove(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  int4 iStack_2c;
+  xunknown1 *pxStack_18;
+  xunknown1 *pxStack_14;
+  
+  iStack_2c = param_3;
+  pxStack_18 = param_2;
+  pxStack_14 = param_1;
+  if (param_1 < param_2) {
+    while (iStack_2c != 0) {
+      *pxStack_14 = *pxStack_18;
+      iStack_2c = iStack_2c + -1;
+      pxStack_18 = pxStack_18 + 1;
+      pxStack_14 = pxStack_14 + 1;
+    }
+  }
+  else {
+    while (iStack_2c != 0) {
+      iStack_2c = iStack_2c + -1;
+      param_1[iStack_2c] = param_2[iStack_2c];
+    }
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function memcmp
+Function memcmp: 0x000111e4
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+xunknown4 memcmp(int4 param_1,int4 param_2,uint4 param_3)
+
+{
+  uint4 uStack_14;
+  
+  uStack_14 = 0;
+  while( true ) {
+    if (param_3 <= uStack_14) {
+      return 0;
+    }
+    if (*(char *)(uStack_14 + param_1) != *(char *)(uStack_14 + param_2)) break;
+    uStack_14 = uStack_14 + 1;
+  }
+  if (*(uint1 *)(uStack_14 + param_1) < *(uint1 *)(uStack_14 + param_2)) {
+    return 0xffffffff;
+  }
+  return 1;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function raise
+Function raise: 0x00011278
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+xunknown4 raise(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function copy_record
+Function copy_record: 0x00011292
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(int4 param_1,xunknown4 param_2)
+
+{
+  memcpy(param_1,param_2,0x20);
+  *(int4 *)(param_1 + 0x10) = *(int4 *)(param_1 + 0x10) + 1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function clear_record
+Function clear_record: 0x000112d2
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(int4 param_1)
+
+{
+  memset(param_1,0,0x10);
+  *(xunknown4 *)(param_1 + 0x10) = 0xffffffff;
+  *(xunknown2 *)(param_1 + 0x14) = 0;
+  *(xunknown1 *)(param_1 + 0x16) = 0x78;
+  *(xunknown4 *)(param_1 + 0x18) = 0;
+  *(xunknown4 *)(param_1 + 0x1c) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function apply_op
+Function apply_op: 0x00011320
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function add_ints
+Function add_ints: 0x00011350
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_2 + param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function sub_ints
+Function sub_ints: 0x00011374
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x0001139a
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function divide_constants
+Function divide_constants: 0x000113d4
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+int4 divide_constants(int4 param_1,uint4 param_2)
+
+{
+  return param_2 % 1000 + param_1 / 7 + param_1 % 10 + param_2 / 3;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function crc8
+Function crc8: 0x00011468
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint1 crc8(int4 param_1,int4 param_2)
+
+{
+  uint1 uVar1;
+  int4 iStack_18;
+  uint1 uStack_11;
+  
+  uStack_11 = 0;
+  for (iStack_18 = 0; iStack_18 < param_2; iStack_18 = iStack_18 + 1) {
+    uVar1 = *(uint1 *)((uint1)((*(uint1 *)(iStack_18 + param_1) ^ uStack_11) >> 4) + 0x11ff8) ^
+            (uint1)((uint4)((int4)(char)uStack_11 << 0x1c) >> 0x18);
+    uStack_11 = *(uint1 *)((*(uint1 *)(iStack_18 + param_1) & 0xf ^ (uint4)(uVar1 >> 4)) + 0x11ff8)
+                ^ (uint1)((uint4)((int4)(char)uVar1 << 0x1c) >> 0x18);
+  }
+  return uStack_11;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x00011530
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+xunknown4 global_counter_bump(int4 param_1)
+
+{
+  *(int4 *)(gp + -0x7a0) = *(int4 *)(gp + -0x7a0) + param_1;
+  if (1000 < *(int4 *)(gp + -0x7a0)) {
+    *(xunknown4 *)(gp + -0x7a0) = 0;
+  }
+  return *(xunknown4 *)(gp + -0x7a0);
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function factorial
+Function factorial: 0x00011568
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  if (param_1 < 2) {
+    iVar1 = 1;
+  }
+  else {
+    iVar1 = factorial(param_1 + -1);
+    iVar1 = iVar1 * param_1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function fibonacci
+Function fibonacci: 0x000115a0
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+int4 fibonacci(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  if (1 < param_1) {
+    iVar1 = fibonacci(param_1 + -1);
+    param_1 = fibonacci(param_1 + -2);
+    param_1 = param_1 + iVar1;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function gcd
+Function gcd: 0x000115e4
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  if (param_2 != 0) {
+    if (param_2 != 0) {
+      param_1 = param_1 % param_2;
+    }
+    param_1 = gcd(param_2,param_1);
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function ackermann
+Function ackermann: 0x00011620
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  xunknown4 xVar1;
+  
+  if (param_1 == 0) {
+    param_2 = param_2 + 1;
+  }
+  else if (param_2 == 0) {
+    param_2 = ackermann(param_1 + -1,1);
+  }
+  else {
+    xVar1 = ackermann(param_1,param_2 + -1);
+    param_2 = ackermann(param_1 + -1,xVar1);
+  }
+  return param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function my_strlen
+Function my_strlen: 0x00011682
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int4 my_strlen(char *param_1)
+
+{
+  char *pcStack_14;
+  
+  for (pcStack_14 = param_1; *pcStack_14 != '\0'; pcStack_14 = pcStack_14 + 1) {
+  }
+  return (int4)pcStack_14 - (int4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x000116c2
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  uint1 *puStack_18;
+  uint1 *puStack_14;
+  
+  puStack_18 = param_2;
+  for (puStack_14 = param_1; (*puStack_14 != 0 && (*puStack_14 == *puStack_18));
+      puStack_14 = puStack_14 + 1) {
+    puStack_18 = puStack_18 + 1;
+  }
+  return (uint4)*puStack_14 - (uint4)*puStack_18;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x00011726
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+char * my_strcpy(char *param_1,char *param_2)
+
+{
+  char cVar1;
+  char *pcStack_28;
+  char *pcStack_14;
+  
+  pcStack_28 = param_2;
+  pcStack_14 = param_1;
+  do {
+    *pcStack_14 = *pcStack_28;
+    cVar1 = *pcStack_14;
+    pcStack_28 = pcStack_28 + 1;
+    pcStack_14 = pcStack_14 + 1;
+  } while (cVar1 != '\0');
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function reverse_string
+Function reverse_string: 0x00011774
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(int4 param_1)
+
+{
+  xunknown1 xVar1;
+  uint4 uStack_18;
+  uint4 uStack_14;
+  
+  uStack_18 = my_strlen(param_1);
+  if (uStack_18 != 0) {
+    for (uStack_14 = 0; uStack_18 = uStack_18 - 1, uStack_14 < uStack_18; uStack_14 = uStack_14 + 1)
+    {
+      xVar1 = *(xunknown1 *)(uStack_14 + param_1);
+      *(xunknown1 *)(uStack_14 + param_1) = *(xunknown1 *)(param_1 + uStack_18);
+      *(xunknown1 *)(uStack_18 + param_1) = xVar1;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function count_char
+Function count_char: 0x0001180c
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(char *param_1,char param_2)
+
+{
+  char *pcStack_24;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (pcStack_24 = param_1; *pcStack_24 != '\0'; pcStack_24 = pcStack_24 + 1) {
+    if (param_2 == *pcStack_24) {
+      iStack_14 = iStack_14 + 1;
+    }
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x00011860
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+int4 parse_decimal(uint1 *param_1)
+
+{
+  uint1 *puStack_24;
+  int4 iStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = 1;
+  iStack_18 = 0;
+  puStack_24 = param_1;
+  if (*param_1 == 0x2d) {
+    iStack_14 = -1;
+    puStack_24 = param_1 + 1;
+  }
+  for (; (0x2f < *puStack_24 && (*puStack_24 < 0x3a)); puStack_24 = puStack_24 + 1) {
+    iStack_18 = (*puStack_24 - 0x30) + iStack_18 * 10;
+  }
+  return iStack_14 * iStack_18;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function to_upper
+Function to_upper: 0x000118f8
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(uint1 *param_1)
+
+{
+  uint1 *puStack_14;
+  
+  for (puStack_14 = param_1; *puStack_14 != 0; puStack_14 = puStack_14 + 1) {
+    if ((0x60 < *puStack_14) && (*puStack_14 < 0x7b)) {
+      *puStack_14 = *puStack_14 - 0x20;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function point_distance2
+Function point_distance2: 0x0001195c
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(int4 *param_1,int4 *param_2)
+
+{
+  return (param_1[1] - param_2[1]) * (param_1[1] - param_2[1]) +
+         (*param_1 - *param_2) * (*param_1 - *param_2);
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function make_point
+Function make_point: 0x000119b0
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+xunknown8 make_point(xunknown4 param_1,xunknown4 param_2)
+
+{
+  return CONCAT44(param_2,param_1);
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function rect_area
+Function rect_area: 0x000119fc
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(int4 param_1)
+
+{
+  return *(int4 *)(param_1 + 8) * *(int4 *)(param_1 + 0xc);
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function rect_contains
+Function rect_contains: 0x00011a1c
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+xunknown4 rect_contains(int4 *param_1,int4 param_2,int4 param_3)
+
+{
+  xunknown4 xVar1;
+  
+  if ((((param_2 < *param_1) || (param_3 < param_1[1])) || (param_1[2] + *param_1 <= param_2)) ||
+     (param_1[3] + param_1[1] <= param_3)) {
+    xVar1 = 0;
+  }
+  else {
+    xVar1 = 1;
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function list_length
+Function list_length: 0x00011a88
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int4 param_1)
+
+{
+  int4 iStack_24;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (iStack_24 = param_1; iStack_24 != 0; iStack_24 = *(int4 *)(iStack_24 + 4)) {
+    iStack_14 = iStack_14 + 1;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function list_sum
+Function list_sum: 0x00011ac2
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 *piStack_18;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  for (piStack_18 = param_1; piStack_18 != (int4 *)0x0; piStack_18 = (int4 *)piStack_18[1]) {
+    iStack_14 = *piStack_18 + iStack_14;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function list_reverse
+Function list_reverse: 0x00011b0a
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+int4 list_reverse(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iStack_24;
+  int4 iStack_14;
+  
+  iStack_14 = 0;
+  iStack_24 = param_1;
+  while (iStack_24 != 0) {
+    iVar1 = *(int4 *)(iStack_24 + 4);
+    *(int4 *)(iStack_24 + 4) = iStack_14;
+    iStack_14 = iStack_24;
+    iStack_24 = iVar1;
+  }
+  return iStack_14;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function switch_dense
+Function switch_dense: 0x00011b54
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+uint4 switch_dense(int4 param_1,uint4 param_2)
+
+{
+  uint4 uVar1;
+  
+  if (param_1 == 9) {
+    uVar1 = factorial(param_2 & 7);
+    return uVar1;
+  }
+  if (param_1 < 10) {
+    if (param_1 == 8) {
+      return param_2 - 100;
+    }
+    if (param_1 < 9) {
+      if (param_1 == 7) {
+        uVar1 = count_bits(param_2);
+        return uVar1;
+      }
+      if (param_1 < 8) {
+        if (param_1 == 6) {
+          return param_2 ^ 0x55;
+        }
+        if (param_1 < 7) {
+          if (param_1 == 5) {
+            return -param_2;
+          }
+          if (param_1 < 6) {
+            if (param_1 == 4) {
+              uVar1 = gcd(param_2,0x4d2);
+              return uVar1;
+            }
+            if (param_1 < 5) {
+              if (param_1 == 3) {
+                return param_2 << 5;
+              }
+              if (param_1 < 4) {
+                if (param_1 == 2) {
+                  return (int4)param_2 / 3;
+                }
+                if (param_1 < 3) {
+                  if (param_1 == 0) {
+                    return param_2 + 0x11;
+                  }
+                  if (param_1 == 1) {
+                    return param_2 * 0x1f + 4;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return 0xffffffff;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x00011ca0
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_sparse(int4 param_1)
+
+{
+  if (param_1 == 0x12fd1) {
+    return 6;
+  }
+  if (param_1 < 0x12fd2) {
+    if (param_1 == 0x1000) {
+      return 4;
+    }
+    if (param_1 < 0x1001) {
+      if (param_1 == 1000) {
+        return 3;
+      }
+      if (param_1 < 0x3e9) {
+        if (param_1 == 100) {
+          return 2;
+        }
+        if (param_1 < 0x65) {
+          if (param_1 == -0x32) {
+            return 5;
+          }
+          if (param_1 == 3) {
+            return 1;
+          }
+        }
+      }
+    }
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function weekday_name
+Function weekday_name: 0x00011d46
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+xunknown4 weekday_name(int4 param_1)
+
+{
+  xunknown4 xVar1;
+  
+  if ((param_1 < 0) || (6 < param_1)) {
+    xVar1 = 0x12068;
+  }
+  else {
+    xVar1 = *(xunknown4 *)(param_1 * 4 + 0x1204c);
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x00011d86
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1)
+
+{
+  int4 *piStack_3c;
+  int4 iStack_38;
+  int4 iStack_34;
+  int4 aiStack_1c [7];
+  
+  iStack_34 = 0;
+  piStack_3c = aiStack_1c;
+  for (iStack_38 = 0; iStack_38 < param_1; iStack_38 = iStack_38 + 1) {
+    iStack_34 = *piStack_3c + iStack_34;
+    piStack_3c = piStack_3c + 1;
+  }
+  return iStack_34;
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function call_varargs
+Function call_varargs: 0x00011dfc
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5);
+  return iVar2 + iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-RISCV:LE:32:default:gcc riscv32-O0
+riscv32-O0 successfully loaded: RISC-V 32 little default
+[decomp]> read symbols
+[decomp]> load function format_hex
+Function format_hex: 0x00011e30
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+
+int4 format_hex(int4 param_1,char *param_2,uint4 param_3)
+
+{
+  char cVar1;
+  uint4 uVar2;
+  char *pcStack_58;
+  uint4 uStack_38;
+  int4 iStack_34;
+  
+  iStack_34 = 0;
+  pcStack_58 = param_2;
+  while (*pcStack_58 != '\0') {
+    *(char *)(param_1 + iStack_34) = *pcStack_58;
+    pcStack_58 = pcStack_58 + 1;
+    iStack_34 = iStack_34 + 1;
+  }
+  for (uStack_38 = 0x1c; -1 < (int4)uStack_38; uStack_38 = uStack_38 - 4) {
+    uVar2 = param_3 >> (uStack_38 & 0x1f) & 0xf;
+    cVar1 = (char)uVar2;
+    if (uVar2 < 10) {
+      cVar1 = cVar1 + '0';
+    }
+    else {
+      cVar1 = cVar1 + 'W';
+    }
+    *(char *)(param_1 + iStack_34) = cVar1;
+    iStack_34 = iStack_34 + 1;
+  }
+  *(xunknown1 *)(iStack_34 + param_1) = 0;
+  return iStack_34;
+}
+[decomp]> quit
+--- exit 0

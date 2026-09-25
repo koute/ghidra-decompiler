@@ -1,0 +1,50 @@
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void __regparm3 func_0x00000000(xunknown4 param_1,xunknown2 param_2,char param_3)
+
+{
+  char *pcVar1;
+  xunknown1 xVar2;
+  int2 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 *piVar6;
+  int4 unaff_EBX;
+  int4 unaff_EBP;
+  xunknown4 unaff_ESI;
+  xunknown1 *unaff_EDI;
+  int4 in_XMM0_Da;
+  int4 in_XMM0_Db;
+  int4 in_XMM0_Dc;
+  int4 in_XMM0_Dd;
+  
+  xVar2 = in(param_2);
+  *unaff_EDI = xVar2;
+  iVar3 = (int2)(char)((uint4)unaff_EBX >> 8);
+  iVar4 = CONCAT22((int2)((uint4)param_1 >> 0x10),
+                   CONCAT11((char)((int2)param_1 % iVar3),(char)((int2)param_1 / iVar3)));
+  piVar6 = (int4 *)(unaff_EBP + -0x7200d98c);
+  *piVar6 = *piVar6 + -1;
+  iVar5 = iVar4;
+  if (*piVar6 != 0) {
+    pcVar1 = (char *)(unaff_EBP + -0x723ceebf);
+    *pcVar1 = *pcVar1 + param_3;
+    if (*pcVar1 == '\0') {
+      halt_baddata();
+    }
+    *(char *)(unaff_EBX + 0xf66f845) = *(char *)(unaff_EBX + 0xf66f845) + param_3;
+    *(xunknown4 *)(unaff_EDI + -7) = unaff_ESI;
+    iVar5 = iVar4 + -1;
+    iRam48e54889 = in_XMM0_Da >> in_XMM0_Da;
+    iRam48e5488d = in_XMM0_Db >> in_XMM0_Da;
+    iRam48e54891 = in_XMM0_Dc >> in_XMM0_Da;
+    iRam48e54895 = in_XMM0_Dd >> in_XMM0_Da;
+    *(xunknown1 *)(iVar4 + 0xf) = *(xunknown1 *)(iVar4 + 0xf);
+  }
+  piVar6 = (int4 *)(iVar5 + -1);
+  *piVar6 = *piVar6 + 1;
+  *(char *)piVar6 = *(char *)piVar6 + (char)piVar6;
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}

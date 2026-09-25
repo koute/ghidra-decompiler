@@ -1,0 +1,8016 @@
+space 1
+space 2
+space 3
+space 4
+space 5
+space 6
+space 7
+space 8
+space 9
+space 10
+space 11
+space 12
+space 13
+shortcut 20
+shortcut 21
+shortcut 22
+shortcut 23
+shortcut 24
+shortcut 25
+shortcut 26
+shortcut 27
+shortcut 28
+shortcut 29
+shortcut 2a
+shortcut 2b
+shortcut 2c
+shortcut 2d
+shortcut 2e
+shortcut 2f
+shortcut 30
+shortcut 31
+shortcut 32
+shortcut 33
+shortcut 34
+shortcut 35
+shortcut 36
+shortcut 37
+shortcut 38
+shortcut 39
+shortcut 3a
+shortcut 3b
+shortcut 3c
+shortcut 3d
+shortcut 3e
+shortcut 3f
+shortcut 40
+shortcut 41
+shortcut 42
+shortcut 43
+shortcut 44
+shortcut 45
+shortcut 46
+shortcut 47
+shortcut 48
+shortcut 49
+shortcut 4a
+shortcut 4b
+shortcut 4c
+shortcut 4d
+shortcut 4e
+shortcut 4f
+shortcut 50
+shortcut 51
+shortcut 52
+shortcut 53
+shortcut 54
+shortcut 55
+shortcut 56
+shortcut 57
+shortcut 58
+shortcut 59
+shortcut 5a
+shortcut 5b
+shortcut 5c
+shortcut 5d
+shortcut 5e
+shortcut 5f
+shortcut 60
+shortcut 61
+shortcut 62
+shortcut 63
+shortcut 64
+shortcut 65
+shortcut 66
+shortcut 67
+shortcut 68
+shortcut 69
+shortcut 6a
+shortcut 6b
+shortcut 6c
+shortcut 6d
+shortcut 6e
+shortcut 6f
+shortcut 70
+shortcut 71
+shortcut 72
+shortcut 73
+shortcut 74
+shortcut 75
+shortcut 76
+shortcut 77
+shortcut 78
+shortcut 79
+shortcut 7a
+shortcut 7b
+shortcut 7c
+shortcut 7d
+shortcut 7e
+shortcut 80
+shortcut ff
+nextspace -1
+nextspace 1
+nextspace 2
+nextspace 3
+nextspace 4
+nextspace 5
+nextspace 6
+nextspace 7
+nextspace 8
+nextspace 9
+nextspace 10
+nextspace 11
+nextspace 12
+nextspace 13
+read 8 31362b
+fenc 8 7e37e43c8800759c
+strtoul 30
+cjoin 4 36 1 3 1d 1
+helper 1a0 7 5
+printraw 7 76
+rl_query 3 5 2
+istream u64 auto 3130
+encode 10 26ae7c1589b4 -1
+helper f0 -1 10
+overlap 5 9 -1 5 3c 5
+fenc 4 4160000000000000
+cwrap 7 ff 16
+cjoin 8 31 2 2 b 1
+helper fffffffd 5 -1
+highptr 3 28 8
+ctx_register mode 0 3
+ctx_register flag 4 4
+ctx_register big 8 23
+ctx_register word2 32 40
+ctx_register top 60 63
+ctx_register bad 30 33
+add 12 10000 fffe
+istream u32 auto 3038
+read 4 30786666666666666666666666666666666666663a3078382b30783130
+read 2 3a6a756e6b
+ctx_region flag 2 3e 5 40 6024b5b0
+helper fe 6 -1
+encode 8 d6450eb3cb7b 4
+printraw 6 6b
+justified 3 8 16 5 12 3 1
+printraw 4 1000000000001
+decode 0 3c616464722073706163653d22636f6465313622206f66667365743d2230783131222073697a653d2232222f3e
+fhost 8 7c05794b6d13be18
+rl_remove 3 4e 56
+rl_remove 2 2 1a
+add 2 ffff 41d7a5bc6bcd3055
+helper 222f 0 -1
+cjoin 3 3 4 8 12 1
+fprint 8 6572b0cb5303cf51
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+read 13 6c6f2c75307838303a38
+istream u64 oct 2d307838303030303030303030303030303030
+fprint 4 bfb999999999999a
+encode 3 7fffffffffffffff -1
+fprint 4 beed579b504938d7
+printraw 8 deadbeefcafe
+fop 8 8ca10b3bcd9639f7 4004000000000000
+wrap 11 8000000000000000
+istream u32 hex 30373737
+nearptr 10 2
+printraw 7 fffd
+join 2 2 9 1 8 40 0 0
+helper 835484760e92 4 12
+cwrap 5 fffffffffffffffe 1
+rl_print
+justified 5 33 0 3 1e 0 1
+join 1 2 4 8 0
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+rl_insert 5 43 52
+fop 8 3fb999999999999a b61ce648f6b55799
+ctx_default big 33b8a52d
+join 2 3 b 0 3 a 0 0
+rl_insert 3 76 7c
+helper ffff 3 8
+rl_insert 2 42 47
+join 1 3 40 2 0
+rl_insert 3 61 6b
+encode 8 11f 8
+read 13 72626f6775732c72307831303a34
+wrap 5 fffffffffffffffe
+mcodec 423a70696563653d303b543a6f66667365743d494e545f4144443b533a6e616d653d31303030303030303b553a616c69676e3d336666663b503a76616c75653d38 535054454558
+justified 5 3b 1 5 9 2 1
+fop 4 3eaaaaab 9b44e5d9
+nearptr 9 4
+helper 450c 0 3
+join 2 2 9 1 3 c 2 0
+justified 2 14 1 5 3f 8 1
+read 3 626f6775733a3078382b30783130
+nearptr 8 2
+helper 140c3a286c68ebbf 3 11
+overlap 5 5 3 5 16 1
+helper a5 11 11
+encode 2 fffffffffffffffc -1
+helper 9a85000288836786 12 -1
+ctx_region word2 5 2d 5 33 9d148d8d
+justified 2 30 3 2 40 0 0
+overlap 5 24 5 5 2e 2
+justified 5 16 16 5 2e 7 0
+ctx_encode
+istream i64 auto 202020
+fop 8 4bcd3c5b83914933 1
+rl_clear
+rl_query 3 30 0
+overlap 2 37 4 2 3e -1
+justified 5 3a 4 2 2b 7 1
+fhost 4 fe533da2
+read 4 2d34
+printraw 12 1001
+fenc 8 3810000000000000
+highptr 10 7 1
+cjoin 3 3f 2 8 2d 2
+highptr 10 9 4
+istream u32 hex 307867
+fhost 4 554c3306
+fop 4 3fab878a 256abfd3
+istream u32 auto 30373737
+join 1 3 11 8 10
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+fop 8 fff0000000000000 fffffffffffff
+helper 7e 10 12
+rl_remove 5 5 13
+helper 17e 4 8
+printraw 7 7fffffff
+istream i32 oct 2b
+overlap 2 2 8 3 1c 7
+fop 4 7f800000 bf000000
+validrange 7 1 ce
+read 11 68693a34
+overlap 2 15 6 5 e 0
+add 3 12345678 0
+wrap 5 7fffffffffffffff
+wrap 5 9
+cjoin 5 2d 2 2 3f 1
+fop 8 47efffffffffffff fffffffffffff
+strtoul 39393939393939393939393939393939393939393939
+nearptr 4 4
+joinequiv 50 3e
+rl_query 3 4b 1
+add 11 ffff 82
+istream u32 hex 2d31
+add 12 c8f 80000000
+parse 72616d3a30783130
+rl_remove 3 37 4e
+overlap 3 26 7 3 37 3
+strtoul 3130
+strip 10 1
+printraw 5 ffff
+printraw 5 fffffffd
+istream i32 auto 3138343436373434303733373039353531363135
+helper 82 3 5
+read 7 73702b33
+helper e1 -2 1
+helper 1000000000000 4 11
+ctx_setvar word2 2 22 ea8fd937
+justified 5 1d 2 2 1a 0 0
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+rl_query 3 61 0
+fop 4 c640725 0
+istream i64 dec 3078
+istream u64 auto 30303030
+join 1 5 39 4 4
+istream u64 hex 34323934393637323935
+printraw 8 fff
+rl_insert 3 43 59
+nearptr 12 8
+renorm 13 50 2
+fhost 8 ee02a729605e7e
+ctx_default big b17c8885
+overlap 2 5 -2 2 29 7
+helper 7f 11 3
+rl_insert 2 32 38
+fop 8 7fefffffffffffff 3fb999999999999a
+cjoin 5 5 1 5 29 1
+join 2 3 a 0 8 3a 2 0
+helper 33 12 4
+fop 4 8e33657e ff800000
+fhost 4 246da3d
+istream u64 hex 3037373737373737373737373737373737373737373737
+read 12 6561783a6a756e6b
+fprint 8 47efffffe0000000
+fprint 8 41dfffffe0000000
+join 3 3 26 1 3 14 8 5 21 4 4
+nearptr 3 4
+nearptr 2 2
+rl_query 2 75 4
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+validrange 5 511625e8 6b9488c9f75a
+istream u32 auto 3132616263
+read 13 713078302c68692c656278
+mcodec 423a6f66667365743d31 58505458
+justified 5 e 8 5 8 4 0
+helper f2 8 4
+helper ffffffffffffffff 2 7
+helper f 9 2
+ctx_region missing 5 3e 5 48 962c6a40
+istream i64 auto 3132616263
+renorm 13 2f 4
+nearptr 10 2
+justified 2 1d 3 2 2a 4 0
+strtoul 092d30783130
+join 2 2 4 1 8 17 2 4
+cjoin 5 3b 1 3 12 1
+mcodec 4f3a6e616d653d35323b493a70696563653d313b4f3a70696563653d3233 -
+add 7 7fffffff 10000
+cwrap 9 fffe 1
+fhost 8 380fffffffffffff
+ctx_changepoint 2 2d 1 16b95499 51b3f1a2
+fenc 8 c21cc33a60000000
+decode 1 4bd461d042818b
+justified 3 21 8 5 36 4 1
+cjoin 5 18 2 5 24 2
+helper fffffffffffffffe -1 2
+printraw 3 fffffffffffffffe
+join 3 8 2a 8 3 21 1 3 16 0 10
+fop 4 800000 f75ff59e
+rangeprops 3c7265676973746572206e616d653d22656178222f3e
+fop 4 4f000000 3f000000
+ctx_region word2 2 23 2 2a 4c5f446
+read 5 61783a3078382b30783130
+rl_insert 5 32 39
+join 0 8
+fop 4 d56a3d0b eaf79df3
+decode 1 4bd451d042818b
+printraw 10 1
+highptr 10 28 8
+encode 3 114 8
+helper ffff 2 0
+helper 8000000000000000 12 0
+highptr 5 14 4
+rl_insert 2 6 b
+encode 12 6177c2c058c78a81 4
+decode 1 4bd453d042818b
+justified 5 2b 4 2 14 -1 1
+rangedecode 3c72616e67652073706163653d2254696e79222066697273743d2230783130222f3e
+printraw 6 0
+read 13 6869
+rl_query 5 93 2
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+mcodec 423a6e616d653d303b4f3a76616c75653d33363b423a76616c3d30 424f58535054
+nearptr 12 8
+lastopen 8 70 ffffff
+rl_remove 3 27 27
+rl_insert 5 9 26
+decode 1 4bd451818b
+read 10 61783a3078382b30783130
+decode 1 4bd45182d08190d321848b
+justified 3 3c 3 2 2a 16 1
+istream u32 dec 092d30783130
+ctx_trackval 5 1c 4 2 1f
+istream i32 oct 303137
+cjoin 2 2d 1 8 25 4
+fop 8 7fefffffffffffff 3fb999999999999a
+join 2 3 7 4 5 26 0 0
+rl_insert 2 2c 2c
+join 0 0
+helper 34 1 9
+helper 196 0 7
+overlap 3 2 7 2 3e 0
+rl_remove 2 7b 96
+overlap 5 0 -2 5 2c 3
+strtoul 2d39323233333732303336383534373735383038
+strtoul 30303030
+istream u64 hex 092d30783130
+cfloat 5 32 4 10
+istream i32 dec 2d39323233333732303336383534373735383038
+mcodec - 545342
+join 2 8 9 4 5 31 0 0
+rl_insert 2 4f 5d
+justified 3 c 16 2 13 16 1
+printraw 12 1000
+joinequiv 30 32
+wrap 7 7f
+istream i64 dec 30303030
+rl_insert 3 1e 2e
+highptr 3 12 1
+ctx_region word2 2 2f 5 23 e5c21af7
+fprint 4 3fe0000000000000
+decode 1 4bce71848b
+fenc 4 45c4488740000000
+rl_insert 2 46 57
+cjoin 8 38 4 3 1d 1
+ctx_region big 5 26 5 2a 44d251bd
+overlap 5 c -1 2 0 7
+joinequiv 0 3b
+istream u32 oct 2d307838303030303030303030303030303030
+rl_remove 2 37 4a
+fhost 4 4f000000
+rl_insert 3 21 3c
+ctx_roundtrip
+nearptr 9 2
+encode 4 7f -1
+read 6 30783a382b32
+istream i32 oct 307838303030303030303030303030303030
+fop 4 6928708b 1558386b
+encode 7 ffffffff -1
+fop 8 3fc5555555555555 8000000000000000
+cjoin 2 10 1 3 25 4
+justified 3 12 4 5 23 16 1
+istream u64 hex 3130
+rl_insert 5 6a 87
+wrap 10 ffff
+join 2 8 3b 4 8 1c 1 0
+justified 2 10 2 2 3e -1 1
+fop 8 d376766767971570 7ff8000000000000
+read 11 7264782b2d31
+overlap 5 b 7 2 3f 16
+justified 5 a 1 5 9 0 0
+istream i32 auto 316535
+join 2 8 10 2 2 3a 8 8
+ctx_default flag fc2f9f1a
+fop 4 f77c5607 17095b1b
+wrap 9 ffffffff
+printraw 4 39
+rl_insert 2 19 2c
+rl_query 5 78 2
+justified 2 0 7 3 24 -1 1
+encode 5 9249173cf5f77159 8
+renorm 13 55 16
+joinequiv 40 3c
+joinequiv 5 48
+highptr 2 12 1
+rl_insert 5 15 2a
+read 6 3a382b32
+nohighptr 2 c7 140
+rl_remove 3 75 8c
+fhost 4 ff800000
+fenc 4 3fe0000000000000
+wrap 12 1b6
+fenc 8 7ff0000000000000
+justified 3 b 0 2 2c 16 0
+justified 2 17 1 2 18 -1 1
+printraw 6 1234567a
+fprint 4 f88c6c55e67bc31e
+read 3 31363a
+read 13 6561782c75307838303a38
+read 12 61783a382b32
+rl_query 2 23 40
+ctx_setvar missing 2 3f efdfba0c
+overlap 5 3c 0 2 31 7
+fhost 4 bf000000
+ctx_tracked 2 1 2 3
+parse 307831303030
+printraw 8 1000000000000
+ctx_setvar top 2 1 71eb5d63
+read 13 6230783130303a342c68692c72307832303a32
+parse 72616d3a7a7a
+join 3 2 12 0 8 35 1 2 e 2 0
+wrap 11 deadbeefcafe
+printraw 10 12345677
+strtoul 2d31
+cache_get 2 11
+fprint 8 7e37e43c8800759c
+ctx_setvar top 2 14 a30534be
+lastopen 7 1a ff
+read 12 7264783a3078382b30783130
+rl_insert 3 1f 3a
+fprint 8 0
+istream i64 auto 20203432
+read 13 6c6f2c6230783130303a34
+fop 8 650fcaf7cb5f3ef1 3fb999999999999a
+cjoin 4 33 4 3 2d 4
+ctx_region word2 5 2b 5 30 389cc6bb
+nearptr 11 2
+printraw 5 ffffffff
+fprint 4 8000000000000000
+encode 13 0 8
+lastopen 12 24 200
+merge 1 3 0 4
+read 12 68696c6f3a
+fenc 4 3fe0000000000000
+fprint 4 b6a0000000000000
+rl_encode
+justified 5 19 8 5 13 7 1
+add 3 14c 1000000000000
+cwrap 3 fffffffffff0 1
+nearptr 5 8
+fprint 4 c7db67c240000000
+lastopen 3 a9 ffffffffffffffff
+encode 10 8000000000000001 8
+rl_query 2 9d 4
+mcodec - 495342
+fop 4 ceb39fd1 e0b9f9fa
+strtoul 307867
+strtoul 666666
+printraw 4 fff
+printraw 7 221b325e29527b36
+read 13 75307838303a38
+encode 10 198 8
+parse 307831303030
+add 2 ffff 10000
+decode 1 4bd461d042818b
+read 6 6562783a342b
+ctx_changepoint 5 15 0 d612c017 51588757
+lastopen 5 9f ff
+wrap 9 ffffffffffffffff
+helper 1000 5 7
+cjoin 3 22 4 5 3d 1
+fenc 4 3ff0000000000000
+encode 6 fd 4
+ctx_spec 3c636f6e746578745f646174613e3c636f6e746578745f7365742073706163653d2272616d222066697273743d223078333022206c6173743d2230783230223e3c736574206e616d653d226d6f6465222076616c3d2233222f3e3c2f636f6e746578745f7365743e3c2f636f6e746578745f646174613e
+overlap 5 1b -1 2 40 16
+read 13 722c253078343a34
+cfloat 2 1f 4 4
+decode 0 3c61646472206e616d653d22626f677573222f3e
+lastopen 4 bc ff
+add 3 ff 5b944c7b77e
+join 2 5 7 1 5 12 8 8
+cfloat 2 39 8 10
+justified 3 13 3 3 e 0 0
+cjoin 2 33 4 3 3a 4
+fop 4 4680e692 866d0690
+printraw 6 10000
+renorm 13 4b 4
+join 0 0
+wrap 6 2
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+parse 307831303030
+fprint 4 3fbad8d460000000
+overlap 5 24 2 2 18 -1
+join 1 3 23 4 0
+add 10 fff 87cb
+wrap 12 7ffffffd
+ctx_get mode 5 22
+strtoul 312e35
+helper 5c 4 4
+highptr 5 38 8
+strip 10 0
+fop 4 ae4c8f14 bf800000
+rldecode 3c72616e67656c6973743e3c72616e67652073706163653d2272616d222066697273743d2230783122206c6173743d22307835222f3e3c7265676973746572206e616d653d22656278222f3e3c2f72616e67656c6973743e
+add 12 d3e0 2
+joinequiv 10 2f
+validrange 11 1001 a2
+ctx_region mode 2 21 2 31 dc777c7f
+wrap 8 1
+cfloat 2 3b 8 4
+rl_query 2 42 1
+wrap 12 6d
+istream i32 oct 2b35
+justified 2 3b 1 2 3d 8 0
+justified 2 9 2 2 3e 7 0
+printraw 11 18a
+justified 3 2f 2 5 22 0 0
+fenc 8 0
+read 13 713078302c68692c656278
+justified 3 18 -1 5 3d 5 0
+printraw 11 7f
+wrap 9 1ff1
+fhost 4 34000001
+overlap 5 3e -1 5 1f 1
+mcodec 4f3a6f66667365743d36393b533a76616c75653d383030303030303030 -
+nohighptr 5 10 4a
+fprint 4 bff0000000000000
+join 2 8 11 8 2 2e 1 0
+cjoin 8 35 1 3 13 1
+strtoul 307838303030303030303030303030303030
+overlap 2 3f 0 2 31 8
+rl_query 2 17 2
+fhost 8 ce6b510a708a47cf
+fop 4 2f29fde 5f000000
+ctx_encode
+join 3 2 5 8 3 3d 4 3 33 0 10
+nearptr 9 2
+fhost 8 fffffffffffff
+printraw 6 10000
+cwrap 10 fffe 2
+encode 6 10003 -1
+istream u64 hex 3132616263
+helper eba4e7f846a6 3 7
+join 1 2 2d 1 0
+read 9 3031303a342b
+joinequiv 30 27
+ctx_default word2 527136d
+read 12 2b2d31
+rl_clear
+overlap 3 2a 7 5 37 7
+istream u32 hex 307838303030303030303030303030303030
+wrap 2 fffffffffffffffe
+fprint 4 3690000000000000
+printraw 9 3a
+ctx_setvar top 5 17 afd761f4
+fhost 8 8000000000000000
+printraw 10 3
+fprint 4 bfb999999999999a
+rl_clear
+printraw 6 20ee
+helper 73 8 11
+helper 1a53d604 12 1
+printraw 3 fffffffffffffffe
+justified 2 18 3 2 9 7 1
+wrap 9 7f
+join 1 2 25 4 4
+helper ffffffffffff 8 12
+printraw 7 1
+helper fb 0 2
+istream i32 auto 2d31
+overlap 5 f 7 3 35 0
+read 13 68692c75307838303a38
+wrap 3 79
+cjoin 8 1b 4 4 3 4
+strip 10 1
+fenc 8 b810000000000000
+fop 4 40200000 bf800000
+nohighptr 5 48 106
+overlap 3 a -1 2 3f 3
+joinequiv 10 27
+strtoul 2d31
+decode 1 4bd45182d08190d321848b
+fenc 8 3c54173ba0000000
+printraw 3 1234567b
+fprint 4 c004000000000000
+helper d445bf93f5010869 6 6
+rl_query 5 8e 1
+helper ae 1 5
+printraw 12 9b372241
+rl_insert 2 13 30
+fprint 4 3ff0000000000000
+highptr 5 1c 1
+justified 2 2d 3 3 26 5 1
+strtoul 2d39323233333732303336383534373735383039
+highptr 5 31 8
+encode 4 ab 8
+lastopen 7 ea ffffffffffffffff
+validrange 5 fff 80
+printraw 4 aa
+strtoul 312e35
+read 12 68696c6f2b2d31
+cache_get 2 3d
+encode 10 37f 8
+rl_insert 3 60 64
+fprint 4 6f3a0487f7b3c1bf
+rl_insert 3 69 87
+cjoin 4 39 1 8 4 4
+cjoin 8 20 1 5 22 2
+join 2 2 2d 0 3 22 1 8
+encode 6 35e8dec7 -1
+overlap 5 30 1 5 11 2
+read 8 6561783a32
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+helper ffffffffffffffff 3 4
+fhost 8 10000000000000
+strtoul 616263
+fprint 8 8d9a7f3ce80d0b8c
+printraw 8 35fd5108262c
+add 9 101 154dc8b293e5
+printraw 12 fd
+read 13 75307838303a382c6230783130303a34
+ctx_get top 5 1c
+encode 7 fff 4
+printraw 3 100
+joinequiv 20 1f
+rl_remove 2 29 45
+helper 33a25c7efaef -2 4
+fprint 8 3fe0000000000000
+rl_insert 3 7b 87
+joinequiv 0 2c
+rl_insert 3 67 7f
+renorm 13 49 1
+printraw 12 1000000000000
+rl_insert 5 37 3a
+rl_query 5 57 4
+parse 3130
+decode 0 3c61646472206e616d653d22626f677573222f3e
+helper 0 1 -2
+cjoin 8 2b 1 3 2c 2
+nearptr 11 2
+nearptr 9 4
+istream i32 hex 3030783130
+helper fe 11 1
+printraw 5 ff
+decode 1 4bd451818b
+mcodec 503a70696563653d313b543a616c69676e3d3132783b4f3a76616c75653d33383b423a73706163653d303b553a76616c3d3366666666666666666666 4545454f
+decode 1 4bd451d04281d331848b
+cjoin 4 25 1 5 1 4
+fenc 4 7fe15663ad0c7c0a
+rl_insert 2 66 80
+overlap 5 3d 3 3 1d 7
+fop 4 dd3df394 800000
+istream u32 oct 666666
+rl_remove 2 66 81
+read 3 7264783a32
+fenc 8 f23db8c09c6f822b
+cjoin 2 17 1 2 2c 4
+wrap 11 7f
+fhost 4 7f7fffff
+join 2 2 3d 4 3 25 1 8
+fop 4 ff7fffff bf000000
+nearptr 12 8
+fop 8 36a0000000000000 380fffffffffffff
+fprint 4 41dfffffffc00000
+justified 3 1e 4 2 4 2 1
+renorm 13 20 8
+overlap 5 3e 4 3 14 5
+helper 5b -1 5
+printraw 9 0
+cfloat 2 20 4 16
+strtoul 30783166
+istream u64 hex 616263
+decode 1 4bd45182d08190d321848b
+helper 10000 12 12
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+highptr 5 30 4
+read 8 6561783a342b
+printraw 2 fffffffffffffffe
+printraw 4 59
+parse 636f646531363a30783130
+fenc 4 c236504820000000
+join 2 3 8 2 5 a 2 0
+read 11 6561787a7a
+strtoul 2d39323233333732303336383534373735383039
+join 1 5 21 1 0
+wrap 2 ffff
+helper 176 7 5
+encode 7 92 8
+validrange 9 fd deadbeefcafe
+encode 4 1000 4
+rl_insert 2 80 88
+fhost 8 47efffffffffffff
+strip 20 2
+fop 8 43e0000000000000 ac9d7ecd617bc4b1
+istream i64 oct 307838303030303030303030303030303030
+helper 2da9552b5f4157cb 10 1
+overlap 2 e 1 5 37 1
+join 2 5 22 8 8 20 8 10
+highptr 5 1a 1
+renorm 13 11 1
+encode 6 ff 4
+rl_clear
+lastopen 11 c6 ffff
+read 13 68692c68692c72
+read 2 31363a
+fop 8 9f61515aeba2efcc 629c0e29cc2bd323
+printraw 10 ffe
+fhost 8 0
+strtoul 316535
+nearptr 3 4
+helper 1000 10 -2
+fop 4 522b923 35e7d4ca
+fhost 8 9124fb6ecf410295
+rl_query 5 8d 2
+read 13 722c6561782c656178
+fop 4 3fc00000 40200000
+fprint 4 40fe240c9fbe76c9
+printraw 5 10000
+cjoin 2 10 2 3 24 1
+add 3 deadbeefcafe 7f
+nearptr 7 4
+fenc 4 4160000000000000
+fprint 4 b690000000000000
+fhost 8 3810000000000000
+join 1 8 f 2 8
+joinequiv 0 30
+decode 0 3c61646472206e616d653d22626f677573222f3e
+justified 3 33 3 2 22 -1 0
+rl_remove 5 57 5d
+decode 1 4b8b
+rl_remove 3 1f 2f
+helper 1000000000002 -1 -1
+rl_insert 2 65 70
+rl_remove 5 3f 5f
+parse 3a31
+fop 8 3ff0000000000000 3fc5555555555555
+joinequiv 5 59
+encode 2 deadbeefcafe 4
+justified 5 33 5 3 2b -1 0
+join 3 3 2c 0 8 15 0 5 7 4 0
+mcodec 543a76616c75653d3132783b533a666f726d61743d3166666666663b503a73697a653d37 584f4950584f
+wrap 8 12345678
+fop 4 4f000000 bf800000
+rl_remove 5 5a 78
+encode 2 73 -1
+rl_insert 5 44 47
+read 3 61783a6a756e6b
+wrap 8 ffffffffffff
+helper 35fa -2 10
+helper 3 10 -1
+fop 8 3810000000000000 1de54389f770007a
+mcodec 533a616c69676e3d3230303030303b553a76616c75653d66666666666666666666666666666666 55534f45
+nohighptr 10 2f ad
+encode 5 a7c7 4
+renorm 13 46 8
+istream i64 oct 30583146
+ctx_trackval 5 b 1 2 27
+overlap 5 13 0 2 21 8
+wrap 8 ffffffffffffffff
+printraw 11 ffff
+ctx_encode
+mcodec 423a626967656e6469616e3d303b553a69643d666666666666666666666666666666663b503a70696563653d333b553a626967656e6469616e3d383030303030303030303030303030303b423a69643d31 4f5049
+justified 5 29 8 5 29 8 1
+cfloat 5 5 8 8
+cwrap 11 fffe 1
+fprint 8 c170000010000000
+printraw 11 1b3
+fop 8 7fefffffffffffff c3e0000000000000
+join 3 5 2e 8 2 22 2 3 19 4 0
+helper c72 1 10
+istream u64 hex 316535
+fprint 4 bfd5555555555555
+ctx_tracked 2 29 2 36
+ctx_trackadd 3 33 2 81e28abba3cf1658
+ctx_trackadd 5 2 4 cfbe2055e7e4cacc
+ctx_trackadd 3 27 4 2a0554ff7e3e24c6
+renorm 13 b 12
+renorm 13 28 4
+justified 5 2d 16 2 24 4 0
+validrange 5 51bcc9157fe1 100000002
+ctx_get word2 5 3a
+cjoin 5 31 1 5 3f 4
+helper 1f 10 10
+strip 10 1
+fenc 8 8000000000000001
+istream i32 dec 2b35
+istream u64 hex 30373737
+istream u64 hex 2d32313437343833363438
+justified 3 1d 7 2 8 2 1
+cjoin 4 6 4 2 a 4
+helper 0 -2 3
+printraw 5 7d
+decode 0 3c7661726e6f64652073706163653d2272616d22206f66667365743d222d31222073697a653d2230783130222f3e
+fop 8 9e86a194223cf5ed 36a0000000000000
+read 9 7264783a34
+justified 2 2a 0 3 29 3 1
+justified 3 16 3 5 2f 2 0
+fop 8 285f8315f6e255e9 c3e0000000000000
+strip 10 2
+ctx_get big 5 3d
+fenc 4 3922df7920000000
+nohighptr 3 2d 38
+fprint 8 bfb999999999999a
+cfloat 2 c 8 16
+join 1 8 3a 1 10
+parse 3a31
+fenc 8 44a39b36c0000000
+istream u32 oct 3130
+fop 8 3fe0000000000000 f703f249ea99b04c
+ctx_changepoint 5 38 0 cbf39e1b b4848366
+encode 6 1000 8
+helper 7f 9 6
+parse 3a31
+encode 12 ff 8
+printraw 2 fffc
+rl_remove 5 23 37
+wrap 9 8000000000000003
+fprint 8 fff8000000000000
+renorm 13 7 8
+fprint 8 8000000000000001
+mcodec 493a70696563653d33783b553a73697a653d336666663b533a616c69676e3d313b423a73697a653d30 53554f53
+cjoin 8 2f 1 2 e 4
+printraw 11 fe
+rl_query 5 67 10
+wrap 7 186
+cjoin 2 2a 1 5 20 1
+printraw 6 1
+joinequiv 30 55
+read 13 72626f6775732c722c71307830
+decode 1 4bd451d042818b
+overlap 5 38 -1 2 23 8
+rldecode 3c72616e67656c6973743e3c72616e67652073706163653d2272616d222066697273743d223122206c6173743d2235222f3e3c72616e67652073706163653d2272616d222066697273743d223122206c6173743d2239222f3e3c2f72616e67656c6973743e
+fprint 8 bfd5555555555555
+wrap 10 54d426c1
+ctx_tracked 2 18 2 26
+read 3 30783130
+add 6 0 ffffffff
+ctx_tracked 2 1c 2 23
+ctx_trackadd 5 36 4 65f1009346c6c73b
+fprint 4 db8818d466d85539
+cwrap 6 fffffffe 8
+ctx_default mode b120d90f
+istream u32 hex 2d39323233333732303336383534373735383038
+justified 2 21 7 5 8 4 0
+cjoin 5 3b 2 2 32 1
+printraw 5 ffff
+istream u64 oct 316535
+read 2 31363a342b
+rl_insert 5 41 55
+encode 5 ffffffffffffffff -1
+read 4 6178
+justified 2 14 -1 3 3f 1 0
+add 4 2cee fffe
+istream u64 auto 303137
+strtoul 2d31
+printraw 12 3d61
+printraw 8 60
+justified 3 1c 7 3 10 3 1
+istream i32 hex 303137
+fprint 8 0
+wrap 3 d2acfd7
+justified 3 39 1 5 16 2 0
+rl_insert 5 a 27
+printraw 10 deadbeefcafb
+ctx_get top 2 36
+nearptr 6 4
+rl_encode
+cjoin 5 1d 4 8 9 4
+cjoin 8 1f 4 5 30 2
+encode 2 deadbeefcafe -1
+fhost 4 3eaaaaab
+rl_insert 5 54 5a
+fhost 4 b21300fa
+helper deadbeefcafc 2 6
+rl_remove 5 76 7b
+strtoul 30583146
+join 0 0
+strip 20 2
+printraw 10 fffffffffffffffe
+fenc 4 4004000000000000
+cjoin 2 28 2 2 16 2
+printraw 9 100000000
+istream i32 auto 312032
+decode 1 4bd451818b
+helper 27 8 1
+rl_insert 2 46 53
+cjoin 5 2e 1 3 1c 1
+istream i32 dec 30373737
+fenc 8 36a0000000000000
+fop 4 3fc00000 bf800000
+fop 4 7fffff 3f800000
+cjoin 5 3a 2 2 36 2
+strtoul 2d31
+printraw 5 12345678
+fop 8 dd6a292a430a4d9b 55cb7f0916c5a8e9
+parse 3130
+istream i32 hex 2d39323233333732303336383534373735383038
+read 11 3031303a3078382b30783130
+printraw 5 162
+printraw 4 8000000000000000
+fprint 4 43e0000000000000
+nohighptr 5 b1 e6
+read 8 3a3078382b30783130
+cjoin 8 2a 1 2 3c 1
+istream i64 dec 3078
+helper 7fffffff 1 -2
+fop 8 8000000000000000 6f4fe9d9f4a750c8
+read 2 626f6775733a342b
+fprint 4 53ef213f4eac363b
+helper 1000000000000 0 0
+nearptr 8 8
+justified 3 d 16 3 1f 16 0
+rl_insert 5 40 5f
+overlap 3 8 3 2 16 2
+printraw 5 5b5b
+encode 9 1000000000000 -1
+wrap 11 3ad7d17a
+fop 8 b28f7d7847a5f98e 8000000000000000
+printraw 3 12345678
+overlap 5 2 0 3 c 8
+read 9 2020372b
+highptr 3 11 1
+rl_insert 3 67 74
+wrap 3 1aa
+cjoin 8 2 1 2 b 4
+encode 5 8000000000000000 -1
+istream u32 auto 202020
+read 11 68696c6f2b2d31
+lastopen 11 92 ffffffff
+istream i64 oct 3132616263
+rl_insert 3 4c 6b
+lastopen 6 9 ffffffff
+highptr 2 29 1
+joinequiv 40 a
+fenc 8 c004000000000000
+join 3 5 26 1 5 2f 4 5 6 8 0
+renorm 13 3e 6
+decode 0 3c61646472206e616d653d22626f677573222f3e
+mcodec - 535554495453
+overlap 5 22 -2 5 3d -1
+printraw 3 96f4facb
+istream i32 oct 307867
+strip 30 2
+rl_remove 5 10 2b
+rl_insert 5 70 89
+fprint 8 8000000000000001
+nohighptr 5 41 4d
+istream i32 auto 3030783130
+validrange 12 100 ffff
+helper 74 6 9
+justified 5 15 1 5 4 1 0
+justified 2 18 0 5 34 1 0
+printraw 7 12f
+nearptr 12 8
+printraw 10 1000000000000
+read 6 3031302b
+parse 626f6775733a30783130
+nearptr 4 2
+justified 5 1 0 2 9 3 0
+fprint 4 7ff0000020000000
+helper 1e4 3 -1
+fprint 8 3c64a4d020000000
+rl_insert 3 6 18
+printraw 4 90
+fprint 8 7e37e43c8800759c
+printraw 6 80000000
+joinequiv 0 4a
+istream i32 auto 39393939393939393939393939393939393939393939
+read 13 722c6c6f
+ctx_setvar top 5 24 ad14b1ee
+helper ce 9 0
+strtoul 32313437343833363438
+fprint 8 7fefffffffffffff
+add 2 da95 fffffffffffffffb
+justified 3 8 7 5 2d -1 1
+printraw 7 80000001
+joinequiv 20 37
+fprint 4 c02d443600000000
+renorm 13 29 4
+printraw 9 fffffffd
+printraw 7 0
+read 13 72307831303a342c75307838303a382c72
+cache_get 5 1f
+add 10 d0 0
+rl_insert 5 2b 2b
+fop 4 491a6876 cf000000
+istream u64 auto 3030783130
+renorm 13 1f 1
+join 1 2 6 8 10
+join 2 2 6 0 2 30 4 0
+printraw 6 fffffffc
+fenc 8 81a56e1fc2f8f359
+join 1 8 3e 0 4
+read 5 6561783a342b
+join 3 3 24 1 3 c 0 8 23 1 0
+rl_query 5 46 2
+istream i64 hex 307867
+read 7 30782b2d31
+overlap 5 30 -2 2 3e 16
+fprint 8 4340000000000000
+ctx_default flag be209778
+helper 1 4 0
+validrange 4 deadbeefcafe 10002
+parse 72616d3a7a7a
+renorm 13 16 6
+encode 8 8000000000000000 8
+highptr 5 6 8
+rl_insert 2 34 3b
+parse 72656769737465723a307834
+join 2 8 1b 8 3 a 0 4
+read 7 3136
+read 7 3031303a382b32
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+helper 1aa 1 10
+overlap 2 c 7 5 2 7
+helper 1a7 8 9
+helper ffffffff 3 6
+cjoin 4 30 1 3 15 4
+encode 3 100 -1
+join 1 8 22 4 4
+ctx_get word2 5 15
+nearptr 2 4
+nearptr 12 4
+istream i64 auto 616263
+encode 10 195 4
+fprint 8 3fd5555555555555
+strtoul 3078
+add 6 1 1000000000001
+fop 8 c3e0000000000000 c9fa8191e2889248
+join 2 5 23 1 3 3 1 10
+ctx_setvar missing 2 34 fda44bf4
+printraw 6 a7
+wrap 8 b3df719146f4fb12
+printraw 11 12f
+printraw 6 c1
+helper 80000000 10 -2
+rl_insert 3 6c 84
+encode 12 1cc 8
+add 2 deadbeefcafe fffffffffffffffb
+parse 72616d3a30783130
+parse 3130
+validrange 9 1 10002
+wrap 5 71
+fprint 4 3b0720e580000000
+istream i32 auto 316535
+helper ffffffff 2 3
+nohighptr 3 88 9d
+helper 3 12 5
+printraw 6 0
+joinequiv 50 2b
+rl_query 2 6b 4
+ctx_setvar big 2 1c eef0938f
+cache_get 2 26
+join 0 0
+printraw 11 13f
+join 2 3 20 1 3 32 8 0
+wrap 4 12345676
+printraw 12 ffffffffffffffff
+overlap 5 4 -1 3 22 4
+helper b4121c5e994d 0 1
+fop 4 0 a54de541
+nohighptr 10 da 1c9
+overlap 2 24 6 2 40 2
+printraw 9 7fffffffffffffff
+decode 1 4bd451d04281d331848b
+read 9 61783a382b32
+wrap 10 80000000
+encode 9 fffffffffffffffe -1
+overlap 2 30 -2 5 25 5
+fop 4 fc11b7c2 fb5f024b
+overlap 2 13 3 2 37 16
+nearptr 10 8
+parse 72616d3a30783130
+nearptr 12 4
+cjoin 2 11 4 2 17 4
+helper fff 2 3
+join 0 0
+ctx_region mode 5 30 5 3d 9b8771e1
+highptr 10 3b 4
+printraw 11 b87
+nearptr 7 2
+read 2 6162633a382b32
+joinequiv 10 58
+overlap 5 9 0 2 a 5
+helper ffff 12 5
+parse 626f6775733a30783130
+highptr 2 31 4
+rl_insert 3 57 74
+strtoul 3037373737373737373737373737373737373737373737
+wrap 3 1000
+wrap 9 545b80a6
+ctx_default mode af368742
+parse 64617461343a3078666666666666
+fprint 8 1
+renorm 13 38 8
+highptr 10 3e 4
+cfloat 3 2e 4 8
+printraw 11 10001
+fprint 4 fe37e43c8800759c
+overlap 5 1a 2 2 12 2
+cwrap 9 fffffffffffffffe 1
+justified 2 35 4 2 d 2 1
+validrange 9 93 ffffffff
+rl_insert 2 4 18
+strtoul 2b
+ctx_get mode 5 b
+wrap 10 ffffffffffff
+nearptr 4 8
+renorm 13 37 12
+parse 72656769737465723a307834
+parse 3a31
+fhost 4 4f000000
+printraw 4 16c
+read 6 30783a
+printraw 8 67e70292
+fprint 4 dcf7e675c538dd7e
+read 9 6561783a342b
+cfloat 3 23 8 10
+helper 72b9 6 5
+fenc 8 9d92e97bf413add0
+overlap 5 1c 7 3 38 2
+istream u64 auto 20203432
+cjoin 4 33 2 8 7 1
+read 7 68693a3078382b30783130
+fprint 4 3810000000000000
+fop 8 311d08129077b047 380fffffffffffff
+fprint 8 0
+encode 8 ffff -1
+nearptr 10 8
+rl_remove 5 9 d
+printraw 5 8de1129d906015d3
+overlap 3 33 -1 2 2e 5
+fenc 4 4004000000000000
+join 0 4
+read 13 656178
+strtoul 316535
+parse 72616d3a30783130
+overlap 5 3d 0 3 18 1
+fhost 8 68b639b3fea22af
+printraw 2 185
+join 2 2 2e 8 3 21 0 10
+validrange 11 7fffffff 7fffffffffffffff
+rl_insert 5 0 1e
+rl_insert 5 59 74
+wrap 5 0
+ctx_get big 5 1b
+rl_insert 5 3c 43
+read 11 3031303a34
+rl_insert 2 7e 85
+wrap 11 181
+istream i32 oct 666666
+parse 72616d3a30783130
+encode 13 20 -1
+rl_insert 2 56 70
+helper 15d 6 -2
+renorm 13 15 12
+decode 1 4bd46dd042818b
+read 2 2d347a7a
+join 1 8 2f 8 8
+fhost 8 fffffffffffff
+add 10 80000003 7fffffffffffffff
+printraw 12 1000
+printraw 10 fffffffffffffffe
+read 10 626f6775733a34
+overlap 2 21 8 3 6 0
+join 0 0
+decode 1 4bd461d042818b
+encode 6 12345675 4
+lastopen 2 b3 ff
+read 6 6561787a7a
+join 3 3 23 8 3 3c 4 2 25 2 0
+join 2 2 40 1 3 13 0 0
+printraw 7 0
+validrange 10 fff c755
+read 4 73702b2d31
+printraw 7 ffffffffffff
+fop 8 c7ec83be63505c3e 79f044c450066277
+cwrap 8 10 2
+strtoul 666666
+read 13 6869
+overlap 5 1a 3 3 36 1
+cwrap 5 fffffffe 1
+read 13 72626f6775732c6561782c6230783130303a34
+fprint 4 292c0e24deeb87ac
+fprint 8 41dfffffe0000000
+read 12 6162633a3078382b30783130
+fhost 4 cce960fd
+justified 3 a 0 3 25 2 1
+strtoul 3030783130
+fprint 4 c0fe240c9fbe76c9
+helper 1ff 11 2
+join 0 8
+fhost 8 fff0000000000000
+ctx_encode
+encode 4 29f01125b50b 8
+cfloat 2 1 8 16
+cache_allow 1
+overlap 2 7 0 3 4 4
+justified 3 28 5 5 26 2 0
+joinequiv 30 5d
+rl_remove 5 49 67
+read 5 3078
+strtoul 307830
+renorm 13 1f 6
+fhost 8 7fefffffffffffff
+nearptr 2 2
+join 2 2 6 2 5 28 8 10
+fenc 8 c170000010000000
+justified 2 26 2 5 40 3 0
+fop 8 3fc5555555555555 3ff0000000000000
+ctx_region missing 5 35 5 3b b66c16e8
+read 11 61782b33
+decode 1 4bd451d04281d322848b
+helper 8c 12 2
+cjoin 3 21 2 8 1 2
+fprint 8 41dfffffffc00000
+ctx_encode
+istream u32 auto 092d30783130
+joinequiv 0 4d
+fprint 8 b3ab6051fb8afd97
+fenc 8 3fe0000000000000
+read 5 6562783a3078382b30783130
+join 1 5 15 0 10
+join 2 5 4 1 8 4 2 4
+encode 13 10 -1
+istream i64 auto 666666
+fhost 4 cd0424a7
+printraw 3 2
+overlap 2 10 6 2 26 5
+rl_insert 2 4c 6a
+decode 1 4bd451d042818b
+fprint 4 1
+nearptr 11 2
+add 4 ffffffffffff 1
+mcodec 493a70696563653d36783b503a6e616d653d32 -
+join 1 2 2c 0 10
+joinequiv 50 4f
+justified 5 15 8 3 3f 7 1
+helper 8e2ba43 11 1
+rl_remove 5 6c 85
+printraw 2 1000000000000
+read 11 616263
+fenc 4 aa1a6c744699469a
+read 13 72307831303a342c6230783130303a34
+renorm 13 26 8
+istream u64 auto 30783166
+fprint 8 47efffffe0000000
+helper 7fffffff 10 6
+printraw 5 17116af7066b
+fop 8 144ff9295ec2cd36 8000000000000000
+encode 9 ffffffffffffffff 4
+justified 3 2d 2 2 40 5 1
+wrap 11 798fa417708e
+ctx_default big c13a42c0
+fprint 4 7ff8000000000000
+nearptr 10 2
+rl_remove 3 15 25
+cwrap 3 ff 8
+read 6 2020373a
+nearptr 3 8
+fhost 8 a02afc75713cf8f5
+helper fffffffffffffffd 7 -1
+parse 3a31
+nohighptr 2 1c 52
+ctx_default word2 2b75cf51
+istream i32 oct 32313437343833363438
+fprint 4 8000000000000001
+rl_insert 5 4c 4c
+read 7 30786666666666666666666666666666666666662b2d31
+joinequiv 40 3f
+parse 72656769737465723a307834
+encode 8 7fffffffffffffff -1
+join 1 3 16 8 0
+printraw 12 f7bd271575087132
+renorm 13 13 16
+cjoin 2 4 2 3 2d 1
+fhost 8 ef1bf6a55a738fae
+ctx_default word2 805d79ed
+istream i32 hex 2b35
+justified 5 0 1 3 38 16 0
+decode 1 4bd451d04281d322848b
+fprint 4 1a56e1fc2f8f359
+lastopen 2 fa ffff
+parse 64617461343a3078666666666666
+printraw 6 3
+read 10 -
+istream u32 oct 2d2035
+joinequiv 20 44
+parse 72656769737465723a307834
+rl_remove 5 59 67
+cjoin 2 2c 2 2 36 2
+justified 3 27 0 5 2e 8 0
+ctx_default word2 4daf7c44
+rl_insert 5 32 38
+wrap 6 c3
+helper ffffffffffffffff 10 0
+decode 1 4bd46dd042818b
+fop 8 fffffffffffff 7ff8000000000000
+fprint 4 fff0000000000000
+fenc 8 4438fc8ea0000000
+overlap 3 14 5 5 1d 0
+fop 8 54e2c3bda5eeeed1 1
+decode 1 4bd451d04281d331848b
+rl_remove 3 36 3e
+overlap 2 2d 6 3 30 0
+ctx_tracked 2 a 2 1a
+ctx_trackadd 5 26 8 84d2852270cb9741
+ctx_trackadd 3 30 1 b982012a50623897
+ctx_trackadd 5 3f 4 edac2f92acdc4cdf
+mcodec 503a76616c75653d36 4f5845
+wrap 11 fffffffffffffffe
+fhost 4 bf000000
+read 8 7a7a
+cjoin 8 29 1 3 e 4
+nearptr 3 4
+rl_query 2 80 40
+join 1 5 34 2 0
+printraw 9 3
+istream i64 auto 2d3130
+strtoul 34323934393637323936
+overlap 5 19 7 2 29 1
+highptr 10 3d 1
+read 7 3078
+printraw 2 0
+decode 1 4bd453d042818b
+fprint 4 4a0b6811fee3c9ce
+helper fff 1 8
+encode 9 12345678 4
+join 1 3 31 4 0
+istream u32 auto 616263
+printraw 4 1e8
+cfloat 2 28 8 10
+fenc 4 0
+read 7 307831302b2d31
+join 0 0
+rl_query 5 8b 0
+wrap 9 4c1427ee
+ctx_region mode 2 16 2 17 63192e0
+cjoin 2 20 2 8 17 4
+encode 2 1ca 4
+rl_remove 2 77 78
+rl_remove 3 2a 2b
+rl_remove 2 3 13
+cfloat 5 29 4 10
+join 2 8 37 1 2 2b 1 10
+ctx_changepoint 5 37 0 8959b56b 3c4f3e39
+wrap 7 ffd
+overlap 5 10 7 2 36 5
+mcodec 503a76616c3d303b533a616c69676e3d66666666666666666666666666666630 45424549
+istream i32 hex 3078
+join 3 5 23 1 5 3e 0 2 7 4 0
+join 3 2 19 1 8 2b 0 2 3 8 10
+overlap 2 35 3 3 16 16
+encode 11 1000000000003 4
+lastopen 5 38 ffffffff
+read 3 307831303a32
+fenc 4 3690000000000000
+parse 3130
+highptr 10 d 1
+nearptr 7 8
+istream u64 dec 34323934393637323936
+join 0 0
+join 2 5 e 4 8 1 2 0
+read 3 6562783a6a756e6b
+overlap 2 e 7 3 6 -1
+highptr 10 20 1
+ctx_setvar top 2 2a 1d619b2d
+add 8 10000 db
+fprint 8 b810000000000000
+printraw 11 7fffffff
+printraw 9 102
+fprint 8 4480f0cf064dd592
+rl_remove 5 1 6
+join 0 0
+highptr 2 1c 4
+fop 8 47efffffe0000000 4004000000000000
+ctx_get word2 5 3a
+joinequiv 20 24
+helper 7ffffffc 11 8
+rl_insert 3 17 1b
+istream u64 auto 312e35
+justified 3 b 0 5 f 2 1
+joinequiv 40 b
+decode 1 4bd453d042818b
+encode 5 1 8
+renorm 13 3c 2
+fprint 4 c4d86d40a0000000
+decode 1 4b8b
+cjoin 4 4 1 5 16 2
+encode 11 1000 8
+encode 7 100 4
+strtoul 2d39323233333732303336383534373735383039
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+mcodec 533a6e616d653d31666666666666666666666666 -
+ctx_get flag 5 8
+encode 6 da2b0b4f 8
+join 1 8 37 8 4
+read 9 2d343a6a756e6b
+renorm 13 17 16
+istream i32 dec 30783166
+istream u32 hex 666666
+ctx_region big 2 15 2 22 fa646e87
+fenc 8 47efffffe0000000
+renorm 13 12 6
+joinequiv 40 4
+encode 13 10 8
+wrap 5 7f
+read 6 73702b2d31
+cfloat 5 7 8 16
+wrap 10 ffffffffffffffff
+read 13 722c6230783130303a34
+join 2 2 11 8 3 24 0 0
+encode 2 f5 8
+fprint 4 10000000000000
+wrap 7 810dfb00cbfb
+overlap 2 37 2 3 31 -1
+join 3 2 5 2 8 3e 0 5 5 0 0
+rl_insert 3 64 78
+helper ffffffffffffffff 0 4
+justified 5 f 8 2 13 7 1
+helper 66 4 6
+encode 3 1000 -1
+cwrap 3 fffffffffff0 16
+joinequiv 0 43
+highptr 10 39 8
+wrap 11 c2
+istream u64 auto 30
+nearptr 10 8
+read 2 73702b2d31
+wrap 3 100
+justified 5 17 5 3 0 16 0
+decode 1 4bd46dd042818b
+encode 7 41 4
+fop 8 3fe0000000000000 3810000000000000
+strip 20 3
+rl_remove 2 71 71
+overlap 3 1f 0 3 3f -1
+encode 13 10 -1
+join 3 3 15 2 2 1c 4 5 2d 4 0
+ctx_default word2 17ef3115
+helper fffffffe 2 11
+fenc 4 6ca919edf2d3256c
+fop 8 3fb999999999999a 7ff8000000000000
+strtoul 39323233333732303336383534373735383037
+join 2 8 1f 1 8 2c 2 8
+fop 8 3fc5555555555555 41dfffffffc00000
+join 1 3 24 8 8
+helper b4d2bfa4 3 -2
+read 13 253078343a342c253078343a342c6230783130303a34
+cjoin 3 19 1 4 31 2
+nearptr 4 4
+validrange 6 fffe 3d92
+rl_insert 5 5b 6c
+validrange 10 100 ffd
+fenc 8 457f31c1239ecda3
+justified 5 14 16 3 1c 8 1
+read 5 2020372b
+istream u64 auto 2d32313437343833363438
+cjoin 2 1e 2 3 31 4
+printraw 7 16f
+lastopen 8 ca ffffff
+encode 13 20 4
+wrap 12 ab
+cjoin 8 3c 1 5 12 4
+join 2 2 40 1 5 33 0 10
+read 4 2d342b2d31
+rl_remove 3 9 1f
+nearptr 12 2
+fenc 8 81a56e1fc2f8f359
+overlap 2 19 2 2 38 7
+decode 1 4bce71848b
+nearptr 6 8
+justified 5 36 1 5 3c 2 1
+read 12 6162633a6a756e6b
+wrap 8 101
+wrap 7 ce
+fop 4 3dbaf82e 72f513fd
+ctx_encode
+rl_query 5 25 10
+join 2 2 a 2 2 2e 1 0
+ctx_changepoint 2 35 1 3d369149 f75dbbb4
+read 7 3031303a342b
+strip 0 1
+strtoul 316535
+printraw 6 4
+fenc 4 47efffffe54daff8
+overlap 3 0 7 5 11 16
+join 1 3 d 2 10
+parse 72616d3a30783130
+validrange 11 c6 36f8
+fhost 8 36a0000000000000
+nohighptr 3 2c 118
+validrange 11 7fffffff 39
+mcodec 533a6f66667365743d3366666666666666666666 535554
+cwrap 11 10 2
+wrap 2 fffffffffffffffe
+fhost 8 3fe0000000000000
+printraw 7 c9
+strtoul 3138343436373434303733373039353531363135
+strtoul -
+read 13 656278
+join 2 2 35 0 8 1e 1 10
+wrap 11 100000000
+istream u32 auto 30373737
+printraw 9 f1
+join 1 3 1c 8 8
+printraw 12 631c677fafa6
+justified 2 13 -1 2 2a 16 1
+join 2 2 2 2 3 15 2 8
+overlap 3 19 0 2 1a 16
+read 13 72626f677573
+rl_query 2 34 4
+read 13 656178
+cfloat 5 12 4 8
+rl_insert 3 49 5c
+nohighptr 5 1b 37
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+lastopen 12 c9 ffffffff
+fop 8 34bd22751eedebf5 c7f42b036e8febd9
+cfloat 2 13 4 16
+parse 3a31
+printraw 2 27db021e
+rl_insert 2 7b 8d
+cjoin 3 40 1 8 40 4
+strip 20 1
+rl_insert 3 56 5d
+printraw 11 13d
+fhost 4 800000
+printraw 7 1
+istream u64 auto 616263
+fop 4 6d50f361 ff800000
+istream i64 auto 2d307838303030303030303030303030303030
+istream u64 auto 3030783130
+printraw 7 7f
+encode 6 12345677 4
+read 6 7264782b
+printraw 10 4
+fprint 8 7302583796ade3e9
+cjoin 5 37 2 8 20 1
+read 13 6230783130303a342c722c656178
+fhost 4 3f000000
+istream u64 dec 2d32313437343833363439
+fop 4 3eaaaaab 800000
+highptr 3 e 8
+rl_query 5 62 10
+fhost 4 bf800000
+rl_insert 3 72 89
+overlap 2 e -1 2 14 0
+rl_remove 2 73 90
+join 1 2 2a 8 10
+renorm 13 2f 16
+strtoul 3078
+encode 6 fffe 4
+cjoin 8 5 1 5 f 4
+rl_encode
+join 3 3 4 2 5 2b 4 3 3f 2 8
+fop 4 6ac52429 7fffff
+rl_print
+strtoul 3038
+mcodec 553a76616c3d33666666666666666666663b553a616c69676e3d336666663b543a70696563653d68656c6c6f3b423a73706163653d31 58504f53
+helper 1 3 2
+helper 7fffffffffffffff 2 0
+istream i64 auto 2d32313437343833363438
+fenc 8 1a56e1fc2f8f359
+join 2 8 24 8 3 15 1 0
+encode 3 1 -1
+encode 9 1003 8
+ctx_tracked 2 2a 2 31
+encode 8 b93eea9e28ca -1
+read 3 30783a342b
+read 10 3136
+overlap 5 1 4 5 29 1
+nearptr 11 2
+read 13 722c253078343a342c72626f677573
+printraw 10 ffffffffffffffff
+fprint 4 3810000000000000
+helper 100000000 2 11
+printraw 5 ffffffffffffffff
+ctx_setvar mode 2 16 94d2bc9
+printraw 5 f2
+helper ff 2 -2
+overlap 3 7 7 5 21 0
+helper 561d -1 1
+read 8 31363a3078382b30783130
+printraw 12 7f
+nohighptr 2 dd e4
+justified 5 12 2 3 3b 2 1
+join 0 0
+overlap 3 24 0 5 23 0
+renorm 13 47 1
+renorm 13 2a 2
+fenc 4 a30610e42002d84f
+rl_insert 2 4c 4f
+fenc 4 39ad53a2203f0a59
+rl_insert 2 e 17
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+ctx_setvar big 2 3d 1d9a9b2f
+printraw 6 1000
+join 0 4
+read 13 6561782c722c6c6f
+highptr 5 36 8
+fenc 4 3f03653400000000
+istream i32 auto 312e35
+rl_insert 2 49 4f
+istream i32 auto -
+join 0 0
+rl_query 2 1d 1
+rl_insert 3 6c 82
+overlap 2 14 7 3 24 1
+fop 4 3f800000 d2e1b153
+cjoin 2 0 1 4 2f 2
+wrap 9 ffffffffffffffff
+strip 10 3
+mcodec - 5358
+strtoul 3138343436373434303733373039353531363136
+justified 3 c 5 2 2 -1 1
+join 1 3 3b 4 0
+nohighptr 2 c6 d6
+printraw 7 76991c7af5451246
+encode 13 20 -1
+rl_insert 3 4f 5a
+overlap 2 17 -2 3 5 7
+ctx_region word2 2 1f 2 24 434eaa3
+printraw 2 100
+rl_insert 5 d 13
+mcodec 543a666f726d61743d494e545f4144443b4f3a6f66667365743d32383b543a70696563653d68656c6c6f3b423a6f66667365743d313b503a69643d35 534f5042
+fenc 8 bff8000000000000
+printraw 2 1e4
+mcodec 503a73697a653d36 545442
+helper fffffffffffffffe 2 0
+rl_query 3 2f 1
+rl_query 5 9 2
+fop 8 380fffffffffffff db14cd4367ce7687
+rl_query 3 93 10
+fprint 8 4066b2724e15a7
+helper ffffffffffff 5 12
+fhost 4 db44d192
+nearptr 11 8
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+renorm 13 2c 4
+rl_insert 5 25 44
+wrap 4 71bf
+helper 2 6 2
+nearptr 7 4
+helper 1bd 5 10
+ctx_setvar mode 5 1e 717c181d
+istream i32 dec -
+nearptr 3 8
+ctx_default word2 e8c2c01
+ctx_region missing 2 11 5 36 2bdb743
+helper 1000000000000 10 -1
+nearptr 9 2
+cjoin 2 d 1 3 1e 1
+wrap 6 6657c2590421
+join 3 5 39 4 5 39 2 2 2 1 8
+helper 187 8 3
+add 5 80000000 ffe
+ctx_trackval 5 14 2 2 25
+renorm 13 f 4
+read 7 6162637a7a
+printraw 4 7f
+cjoin 8 d 2 3 16 2
+highptr 2 22 8
+cjoin 4 33 4 3 4 2
+rl_remove 5 b 14
+printraw 7 be
+nearptr 9 2
+rl_remove 3 6a 7c
+fenc 4 fc291f206a301156
+read 9 30786666666666666666666666666666666666662b2d31
+helper ffffffff 5 7
+ctx_setvar word2 5 2 8c1406c1
+printraw 6 2
+cjoin 4 32 2 2 e 1
+join 2 3 0 4 5 2b 0 4
+overlap 5 34 3 5 2 0
+wrap 3 74b0ece8
+istream i32 auto 34323934393637323935
+helper 12345676 7 6
+fop 8 3ff8000000000000 f38653c6a0a17e85
+printraw 8 80000000
+read 3 307831303a382b32
+joinequiv 50 d
+overlap 5 2d 4 2 3e 0
+fop 4 af782b3e 42f031f2
+encode 13 0 4
+strtoul 307867
+join 2 3 16 2 2 4 0 0
+fop 4 52384029 7f800000
+encode 9 0 8
+overlap 5 14 4 3 3e 16
+fenc 4 0
+ctx_get word2 2 24
+join 2 8 22 8 2 1d 8 0
+rl_insert 2 74 86
+ctx_tracked 2 19 2 1d
+ctx_trackadd 3 6 8 aedb31f2f00b0c39
+ctx_trackadd 5 1 8 488bac661a8df511
+strtoul 3037373737373737373737373737373737373737373737
+justified 3 f 3 3 2b 5 0
+renorm 13 47 2
+join 1 5 a 4 4
+lastopen 3 e3 ffff
+lastopen 9 e8 ffffff
+overlap 2 24 5 5 29 5
+cjoin 3 11 4 3 1b 1
+joinequiv 40 57
+highptr 3 8 8
+highptr 5 f 4
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+fop 4 52e45d6f 3eaaaaab
+overlap 5 32 2 2 31 7
+fenc 8 b78ba4475d077503
+strtoul 2d39323233333732303336383534373735383038
+highptr 2 d 8
+printraw 2 6e66468d9654ebae
+fprint 4 c0a9d33860000000
+fop 4 7f800000 40200000
+read 13 71307830
+rl_insert 5 4b 63
+join 3 3 1a 8 2 10 0 3 2e 1 4
+cjoin 4 23 1 5 1 4
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+rl_query 5 0 4
+istream u64 auto 2b35
+add 6 ffff 12345678
+parse 72616d3a7a7a
+printraw 5 d6
+encode 13 10 -1
+printraw 4 1f0
+join 0 0
+rl_insert 2 3c 4e
+wrap 7 ffff
+encode 3 0 8
+validrange 6 63 12b
+read 5 6162633a32
+rl_remove 5 63 6d
+strtoul 30
+cjoin 2 2d 2 5 f 4
+joinequiv 30 4a
+justified 2 33 4 2 c 16 1
+read 9 2020373a342b
+highptr 3 40 4
+fhost 8 b8ffb648c27ffa5c
+cwrap 12 fffffffffff0 16
+fprint 8 b6a0000000000000
+read 10 31363a3078382b30783130
+cjoin 8 38 2 5 1c 4
+cwrap 8 ff 8
+encode 9 97 4
+printraw 9 12345675
+helper 6 6 7
+printraw 10 ffff
+rl_remove 5 c 13
+rl_query 5 3 10
+highptr 10 7 4
+rl_query 5 7b 40
+helper 5d69 12 8
+justified 3 23 2 5 3e 8 0
+nearptr 11 8
+overlap 2 1b 7 5 20 7
+printraw 3 f17ed05267ae
+highptr 3 26 1
+ctx_default missing efdf0189
+join 2 5 5 1 8 3c 8 8
+fhost 4 34000001
+fop 4 cf000000 b95e4232
+cjoin 2 2 4 4 21 2
+rl_insert 2 4d 63
+printraw 12 549d055b
+printraw 7 ffffffffffffffff
+ctx_region top 2 13 5 1d f4898b60
+rl_remove 5 4a 5d
+strtoul 30373737
+parse 636f646531363a30783130
+join 2 2 27 0 8 16 2 4
+join 2 3 2b 4 3 13 0 8
+strtoul 202020
+rl_print
+join 1 8 30 2 0
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+join 0 10
+fprint 8 3fb999999999999a
+wrap 6 1a3
+fenc 4 8000000000000001
+ctx_tracked 2 2d 2 3c
+printraw 3 fffffffffffffffb
+nearptr 5 8
+helper 1f4 5 -2
+cjoin 3 39 4 8 1f 4
+wrap 12 1000000000000
+decode 1 4bd461d042818b
+istream u64 oct 316535
+ctx_tracked 2 1a 2 20
+ctx_trackadd 5 20 8 af649e5ccd06f806
+ctx_trackadd 5 23 2 3c6ab19534541169
+overlap 5 34 4 3 13 16
+justified 2 16 1 5 12 3 0
+fprint 8 f7a21a8e7deade60
+join 3 2 14 1 5 c 8 2 1c 8 0
+encode 4 132 -1
+encode 8 72d84555 8
+parse 307831303030
+add 4 7d ffffffff
+printraw 5 1000
+add 7 7fffffffffffffff 8000000000000001
+add 5 0 c7c31c0a
+encode 5 eb 4
+rl_insert 5 8 19
+ctx_default mode 3602ecc2
+highptr 10 2 4
+mcodec 423a70696563653d313b553a666f726d61743d3766666666666666663b543a76616c75653d616263206465663b503a666f726d61743d303b493a70696563653d33 55535850
+strtoul 2d
+cjoin 5 3f 2 2 8 2
+printraw 9 fd
+rl_insert 5 5c 73
+ctx_tracked 2 12 2 1e
+ctx_trackadd 3 9 2 7a35f87b54dc4b84
+printraw 9 102
+renorm 13 2b 6
+rl_remove 3 22 3a
+justified 2 7 4 5 22 0 0
+ctx_get big 2 38
+mcodec 423a6e616d653d303b493a70696563653d3672616d3a3078303a34 455849454945
+overlap 5 2 7 3 35 5
+read 2 626f6775732b2d31
+printraw 3 d7
+istream i64 auto 3038
+nohighptr 10 ad 1a6
+join 3 5 2 8 2 2 0 2 22 1 0
+mcodec 503a69643d31313b503a73706163653d353b423a6e616d653d313b503a69643d3132 545353
+add 12 ee19 80000002
+fhost 4 16fdf8a9
+wrap 2 80000000
+validrange 2 f7 101
+fprint 8 3810000000000000
+join 3 8 1b 4 2 40 4 3 2f 8 10
+validrange 7 ffff 54
+rl_query 2 0 10
+strip 20 0
+lastopen 4 b0 ffffffff
+istream u64 hex 666666
+rl_query 3 9c 2
+encode 5 deadbeefcafb -1
+decode 0 3c61646472206e616d653d22656178222f3e
+helper 83 9 3
+fop 4 3fc00000 33ec09ee
+istream u32 auto 3078
+rl_insert 5 79 99
+validrange 12 7ffffffffffffffc 2
+join 1 3 0 1 0
+encode 13 10 -1
+ctx_region missing 2 28 5 3c 5879a513
+fop 8 380fffffffffffff 10000000000000
+cfloat 2 3 4 10
+read 2 31362b
+strip 0 0
+read 12 61783a34
+read 12 30786666666666666666666666666666666666662b33
+join 0 0
+fprint 8 fff8000000000000
+cfloat 5 5 4 10
+add 5 fff 2aa82d6babda6c06
+printraw 10 101
+fprint 8 3905f7e900000000
+encode 13 0 8
+decode 1 4bd451d04281d322848b
+helper 927 8 5
+printraw 4 176
+join 2 5 3d 2 8 f 8 4
+overlap 5 30 -1 2 38 2
+decode 1 4bd45182d08190d321848b
+fhost 4 ff800000
+parse 636f646531363a30783130
+ctx_spec 3c636f6e746578745f646174613e3c636f6e746578745f7365742073706163653d2272616d222066697273743d223078313022206c6173743d2230783230223e3c736574206e616d653d226d6f6465222076616c3d2233222f3e3c736574206e616d653d22626967222076616c3d22307831323334222f3e3c2f636f6e746578745f7365743e3c2f636f6e746578745f646174613e
+rl_query 2 8e 1
+add 3 1a2 1000000000000
+encode 10 100000002 4
+ctx_tracked 2 a 2 c
+ctx_trackadd 3 31 8 ede13e9d84689412
+ctx_trackadd 5 a 1 c3c56bc52d705ff2
+ctx_trackadd 5 40 1 394cbfd0a7027753
+fprint 8 3810000000000000
+helper fff 12 8
+cache_get 5 b
+encode 8 10000 4
+cjoin 4 2b 2 3 13 2
+strtoul 3132616263
+rl_query 2 74 10
+fenc 4 c6210028e0000000
+fenc 8 fe37e43c8800759c
+highptr 2 3d 1
+decode 0 3c616464722f3e
+ctx_get flag 2 c
+cjoin 8 0 1 8 3e 1
+ctx_default flag 1b643f4e
+helper fffc 3 9
+helper 5771d0c09df044f0 12 4
+ctx_setvar flag 5 12 d435b8e6
+rl_insert 3 1e 27
+mcodec 543a76616c3d494e545f4144443b533a626967656e6469616e3d3230303030303b553a76616c3d3766666666666666663b553a73697a653d3766 4542
+rl_insert 3 3f 53
+nearptr 3 8
+join 2 2 f 1 5 1c 0 0
+read 13 75307838303a38
+ctx_get missing 2 18
+read 11 61783a382b32
+fprint 4 8000000000000000
+rl_clear
+ctx_setvar big 5 3d a7306264
+justified 3 3d 1 2 13 3 1
+wrap 3 10003
+wrap 2 61
+encode 4 130 4
+printraw 2 94
+istream i32 dec 2d307838303030303030303030303030303030
+helper deadbeefcafc 5 8
+fop 8 3690000000000000 41dfffffffc00000
+join 2 3 13 8 3 3a 0 8
+renorm 13 29 8
+read 2 30786666666666666666666666666666666666663a342b
+nearptr 10 2
+joinequiv 5 a
+overlap 2 1d 6 2 2f 16
+cfloat 3 31 8 8
+fprint 8 c170000010000000
+rl_remove 2 47 4f
+printraw 2 ffff
+validrange 10 1 111
+nearptr 12 4
+cfloat 5 17 8 8
+fenc 4 3fb999999999999a
+strip 20 2
+helper fffffffffffffffc -2 3
+fenc 4 3810000000000000
+nohighptr 2 f5 1ce
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+printraw 3 10000
+lastopen 11 fa 200
+helper 4835457e 5 5
+nearptr 5 2
+justified 2 3b 8 2 0 16 0
+rl_query 5 22 4
+ctx_setvar word2 2 3b b99f8eca
+helper 7a8766bab6338077 12 7
+rl_insert 2 27 29
+justified 2 17 4 3 31 5 1
+printraw 3 2f
+ctx_setvar top 2 15 77d65df6
+mcodec 533a73697a653d37663b503a626967656e6469616e3d333b423a73706163653d303b553a73697a653d3230303030303b553a69643d62353962366230326465643762383966 5442
+highptr 3 1b 1
+wrap 8 12345678
+printraw 5 0
+fhost 8 1
+joinequiv 40 31
+decode 0 3c616464722f3e
+renorm 13 1a 8
+join 2 5 7 1 5 2c 4 0
+fop 4 2aa0dd80 df2a012a
+helper ffffffffffff 7 -2
+printraw 8 19b
+read 8 6162633a6a756e6b
+wrap 9 7f
+printraw 7 db
+add 5 15c 83
+nearptr 5 2
+fop 8 36a0000000000000 4094a7de37802958
+joinequiv 50 55
+istream u32 dec 34323934393637323935
+ctx_region big 5 18 5 1b e1e8ccba
+strtoul 307838303030303030303030303030303030
+istream u32 auto 3138343436373434303733373039353531363136
+justified 3 12 -1 2 5 3 0
+joinequiv 10 b
+justified 3 21 1 2 2d 0 0
+nohighptr 2 8d 95
+encode 2 d4ff 4
+wrap 7 ffffffffffffffff
+fop 4 7fc00000 7f800001
+read 2 202037
+parse 72656769737465723a307834
+strtoul 2d2035
+ctx_setvar top 2 3e 58aae942
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+mcodec 553a76616c75653d303b493a70696563653d3472616d3a3078303a343b423a616c69676e3d313b543a73697a653d70696563653b553a6e616d653d38303030303030303030303030303030 42584245
+istream i64 hex 303137
+read 6 73703a32
+wrap 11 7f
+read 11 6561783a3078382b30783130
+encode 6 deadbeefcafe -1
+read 10 7264782b
+renorm 13 34 2
+nearptr 7 4
+fenc 8 3bbc63e1a0000000
+fop 4 a340d58 4f100a11
+helper 83 6 9
+printraw 12 3e
+fprint 4 466dc0b3a0000000
+ctx_get word2 2 22
+rl_insert 5 63 76
+fop 4 eb8576f9 2f17a86f
+fop 4 a128541b 1750f358
+wrap 7 deadbeefcafd
+printraw 4 ffff
+highptr 3 15 1
+wrap 4 ff
+read 2 2020373a6a756e6b
+validrange 9 10000 7fffffffffffffff
+wrap 5 16a
+istream u64 oct 3037373737373737373737373737373737373737373737
+fhost 4 bf800000
+renorm 13 17 6
+fhost 8 d5463c38504b4360
+read 12 3031302b33
+fhost 4 d8c7d8c0
+overlap 2 19 -1 3 23 4
+wrap 3 2
+cjoin 5 1c 4 3 3d 2
+printraw 12 2
+read 13 656278
+join 3 3 0 4 3 23 1 8 3 0 4
+istream i64 dec 2b35
+fprint 8 bff0000000000000
+highptr 3 3d 4
+join 3 3 13 4 2 1b 0 8 1 2 8
+istream u32 auto 312032
+read 13 253078343a342c6562782c75307838303a38
+printraw 12 0
+renorm 13 31 16
+encode 11 ff 8
+istream u64 dec 34323934393637323936
+ctx_default word2 9f6b7029
+parse 3a31
+justified 2 38 4 2 b 3 0
+cjoin 2 9 4 2 3a 1
+printraw 5 99
+fhost 4 64c9b3a
+fprint 8 4504e95960000000
+highptr 10 3c 1
+istream u64 auto 307830
+wrap 9 fffffffffffffffc
+parse 72616d3a30783130
+join 2 8 2b 1 5 2d 0 4
+mcodec 543a76616c3d494e545f4144443b503a76616c3d31333b503a73706163653d37 5545
+printraw 3 a8
+rl_insert 2 6d 7e
+helper 36d9d04d 2 9
+rl_insert 5 e 1f
+fenc 8 c9168398d38a0197
+renorm 13 4c 16
+printraw 2 107
+highptr 10 12 1
+read 13 6561782c68692c6230783130303a34
+nearptr 7 2
+helper 7fffffff 4 12
+joinequiv 0 53
+fop 4 5e6b2c85 ff7fffff
+justified 5 38 5 3 28 5 0
+printraw 4 7fffffffffffffff
+read 8 31363a342b
+read 12 68696c6f3a32
+pcodeop 6 a1 3c6f7020636f64653d22554e5553454431222073697a653d2230223e3c766f69642f3e3c2f6f703e
+ctx_setvar big 5 36 db19ca86
+istream i64 oct 2d39323233333732303336383534373735383038
+helper 53 12 9
+read 5 61787a7a
+lastopen 9 50 ffffff
+justified 3 37 1 3 f 2 1
+encode 9 12c 4
+join 3 2 36 0 8 2 1 3 3e 4 0
+joinequiv 40 5a
+istream u64 oct 307838303030303030303030303030303030
+printraw 4 9a47bd4a9df2
+printraw 2 101
+mcodec 543a69643d494e545f4144443b543a70696563653d616263206465663b423a73706163653d31 4955
+printraw 9 80
+fenc 8 38cad3f5c0000000
+fprint 8 b8337e2000000000
+printraw 11 3
+join 1 5 3f 8 0
+ctx_region big 2 4 5 15 48253888
+decode 1 4bd453d042818b
+overlap 3 3 5 3 8 0
+justified 5 14 -1 5 d 0 0
+overlap 5 23 0 2 19 2
+decode 1 4bd453d042818b
+istream i64 auto 30303030
+join 3 8 1e 0 2 2f 1 2 2f 4 0
+rl_remove 2 13 23
+read 7 6561783a342b
+joinequiv 0 1c
+join 2 8 6 4 2 3a 0 8
+printraw 8 ffffffffffff
+istream u64 hex 34323934393637323935
+justified 5 b 3 3 13 5 1
+read 13 6561782c6562782c75307838303a38
+printraw 10 ffff
+helper da26411917cde828 8 4
+rl_insert 2 5 1a
+istream i64 auto 2d39323233333732303336383534373735383038
+justified 3 35 -1 5 25 8 1
+nearptr 4 2
+read 11 31363a
+fop 8 4004000000000000 390c3d6950ccc143
+strtoul 307867
+add 6 100 80
+rl_query 5 27 2
+rl_insert 2 1a 22
+justified 3 26 7 5 14 4 1
+lastopen 7 28 ff
+rl_query 3 9f 4
+read 9 3031307a7a
+read 10 307831303a342b
+rl_insert 5 7 1c
+parse 636f646531363a30783130
+ctx_setvar flag 5 36 5b3b379a
+add 11 7fffffff deadbeefcafe
+rl_query 5 5f 40
+fprint 4 1a56e1fc2f8f359
+overlap 3 1e -1 3 c 5
+lastopen 12 f5 ff
+overlap 5 2e -2 5 18 -1
+join 2 3 9 8 3 7 0 0
+highptr 5 3 8
+rl_insert 2 f 23
+wrap 12 7fffffffffffffff
+justified 5 36 16 2 2a 4 0
+justified 2 1c 2 2 20 3 0
+rl_query 5 8 0
+fprint 4 c170000010000000
+overlap 2 3c 6 5 9 5
+join 0 8
+istream i32 auto 39323233333732303336383534373735383037
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+parse 3a31
+cwrap 8 10 16
+istream u32 oct 616263
+fop 8 7ff8000000000000 20f8b23b20deaedd
+add 9 fff 123
+fop 8 43e0000000000000 3fc5555555555555
+fop 4 e3755d3b 0
+joinequiv 30 1d
+encode 12 1b4 -1
+renorm 13 9 16
+decode 1 4bce71848b
+fop 4 595c3f63 3eaaaaab
+nearptr 3 2
+read 3 6561783a
+istream u32 hex 2d307838303030303030303030303030303030
+overlap 3 10 8 3 2b 3
+rl_clear
+rl_remove 2 48 68
+lastopen 10 44 200
+mcodec 493a70696563653d333b543a70696563653d74727565 555342
+printraw 11 fa
+decode 0 3c61646472206e616d653d22656178222f3e
+cjoin 4 23 1 4 12 1
+read 9 3031303a
+lastopen 5 ab ffffffffffffffff
+join 2 3 22 8 5 1f 4 0
+validrange 9 12345678 3
+join 2 5 1 8 8 12 8 4
+rl_insert 2 59 66
+printraw 2 0
+rl_query 3 9a 0
+rl_insert 3 b 29
+read 12 6562782b2d31
+overlap 5 0 2 2 15 7
+wrap 7 fdaadb4ec544b7be
+lastopen 9 13 ffffff
+printraw 10 12345678
+strip 10 2
+istream u32 auto 34323934393637323936
+mcodec 493a70696563653d30783b543a666f726d61743d494e545f4144443b493a70696563653d33783b493a70696563653d3572616d3a3078303a343b4f3a6f66667365743d38 535353495853
+join 2 2 2d 1 8 9 1 10
+wrap 9 80000000
+ctx_region word2 5 38 5 45 c4178ee6
+printraw 8 12345678
+printraw 11 8000000000000000
+justified 5 a -1 3 10 -1 0
+fop 8 451ae634bb24360e fff0000000000000
+add 10 7ffffffc ffffffffffffffff
+printraw 5 7fffffffffffffff
+overlap 5 2c 2 5 14 5
+overlap 3 21 7 3 4 3
+mcodec 543a73697a653d2d373b423a73697a653d303b533a626967656e6469616e3d3166666666663b493a70696563653d3172616d3a3078303a34 554f4f5453
+cfloat 3 39 4 4
+read 11 31362b
+printraw 11 80000000
+cjoin 4 a 1 4 40 4
+helper 1000 3 5
+fhost 8 43e0000000000000
+helper 7f 4 6
+fhost 4 68ff7873
+rl_insert 3 35 55
+justified 3 5 4 2 7 2 1
+printraw 6 ffffffff
+decode 1 4bd451d042818b
+read 13 72626f677573
+fenc 8 efabe4c7b8d6c921
+printraw 9 2
+rl_insert 5 1b 1f
+mcodec 533a6f66667365743d33666666666666666666663b543a626967656e6469616e3d72616d3b503a626967656e6469616e3d383b553a73706163653d33666666 53454f4f
+rl_insert 2 3f 5f
+overlap 2 3b 3 5 30 3
+decode 1 4bd451818b
+read 13 72626f6775732c72626f6775732c75307838303a38
+fop 8 5cb1f56ba3eb5d5a 380fffffffffffff
+read 9 68693a32
+encode 13 0 8
+rl_remove 5 3a 43
+rl_insert 5 80 8b
+printraw 6 ebab659873b6
+fprint 8 3690000000000000
+justified 5 1a 16 3 0 1 0
+decode 1 4bce71848b
+ctx_get missing 2 2d
+lastopen 3 fc ffffff
+helper c7 9 -1
+printraw 2 180
+cfloat 2 23 8 4
+ctx_get top 2 11
+parse 72616d3a7a7a
+joinequiv 50 16
+read 7 30783a6a756e6b
+printraw 10 100
+renorm 13 2d 16
+read 8 2d342b2d31
+helper 2 0 -1
+join 2 2 3c 1 3 a 4 10
+wrap 12 80000000
+strtoul 2d32313437343833363438
+printraw 10 80000000
+encode 5 fffffffffffffffe -1
+lastopen 5 b0 200
+encode 5 1 8
+fenc 4 517175c43585b58c
+fop 4 bf800000 20e0a460
+fop 8 0 247839c8f6e1b949
+encode 8 97 8
+decode 1 4bd453d042818b
+mcodec 543a626967656e6469616e3d74727565 -
+encode 4 27870b0134d 8
+istream u32 auto 3038
+overlap 5 0 7 5 15 4
+cwrap 6 fffe 16
+rl_query 2 8c 0
+highptr 3 a 4
+justified 2 1a -1 3 34 16 0
+fenc 8 3810000000000000
+ctx_setvar flag 2 17 1ea828d8
+fenc 8 47efffffe0000000
+mcodec - 4945
+fop 8 90ff1c60e3dca408 3ff0000000000000
+istream u32 hex 616263
+join 0 10
+nearptr 5 4
+helper 3f6c53fa51dcb8b 0 6
+strtoul 666666
+read 12 6562783a6a756e6b
+fop 8 6ce2a0b36c12de02 c3e0000000000000
+printraw 5 4
+fop 4 d43f61d2 bf800000
+encode 2 941f -1
+cfloat 3 3a 8 4
+strip 30 2
+strtoul 34323934393637323936
+encode 3 102 4
+decode 1 4bd453d042818b
+rl_insert 5 22 40
+helper 1002 -1 4
+strtoul 30373737
+fop 8 3810000000000000 cca4c1e3ffd17cfc
+printraw 11 b0
+parse 72616d3a7a7a
+istream i32 auto 34323934393637323936
+nearptr 5 8
+fprint 4 b9950431a0000000
+rl_insert 5 18 36
+printraw 3 1000
+strip 10 1
+cache_region 2 6 2 b 0 828f4a0b a29b7ff3
+fhost 4 5cab2f67
+helper ae16 3 1
+read 7 3031303a6a756e6b
+printraw 2 49
+cwrap 6 ff 16
+ctx_get mode 2 39
+fhost 4 1
+fprint 4 4480f0cf064dd592
+wrap 2 7599cfb4c879
+printraw 5 4
+lastopen 10 d2 ffffff
+rl_insert 5 46 59
+ctx_get missing 5 1
+encode 7 fff 4
+ctx_region word2 2 3d 5 3c 472a65e0
+overlap 2 17 -1 3 38 -1
+fop 4 269c826a 3fc00000
+cwrap 7 fffffffffff0 2
+rl_remove 5 32 47
+rl_query 3 28 1
+renorm 13 43 2
+istream u64 oct 3138343436373434303733373039353531363136
+strip 30 2
+renorm 13 5d 16
+overlap 3 32 6 2 e 0
+overlap 5 37 -2 2 35 -1
+overlap 3 8 8 2 1c 1
+nearptr 9 4
+ctx_region top 2 c 5 24 c53c1db8
+cfloat 5 3c 4 8
+fhost 4 1cf0bde7
+read 7 3031307a7a
+read 10 6561782b33
+add 3 7f 387d2400e605
+wrap 8 ffff
+printraw 3 80000000
+istream u32 auto 34323934393637323935
+add 3 85 10000
+printraw 8 7fffffffffffffff
+highptr 5 25 4
+helper 1 11 -1
+renorm 13 4 16
+highptr 2 35 1
+fprint 8 30727374746cc37f
+decode 1 4bd451d042818b
+ctx_roundtrip
+justified 3 7 4 2 2d 3 0
+justified 2 2e -1 2 34 0 0
+wrap 4 7fffffffffffffff
+helper 80000000 2 2
+justified 3 37 16 2 20 4 0
+rl_query 5 c 40
+parse 64617461343a3078666666666666
+fop 8 fff8000000000000 ffdd2e022fa1fc15
+rl_insert 5 60 69
+fhost 4 69138ca7
+fenc 4 c3e0000000000000
+istream u32 dec 312032
+istream u64 hex 202020
+wrap 4 9ecf
+printraw 4 0
+cfloat 5 18 8 16
+wrap 11 fff
+rl_query 3 47 0
+fop 8 3fe0000000000000 a9c5f8cc99247adc
+rl_insert 2 4c 4e
+helper 80 7 2
+fhost 4 528fc422
+join 0 8
+nearptr 9 8
+cfloat 3 2f 8 10
+fenc 4 91fde74deca15787
+ctx_region missing 2 1b 5 c e6d2c0fd
+highptr 3 0 4
+justified 5 36 7 3 26 0 1
+rl_query 3 44 0
+ctx_setvar word2 5 3 f7e86f05
+ctx_get word2 2 2d
+overlap 2 1d -2 3 22 1
+ctx_setvar top 5 40 7309d1b4
+fenc 8 3fe0000000000000
+ctx_get mode 5 14
+encode 11 5f2bd7cc 4
+joinequiv 50 2a
+istream i64 dec 2d32313437343833363438
+ctx_region flag 2 2f 5 30 9a1200f0
+fprint 8 8000000000000000
+mcodec - 53
+fenc 4 4340000000000000
+decode 0 3c61646472206e616d653d22656178222f3e
+istream i64 hex 3037373737373737373737373737373737373737373737
+fprint 8 8bc2a3dcb3c546b0
+fop 4 7f800001 c5dc1450
+read 6 7264782b
+cjoin 4 13 1 4 29 4
+parse 3a31
+fop 8 a5ca46b5e31fce5c 89a619e862fad05c
+rl_query 3 8e 4
+add 9 0 fffffffffffffffe
+rl_remove 3 2b 32
+join 2 2 29 2 3 40 1 8
+printraw 3 10000
+renorm 13 47 8
+printraw 8 100000002
+printraw 4 7f
+istream u32 dec 34323934393637323935
+encode 7 7fffffffffffffff -1
+ctx_region missing 5 33 5 3f c9e28bec
+fprint 8 c3e0000000000000
+wrap 9 7df947f545a0
+nohighptr 10 89 ac
+printraw 8 a7
+istream u32 hex 616263
+helper 7f -1 9
+fprint 8 b9280400a0000000
+strtoul 3030783130
+rl_insert 3 2e 34
+join 2 2 8 0 8 7 0 0
+justified 5 17 3 3 27 3 1
+join 2 2 1d 4 8 13 8 8
+justified 2 21 8 5 21 8 1
+join 1 2 39 1 8
+istream i32 auto 39323233333732303336383534373735383037
+printraw 2 0
+add 9 1e3 1003
+rl_query 2 42 2
+highptr 10 21 4
+helper 14a 12 12
+printraw 11 7e
+fhost 4 bf000000
+fenc 4 454538d5b052871
+printraw 5 3
+mcodec 503a69643d39 54545855
+joinequiv 5 f
+cjoin 3 11 4 4 9 2
+fop 4 edbbbfaf 43798bd5
+rl_remove 5 80 88
+join 0 8
+overlap 2 1c 3 3 21 0
+highptr 10 26 4
+read 6 6561783a32
+nearptr 4 2
+fop 8 b2a4e1c3344804c0 fffffffffffff
+encode 11 56 8
+strtoul 307838303030303030303030303030303030
+wrap 8 1000
+fenc 8 b6a0000000000000
+decode 1 4bd451d04281d331848b
+parse 72616d3a30783130
+fprint 4 3690000000000000
+wrap 6 fe
+rl_query 3 44 0
+printraw 10 fff
+ctx_region word2 5 a 5 10 fd8e2006
+join 1 3 2d 1 0
+overlap 2 2e -2 5 2d 7
+nearptr 8 2
+strtoul 616263
+renorm 13 23 6
+wrap 10 ffffffffffffffff
+read 13 253078343a342c722c656178
+strip 0 0
+fop 4 7f7fffff 604c4163
+nearptr 7 8
+helper 100 6 9
+cfloat 2 2d 4 16
+printraw 8 1000000000000
+cwrap 2 fffffffffffffffe 16
+decode 0 3c616464722073706163653d22636f6465313622206f66667365743d2230783131222073697a653d2232222f3e
+add 11 339f42cc 1000000000000
+ctx_get flag 2 0
+ctx_setvar mode 5 30 1a22bebf
+renorm 13 8 16
+istream u64 dec 3132616263
+decode 1 4bd451d04281d322848b
+fop 8 1607861ddb721ca 9d0ed0a4f897c8c7
+overlap 2 29 3 5 a 1
+read 13 6562782c72
+printraw 9 fff
+helper 1001 -1 6
+cjoin 8 3b 1 4 2d 4
+justified 3 7 7 5 29 3 1
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+parse 3a31
+joinequiv 0 7
+fenc 4 3690000000000000
+printraw 10 1aa
+encode 7 1 4
+encode 11 1234567b -1
+join 2 2 27 2 8 18 8 8
+add 10 fc69e126289a 4331c7c8
+istream i32 auto 30
+lastopen 2 32 ffffffffffffffff
+add 5 53 2df3
+nearptr 10 2
+joinequiv 10 15
+printraw 9 1ae
+rl_remove 5 41 4e
+cwrap 6 10 2
+read 7 6561783a342b
+fenc 8 fff8000000000000
+ctx_setvar big 5 16 6d66075c
+decode 1 4bd451d04281d331848b
+rl_insert 2 46 62
+helper 1a1 8 6
+rl_query 5 2 2
+rl_query 2 4a 1
+read 5 68696c6f2b2d31
+joinequiv 5 4a
+rl_insert 5 76 92
+helper 143 6 3
+join 1 5 3e 0 8
+rl_remove 5 25 43
+helper 101 5 2
+istream i64 auto 616263
+read 3 31363a6a756e6b
+cjoin 4 39 2 5 34 4
+encode 2 5e20 -1
+joinequiv 20 2a
+fprint 4 0
+fop 4 80000001 ad7019f5
+justified 5 d 5 3 1e 16 1
+fenc 4 bd3ef67980000000
+strtoul 32313437343833363438
+printraw 3 100000001
+fprint 8 3ff8000000000000
+join 0 0
+istream u32 auto 2d39323233333732303336383534373735383039
+read 10 2020373a34
+fop 8 36a0000000000000 3c80530cd0d035fe
+fprint 8 3690000000000000
+nohighptr 10 a6 123
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+fop 4 9cd3105d d2a92546
+renorm 13 3d 4
+rl_insert 3 5 e
+rl_query 2 1 0
+parse 64617461343a3078666666666666
+rl_query 5 70 4
+istream i32 auto 307830
+validrange 2 1000 7653
+fhost 4 3f800000
+mcodec - 4555
+helper 10000 5 -2
+add 8 0 ca
+read 13 68692c6561782c6c6f
+renorm 13 1b 1
+encode 3 95 -1
+fop 4 69e14c9a cf92d8b6
+mcodec 553a73697a653d38303b493a70696563653d353b553a616c69676e3d30 -
+joinequiv 40 50
+wrap 2 4087f45197f3e50b
+rl_insert 3 6c 83
+printraw 4 1ce
+read 12 626f6775733a34
+join 1 5 23 8 8
+fprint 4 c170000010000000
+join 1 3 7 8 8
+fprint 8 bfe0000000000000
+add 5 178 119
+join 2 2 18 8 5 6 8 0
+cjoin 8 f 1 4 18 4
+fenc 8 3fe0000000000000
+fprint 8 b8d4e0c220000000
+strtoul 30
+rl_insert 3 29 3a
+overlap 2 1f 3 3 1d 16
+rl_query 5 9f 0
+joinequiv 10 58
+justified 3 26 -1 2 8 8 0
+read 13 72307832303a32
+mcodec 423a76616c75653d313b553a69643d34303030303030303030303b4f3a70696563653d35373b543a76616c75653d3b4f3a69643d3238 4255424553
+parse 3a31
+strtoul 2d39323233333732303336383534373735383039
+join 1 5 1 0 8
+wrap 5 74
+highptr 2 2b 1
+rl_query 3 59 2
+rl_query 5 81 40
+renorm 13 55 2
+fprint 8 fe37e43c8800759c
+add 3 31afe0b5 fa
+lastopen 2 55 200
+cjoin 8 19 1 4 32 2
+ctx_default missing ff5b1125
+fop 8 68333ac1bceaea3c 5690a6c2ac4f3dda
+renorm 13 60 1
+join 2 5 3 1 2 7 2 0
+parse 626f6775733a30783130
+join 2 2 18 1 3 9 2 4
+fenc 8 8000000000000001
+join 2 3 2f 0 5 12 4 4
+strip 10 1
+fprint 8 7fefffffffffffff
+join 0 8
+joinequiv 10 14
+pcodeop 9 3 3c6f7020636f64653d22554e5553454431222073697a653d2230223e3c766f69642f3e3c2f6f703e
+fop 4 5d6c647d cf000000
+add 6 0 6310c6598786
+cwrap 2 fffffffffff0 8
+wrap 9 bddf680a46030340
+rl_insert 2 37 56
+read 4 2b33
+joinequiv 5 58
+rl_insert 5 2d 37
+read 13 75307838303a382c72626f677573
+parse 307831303030
+printraw 2 3
+fprint 4 2bf9baaa8d96ec07
+encode 3 120 4
+join 2 2 20 1 5 11 4 0
+ctx_get big 2 27
+fhost 8 dba50daea050ff31
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+ctx_default mode bc6b75f2
+join 1 3 35 0 8
+justified 2 34 1 5 f 7 1
+istream i32 dec 2d32313437343833363438
+ctx_tracked 2 5 2 8
+ctx_trackadd 5 3a 8 92308859a9724df
+ctx_trackadd 5 27 2 6cdc260b9eedc6fb
+ctx_trackadd 5 15 4 39abbff62d8698fe
+highptr 3 37 4
+fop 4 759ed8d7 4f000000
+join 1 8 b 2 0
+strtoul 3132616263
+ctx_default big 8dd7c349
+joinequiv 5 1d
+fenc 8 c1e0000000000000
+fenc 4 380fffffc0000000
+ctx_region mode 5 1c 5 29 a99c9e8c
+encode 2 130 4
+join 2 2 32 2 3 3d 4 4
+fenc 8 43e0000000000000
+helper 100000001 0 1
+istream u32 auto 307846664666
+printraw 7 100000000
+overlap 3 27 -1 5 0 3
+fprint 4 6b044624790a67c2
+encode 6 1234567a -1
+istream i32 hex 3030783130
+istream u32 oct 30583146
+read 13 6c6f
+overlap 5 5 2 3 e 7
+helper f0672c77b887 9 7
+add 5 7f 80
+printraw 5 d4
+parse 64617461343a3078666666666666
+strip 30 0
+renorm 13 23 2
+overlap 2 28 -2 5 35 0
+lastopen 4 2f ffff
+strtoul 3138343436373434303733373039353531363135
+cjoin 4 12 1 5 3d 4
+joinequiv 5 33
+fop 8 3810000000000000 3ff8000000000000
+parse 3130
+parse 64617461343a3078666666666666
+cjoin 2 1b 2 8 33 4
+cjoin 8 2e 2 5 3e 2
+renorm 13 19 4
+renorm 13 5 4
+istream i32 oct 2d3130
+helper 5be6ac76 8 3
+join 3 2 7 1 5 5 0 3 28 2 0
+parse 3a31
+read 4 2020372b2d31
+joinequiv 40 14
+fhost 8 41dfffffffc00000
+mcodec 493a70696563653d323b503a76616c3d383b533a73697a653d33666666666666666666663b4f3a73697a653d3435 5550
+pcodeop 10 fffffffffffc 3c6f7020636f64653d2253544f5245222073697a653d2232223e3c766f69642f3e3c616464722073706163653d22726567697374657222206f66667365743d22307838222073697a653d2238222f3e3c616464722073706163653d22756e6971756522206f66667365743d223078313030222073697a653d2234222f3e3c2f6f703e
+encode 6 deadbeefcafe -1
+rl_remove 5 7c 80
+printraw 12 deadbeefcafe
+helper 5af6acd2bb8d 3 11
+highptr 2 3b 8
+fenc 8 4605fcf600000000
+read 13 72307831303a342c253078343a342c72
+read 6 6562787a7a
+join 2 5 1f 8 8 37 4 4
+nohighptr 2 3a b3
+ctx_default flag 5e35b989
+printraw 2 7f
+strtoul 34323934393637323936
+fprint 8 73db994af729819f
+fhost 8 924fdec8380823b5
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+read 11 68693a382b32
+read 7 3a3078382b30783130
+istream i32 hex 2d39323233333732303336383534373735383038
+mcodec 493a70696563653d323b553a73697a653d3766666666666666663b4f3a626967656e6469616e3d31313b493a70696563653d3172616d3a3078303a343b533a76616c75653d383030303030303030 4f4558
+rl_remove 3 5a 6f
+ctx_trackval 5 3b 4 2 d
+fhost 4 3eaaaaab
+rl_query 5 3b 4
+join 1 8 2b 1 8
+wrap 12 191
+fop 8 3690000000000000 c0d0fa647a499181
+rl_insert 2 45 49
+decode 1 4bd451d04281d331848b
+decode 1 4bd46dd042818b
+cjoin 3 1f 4 8 30 1
+wrap 10 1d7
+helper f0 1 7
+parse 636f646531363a30783130
+join 2 8 1f 4 8 3 4 0
+lastopen 5 2e ffffffff
+lastopen 12 5b ffffffff
+join 0 0
+add 7 80000002 12345678
+printraw 5 aef3249be4b3cc7b
+decode 1 4bd453d042818b
+istream i32 auto 3038
+join 2 8 39 1 5 9 4 0
+istream i64 dec 2d
+fop 4 34000001 3f000000
+mcodec 493a70696563653d32 544950545454
+cjoin 3 d 1 5 13 2
+ctx_default top a8135b08
+rl_insert 2 6e 84
+join 2 8 25 2 5 1b 0 0
+printraw 3 e8
+rl_insert 2 70 8d
+fprint 8 8000000000000001
+rl_query 2 23 40
+joinequiv 0 34
+fop 8 3690000000000000 a6ce46a41b290b94
+rl_query 3 1 2
+add 8 7f 4
+cwrap 10 10 1
+parse 72656769737465723a307834
+rl_print
+strtoul 39323233333732303336383534373735383037
+istream u64 hex 307846664666
+helper 99 0 -1
+overlap 2 1a 2 3 a 5
+parse 307831303030
+rl_insert 2 4a 60
+fenc 8 424b003680000000
+strip 10 2
+justified 5 2f 0 3 26 1 1
+join 0 8
+rl_insert 2 7d 93
+rl_clear
+read 3 3078
+overlap 3 30 2 3 3 16
+ctx_get missing 2 8
+highptr 5 1f 8
+justified 3 6 7 3 2 1 0
+encode 8 101 8
+nohighptr 10 19 109
+mcodec 423a76616c3d303b493a70696563653d39783b553a70696563653d666666666666666666666666666666663b4f3a69643d33333b423a626967656e6469616e3d31 5055
+strtoul 3138343436373434303733373039353531363136
+fprint 4 7ac7372f7133ba81
+encode 10 1 8
+read 5 2020372b33
+ctx_tracked 2 1a 2 1e
+ctx_trackadd 5 20 1 b9562bedcefa17ea
+ctx_trackadd 5 18 8 da985503e0ba07b0
+ctx_trackadd 5 32 4 6c71b3c8d990870f
+strtoul 30373737
+parse 3130
+join 0 0
+encode 2 bbb6066fa706 -1
+parse 64617461343a3078666666666666
+cjoin 2 1f 4 3 7 1
+cjoin 5 e 2 4 26 4
+highptr 2 2 4
+fhost 8 c3e0000000000000
+join 2 5 21 4 5 34 0 10
+istream u64 oct 3130
+istream i32 hex 3138343436373434303733373039353531363135
+fenc 8 be8a35de850b11ef
+ctx_region flag 5 26 5 2d d871adae
+justified 2 24 4 5 40 8 1
+rl_insert 2 d 2c
+joinequiv 40 5b
+parse 72616d3a30783130
+justified 5 3 2 2 2b 0 0
+fop 8 7fefffffffffffff eac0f05a7d5ed23f
+rl_insert 2 48 66
+ctx_spec 3c636f6e746578745f646174613e3c636f6e746578745f7365742073706163653d226272616d222066697273743d2230783222206c6173743d22307834223e3c736574206e616d653d22776f726432222076616c3d223078316666222f3e3c736574206e616d653d22746f70222076616c3d2239222f3e3c2f636f6e746578745f7365743e3c2f636f6e746578745f646174613e
+overlap 2 38 8 3 3d 0
+encode 5 3 -1
+lastopen 7 1e ffffff
+ctx_get top 5 23
+cjoin 3 3a 2 3 19 2
+join 0 10
+printraw 6 80
+joinequiv 30 26
+strtoul 303137
+join 1 2 26 4 0
+printraw 6 3
+ctx_setvar word2 2 11 e94289e8
+cjoin 3 36 2 5 c 4
+add 8 101 fff
+justified 3 f 8 5 30 -1 1
+printraw 10 ffffffffffffffff
+justified 3 12 3 3 2a 4 1
+validrange 10 10000 c8
+printraw 11 9c7457aab866
+highptr 10 3b 8
+cfloat 3 30 4 16
+rl_insert 5 62 7b
+nohighptr 3 79 d5
+istream i32 oct 316535
+fenc 4 3d49a1d300000000
+wrap 5 87
+lastopen 5 7e ffffffff
+join 2 8 11 1 8 30 4 0
+fhost 8 36a0000000000000
+helper 1 0 -1
+nohighptr 2 6c 106
+helper 161 9 4
+printraw 5 7fffffff
+rl_insert 3 35 4e
+joinequiv 10 3e
+join 2 3 e 2 8 11 2 0
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+read 11 2d342b2d31
+decode 1 4bd461d042818b
+wrap 7 153
+fop 4 1 3eaaaaab
+helper 7f 4 7
+join 2 2 3 4 3 22 2 8
+nearptr 9 2
+cjoin 5 1c 4 3 30 4
+fhost 4 7f7fffff
+read 12 2b33
+istream i64 dec 092d30783130
+parse 636f646531363a30783130
+read 13 722c722c72626f677573
+pcodeop 6 fe 3c6f7020636f64653d2253544f5245222073697a653d2232223e3c766f69642f3e3c616464722073706163653d22726567697374657222206f66667365743d22307838222073697a653d2238222f3e3c616464722073706163653d22756e6971756522206f66667365743d223078313030222073697a653d2234222f3e3c2f6f703e
+fprint 8 0
+decode 1 4bd46dd042818b
+overlap 3 16 6 3 3c 3
+mcodec 4f3a6e616d653d393b423a626967656e6469616e3d31 -
+decode 1 4bd46dd042818b
+read 8 30786666666666666666666666666666666666663a3078382b30783130
+cjoin 5 30 4 4 25 1
+ctx_get flag 5 2b
+justified 2 1b 2 5 0 0 1
+helper d9 10 3
+join 2 8 3e 4 5 2b 1 0
+renorm 13 25 16
+join 2 5 3a 1 3 c 8 8
+helper c0 11 9
+read 13 6562782c656278
+ctx_encode
+fhost 8 ca2f36d8a4494798
+istream u64 dec 30583146
+rl_query 3 70 10
+printraw 11 142
+overlap 2 10 4 3 6 5
+justified 3 33 1 5 35 1 0
+printraw 11 100000000
+decode 1 4bd46dd042818b
+fop 8 1dd5c85b4e12381c 92907757d4adec83
+joinequiv 50 21
+cwrap 2 fffffffffffffffe 16
+fop 8 af753bbea2912f2a 23c9a3ae40ac116a
+wrap 10 100000000
+wrap 12 ffffffff
+istream u32 hex 307846664666
+decode 1 4bd461d042818b
+ctx_trackval 3 16 1 2 12
+fhost 4 da4c0f1d
+overlap 2 13 1 2 1b 1
+helper db 2 0
+cjoin 8 22 1 2 6 4
+add 9 80000000 7f
+rl_remove 3 66 6a
+ctx_get missing 2 2e
+fhost 4 7f800001
+joinequiv 5 3d
+fop 4 9b424353 ff800000
+nearptr 5 4
+rl_insert 3 3 8
+highptr 2 11 1
+rl_insert 5 5e 7b
+validrange 9 3 100
+fenc 4 1
+join 1 8 36 2 0
+add 6 1 4
+printraw 4 ffff
+parse 626f6775733a30783130
+fenc 8 424886fde0000000
+helper c560bf3eb2d8 11 9
+encode 11 fffffffffffffffd 4
+fprint 8 47efffffe54daff8
+encode 12 fffffffffffffffe 4
+read 13 75307838303a382c656278
+parse 3a31
+overlap 5 20 -2 3 31 0
+encode 10 12345678 4
+justified 5 15 16 3 1c 5 0
+ctx_region flag 2 30 5 4 49859f35
+encode 2 ffe 8
+cfloat 5 3 4 4
+highptr 10 20 8
+decode 1 4bd46dd042818b
+wrap 4 24b7a9e42c44
+cjoin 5 16 4 8 2a 4
+helper 143 6 5
+fhost 8 e3ae3f8748131c03
+highptr 10 3b 4
+overlap 3 3 1 3 2f -1
+strtoul 616263
+istream u32 hex 3138343436373434303733373039353531363135
+fop 8 380fffffffffffff 7ff8000000000000
+printraw 7 0
+printraw 2 b
+encode 5 100 4
+renorm 13 13 2
+fenc 4 3927bcac80000000
+join 1 2 3f 1 10
+strtoul 30783166
+join 3 3 28 2 8 35 8 8 15 4 8
+fprint 8 1a56e1fc2f8f359
+rl_remove 5 7f 9d
+istream i64 auto 2d
+decode 0 3c61646472206e616d653d22626f677573222f3e
+printraw 8 10000
+rl_remove 3 61 6e
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+decode 1 4bd45182d08190d321848b
+ctx_changepoint 2 c 1 e93e49bc d8660368
+overlap 5 b 2 2 34 4
+joinequiv 30 54
+read 2 2020377a7a
+decode 1 4bd451818b
+read 2 307831303a342b
+helper 3 -1 5
+join 2 2 18 2 8 37 4 0
+fprint 8 6610ee8ca0c8cc22
+fprint 4 3b6c44d2a0000000
+rl_print
+fprint 8 c480f0cf064dd592
+printraw 10 7fffffff
+highptr 3 10 1
+validrange 9 1d2 f5d9cff71a1b
+fenc 8 8000000000000001
+nearptr 3 8
+join 2 2 40 2 3 21 2 0
+fop 4 7fffff 7462936d
+nohighptr 2 72 f5
+renorm 13 4e 8
+rl_remove 5 2a 3d
+encode 5 10000 4
+fprint 8 b6a0000000000000
+strtoul 307846664666
+wrap 7 12f
+encode 11 1002 8
+lastopen 4 c3 ffffffff
+rl_insert 3 3c 5b
+join 0 8
+rl_insert 2 35 36
+fop 8 1 47efffffe0000000
+printraw 6 3
+printraw 4 fffffffffffffffe
+fop 4 bf800000 cf000000
+printraw 5 100
+rl_insert 2 3d 3e
+read 13 72626f6775732c68692c656278
+ctx_region mode 5 26 5 34 393c5d09
+fenc 8 47efffffe0000000
+cfloat 5 3a 4 4
+rl_insert 3 7f 8c
+fenc 8 befc5a5fe0000000
+encode 6 ff 8
+read 4 68693a32
+fhost 4 13e6194b
+join 2 3 5 4 5 32 0 8
+cjoin 3 1e 4 2 20 1
+ctx_roundtrip
+read 13 6230783130303a342c71307830
+cfloat 5 28 8 8
+rl_remove 2 4 24
+rl_query 5 e 1
+helper 4 6 7
+helper deadbeefcafe 5 6
+rl_remove 3 c 21
+helper 37 5 -2
+add 12 dea8d19d ad
+printraw 6 fffffffffffffffc
+encode 12 fff 4
+printraw 6 ffffffff
+nohighptr 3 80 f0
+istream u64 auto 307846664666
+fhost 4 d28dfbfa
+printraw 2 1c0
+helper 8000000000000000 6 5
+istream i64 auto 32313437343833363438
+fhost 4 86dac76f
+join 2 2 0 4 5 2f 8 8
+read 5 61782b2d31
+nearptr 7 8
+parse 626f6775733a30783130
+wrap 7 ffffffffffff
+fhost 8 65c81075ef82ca06
+highptr 5 3f 4
+read 8 61782b33
+rl_insert 3 7a 98
+fprint 4 c794f51380000000
+fop 4 b175517c 7fc00000
+fenc 4 42a4ed1a40000000
+fenc 8 8000000000000000
+fprint 4 3b2035c900000000
+helper fd 6 5
+rangedecode 3c7265676973746572206e616d653d22656178222f3e
+overlap 3 33 -1 5 23 -1
+decode 1 4bd451d04281d331848b
+read 13 253078343a342c253078343a342c6230783130303a34
+rl_insert 2 15 29
+istream u32 dec 3130
+highptr 2 e 1
+renorm 13 47 4
+printraw 12 7c
+istream u64 dec 307830
+rl_insert 2 7c 94
+cjoin 3 3f 4 8 3f 1
+validrange 9 deadbeefcafe ad49fca714d79d6a
+ctx_trackval 5 1f 4 2 39
+ctx_region top 2 0 2 f a66be31b
+nearptr 6 2
+fprint 8 3fe0000000000000
+join 2 3 2 0 8 40 8 10
+printraw 5 2
+cfloat 3 3e 8 8
+overlap 5 1 5 3 3c 7
+strtoul 39323233333732303336383534373735383037
+helper 7ffffffffffffffd 2 4
+helper 1bc -2 10
+istream i32 dec 30373737
+joinequiv 0 3
+read 8 68692b33
+read 2 3a32
+printraw 4 6b089867
+encode 4 ffffffffffff -1
+join 0 4
+justified 3 0 5 5 1d 0 1
+istream u32 dec -
+ctx_get top 2 0
+istream i32 oct -
+cjoin 8 2f 2 2 11 2
+overlap 3 2a 7 3 2e 16
+fhost 4 acc3d105
+ctx_default flag bb082f6e
+justified 2 3b 4 3 34 0 1
+printraw 7 12345676
+ctx_encode
+cjoin 8 17 2 2 3f 1
+validrange 9 1d0 ff
+printraw 6 bb75b82b
+fhost 8 380fffffffffffff
+printraw 6 18fd19bc
+add 4 80000000 ad1439f7ee2aff8b
+fprint 8 f2d3ee51a9aee32
+join 1 8 b 2 0
+nearptr 9 8
+join 2 8 37 1 8 1f 8 0
+wrap 12 0
+encode 13 10 -1
+cjoin 5 21 1 3 18 2
+nearptr 3 4
+rl_insert 5 70 72
+rl_insert 3 0 16
+rl_query 2 7b 40
+read 12 68696c6f3a6a756e6b
+mcodec 543a616c69676e3d68656c6c6f3b503a73706163653d343b533a76616c3d383030303030303030303030303030303b493a70696563653d373b533a76616c3d376666666666666666 495055
+cjoin 8 1 2 3 3b 1
+printraw 4 1001
+strtoul 3138343436373434303733373039353531363135
+printraw 6 deadbeefcafe
+rl_insert 5 15 31
+justified 3 3a 4 2 c 2 0
+fprint 4 c3e0000000000000
+justified 5 12 4 5 13 7 0
+printraw 4 1ab
+nohighptr 5 83 115
+parse 636f646531363a30783130
+fop 8 47efffffffffffff 3fc5555555555555
+printraw 5 fff
+printraw 11 7fffffff
+read 13 253078343a342c713078302c6230783130303a34
+lastopen 5 a6 ffffffffffffffff
+fop 4 70e09433 40200000
+ctx_setvar top 2 32 2546ec03
+fhost 4 7f800000
+fhost 4 a4fbcc22
+validrange 2 99 11c
+highptr 2 8 8
+add 11 1b6 7f
+strtoul 2b
+fop 4 3f000000 76b3e433
+rl_query 3 50 1
+printraw 6 0
+strtoul 2d32313437343833363438
+read 11 2020373a3078382b30783130
+wrap 2 2
+overlap 2 23 5 3 2e 7
+fprint 4 7ff8000000000000
+cache_get 2 37
+fop 4 b4a27e32 ffc00000
+read 13 6230783130303a34
+rl_insert 2 41 50
+join 1 2 c 4 4
+printraw 8 fffffffffffffffe
+justified 2 d 16 3 0 4 1
+printraw 2 1000000000000
+join 2 5 26 1 2 c 2 0
+encode 12 ffffffffffff 8
+fhost 4 800000
+istream u64 oct 2d39323233333732303336383534373735383038
+printraw 5 9d
+printraw 6 2
+istream i32 dec 2d2035
+rl_insert 5 43 50
+add 6 2d 10000
+printraw 9 7f
+printraw 11 90e55d
+encode 13 20 8
+read 5 726478
+istream u32 dec 34323934393637323935
+mcodec 533a616c69676e3d66666666666666666666666666663b553a70696563653d32303030303030303030303030 -
+fprint 8 3a30dc39c0000000
+mcodec 503a666f726d61743d31303b543a76616c75653d72616d3b493a70696563653d3472616d3a3078303a34 58
+join 2 8 2f 1 8 3f 4 0
+ctx_tracked 2 13 2 1d
+ctx_trackadd 5 18 1 b1d30352cc7e12c1
+ctx_trackadd 3 38 2 8043651ab1b287dc
+overlap 5 35 2 3 1f 4
+helper 17c3d07742fbe8e2 -1 10
+encode 12 f29dadb67ff1 4
+rl_insert 2 37 56
+ctx_get flag 5 40
+rl_insert 5 74 90
+printraw 6 12345678
+wrap 2 1000000000001
+fprint 4 45bda56be0000000
+rl_query 2 19 10
+overlap 2 3a 6 3 0 16
+printraw 3 10000
+mcodec - 45585453
+renorm 13 5a 16
+wrap 5 7fffffff
+wrap 5 ffffffff
+fhost 4 3f000000
+fprint 8 37b45a301aaf8776
+read 9 30783a3078382b30783130
+overlap 5 2d 3 3 2f 0
+printraw 9 5f
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+fhost 8 56b8fa6ef5dde4c3
+fop 4 bfc00000 80000000
+fprint 4 47efffffe0000000
+justified 5 9 0 2 17 4 0
+overlap 5 2 -1 3 1c 16
+strtoul 30373737
+cfloat 3 f 4 8
+ctx_setvar missing 2 19 396b2cb5
+highptr 10 3c 1
+join 2 8 d 2 5 30 0 10
+cjoin 2 35 2 8 2a 4
+nested 10
+cfloat 5 3e 8 10
+read 13 75307838303a382c656278
+cfloat 3 2d 8 10
+strip 0 0
+renorm 13 2a 8
+fop 4 755abb9 ca62c2eb
+joinequiv 5 4c
+rl_query 3 68 4
+wrap 2 2814bad69214c87c
+ctx_get word2 5 16
+fprint 4 c7efffffe54daff8
+highptr 2 1a 8
+join 1 8 4 0 8
+add 5 fd5d 10000
+join 2 3 2b 1 5 c 4 10
+ctx_setvar big 5 24 d173835e
+helper 3 8 9
+highptr 2 3b 8
+rl_insert 3 13 2a
+read 8 6561783a342b
+cjoin 2 22 4 5 14 1
+nohighptr 3 c3 10e
+join 1 3 f 0 0
+wrap 12 7403d559fc1df6ba
+lastopen 4 64 ffff
+printraw 9 2
+justified 3 11 1 3 12 7 0
+renorm 13 2c 4
+join 1 2 8 4 4
+printraw 10 2
+validrange 5 7fffffffffffffff 3f
+lastopen 10 4e ffffffffffffffff
+cjoin 8 39 1 2 20 1
+fprint 4 3690000000000000
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+rl_encode
+parse 307831303030
+fprint 4 d0c82ccb0bcd75fb
+fhost 8 da6c4907704d317a
+fhost 4 4f000000
+fenc 4 39ce0d1d20000000
+joinequiv 20 16
+join 3 5 3c 2 3 1a 8 2 1b 8 0
+istream i64 auto 2d39323233333732303336383534373735383039
+fprint 8 1fa79a0125a28d2a
+overlap 5 10 7 2 22 0
+helper ffe 1 7
+lastopen 2 b9 ffffff
+cwrap 7 fffe 2
+encode 7 1000 8
+istream u32 oct 2d39323233333732303336383534373735383039
+rl_insert 2 2d 48
+overlap 5 7 0 2 1e 4
+fprint 8 8000000000000000
+validrange 11 14 1f5
+ctx_get flag 2 22
+ctx_region missing 2 3a 5 39 c61cf9ec
+printraw 3 12345678
+helper 324706b4 1 -2
+renorm 13 57 6
+printraw 12 b8
+read 13 6562782c6562782c72626f677573
+printraw 10 1
+rl_insert 5 e 26
+istream i32 auto 2b35
+fenc 4 46a45c2680000000
+printraw 11 ffffffffffff
+validrange 9 ee deadbeefcafe
+read 13 6562782c656278
+fprint 8 7fefffffffffffff
+cjoin 5 11 2 3 17 1
+read 4 61782b2d31
+read 13 6c6f
+wrap 11 7fffffffffffffff
+parse 636f646531363a30783130
+join 2 8 35 8 8 14 4 0
+rl_query 5 77 40
+wrap 8 3c6674f5b5476137
+printraw 5 80
+rl_insert 3 39 41
+wrap 4 3b
+cwrap 2 fffffffe 4
+printraw 3 b0
+encode 4 7f 8
+read 4 3a382b32
+helper 15f -2 9
+highptr 2 40 4
+printraw 4 0
+justified 2 27 2 2 3e 4 1
+joinequiv 20 2d
+decode 0 3c61646472206e616d653d22626f677573222f3e
+add 11 ffffffff 55
+strtoul 20203432
+join 1 3 29 1 0
+wrap 10 1c6
+printraw 2 ffff
+fop 8 3fc5555555555555 47efffffffffffff
+ctx_tracked 2 0 2 a
+overlap 3 2 0 5 32 0
+rl_remove 5 5e 62
+nearptr 6 4
+fenc 4 c340000000000000
+cjoin 5 20 1 2 17 1
+istream u64 auto 39323233333732303336383534373735383037
+join 2 2 1a 8 8 22 1 4
+parse 72616d3a30783130
+read 13 6562782c6230783130303a34
+read 9 7264782b33
+wrap 10 8000000000000000
+pcodeop 2 b91aeabb 3c6f7020636f64653d224c4f4144222073697a653d2231223e3c61646472206e616d653d22656178222f3e3c61646472206e616d653d22726478222f3e3c2f6f703e
+istream i32 oct 2d31
+fprint 8 41e0000000000000
+justified 2 17 5 3 1f 4 1
+encode 8 12345678 4
+cwrap 6 ff 1
+cwrap 4 fffffffe 4
+encode 5 1b4ac41bf81f2c36 -1
+ctx_get missing 5 1d
+renorm 13 4d 4
+fop 8 2b035676247ddc83 c5ac95947167474d
+validrange 12 1b802025a8de 10c
+istream u32 hex 3038
+encode 10 7f -1
+highptr 2 9 8
+overlap 2 1e 6 5 10 2
+encode 3 8000000000000000 -1
+rl_insert 3 3a 55
+fhost 4 909a2c8b
+ctx_region big 2 2a 5 12 9a56173a
+strtoul 092d30783130
+decode 0 3c61646472206e616d653d22626f677573222f3e
+helper 12345678 6 4
+fop 8 7ff8000000000000 fffffffffffff
+printraw 2 fff
+fhost 4 3fc00000
+fop 8 c3e0000000000000 36a0000000000000
+ctx_changepoint 2 12 1 d87008cc 6704bf37
+rl_insert 3 37 54
+read 13 71307830
+decode 1 4bd451818b
+add 6 1000000000000 fffffffffffffffe
+add 2 5224a5f7 80000000
+ctx_region big 5 15 5 23 1482614a
+encode 7 7f -1
+ctx_tracked 2 27 2 33
+ctx_trackadd 5 1e 2 cc6254d8814b104c
+ctx_trackadd 5 30 2 d7401d1cc2abfa2e
+ctx_trackadd 3 2e 2 e7ffc54f4eb52266
+lastopen 6 e2 ff
+strip 20 2
+nearptr 12 2
+read 3 68692b
+fprint 4 c1e0000000000000
+istream i32 auto 312032
+add 9 d2dab7b8 10003
+wrap 7 115
+fop 8 3ff8000000000000 380fffffffffffff
+printraw 2 7ffffffe
+encode 7 17 4
+ctx_get top 2 17
+printraw 8 1c5
+fhost 4 bfc00000
+ctx_get missing 2 39
+overlap 3 1c 8 2 35 16
+justified 2 2a 8 2 9 5 0
+join 0 8
+ctx_trackval 5 6 2 2 c
+renorm 13 53 6
+parse 64617461343a3078666666666666
+fhost 4 2d573bd4
+add 5 4 82
+fop 8 3d791ce8d3bcc6a2 c02c1a519b78d03e
+justified 3 3a 8 2 2d 8 1
+strtoul 3130
+decode 0 3c616464722f3e
+renorm 13 27 16
+printraw 8 200
+join 1 2 33 4 10
+cjoin 5 7 1 5 25 1
+istream u32 auto 312032
+helper ffffffff 0 11
+fenc 8 36a0000000000000
+cjoin 3 25 1 3 2d 2
+rl_query 2 8e 1
+joinequiv 10 3d
+rl_query 2 55 2
+cfloat 3 1c 4 8
+renorm 13 a 6
+encode 6 fffe 4
+strip 30 0
+read 9 6162637a7a
+istream i32 dec 666666
+wrap 5 a9
+rl_remove 5 65 84
+decode 1 4bce71848b
+rl_insert 2 3c 54
+join 1 8 2d 1 4
+parse 72616d3a30783130
+justified 2 19 0 2 18 8 1
+fenc 8 43e0000000000000
+renorm 13 5c 2
+rl_insert 3 25 3e
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+printraw 5 ff
+fhost 4 6bb0170e
+decode 1 4bd461d042818b
+nearptr 4 8
+cjoin 3 3c 4 5 29 4
+printraw 12 12e
+fprint 8 b6a0000000000000
+mcodec 4f3a616c69676e3d35333b4f3a626967656e6469616e3d31343b533a73706163653d33666666666666666666663b543a6f66667365743d3b4f3a73697a653d3436 58454f5342
+highptr 5 d 1
+printraw 2 0
+printraw 3 55fe97f29611f364
+nohighptr 3 e0 1a4
+istream u32 oct 3130
+fenc 8 c340000000000000
+istream i64 auto 2d3130
+rl_query 3 7d 2
+ctx_default flag aad3c2bf
+fprint 8 81a56e1fc2f8f359
+join 2 8 14 8 2 0 0 0
+overlap 2 36 1 2 22 1
+join 2 3 27 8 2 16 2 0
+read 3 6162632b2d31
+ctx_trackval 3 19 2 2 2b
+helper 8000000000000000 5 1
+wrap 4 1000000000001
+fprint 8 3810000000000000
+istream i32 auto 303137
+ctx_tracked 2 14 2 18
+ctx_trackadd 5 3d 2 d74007f5328b24ef
+ctx_trackadd 5 e 8 c102ac44cd041ec4
+read 8 68692b2d31
+printraw 5 12345678
+highptr 3 19 1
+encode 9 12345678 8
+lastopen 5 4b ffffff
+strtoul 303137
+read 4 2b33
+istream u64 dec 30303030
+cfloat 2 3b 8 10
+rl_insert 2 36 4b
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+rl_query 3 5b 1
+printraw 5 10000
+helper ffd -2 0
+printraw 11 1
+join 2 8 0 0 5 2b 4 4
+encode 4 fffffffffffe -1
+justified 3 1c 5 3 16 4 1
+nearptr 2 4
+wrap 6 2
+strtoul 202020
+ctx_get mode 2 35
+printraw 9 80000001
+fhost 8 47efffffffffffff
+rl_remove 2 7e 8b
+read 12 7264782b33
+read 13 71307830
+justified 2 d 8 3 39 5 0
+joinequiv 5 42
+encode 7 ffffffffffff 8
+rl_query 3 1f 4
+printraw 4 7f
+lastopen 3 da ffffff
+join 3 8 2f 0 8 c 2 2 f 1 8
+highptr 2 f 1
+fop 8 ec1f6678938cd398 2dde7122d6e0b2a3
+renorm 13 1e 2
+cfloat 3 33 4 16
+nohighptr 2 b6 d0
+mcodec 553a76616c75653d366563386236666563356535633632333b533a69643d66666666666666 4253
+join 1 2 22 2 4
+printraw 5 8000000000000001
+istream i64 dec 666666
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+printraw 12 fffffffffffffffe
+rl_remove 5 77 83
+fenc 4 c12fba9fd00837d6
+istream i64 hex 34323934393637323936
+helper 80 4 -2
+add 5 1234567a 7892
+join 2 3 a 4 2 35 4 10
+fop 4 9e6c5240 234f79d9
+parse 64617461343a3078666666666666
+nearptr 3 4
+nohighptr 5 d2 112
+read 13 75307838303a38
+decode 1 4bce71848b
+rl_query 5 92 4
+fhost 8 3b50671f68a576e6
+wrap 11 25e9
+helper ffff 0 4
+fenc 8 be4f6ece80000000
+printraw 6 e4
+nohighptr 10 95 11d
+ctx_default mode 8eaa3001
+join 3 8 9 8 3 33 0 3 29 0 10
+renorm 13 4f 2
+add 9 c ffff
+rl_query 2 4a 4
+joinequiv 40 3d
+fprint 8 1a56e1fc2f8f359
+wrap 2 7ffffffffffffffe
+wrap 7 fffffffffffffffe
+fhost 8 fffffffffffff
+fop 4 bf000000 de6fc3ee
+highptr 10 36 1
+ctx_get top 2 30
+printraw 12 8000000000000000
+justified 2 3b -1 3 3c 0 0
+fhost 8 5eabe85b442ed688
+validrange 12 99 119
+fop 8 5e9286ee0aa4d92d 43e0000000000000
+encode 9 100 8
+read 13 72307831303a342c72307832303a32
+highptr 2 d 4
+read 6 30786666666666666666666666666666666666662b
+fprint 8 bfb999999999999a
+fprint 4 b6a0000000000000
+rl_remove 5 44 47
+fop 4 c375935e 1
+strtoul 092d30783130
+ctx_tracked 2 2b 2 32
+ctx_trackadd 3 d 8 76d5cd87077bc49c
+encode 12 148 4
+highptr 3 2c 8
+helper fffffffffffffffd 6 -2
+rl_insert 3 1f 31
+printraw 12 d7
+highptr 2 6 8
+wrap 6 10003
+printraw 7 ffffffffffff
+ctx_get word2 5 17
+fop 4 bf000000 80000001
+istream u64 auto 2d39323233333732303336383534373735383038
+join 3 5 40 0 5 9 4 3 25 0 4
+fprint 8 0
+read 6 626f6775732b33
+overlap 3 1c 6 3 3f 7
+justified 2 2c -1 5 3 2 1
+overlap 3 21 -1 5 31 4
+joinequiv 20 40
+printraw 4 6307a1de5a9ef08c
+rl_insert 5 4c 52
+fprint 8 7e37e43c8800759c
+mcodec 4f3a69643d3135 495354
+renorm 13 58 4
+ctx_get mode 2 f
+overlap 3 3c 4 5 26 7
+fop 8 e7cdc7a49e29725f 47efffffe0000000
+parse 72616d3a7a7a
+justified 2 13 1 2 32 -1 0
+helper f94d9eac 5 10
+nohighptr 10 7e b5
+wrap 8 ff
+wrap 9 5b
+fenc 4 3fd5555560000000
+rl_insert 2 30 50
+fop 8 1bf7656f63a56763 b068acd3306892b5
+renorm 13 38 4
+helper fffffffffffffffe 2 2
+wrap 5 1000
+encode 3 0 4
+nohighptr 3 be 1aa
+rl_insert 3 68 68
+helper ea 6 4
+wrap 8 60c4f66715ad26d4
+overlap 2 f 7 3 10 8
+helper 105 11 -2
+rl_query 2 58 1
+fprint 8 8000000000000001
+helper a38f270ec79f 8 -2
+istream i32 hex 092d30783130
+rl_insert 5 0 5
+fop 4 7fc00000 4b000000
+istream u64 auto 666666
+highptr 10 15 4
+overlap 2 37 -2 5 f -1
+overlap 3 3b 2 2 1c 16
+ctx_default word2 b96a80a0
+nohighptr 3 cd 151
+fprint 4 b810000000000000
+fenc 4 6dff437ce46217f3
+justified 5 b 5 3 3d 7 1
+joinequiv 20 23
+fop 8 e1832178e690b502 4a7788ffc4bdb332
+strtoul 30373737
+istream u64 oct 32313437343833363438
+fenc 4 3fe0000000000000
+printraw 7 67
+fprint 4 a6407150d326180e
+helper d3d7 -1 9
+printraw 2 8000000000000000
+fhost 8 380fffffffffffff
+cfloat 5 19 8 8
+printraw 11 deadbeefcafb
+join 1 5 4 4 4
+wrap 4 6e
+rl_insert 5 52 5c
+ctx_setvar missing 5 12 e810ca43
+read 12 -
+read 9 7264783a34
+istream u32 dec 39393939393939393939393939393939393939393939
+add 4 80000002 df
+printraw 10 10f
+rl_insert 5 3e 4f
+istream u64 dec 2d31
+wrap 10 2e122a0e45c6
+overlap 5 6 3 3 20 8
+fprint 8 8000000000000000
+mcodec 553a73706163653d3230303030303b543a6f66667365743d747275653b423a6e616d653d31 4f495355
+fenc 4 81a56e1fc2f8f359
+istream u64 auto 307830
+strip 20 1
+wrap 11 9ed19859
+ctx_setvar big 2 2c 210deabf
+ctx_default big 601c7f74
+printraw 7 fffffffffffe
+encode 8 75a4 4
+rl_insert 2 70 8f
+printraw 6 6b3a
+printraw 8 4fa0ea86cd580d72
+ctx_get missing 2 15
+encode 2 f9 4
+justified 3 1d 8 5 27 1 0
+printraw 11 27
+highptr 3 4 8
+istream i64 auto 39323233333732303336383534373735383037
+overlap 2 0 3 3 2d 7
+fprint 8 380fffffc0000000
+renorm 13 10 2
+printraw 5 ad57f7c0a01
+wrap 11 af
+parse 636f646531363a30783130
+encode 9 ffff -1
+rl_insert 2 51 71
+fprint 8 3f35b35a80000000
+printraw 10 2
+helper 6b -2 8
+printraw 6 42
+rl_insert 3 50 65
+wrap 2 1
+highptr 3 1f 4
+printraw 12 7f
+decode 1 4bd453d042818b
+wrap 11 80000000
+mcodec 423a616c69676e3d303b553a69643d323030303030303030303030303b543a73697a653d747275653b493a70696563653d3278 555358
+add 7 1 100000000
+ctx_default missing e7a1aa63
+joinequiv 10 7
+rl_insert 5 55 75
+rl_insert 2 3b 57
+printraw 4 8000000000000000
+join 1 5 23 8 0
+rl_insert 3 47 5c
+rl_insert 3 0 4
+overlap 5 1c 7 2 c 4
+join 1 8 16 1 8
+printraw 8 11c
+renorm 13 45 8
+istream u64 hex 34323934393637323936
+read 10 61783a342b
+printraw 8 102
+ctx_setvar big 5 15 cbdea8b4
+parse 3a31
+fop 8 1a7d39aa9800bbd4 3810000000000000
+join 2 8 2f 1 3 24 1 0
+ctx_setvar mode 5 3 d8a2b7c8
+cfloat 2 11 8 16
+istream i32 oct 34323934393637323936
+printraw 3 fba8
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+join 0 0
+highptr 5 12 4
+printraw 5 100000000
+fop 4 f5fb84d8 b94cd135
+lastopen 7 50 200
+renorm 13 d 2
+printraw 9 e6815ac890593c2c
+fop 4 c3c1968a 47a84ce
+overlap 2 37 6 3 1f 7
+rl_remove 3 67 87
+encode 5 ffffffffffffffff -1
+fop 8 66f18e5e8081dff4 1
+read 13 72307832303a322c6869
+decode 0 3c61646472206e616d653d22656178222f3e
+ctx_get mode 5 33
+helper b093b03b 5 6
+helper 8763 3 -1
+join 0 0
+rl_remove 3 1d 22
+helper ffffffffffffffff 7 11
+fenc 8 3fe0000000000000
+printraw 2 fff
+helper 3 2 1
+fprint 4 3fd5555555555555
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+ctx_setvar top 2 2f 16712a25
+rl_query 2 87 40
+rl_query 3 28 10
+highptr 2 35 4
+justified 5 27 4 3 23 16 0
+read 10 2d343a3078382b30783130
+helper 0 -1 12
+fprint 4 a082d1c9cc7209ca
+rl_query 2 40 0
+fop 8 53328f7bacf53b5d fffffffffffff
+fprint 8 3ff8000000000000
+encode 3 e2 -1
+strip 0 2
+mcodec 553a76616c3d33666666666666666666663b553a69643d666666666666663b493a70696563653d323b4f3a73697a653d36 534f50
+justified 2 2 0 3 1f 5 1
+renorm 13 2b 1
+strtoul 2d307838303030303030303030303030303030
+justified 5 2a 1 5 7 -1 1
+printraw 5 ffffffff
+rl_insert 5 4b 6a
+fprint 4 43ef577d829b3b6c
+helper c117767bf12fbd96 6 9
+decode 1 4bd451818b
+overlap 5 40 0 2 16 3
+validrange 3 deadbeefcafe 79
+decode 1 4bd451818b
+decode 0 3c61646472206e616d653d22626f677573222f3e
+rl_encode
+rl_insert 2 26 35
+istream u32 auto 30
+helper ce 9 1
+overlap 3 10 5 3 37 5
+add 10 4e16e6baf1b1 ffff
+parse 72616d3a7a7a
+fprint 4 c501774380000000
+ctx_get flag 5 15
+fenc 8 bfd5555555555555
+printraw 8 4a36a5a0b694f692
+encode 6 ffffffffffffffff -1
+fhost 8 8d1b170acdd0563d
+nearptr 9 2
+read 13 253078343a342c6561782c6869
+parse 3130
+fenc 8 4160000000000000
+overlap 5 2c -1 5 18 8
+helper b0 -2 12
+justified 3 8 8 2 4 16 1
+printraw 9 3
+fop 8 8d8a01aacd661da4 4a3b68a8d543a98b
+helper 1 6 7
+ctx_encode
+helper fffe 4 8
+printraw 10 12345675
+overlap 5 35 1 5 1d -1
+cjoin 8 18 1 8 33 2
+strip 0 2
+overlap 2 28 4 5 1a 0
+join 0 10
+justified 2 2d 4 3 11 -1 1
+join 2 5 2d 8 2 40 0 0
+read 6 61783a6a756e6b
+cjoin 4 27 4 8 40 4
+printraw 12 16a
+ctx_tracked 2 2 2 d
+ctx_trackadd 3 35 8 d6ff6f82094ecad4
+ctx_trackadd 3 28 1 b2c466c89b618126
+cjoin 5 29 1 8 29 4
+fhost 8 440ff5492e1253b6
+validrange 11 168 13
+overlap 2 3a 0 2 2f 8
+join 1 8 26 4 0
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+highptr 10 1 8
+justified 2 2c 8 5 24 16 1
+join 1 3 5 8 0
+helper 80000000 0 5
+wrap 7 7fffffffffffffff
+printraw 7 f135a84516a5
+justified 5 1 2 2 3b 4 1
+parse 72616d3a30783130
+helper 4 10 12
+cjoin 5 25 1 4 2 4
+encode 8 18f -1
+ctx_setvar top 5 1a 51d4e43f
+join 0 10
+rl_query 3 1d 4
+fhost 4 80000000
+cfloat 3 10 8 16
+rl_remove 5 51 51
+ctx_region word2 5 38 5 39 e22103ad
+printraw 2 e3
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+wrap 6 100
+rl_insert 5 3b 52
+rl_query 5 b 1
+lastopen 7 43 ff
+helper fffffffffffc 2 12
+encode 9 0 4
+add 3 100000002 96
+highptr 3 28 1
+fenc 4 4004000000000000
+overlap 2 1e 3 2 e -1
+fhost 8 319ba665124a702
+fhost 8 3fc5555555555555
+decode 1 4b8b
+rl_remove 2 3a 58
+joinequiv 0 11
+ctx_changepoint 2 1c 1 415960af 1b748f07
+printraw 3 1000
+cfloat 3 8 8 10
+cfloat 2 34 8 4
+join 2 2 f 1 2 36 0 0
+decode 1 4bd461d042818b
+printraw 11 fffc
+istream u64 hex 307867
+ctx_tracked 2 19 2 26
+ctx_trackadd 3 3b 2 8c0d993c67136cc1
+ctx_trackadd 3 1e 1 97b3c7f6501dd376
+ctx_trackadd 5 19 1 80b2b8683a9cdf60
+printraw 3 2
+justified 3 1d 7 5 8 16 0
+rl_remove 3 78 98
+justified 2 b 1 2 a 2 0
+printraw 5 1000
+rl_remove 5 22 22
+cjoin 3 38 4 3 32 2
+join 1 2 21 2 10
+fhost 8 957815286f6f90e4
+rl_insert 5 54 72
+fenc 8 44386204e0000000
+mcodec 493a70696563653d35783b553a76616c3d3230303030303b543a73706163653d74727565 534545
+printraw 7 ff
+fop 4 5f000000 5f000000
+justified 2 26 16 2 2f 1 0
+justified 5 35 7 3 3a 3 0
+read 5 31363a
+parse 307831303030
+rl_query 2 38 10
+ctx_default word2 94b5112f
+strtoul 616263
+cjoin 5 18 4 2 23 2
+printraw 11 100000000
+ctx_setvar flag 5 1b f4bf17bb
+wrap 8 80000000
+strtoul 2d39323233333732303336383534373735383039
+helper 3 -2 9
+nearptr 5 8
+join 2 8 2e 4 8 8 8 0
+printraw 6 7f
+wrap 8 fffffffffffffffe
+highptr 3 28 4
+ctx_changepoint 2 36 1 d58feea8 dbc17cf0
+join 0 10
+join 1 3 3b 4 10
+add 11 2 1000000000000
+fhost 8 dc225a237ae63201
+ctx_setvar mode 2 29 d77f6d96
+overlap 2 0 7 2 1c 2
+encode 11 88834d574529 4
+istream u32 oct 3138343436373434303733373039353531363136
+rl_insert 3 2b 37
+helper 150 5 9
+ctx_region flag 5 22 5 29 aa9375d5
+join 1 5 1c 4 10
+fop 8 d247c1558c219198 fffffffffffff
+fop 8 3fc5555555555555 db6950afc1b26c88
+ctx_setvar big 2 3d 3f756b4b
+read 13 75307838303a382c253078343a34
+printraw 5 7fffffffffffffff
+add 8 3 8000000000000000
+lastopen 7 e9 ffffff
+rl_remove 3 45 51
+ctx_get big 5 27
+renorm 13 3b 2
+rl_remove 3 11 23
+highptr 5 25 1
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+nearptr 4 8
+mcodec 493a70696563653d3472616d3a3078303a343b543a6f66667365743d70696563653b533a70696563653d37666666666666666666666666666666 424545
+read 3 68693a32
+rl_query 2 18 2
+helper 7fffffff 4 9
+rl_query 3 a 4
+rl_query 5 4d 2
+mcodec 493a70696563653d383b503a70696563653d373b553a73706163653d666666666666663b543a73697a653d68656c6c6f3b503a666f726d61743d3133 50
+istream i64 oct 3132616263
+fprint 4 bff8000000000000
+ctx_get big 5 18
+istream u32 hex 307838303030303030303030303030303030
+nearptr 9 4
+justified 5 25 5 2 1b 7 1
+cjoin 4 2c 4 8 13 2
+joinequiv 5 2b
+lastopen 4 4f ffffff
+cwrap 4 ff 1
+encode 4 ffffffffffffffff 4
+helper ff 12 7
+fop 4 bf800000 7afdc8e1
+fhost 4 cde7dbc3
+fenc 4 92130335daf517ce
+strtoul 2d32313437343833363439
+rl_remove 2 76 81
+wrap 6 14e
+fprint 8 c7efffffe54daff8
+rl_insert 3 2a 31
+join 0 0
+printraw 10 1000
+fprint 4 36a0000000000000
+fprint 4 46e507cb80000000
+ctx_default mode ea78d9bd
+joinequiv 30 52
+fprint 4 c7efffffe54daff8
+join 2 3 8 1 3 27 1 0
+rl_remove 3 5c 61
+printraw 8 80000000
+lastopen 11 f5 ffffffff
+renorm 13 41 2
+lastopen 2 4c ffff
+nearptr 10 4
+cjoin 5 3d 1 3 30 2
+parse 636f646531363a30783130
+fop 8 2015970f8d8298cf 3ff8000000000000
+fhost 4 800000
+strtoul 2d32313437343833363439
+nearptr 9 8
+encode 5 e 8
+overlap 2 22 6 5 13 1
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+encode 8 833dd932895195da 8
+highptr 3 17 4
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+join 2 2 26 0 5 2c 2 0
+highptr 3 1a 8
+join 2 8 37 0 8 c 1 8
+renorm 13 1a 2
+rl_insert 2 11 25
+helper 1000 11 8
+read 2 307831307a7a
+mcodec 423a69643d303b503a6f66667365743d353b553a73697a653d313030303030303030303030303030 544f534953
+cwrap 2 fffffffffff0 8
+wrap 4 fa
+join 2 3 3b 8 8 1a 2 4
+printraw 8 cea2b76a
+encode 13 30 4
+ctx_setvar top 2 3b 1fa1f538
+read 3 7264782b
+ctx_setvar big 5 38 1cee1734
+fhost 4 4ac1509e
+istream u64 auto 2b
+cjoin 4 1c 4 5 27 1
+rl_query 3 49 40
+wrap 2 106
+highptr 3 b 1
+cjoin 2 15 2 8 11 2
+encode 3 12 4
+fenc 4 3ff0000000000000
+join 2 3 33 2 3 9 4 8
+printraw 3 fffffffffffd
+read 10 30783a32
+overlap 3 28 0 3 23 7
+fprint 4 be39d9c6e0000000
+encode 2 10000 8
+ctx_get word2 2 21
+joinequiv 30 55
+rl_insert 3 32 41
+printraw 6 2c
+nearptr 6 4
+istream u32 dec 2d31
+wrap 5 3
+fop 8 87927c22674ce799 549a88fa5b7e0409
+fprint 8 47efffffe0000000
+decode 0 3c616464722073706163653d22626f67757322206f66667365743d2231222f3e
+read 13 75307838303a382c656278
+fhost 4 bfc00000
+printraw 9 80000000
+fenc 4 fff0000000000000
+read 4 68696c6f3a34
+helper 8d 10 5
+fop 8 9194507dd2f1029a 4004000000000000
+printraw 2 ffff
+helper fffffffffffffffe 3 3
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+highptr 10 1c 1
+justified 5 39 16 2 18 0 1
+rangedecode 3c72616e67652066697273743d2231222f3e
+mcodec 533a73697a653d313b503a616c69676e3d39 5545
+fhost 8 3fe0000000000000
+fop 8 0 e3f2650cdf29b5
+printraw 9 8000000000000001
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+rl_insert 2 28 28
+printraw 4 63ac476ee092b3df
+renorm 13 a 4
+overlap 5 17 7 5 0 4
+justified 5 1e 7 3 3b 5 1
+nearptr 8 8
+read 12 7264787a7a
+printraw 5 1002
+fenc 4 3fb999999999999a
+join 0 8
+helper 12345678 3 9
+joinequiv 0 11
+highptr 2 1a 8
+nearptr 3 8
+joinequiv 20 45
+fop 8 af7b0a77eb84fbd8 c07cb5cdb94b5555
+printraw 7 8000000000000001
+ctx_tracked 2 13 2 23
+ctx_trackadd 3 21 4 8fdfa83a0620a604
+ctx_trackadd 3 c 4 458af2b0c64c9e1f
+fprint 4 1a56e1fc2f8f359
+printraw 12 12345678
+fhost 8 3fb999999999999a
+fprint 8 b810000000000000
+fhost 4 ae5ba274
+read 13 6c6f2c253078343a342c72307831303a34
+printraw 4 1a5
+ctx_setvar flag 5 7 7835d956
+wrap 5 fff
+justified 5 33 8 2 25 16 1
+printraw 6 ffffffffffffffff
+helper 0 3 8
+join 2 3 36 8 3 11 1 10
+wrap 8 100000000
+decode 1 4bd45182d08190d321848b
+cjoin 3 1c 1 5 39 4
+add 10 12f 39
+highptr 3 9 4
+fhost 8 7fefffffffffffff
+join 2 3 c 0 3 7 1 4
+justified 3 23 -1 3 40 3 0
+rl_insert 5 56 57
+fprint 4 3690000000000000
+fenc 4 3fb999999999999a
+decode 1 4bd451d04281d331848b
+wrap 4 0
+renorm 13 5c 2
+fop 4 bfd61a96 98c3b8c1
+fenc 4 3e80000020000000
+printraw 2 72
+justified 3 32 8 5 26 4 0
+nearptr 2 4
+overlap 3 12 0 3 29 16
+fhost 4 cf000000
+encode 9 101 -1
+rl_insert 5 2a 49
+fhost 8 fee8323c3005b770
+justified 2 2d 4 5 e 3 1
+helper 0 12 9
+helper bf6b10a 2 12
+decode 0 3c61646472206e616d653d22626f677573222f3e
+printraw 9 1000
+ctx_setvar mode 2 6 1b0e4ef5
+join 1 5 1d 8 4
+ctx_default mode edc39dc6
+cfloat 2 14 8 10
+join 3 5 2f 2 8 35 0 2 20 1 0
+printraw 8 123
+encode 3 53566ece -1
+helper 2 1 2
+istream i64 oct 2d307838303030303030303030303030303030
+wrap 9 bb
+istream i64 hex 39323233333732303336383534373735383037
+read 4 2020373a32
+decode 0 3c616464722f3e
+strip 30 1
+fprint 8 3f01b0a73b26c10a
+overlap 5 11 3 3 16 1
+strtoul 3078
+fprint 4 7dc4246f3a9f4c88
+printraw 8 9e
+read 3 2d343a342b
+wrap 5 b82d
+justified 5 b 1 2 a 0 0
+joinequiv 30 2d
+join 2 3 31 2 3 1c 4 0
+rl_encode
+cwrap 6 fffe 2
+mcodec 423a616c69676e3d303b423a73706163653d303b493a70696563653d39783b4f3a616c69676e3d36383b553a76616c75653d31666666666666666666666666 584549
+rl_insert 2 61 67
+cjoin 2 34 2 2 2b 2
+read 13 6869
+helper fff 1 12
+read 11 68696c6f7a7a
+rl_remove 2 6e 82
+helper 0 10 -1
+read 9 68696c6f3a342b
+nearptr 9 4
+fprint 4 7e37e43c8800759c
+cjoin 8 17 4 5 16 1
+ctx_region top 5 3e 5 49 bbfb8941
+read 11 2d343a342b
+join 2 2 38 8 5 31 8 10
+justified 3 30 5 3 a 4 1
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+justified 5 21 8 3 1d 7 1
+cjoin 8 34 4 8 e 2
+mcodec 503a626967656e6469616e3d373b543a76616c3d68656c6c6f3b4f3a69643d31393b493a70696563653d3972616d3a3078303a343b423a666f726d61743d30 5855
+rl_query 2 3c 0
+ctx_region word2 5 4 5 b 71a13956
+cjoin 3 13 2 4 1 1
+join 1 5 38 1 0
+read 6 68692b2d31
+fop 8 df60ae12cc11c24b 4004000000000000
+read 13 6230783130303a342c72307831303a34
+overlap 5 38 7 3 31 5
+wrap 11 cb16f9394f1c158b
+fenc 8 489391307e7c879b
+read 10 31363a
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+printraw 10 de84167128d661c
+printraw 3 87
+nearptr 9 2
+justified 5 3e -1 3 18 4 1
+wrap 12 1c9
+cjoin 3 e 1 5 33 2
+fhost 8 36a0000000000000
+rl_query 5 4d 1
+cfloat 5 38 4 8
+read 13 713078302c6c6f
+cwrap 7 fffffffffff0 2
+cjoin 2 18 1 2 39 1
+ctx_changepoint 2 c 0 733a4e72 8b04f58f
+fop 8 a20b42aa4a7848f6 f10d117290d9daa2
+istream u32 dec 2d3130
+justified 5 19 5 5 f 16 1
+rl_insert 2 24 35
+rl_query 3 9c 40
+fop 8 3ff8000000000000 c7e8bbc407bdcf02
+strip 30 0
+fprint 8 8000000000000000
+mcodec - -
+highptr 2 11 8
+renorm 13 30 6
+printraw 6 fe
+justified 5 0 -1 3 4 8 0
+read 7 626f6775733a342b
+helper 7ffffffffffffffd 7 11
+rl_insert 2 26 40
+ctx_get word2 2 33
+fenc 8 b810000000000000
+join 3 2 34 4 5 38 4 3 31 1 8
+fprint 8 8000000000000001
+printraw 3 12345678
+encode 4 100000000 8
+fhost 8 43381336b9104680
+join 1 3 25 0 0
+ctx_default word2 1965f148
+join 0 8
+rl_insert 5 3 9
+rl_insert 2 29 3b
+strtoul 307867
+fop 4 3f800000 b98475b1
+rl_insert 2 b 1e
+fenc 8 c170000010000000
+rl_remove 2 20 25
+justified 3 3b 3 5 35 -1 1
+rl_insert 2 71 78
+add 9 100000000 10001
+read 13 713078302c656178
+encode 13 0 4
+helper 1000000000000 1 0
+cfloat 2 39 8 4
+strip 20 2
+join 2 5 19 4 8 18 0 8
+decode 0 3c61646472206e616d653d22626f677573222f3e
+wrap 8 1
+istream i32 oct 3037373737373737373737373737373737373737373737
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+join 0 0
+add 4 100000000 5ffe66b133be
+fprint 4 81a56e1fc2f8f359
+rl_remove 2 6b 6f
+istream u32 auto 2d32313437343833363438
+join 2 5 4 8 8 2f 8 0
+rl_insert 5 57 71
+fop 8 8000000000000000 3810000000000000
+merge 1 3 0 4
+ctx_region big 5 31 5 40 39d418b
+istream u64 dec 2d39323233333732303336383534373735383038
+join 2 5 3a 1 2 3b 4 0
+highptr 10 1 4
+fprint 4 4480f0cf064dd592
+fhost 4 ff7fffff
+fop 4 6cf8bcb3 5f000000
+printraw 9 da9fadf121151047
+read 4 68693a
+encode 9 6557538f 8
+istream u32 auto 2d3130
+printraw 3 fff
+ctx_changepoint 2 35 1 4622c8b5 4073a121
+renorm 13 34 6
+read 8 2020373a3078382b30783130
+overlap 5 d 6 5 26 2
+strip 30 1
+read 5 2020372b
+joinequiv 0 28
+justified 5 21 -1 3 9 7 0
+cfloat 2 1d 8 16
+fop 8 0 8000000000000000
+printraw 12 12
+fenc 4 c7efffffe0000000
+rl_insert 5 7e 85
+fop 8 f281a620c750af70 0
+rl_remove 3 12 1f
+renorm 13 23 16
+fenc 8 47efffffffffffff
+ctx_default top 533ca433
+read 12 626f677573
+lastopen 5 9c ffffff
+overlap 5 1f 8 3 36 2
+printraw 11 1
+overlap 5 27 0 5 25 16
+nearptr 11 8
+overlap 5 4 6 2 3b 1
+printraw 6 fffffffffffc
+helper 1c5 -2 4
+helper 18cfbdc8 6 8
+parse 72616d3a7a7a
+overlap 5 1c 1 5 3a 1
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+rl_remove 3 49 64
+printraw 8 1000000000002
+fenc 8 3690000000000000
+rl_remove 5 1a 1b
+wrap 11 107
+wrap 5 1001
+fop 8 96f4e7b9f5ac592e 6cc0ead2a1c849a3
+read 4 3136
+rl_insert 3 6e 8b
+ctx_encode
+printraw 10 100000000
+fop 8 7ff8000000000000 fffffffffffff
+fhost 4 3f000000
+strtoul 32313437343833363438
+overlap 5 2d 1 5 35 3
+read 6 7264783a3078382b30783130
+istream u32 dec 3138343436373434303733373039353531363135
+highptr 2 3c 4
+printraw 6 fff
+printraw 10 168
+wrap 7 fe
+rangedecode 3c72616e6765206e616d653d2268696c6f222073706163653d2272616d222f3e
+add 3 7f 33d20261caa4
+overlap 3 e 0 2 8 5
+ctx_default mode ba1a6ff
+read 13 6562782c72307831303a34
+parse 626f6775733a30783130
+read 13 72626f6775732c72626f677573
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+fop 8 cbb7c23998fddc63 3d74b8eda5713527
+read 6 2d343a6a756e6b
+ctx_setvar word2 5 f 3359d366
+read 4 3031303a382b32
+cfloat 3 e 4 16
+strip 30 2
+cjoin 5 4 4 3 3c 1
+printraw 6 ffff
+decode 1 4bd453d042818b
+cjoin 3 d 4 8 3e 2
+justified 2 3e 3 5 b 0 0
+fprint 8 4004000000000000
+encode 10 4e501b76 -1
+helper 6bdf15927894ed74 7 6
+fhost 4 cf000000
+validrange 7 1 7f
+printraw 6 ffffffffffff
+add 4 ffe 0
+overlap 5 26 6 2 36 16
+encode 7 1234567b 4
+ctx_get missing 5 6
+join 1 2 28 4 0
+helper a3 1 1
+fhost 4 415aeec4
+justified 2 22 -1 3 9 -1 0
+join 1 8 3d 1 8
+cfloat 3 16 8 4
+rl_insert 3 73 85
+ctx_default big 9848ad01
+highptr 5 21 8
+istream i64 auto 30373737
+strtoul 3138343436373434303733373039353531363136
+join 2 8 2 4 8 35 1 10
+nohighptr 3 ee 1aa
+ctx_region mode 5 34 5 42 55727602
+joinequiv 10 23
+fprint 8 3fe0000000000000
+fop 4 3f800000 7cdc12f3
+pcodeop 10 1 3c6f7020636f64653d2253544f5245222073697a653d2232223e3c766f69642f3e3c616464722073706163653d22726567697374657222206f66667365743d22307838222073697a653d2238222f3e3c616464722073706163653d22756e6971756522206f66667365743d223078313030222073697a653d2234222f3e3c2f6f703e
+istream u64 oct 2d
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+ctx_setvar word2 5 3a 6667c5d7
+read 8 61783a34
+fenc 4 47efffffe0000000
+encode 13 10 8
+fprint 4 c480f0cf064dd592
+helper c45427ee1855 6 3
+read 13 72307831303a342c722c72
+overlap 3 36 6 5 b 8
+overlap 5 23 3 3 3b 0
+joinequiv 5 4a
+printraw 9 1ca
+wrap 6 1ac
+rl_insert 5 34 35
+cjoin 8 35 4 4 38 4
+add 5 d195 6b
+ctx_trackval 5 38 4 2 f
+read 13 6562782c68692c253078343a34
+fprint 4 3810000000000000
+justified 2 28 5 3 40 0 1
+rl_insert 5 26 30
+istream i64 hex 316535
+wrap 10 b8d398c0298b
+encode 9 122 4
+fhost 8 bfba2c9c715d22f7
+justified 3 d 2 5 7 8 0
+helper 9a 1 -2
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+istream u32 auto 2d39323233333732303336383534373735383038
+read 8 626f6775733a34
+cwrap 5 fffffffffff0 1
+read 13 6561782c722c72307832303a32
+justified 3 33 2 2 3d 1 0
+justified 2 6 4 3 14 2 0
+fenc 4 b9c404ee40000000
+highptr 10 18 8
+fop 4 3eaaaaab 3f800000
+printraw 12 98
+fprint 4 4160000000000000
+cjoin 5 23 2 4 19 4
+nohighptr 3 db e8
+read 13 6562782c253078343a342c6c6f
+rl_insert 3 8 f
+justified 2 22 2 2 2 7 1
+overlap 3 37 2 3 4 -1
+justified 3 33 0 5 8 2 1
+rl_query 2 2 2
+encode 4 1da -1
+istream u32 auto 30783166
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a30783022202f3e
+wrap 2 8000000000000000
+wrap 12 fffffffe
+ctx_setvar mode 5 3d a95bf407
+cache_allow 1
+join 3 5 6 1 2 1e 0 8 3c 0 4
+read 5 626f6775733a6a756e6b
+helper 1 6 6
+rl_query 5 92 2
+decode 1 4bd451818b
+highptr 2 26 1
+helper b 1 6
+encode 8 1 -1
+fhost 4 80000001
+join 2 5 15 1 8 12 0 0
+read 13 6561782c71307830
+nohighptr 2 50 a2
+read 10 3136
+rl_remove 3 e 1a
+strip 20 1
+decode 0 3c7661726e6f64652073706163653d2272616d22206f66667365743d222d31222073697a653d2230783130222f3e
+add 4 2 2
+cwrap 5 fffffffffffffffe 1
+ctx_tracked 2 5 2 7
+ctx_trackadd 3 39 2 480e080516014c16
+ctx_trackadd 3 d 8 84db1b814ddcc3b4
+wrap 8 100000000
+validrange 5 f402fe6 1000000000000
+rl_insert 2 63 7b
+encode 7 7c 4
+mcodec 503a616c69676e3d31333b493a70696563653d32783b4f3a6e616d653d363b543a70696563653d494e545f414444 58
+justified 5 1d 16 2 14 0 1
+add 4 ba aae45ffacc09
+join 1 5 3a 1 0
+fprint 4 8000000000000001
+justified 3 22 0 2 3f 4 0
+rl_insert 3 2c 39
+read 9 6561782b
+nearptr 7 4
+fop 4 3b03130c 387df162
+helper 3 12 8
+renorm 13 1a 2
+istream u32 auto 2d3130
+overlap 3 1e -2 3 32 16
+add 10 1000 80
+decode 1 4bd451d042818b
+highptr 5 40 8
+rl_query 5 64 2
+printraw 3 0
+encode 6 48 4
+encode 2 2b2e040454d09273 4
+fhost 8 3ff0000000000000
+istream i64 auto 307830
+fenc 4 c170000010000000
+fop 8 66702d8f9f59dfd0 1
+encode 2 7fffffff 4
+mcodec 503a76616c75653d31303b493a70696563653d33 45
+cfloat 5 2f 8 8
+justified 2 c 2 5 28 16 1
+istream u32 dec 30783166
+overlap 3 a -2 5 36 1
+nohighptr 10 83 d0
+encode 2 1 4
+overlap 3 8 -2 3 1b 16
+parse 3a31
+nohighptr 5 4d ff
+cjoin 8 14 4 2 20 4
+fhost 4 3fc00000
+rl_insert 2 74 74
+read 11 6561783a382b32
+rl_query 3 78 40
+printraw 12 100000000
+overlap 5 23 3 5 1f 7
+istream u32 oct 2d307838303030303030303030303030303030
+renorm 13 5f 1
+printraw 2 1234567b
+fop 4 3fc00000 ffc00000
+fprint 4 4004000000000000
+join 2 2 29 8 8 1 0 0
+join 2 3 3d 4 8 4 1 8
+printraw 7 1
+cjoin 4 40 1 5 13 2
+ctx_region word2 5 e 5 f 1ab0cefa
+cfloat 5 15 8 8
+rl_remove 2 5a 5e
+read 2 3a32
+read 13 6c6f2c656278
+rl_remove 2 0 1
+rl_insert 2 5f 79
+highptr 10 23 8
+cjoin 3 1 4 2 2e 2
+ctx_tracked 2 13 2 19
+ctx_trackadd 5 7 4 37b4b4798ad21f88
+cjoin 3 4 2 5 20 1
+ctx_tracked 2 f 2 10
+ctx_trackadd 5 24 1 6814321e0da49d5b
+rl_insert 5 25 3e
+parse 64617461343a3078666666666666
+printraw 6 9180eb3a2b34c1d6
+parse 3a31
+helper 80 2 11
+printraw 3 10e
+encode 3 fff 8
+strtoul 092d30783130
+wrap 11 a608
+helper 91 5 9
+ctx_get top 2 21
+nearptr 2 8
+encode 6 100 8
+istream u32 oct 39323233333732303336383534373735383037
+joinequiv 40 1a
+justified 5 2d 1 5 2a 5 1
+cwrap 6 fffe 1
+encode 13 0 4
+ctx_region top 2 29 2 30 cf695a9a
+overlap 3 10 -1 2 21 0
+cwrap 4 fffffffe 16
+lastopen 5 1c ffffffff
+fop 8 fffffffffffff 96a240af9a4357f8
+justified 5 f 16 2 34 4 1
+rl_query 2 4c 10
+joinequiv 10 2a
+read 12 30786666666666666666666666666666666666663a382b32
+rl_insert 2 40 4c
+add 10 7fffffffffffffff ffffffffffff
+decode 1 4b8b
+read 6 6162633a6a756e6b
+rl_remove 5 4b 5f
+printraw 5 6a
+helper 167 7 7
+fenc 8 36a0000000000000
+helper 0 5 -2
+overlap 3 1a 2 3 a 2
+helper 8deb7f464bed3591 9 6
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+fop 8 d38a6ef55645f1c0 3ff8000000000000
+join 1 8 24 1 4
+printraw 5 fff
+istream u32 hex 3130
+ctx_get missing 2 24
+istream u32 oct 2d32313437343833363438
+ctx_setvar word2 2 12 25c207a9
+rl_insert 3 74 81
+fop 8 41dfffffffc00000 8b41d36a3ecc1fc9
+fenc 8 418b3e7d1fde763b
+rl_query 2 26 10
+istream i32 auto 32313437343833363438
+istream u64 hex 307867
+fenc 4 3c041deb40000000
+fprint 8 92a8e89a05be293e
+pcodeop 9 100000002 3c6f7020636f64653d22434f5059222073697a653d2231223e3c616464722073706163653d22646174613422206f66667365743d22307835222073697a653d2234222f3e3c73706163656964206e616d653d226e6f7370616365222f3e3c2f6f703e
+justified 2 1e -1 2 3a 8 0
+read 13 253078343a34
+joinequiv 0 2a
+fop 4 4effffff d2da1714
+wrap 9 ffffffff
+lastopen 5 b8 ffffffff
+fop 8 25cc3cd9d4b4e216 47efffffffffffff
+fop 4 f972a552 7f800000
+wrap 6 116
+printraw 4 101
+rl_query 3 97 10
+joinequiv 5 58
+fenc 4 1
+printraw 5 0
+overlap 5 3d 0 3 30 16
+highptr 3 20 8
+helper ffffffff 12 7
+fop 4 4effffff 34000001
+helper 1e8 3 5
+highptr 2 24 1
+fprint 4 b810000000000000
+fop 4 3fc00000 6e123c54
+renorm 13 c 4
+wrap 8 deadbeefcb01
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+rl_remove 3 a 23
+printraw 6 fffffffffffffffe
+rl_remove 3 72 74
+renorm 13 3a 1
+read 8 31367a7a
+join 1 8 0 8 8
+fprint 4 3ff8000000000000
+strip 20 3
+fenc 8 3fd5555555555555
+read 12 73702b
+fprint 4 430bd511478cdab9
+mcodec 533a76616c3d3130303030303030 585345495354
+istream i64 auto 307830
+rl_insert 2 62 78
+fhost 4 4effffff
+join 0 0
+printraw 11 3
+read 4 6178
+printraw 2 1000
+fprint 8 43e0000000000000
+fop 8 3fb999999999999a 5eca08a283675782
+parse 626f6775733a30783130
+encode 3 35 4
+printraw 5 fff
+helper a5 3 -1
+renorm 13 21 16
+add 2 80000000 d2
+add 7 3 fff
+decode 1 4bd461d042818b
+decode 0 3c616464722073706163653d22636f6465313622206f66667365743d2230783131222073697a653d2232222f3e
+printraw 2 64f
+rl_clear
+cjoin 3 26 2 2 28 1
+fprint 4 94b70f554b92049d
+fop 4 f7e11fcd 3fc00000
+overlap 5 34 6 3 3c 0
+nearptr 8 4
+helper 14e 3 -2
+joinequiv 5 8
+overlap 2 12 6 5 2 5
+istream u32 dec 307830
+rl_insert 3 5b 60
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+strtoul 30303030
+wrap 8 3
+fop 8 c8a89e47e3401c23 c6ab600aebf309e8
+encode 13 0 8
+cjoin 2 3c 2 3 30 4
+renorm 13 17 1
+parse 72656769737465723a307834
+read 13 72626f677573
+read 11 202037
+rl_insert 5 3a 45
+wrap 8 a76c43e4
+add 11 deadbeefcafe f365a0b7459a3135
+rl_insert 2 5f 65
+fop 4 a45e35ab 34000001
+cjoin 8 b 4 3 14 4
+printraw 10 1cd
+rl_remove 3 7c 9a
+printraw 8 1000
+rl_query 5 85 4
+justified 5 c 16 5 19 -1 0
+helper 3 4 7
+rl_query 2 8b 1
+cfloat 2 3f 4 8
+justified 5 40 4 3 31 1 1
+parse 3130
+fhost 4 b8a96e6c
+read 13 6230783130303a342c6230783130303a342c6c6f
+parse 3a31
+ctx_region big 5 d 5 1a 26e184a1
+justified 2 2e 8 5 33 2 0
+fprint 4 fff0000000000000
+istream i64 dec 39323233333732303336383534373735383037
+cjoin 8 c 2 8 33 4
+overlap 5 32 5 2 27 8
+helper 1000 10 12
+fhost 8 d7efa2ae778b0a18
+rl_insert 5 2d 34
+ctx_changepoint 5 6 1 3c1273d4 c276a96c
+read 2 626f6775733a
+encode 8 deadbeefcafe -1
+ctx_get top 2 2
+overlap 3 1c 2 5 3a 8
+join 2 2 32 0 2 1f 4 8
+joinequiv 10 4
+rl_insert 3 12 2a
+helper 382a 6 5
+join 2 5 12 1 8 39 1 0
+join 1 2 22 2 10
+ctx_encode
+parse 72616d3a7a7a
+fprint 4 3b830ce2c0000000
+add 10 37b3c84b 72
+overlap 3 25 1 2 1b -1
+fop 4 2c2c8dc9 34000001
+fop 8 fff8000000000000 47efffffffffffff
+join 2 3 18 0 3 13 0 0
+fhost 4 4b000000
+ctx_setvar missing 2 12 e86cb10f
+joinequiv 20 5c
+fenc 8 3ff8000000000000
+strtoul 666666
+join 2 8 5 1 5 26 8 0
+printraw 9 0
+overlap 2 14 5 2 24 8
+encode 7 1f3 8
+helper 97 9 8
+printraw 4 8f4a2c93
+fop 8 3fe0000000000000 67ed68549117776e
+cjoin 8 2b 2 4 13 2
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+helper 80000001 4 4
+ctx_setvar word2 2 23 923d4f20
+join 0 0
+cjoin 4 28 4 8 7 2
+cjoin 5 21 2 2 25 1
+rl_remove 3 7 21
+read 5 30783130
+nearptr 7 8
+join 1 5 18 2 10
+join 1 3 35 4 0
+read 13 713078302c6c6f
+lastopen 7 e3 ffffff
+printraw 3 fff
+fenc 8 97512faf6358191a
+encode 6 d5 -1
+encode 7 ffff -1
+joinequiv 0 1d
+decode 1 4bd46dd042818b
+join 1 8 1a 8 8
+justified 3 1 8 2 9 -1 0
+join 2 3 b 2 8 19 4 0
+cfloat 3 20 8 4
+ctx_get word2 5 2
+fenc 4 10000000000000
+join 2 3 b 1 5 24 2 8
+printraw 8 fff
+fenc 4 b6a0000000000000
+ctx_tracked 2 b 2 1b
+renorm 13 25 6
+fprint 4 47efffffffffffff
+read 6 68696c6f3a32
+ctx_region word2 5 26 5 2b c7504b2a
+ctx_changepoint 5 3d 0 460d520c f7f61a2f
+join 1 2 2a 0 4
+cjoin 2 16 1 4 21 1
+fprint 8 4170000010000000
+strtoul 307867
+printraw 6 fd
+strip 10 2
+printraw 10 8000000000000000
+encode 5 3ab4baba5c7d -1
+helper 198 12 -2
+fprint 4 466f55a8a0000000
+justified 3 9 0 2 4 3 0
+validrange 8 141 7fffffff
+read 13 72626f6775732c253078343a34
+strtoul 616263
+joinequiv 40 34
+ctx_trackval 3 28 1 2 37
+cwrap 7 10 4
+mcodec - 5550
+overlap 3 10 -2 5 29 3
+encode 5 8000000000000001 -1
+istream u64 dec 2b35
+strtoul 2d2035
+rl_insert 2 43 5c
+overlap 5 b 3 2 d 4
+encode 9 1000 -1
+nearptr 9 8
+fop 8 36a0000000000000 1
+encode 4 5e -1
+rl_insert 3 3b 55
+printraw 10 ffffffff
+printraw 6 1000
+decode 1 4bd451d04281d322848b
+nearptr 7 2
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+helper 8000000000000000 12 5
+justified 5 4 0 2 21 16 1
+helper b5 -1 12
+highptr 10 1e 8
+helper 72 11 7
+parse 3a31
+joinequiv 0 44
+encode 4 389d 4
+read 13 6562782c656178
+nearptr 5 2
+fop 8 6318f9aca890a8a9 41484bfa82fab1cc
+helper 1000 12 6
+rl_print
+printraw 5 1000000000001
+join 0 0
+cwrap 12 10 16
+istream i32 auto 666666
+read 8 31367a7a
+istream i64 dec 307846664666
+nearptr 5 8
+renorm 13 44 4
+highptr 3 6 8
+justified 5 1d 2 2 24 1 0
+istream i32 oct 2d2035
+fop 8 958e79b365882eda 8000000000000000
+wrap 10 1b4
+rl_remove 3 7e 8b
+fhost 8 7ff0000000000000
+rl_insert 5 68 6e
+helper ffe 8 7
+overlap 5 10 5 2 3a 4
+helper 1002 9 6
+overlap 2 2e -2 2 25 16
+fprint 4 b511deb9e9ee9c3
+ctx_get big 2 34
+ctx_setvar flag 2 5 c43f6494
+ctx_changepoint 5 f 1 f24dfeee 6378a352
+printraw 4 7fffffff
+cjoin 5 15 2 2 9 4
+fprint 4 30f05808939bd62d
+lastopen 5 5 ffff
+printraw 3 34a1b3ca
+read 5 3a342b
+parse 72616d3a30783130
+encode 11 3b -1
+ctx_default big a7363fd6
+fprint 4 7ff8000000000000
+parse 307831303030
+justified 5 38 7 3 26 -1 0
+printraw 7 10e
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+helper 80000000 1 7
+rl_remove 3 28 42
+rl_insert 2 9 15
+add 3 12345678 1000
+encode 8 1000000000002 4
+validrange 7 ffffffffffffffff 662
+rl_insert 2 3e 50
+cjoin 4 3 2 3 0 1
+helper 3f 7 -1
+ctx_default top 2249f534
+printraw 8 2
+strtoul 39323233333732303336383534373735383037
+renorm 13 15 6
+cfloat 3 24 8 4
+printraw 12 7f
+fhost 8 7fefffffffffffff
+join 2 8 26 0 8 23 2 0
+ctx_get mode 5 b
+ctx_region flag 5 3d 5 40 d7ff71ed
+strtoul 20203432
+nearptr 12 8
+overlap 3 11 -2 2 36 8
+renorm 13 44 2
+ctx_setvar missing 5 3b 92583231
+encode 12 7f 8
+rl_remove 2 21 36
+encode 6 fc 8
+istream i32 hex 2d39323233333732303336383534373735383039
+wrap 7 1
+fenc 4 8000000000000000
+fprint 8 4480f0cf064dd592
+strtoul 092d30783130
+ctx_region mode 2 22 5 20 38845d7d
+read 3 68696c6f3a382b32
+renorm 13 d 2
+istream u32 auto 316535
+overlap 5 2a 2 5 10 3
+add 7 deadbeefcafe deadbeefcafe
+helper 4 12 12
+fhost 4 6f6fed46
+fprint 8 0
+cjoin 5 3 2 2 26 1
+read 6 61783a6a756e6b
+printraw 8 fa
+cjoin 5 5 1 4 15 4
+rl_insert 3 6d 8a
+helper 12c 4 3
+printraw 5 ffffffffffff
+parse 72656769737465723a307834
+mcodec 4f3a73706163653d3630 54534f
+strtoul 3130
+printraw 2 c75a14cd71d4
+decode 1 4bd453d042818b
+nohighptr 3 8d 8d
+ctx_setvar flag 2 29 54aef92e
+wrap 4 1
+rl_query 3 22 2
+justified 2 40 2 2 2b 5 0
+decode 1 4b8b
+printraw 5 1000000000000
+cjoin 2 34 4 2 2a 4
+printraw 10 ee91d0c1
+printraw 12 ffffffffffff
+join 2 2 40 8 2 0 8 0
+istream i64 dec 3078
+printraw 10 fffffffffffffffe
+helper dcd36da3 -2 1
+parse 64617461343a3078666666666666
+istream u32 hex 2d39323233333732303336383534373735383038
+rl_insert 3 41 43
+ctx_default missing 4e1f4a19
+fenc 4 bfd14c44c0000000
+nearptr 9 2
+ctx_tracked 2 14 2 15
+ctx_trackadd 3 7 8 35134d5922646c7a
+ctx_trackadd 3 3e 8 d64845e33948862c
+add 7 2 80
+add 6 80000000 626a0488
+read 7 3a
+fop 4 4cf75273 aa665565
+encode 4 8d 4
+fenc 8 3fc5555555555555
+rl_insert 5 32 3f
+join 0 0
+joinequiv 0 19
+justified 5 37 16 5 10 4 0
+justified 2 24 8 3 18 3 1
+nearptr 5 4
+fop 8 3ff0000000000000 79000f8bedbf1039
+encode 10 ffffffffffffffff -1
+rl_insert 3 34 35
+cache_get 2 29
+cjoin 3 2e 1 5 34 2
+strtoul 312e35
+rl_remove 2 25 25
+read 6 6561783a382b32
+fop 4 7f800000 7fc00000
+printraw 6 ffffffffffffffff
+read 9 202037
+fprint 8 3ff8000000000000
+istream u32 oct 666666
+ctx_tracked 2 9 2 a
+rl_remove 5 11 22
+rl_insert 2 6b 88
+ctx_get mode 5 9
+istream i32 auto 202020
+fop 4 3f800000 7fffff
+renorm 13 23 6
+fenc 4 c2b16eeb60000000
+fprint 4 40fe240c9fbe76c9
+istream i32 dec 2b
+fprint 8 b6a0000000000000
+istream i64 auto 307846664666
+read 13 75307838303a382c75307838303a382c72307832303a32
+printraw 2 12345678
+encode 10 deadbeefcafe 8
+printraw 7 16f
+overlap 2 12 -2 5 8 5
+overlap 2 23 -1 5 9 1
+read 13 6c6f
+istream i32 oct 30783166
+istream u64 oct 312032
+rl_insert 5 5a 66
+renorm 13 2e 8
+strtoul 2d2035
+overlap 5 2f 2 3 3b 2
+read 5 61783a342b
+printraw 7 81
+rl_insert 2 1 1
+join 2 8 32 2 3 0 4 0
+mcodec 493a70696563653d33783b553a616c69676e3d666666666666666666666666666666663b493a70696563653d3272616d3a3078303a34 544254
+rl_remove 5 7e 92
+fhost 8 47efffffe0000000
+istream u64 dec 2d2035
+read 13 713078302c656278
+helper 7fffffffffffffff -2 1
+fenc 8 1
+encode 8 ec 4
+rl_query 5 51 0
+encode 7 b2cf5f7486c 4
+decode 0 3c616464722073706163653d22626f67757322206f66667365743d2231222f3e
+cfloat 5 22 8 10
+fop 4 8c22c17d 8a8148c7
+printraw 11 ffff
+fenc 4 4480f0cf064dd592
+cjoin 3 2c 4 2 13 1
+rl_insert 3 49 52
+helper ffffffffffff 12 1
+fenc 8 3ff8000000000000
+renorm 13 26 1
+fop 4 da0fd5ee bf800000
+read 5 2d343a3078382b30783130
+overlap 3 3d -1 3 13 7
+helper 18e -2 9
+overlap 2 b 0 3 33 8
+overlap 3 10 -1 5 1f 16
+printraw 3 1
+add 12 1b2 deadbeefcafe
+wrap 2 2d
+read 2 307831303a3078382b30783130
+helper deadbeefcafe 12 6
+ctx_region mode 5 7 5 17 d74871b2
+printraw 12 1000
+strip 0 0
+fenc 8 36a0000000000000
+cfloat 2 3 8 10
+rl_insert 2 5 1e
+helper 101 10 -2
+istream u64 auto 20203432
+ctx_get mode 5 26
+rl_insert 5 79 7e
+ctx_get missing 2 3a
+printraw 10 8000000000000000
+printraw 5 17f
+join 2 8 33 1 2 26 4 0
+overlap 5 36 8 5 35 8
+fprint 8 3fb999999999999a
+istream i32 dec 3078
+strtoul 39393939393939393939393939393939393939393939
+cfloat 5 13 8 4
+renorm 13 29 4
+parse 3a31
+helper 10000 1 0
+read 2 6562783a3078382b30783130
+printraw 7 ff
+helper 2 -2 12
+highptr 3 17 8
+printraw 12 1bb
+cjoin 2 31 1 2 25 1
+fop 4 d034686 7fffff
+validrange 2 1 ffff
+fhost 4 975a015
+encode 3 100 4
+printraw 12 1ec
+add 2 169 fff
+fprint 4 fe37e43c8800759c
+rl_query 5 5f 4
+renorm 13 1f 6
+printraw 9 31dd9eb2bb94
+printraw 2 ffff
+overlap 5 3 6 5 b 5
+overlap 3 33 1 3 f 8
+encode 2 ec 8
+strtoul 616263
+rl_insert 2 11 29
+cfloat 2 13 8 10
+joinequiv 40 1e
+read 13 722c75307838303a382c656178
+read 11 61783a342b
+overlap 3 2a -1 5 4 16
+justified 2 28 7 3 1f 8 0
+printraw 7 12345678
+printraw 10 ffffffffffff
+overlap 2 22 1 2 1b -1
+wrap 11 3
+overlap 2 f 4 5 f 5
+wrap 8 12345678
+join 1 8 3a 0 4
+highptr 10 13 8
+printraw 2 506bdcfc
+overlap 3 29 5 3 1b 0
+istream i64 auto 666666
+fhost 4 5fe7ec0f
+fenc 8 3fe0000000000000
+overlap 2 4 8 3 18 3
+cwrap 10 fffffffe 2
+istream u32 oct 312e35
+istream i64 hex 2d39323233333732303336383534373735383038
+highptr 5 3e 8
+istream i32 auto 316535
+wrap 5 bf
+overlap 5 3b 3 2 8 2
+istream u64 dec 307838303030303030303030303030303030
+add 3 ffffffffffffffff fffffffffffd
+add 6 7fffffffffffffff 100000003
+helper deadbeefcafb -1 3
+fop 8 9593995bba83fe83 b279b4f7d6606aea
+join 2 2 35 0 5 19 2 4
+rl_insert 3 1c 25
+encode 5 3 -1
+encode 11 10000 -1
+rl_insert 3 45 4b
+cwrap 3 fffe 2
+wrap 12 2a47b9dd
+overlap 3 1a 2 5 16 7
+mcodec 543a666f726d61743d68656c6c6f3b533a70696563653d3430303030303030303030 42
+helper d9 10 2
+printraw 3 42
+renorm 13 5e 4
+justified 3 e 1 3 23 5 0
+mcodec 543a626967656e6469616e3d61626320646566 554f
+justified 2 39 8 3 1d 8 0
+add 5 7f deadbeefcafe
+fenc 4 b6a0000000000000
+nearptr 2 4
+highptr 2 3c 4
+read 8 7264783a382b32
+cfloat 3 8 4 16
+fhost 8 c1fdedc2c9c0972c
+highptr 3 2 1
+rl_print
+rl_query 3 4 10
+fhost 8 986d6324bf9f076c
+fhost 4 b46115d2
+join 2 2 34 8 8 1d 8 0
+rl_remove 3 1e 36
+nearptr 12 2
+mcodec 423a6e616d653d313b553a76616c3d313b533a70696563653d37663b533a616c69676e3d66666666666666666666666666666666 4555
+fop 4 3f000000 5f000000
+helper 82 10 1
+overlap 2 24 5 2 32 2
+nearptr 6 8
+add 2 12345678 28
+decode 1 4bd45182d08190d321848b
+istream u32 auto 092d30783130
+printraw 7 141
+ctx_setvar big 2 2b 7fd31fb
+overlap 2 7 5 3 36 3
+rl_remove 3 18 2a
+printraw 11 fff
+parse 72616d3a7a7a
+wrap 9 ff
+overlap 2 3 0 2 18 7
+helper 62 12 1
+wrap 3 ffffffff
+cwrap 8 fffffffffffffffe 1
+rl_clear
+fop 4 63034d28 7f7fffff
+joinequiv 0 f
+renorm 13 43 2
+ctx_changepoint 5 1b 0 cef1ee8 c9e4e559
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+mcodec 543a76616c75653d7069656365 5553
+justified 5 38 3 5 36 0 0
+helper 0 -1 6
+overlap 2 6 1 2 2a 16
+strtoul 30
+strtoul 39393939393939393939393939393939393939393939
+rl_insert 5 52 5f
+fop 8 380fffffffffffff 4004000000000000
+justified 2 3f -1 5 17 8 1
+highptr 5 4 4
+rl_remove 3 4b 57
+fop 4 0 80000001
+fop 8 3b2da8e6022d1331 e2a2caccd8548be9
+wrap 5 1000
+joinequiv 50 3d
+joinequiv 5 21
+mcodec 423a616c69676e3d313b493a70696563653d3472616d3a3078303a343b423a70696563653d303b4f3a76616c75653d31323b553a6e616d653d34303030 4f45555550
+justified 5 36 2 5 1a 3 0
+joinequiv 40 5a
+mcodec 553a666f726d61743d3766666666666666663b493a70696563653d38 -
+fop 4 4b000000 ffc00000
+istream i32 dec 2d32313437343833363439
+renorm 13 1e 1
+renorm 13 2b 1
+printraw 8 17a
+printraw 9 196
+encode 6 f9 8
+rl_insert 5 50 67
+istream u32 oct 202020
+fenc 4 40fe240c9fbe76c9
+printraw 6 8000000000000002
+justified 3 26 5 5 f 3 0
+printraw 5 100000000
+istream i64 auto 092d30783130
+join 2 5 36 4 5 21 8 10
+highptr 2 5 8
+fenc 8 c480f0cf064dd592
+wrap 5 e6b15926
+decode 1 4bce71848b
+fop 4 ff800000 cf000000
+cwrap 6 fffffffffff0 16
+printraw 2 80000001
+printraw 5 7f
+istream u32 auto 3130
+ctx_get mode 5 10
+printraw 12 d8a4
+encode 9 100000000 8
+printraw 9 175
+validrange 7 31 100000001
+encode 11 10000 -1
+printraw 6 1
+printraw 10 103
+read 9 61783a6a756e6b
+join 1 3 1c 1 8
+validrange 12 a2 8000000000000000
+cjoin 3 31 1 5 21 4
+rl_insert 3 33 45
+join 0 0
+joinequiv 50 23
+overlap 5 16 4 5 28 3
+read 13 6230783130303a34
+fprint 8 27e0ee246748c2ce
+highptr 10 1b 8
+printraw 4 59
+mcodec 423a76616c75653d303b553a626967656e6469616e3d313b423a626967656e6469616e3d313b533a76616c75653d323030303030 555845495454
+fhost 4 4effffff
+helper 465d 8 6
+fenc 8 c170000010000000
+istream u32 auto 39393939393939393939393939393939393939393939
+read 13 6869
+cjoin 3 27 2 3 1 1
+highptr 3 36 1
+fenc 8 3ff8000000000000
+add 6 fffffffffffffffe fffffffffffc
+justified 3 2b 5 5 10 1 0
+overlap 5 16 5 2 5 0
+overlap 2 3 4 3 2c 1
+join 2 2 8 2 3 10 8 0
+istream u32 auto 2d
+wrap 3 7fffffffffffffff
+fenc 4 82286b45692a3c26
+fprint 8 3fe0000000000000
+fenc 4 2b7718d2b90c404f
+printraw 7 7fffffff
+justified 2 39 -1 2 2e 8 0
+decode 1 4bd453d042818b
+join 1 5 1e 2 0
+istream u32 hex 2d3130
+justified 2 20 7 3 15 16 0
+fenc 8 3810000000000000
+fprint 4 7ff8000000000000
+strtoul 2d39323233333732303336383534373735383039
+decode 1 4bd46dd042818b
+overlap 2 7 8 5 15 16
+join 1 2 d 0 8
+read 13 6562782c72626f677573
+add 10 148 fff
+add 6 702dc5a20d344b5e fffffffffffffffe
+strtoul 202020
+fprint 4 1a56e1fc2f8f359
+fprint 8 428fbfa680000000
+encode 13 0 4
+read 4 7264783a342b
+istream u32 hex 39393939393939393939393939393939393939393939
+wrap 12 80
+ctx_get mode 2 19
+read 10 31362b
+overlap 3 7 8 2 1d 1
+cjoin 4 26 1 4 3c 2
+overlap 5 9 0 2 2a 16
+helper 6 -1 3
+printraw 2 22
+overlap 3 12 -2 5 24 7
+justified 2 2f 8 2 3f 3 0
+printraw 2 71bd5c7d
+cjoin 8 13 4 8 1e 2
+fop 4 6d977fe4 42ad2a25
+nohighptr 10 15 99
+ctx_region mode 5 18 5 25 3d77c025
+wrap 9 ffffffffffffffff
+fop 8 3fe0000000000000 526ead9318359b6e
+overlap 5 13 1 5 2c -1
+overlap 5 38 2 3 1 7
+rl_insert 5 42 5a
+renorm 13 51 16
+rl_query 5 65 0
+read 5 68696c6f3a
+cjoin 4 20 1 3 15 2
+read 12 61783a342b
+encode 6 6a 8
+add 10 1 ffffffffffff
+wrap 8 c8
+encode 7 fffffffffffffffe -1
+overlap 2 16 3 5 3c 4
+helper adfa 12 11
+overlap 3 1f 4 2 3 16
+wrap 8 102
+join 2 5 1c 2 3 b 4 0
+helper 10000 10 4
+overlap 5 12 1 2 f 8
+highptr 3 34 8
+justified 5 1c 4 5 26 16 1
+printraw 3 fff
+joinequiv 50 12
+cwrap 4 ff 2
+rl_query 5 1a 4
+nohighptr 5 54 ae
+overlap 2 9 2 3 24 8
+ctx_get big 5 2d
+highptr 10 27 8
+strip 30 2
+ctx_changepoint 5 16 1 17b8ca84 b7db8c9
+rl_insert 3 3c 58
+join 0 4
+cfloat 3 e 8 4
+strip 0 2
+fprint 4 3ff8000000000000
+justified 3 19 7 3 1c 3 1
+rl_insert 5 5a 5d
+wrap 2 ffffffff
+mcodec - -
+rl_insert 3 14 15
+istream u32 oct 3132616263
+read 11 31363a342b
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+fprint 8 10000000000000
+printraw 11 e5
+cjoin 5 12 1 3 1c 1
+printraw 5 ffffffffffffffff
+joinequiv 50 29
+overlap 2 22 3 2 16 5
+istream i32 dec 2d3130
+fop 4 800000 bb8b166b
+fenc 8 e7b3d9a79dcdb9c2
+rl_query 2 6c 40
+add 2 100000002 ff
+encode 8 fffffffffffffffd -1
+helper 14e 2 8
+fenc 4 0
+add 7 fff 80000000
+justified 2 1f 4 2 2a 16 0
+printraw 12 1
+joinequiv 10 4b
+ctx_get top 2 8
+printraw 6 5cf
+ctx_encode
+join 3 8 33 2 8 1a 8 3 18 8 0
+join 0 0
+cwrap 6 fffffffffff0 4
+fop 4 80000000 80000000
+fprint 4 4004000000000000
+istream u64 hex 316535
+fop 4 bf800000 bba567cf
+read 3 626f6775733a32
+read 12 61782b33
+wrap 3 0
+printraw 5 fffffffffffe
+cjoin 2 33 1 4 e 1
+rl_remove 5 57 65
+ctx_setvar flag 5 22 95276386
+printraw 6 7b0f8f7f
+fprint 4 4004000000000000
+validrange 4 da 5
+fop 8 be19d8bd1b0fab4c 1fa651d535b5e08d
+read 10 3a32
+fop 4 b9e46c25 ff800000
+printraw 4 3
+read 6 2d343a342b
+overlap 2 21 6 2 c 5
+helper 10000 3 10
+encode 4 ff 4
+nearptr 7 8
+fop 4 ff7fffff 14717046
+istream i64 dec 307838303030303030303030303030303030
+fprint 8 40fe240c9fbe76c9
+ctx_trackval 3 3 1 2 25
+fhost 4 3f000000
+read 13 72626f6775732c75307838303a382c75307838303a38
+printraw 8 1000
+cjoin 8 1e 4 2 23 2
+decode 0 3c616464722073706163653d226a6f696e22207069656365323d2272616d3a3078303a3222207069656365313d2272616d3a3078343a32222f3e
+fenc 8 41e0000000000000
+printraw 10 127
+wrap 2 1380
+justified 2 15 16 5 1e 7 0
+overlap 5 2d 1 5 7 0
+istream i64 oct 3078
+fenc 8 3920676940000000
+fhost 8 aa387b538f87d833
+highptr 5 3c 8
+fop 8 92723d87c4ed846 bf5a0198cb587f00
+fhost 8 1e8ccbc5dda66509
+fprint 4 bff8000000000000
+encode 6 1219a22ea56a -1
+ctx_get word2 5 8
+helper 157 1 0
+wrap 3 7d
+strtoul 307830
+cjoin 8 2d 2 4 12 2
+helper 100 9 10
+wrap 12 100
+cjoin 3 2e 4 5 1c 2
+helper fffffffffffffffe 6 0
+rl_insert 2 42 45
+cjoin 2 5 2 4 22 1
+join 2 2 3c 8 2 32 1 0
+strip 20 0
+printraw 4 fe634f27d4ec92da
+cjoin 3 11 1 2 20 4
+helper ffffffff -1 1
+rl_insert 2 46 51
+fop 8 36a0000000000000 3ff8000000000000
+fprint 8 3f9c135360000000
+read 8 30783a34
+printraw 3 11f
+join 3 8 13 1 3 6 8 3 1c 4 0
+overlap 5 2f 4 3 7 3
+cjoin 4 28 1 5 38 4
+read 13 6230783130303a342c6230783130303a34
+fenc 8 7fefffffffffffff
+ctx_get flag 2 31
+printraw 11 7fffffffffffffff
+highptr 2 1f 8
+printraw 5 14
+highptr 10 25 4
+encode 2 80 8
+decode 0 3c616464722073706163653d226a6f696e22207069656365303d2272616d3a3078303a32222f3e
+fprint 4 47efffffe54daff8
+ctx_default missing ed3a124f
+ctx_get missing 5 2a
+strtoul 3130
+encode 2 100000000 4
+encode 8 c7a50cd74a07 4
+rl_encode
+printraw 3 47b9
+rl_query 5 12 10
+nearptr 6 2
+renorm 13 46 2
+renorm 13 23 12
+rl_remove 3 5f 64
+fenc 4 45fd83de20000000
+fenc 8 c480f0cf064dd592
+fhost 4 a1123ed7
+printraw 3 ba
+parse 636f646531363a30783130
+rl_insert 5 22 42
+justified 2 29 8 5 27 5 0
+join 0 4
+strtoul 616263
+istream u32 dec 2b
+overlap 3 13 0 5 16 8
+overlap 5 36 7 2 1b 3
+add 11 78 ffffffffffff
+validrange 9 80000000 3
+helper 80 5 11
+read 13 6230783130303a342c72307831303a342c656278
+renorm 13 39 12
+renorm 13 13 4
+printraw 8 10001
+ctx_setvar word2 2 25 5e5b4a89
+cfloat 5 f 4 4
+printraw 8 80000000
+join 2 3 3d 4 3 30 4 0
+overlap 2 15 3 3 17 2
+justified 5 6 7 2 2a 0 0
+printraw 3 82
+ctx_trackval 5 11 4 2 18
+renorm 13 13 2
+rl_query 2 9b 0
+encode 11 165 -1
+add 8 fff ffffffff
+join 1 8 29 0 0
+helper 3 9 7
+read 8 6562782b2d31
+encode 5 3 4
+parse 3130
+lastopen 2 8a ff
+mcodec 543a6f66667365743d307831303b543a76616c75653d3b4f3a666f726d61743d3133 -
+rl_remove 2 6b 7d
+ctx_default top a0124b1d
+fenc 4 8000000000000000
+validrange 11 65e7050b 179
+overlap 3 20 2 2 33 16
+helper 148 4 8
+helper 100000000 1 5
+decode 1 4bd45182d08190d321848b
+validrange 3 4e44bfa833d20dba 7fffffff
+fenc 8 bfe0000000000000
+wrap 8 2
+join 1 2 28 1 8
+fop 8 f372cf0f3798f0d7 47efffffe0000000
+helper 10000 2 1
+fenc 4 c5ce74bca0000000
+printraw 6 cd
+read 11 307831303a
+fenc 4 3690000000000000
+overlap 5 7 6 5 2 2
+overlap 3 3b -1 2 27 4
+rl_insert 2 56 60
+cjoin 3 27 4 2 27 1
+encode 7 f92e06224f43 -1
+istream u32 auto 32313437343833363438
+ctx_changepoint 2 2 0 6558dc4e 81834aa
+istream u64 dec 303137
+wrap 2 1000000000000
+fprint 4 c170000010000000
+encode 2 be9a 8
+join 0 0
+wrap 3 198
+istream i64 dec 2d2035
+cjoin 5 2c 2 5 14 1
+cjoin 2 2d 4 5 31 2
+istream u64 oct 616263
+printraw 2 80000000
+printraw 5 98726f82ece8f08c
+rl_insert 2 6e 7c
+join 2 8 25 8 5 d 4 4
+printraw 2 1
+istream i32 auto 30583146
+printraw 12 da01eda0
+merge 1 3 0 4
+cjoin 5 3 1 5 17 4
+printraw 3 80
+strip 10 1
+joinequiv 10 2c
+joinequiv 50 24
+highptr 2 16 8
+fop 8 a8123b58242c6a6c 979c249d45d2a23f
+mcodec 493a70696563653d36 58454f42
+helper 7ffffffffffffffe 1 7
+helper 7f 2 2
+printraw 10 7d
+justified 2 35 -1 5 31 -1 1
+istream u32 auto 39323233333732303336383534373735383037
+rl_remove 3 7f 96
+joinequiv 0 4f
+join 3 8 36 2 5 31 0 3 e 1 4
+printraw 7 620bba5e
+joinequiv 20 a
+join 3 2 38 2 2 9 4 3 23 4 4
+helper 10000 2 9
+add 4 1000000000000 0
+istream i32 dec 3078
+istream u64 hex 307846664666
+rl_remove 3 78 92
+rl_insert 3 20 3e
+join 2 5 13 2 8 16 8 0
+printraw 8 68d9e648
+cjoin 3 c 4 5 10 4
+lastopen 11 ad ffff
+decode 1 4bd451d04281d322848b
+cjoin 3 31 2 3 32 1
+lastopen 12 dd ff
+encode 3 ffffffff -1
+cjoin 3 25 4 8 0 1
+printraw 10 ffc
+strtoul 2d3130
+istream i64 dec 2d31
+rl_remove 3 14 26
+strip 10 1
+overlap 5 2c 2 2 14 3
+fop 4 bf800000 292e693e
+cjoin 2 2b 4 4 3e 4
+fenc 4 3690000000000000
+join 2 2 27 4 8 1e 2 10
+encode 8 100000000 -1
+join 2 8 21 0 3 1a 2 0
+fop 8 4e916d5103683299 3fe0000000000000
+cjoin 2 2b 2 3 1d 2
+wrap 5 8d08951137d10cf9
+wrap 2 80000000
+printraw 6 ffff
+mcodec 493a70696563653d31 554f55585549
+decode 1 4bd451d04281d322848b
+cjoin 5 22 4 4 40 4
+strtoul 30783166
+fprint 8 fe37e43c8800759c
+fenc 4 3fe0000000000000
+join 2 2 b 0 5 7 2 8
+printraw 8 7e
+read 2 616263
+overlap 2 24 0 3 1a 1
+decode 1 4bd451d042818b
+joinequiv 40 4d
+parse 636f646531363a30783130
+rl_query 3 26 10
+overlap 5 37 0 3 25 16
+overlap 2 32 8 3 38 1
+cjoin 3 3 2 3 39 4
+wrap 8 fffffffffffffffe
+strtoul 2d39323233333732303336383534373735383039
+join 2 3 1a 2 2 20 8 0
+nearptr 5 8
+parse 72616d3a7a7a
+read 9 31363a6a756e6b
+rl_remove 2 25 26
+encode 10 c9 4
+encode 3 fffffffffffffffd 8
+decode 0 3c7661726e6f64652073706163653d2272616d22206f66667365743d222d31222073697a653d2230783130222f3e
+join 1 8 11 1 0
+encode 6 ffffffffffff 8
+rl_insert 3 3d 56
+rl_query 5 8e 40
+rl_remove 2 68 72
+strip 0 1
+printraw 4 12345678
+printraw 10 a2912e04e985
+fhost 8 3ff8000000000000
+fhost 8 3690000000000000
+decode 0 3c7661726e6f64652073706163653d2272616d22206f66667365743d222d31222073697a653d2230783130222f3e
+fop 4 4effffff 45946bb5
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+encode 6 3 -1
+rl_insert 2 1b 1d
+helper 7c 0 12
+rl_encode
+helper ffe -1 6
+printraw 10 f4
+join 1 2 b 2 0
+rl_insert 2 2e 3f
+parse 72656769737465723a307834
+helper 100000001 6 5
+read 9 61783a342b
+encode 11 100 4
+cwrap 9 fffffffe 16
+joinequiv 30 7
+read 6 3031303a382b32
+nearptr 7 8
+justified 2 1c 1 5 13 8 0
+printraw 10 12345678
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+justified 3 3a 0 2 0 2 0
+wrap 6 a0
+fhost 8 c3e0000000000000
+overlap 2 20 3 5 28 5
+fop 8 10000000000000 bb1e189a20f24cb7
+add 6 17b3 17c0
+fprint 8 4b6aef90bc80dae
+parse 72656769737465723a307834
+decode 0 3c616464722073706163653d2272616d222073697a653d2234222f3e
+helper 1c2 0 8
+join 2 3 28 0 5 31 8 0
+join 2 5 31 4 2 24 1 8
+ctx_region mode 5 29 5 32 ad6df71b
+decode 1 4bd45182d08190d321848b
+mcodec - 49
+helper 7ffffffe 6 2
+read 13 713078302c253078343a342c75307838303a38
+fprint 8 3a7b6339e0000000
+justified 3 20 8 5 d 8 1
+read 3 202037
+renorm 13 40 4
+helper deadbeefcb00 11 9
+justified 3 1d 3 3 d 7 1
+joinequiv 10 17
+printraw 2 35
+joinequiv 0 2b
+encode 13 20 4
+nohighptr 2 f3 10d
+fop 4 800000 3f800000
+justified 5 36 8 5 2c 8 1
+highptr 5 1c 8
+fhost 8 fff0000000000000
+fop 8 87484a82079a8c3 fff8000000000000
+strtoul 3038
+nohighptr 10 b1 15d
+wrap 6 f2
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+rl_insert 3 68 79
+mcodec - 58554f54
+fprint 4 4170000010000000
+printraw 6 ffffffffffffffff
+fprint 8 c591540fe0000000
+istream u32 auto 30783166
+fenc 4 fe37e43c8800759c
+highptr 3 1e 4
+helper fffffffffffffffd 12 6
+join 2 3 25 2 5 8 4 4
+fop 4 800000 227c1e3b
+fop 8 fff8000000000000 fff0000000000000
+cwrap 12 fffffffe 4
+encode 4 8000000000000000 4
+read 10 68692b2d31
+fop 8 54f31b8c2c48231f f404b5945409246a
+read 10 7264787a7a
+join 0 0
+overlap 3 13 1 2 27 0
+fprint 8 47efffffe54daff8
+rl_insert 5 2f 3c
+cfloat 3 2e 4 8
+rl_insert 2 4 a
+fop 8 7fefffffffffffff 43e0000000000000
+printraw 11 ffff
+fop 4 3f800000 65766622
+join 3 8 7 0 8 31 1 5 0 2 8
+decode 1 4bd451d042818b
+rl_insert 2 0 f
+encode 4 1ce -1
+encode 11 fd 8
+fop 4 3f800000 7f800000
+renorm 13 24 1
+nearptr 3 8
+join 0 0
+strtoul 092d30783130
+justified 3 2c -1 2 7 -1 0
+read 6 202037
+ctx_get mode 2 3b
+fprint 4 4606549b40000000
+add 2 1792 fe
+rl_remove 3 6b 77
+ctx_region mode 5 3d 5 43 326dcf88
+rl_remove 2 62 65
+fop 8 fff0000000000000 10000000000000
+validrange 2 100 60
+rl_query 5 59 0
+fop 4 e3a4a29 7f7fffff
+strip 10 3
+read 13 656278
+nearptr 3 2
+fenc 8 4340000000000000
+helper a7d81984 7 11
+wrap 2 10f
+helper 115 5 6
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+ctx_region missing 2 22 5 19 1a0819c
+encode 2 1e6 -1
+fhost 8 fff0000000000000
+join 2 2 d 2 3 3e 4 8
+wrap 12 3b
+wrap 10 ff
+fhost 4 7f800001
+helper 157 3 10
+renorm 13 46 12
+cjoin 3 3a 1 3 3a 1
+istream i64 hex 30373737
+printraw 3 fff
+add 6 11f c435
+join 2 3 2f 4 2 c 0 0
+joinequiv 0 26
+rl_query 2 6f 1
+printraw 5 10000
+justified 2 7 1 2 34 5 0
+fprint 8 3fe0000000000000
+fhost 4 b7e3d88f
+printraw 2 80000001
+rl_insert 5 1f 3d
+fop 4 bf800000 80000001
+strtoul 2d31
+nearptr 4 4
+encode 6 174 4
+wrap 8 fffffffffffffffd
+decode 1 4bce71848b
+renorm 13 5b 2
+cfloat 5 35 8 10
+rl_print
+printraw 11 deadbeefcb00
+cjoin 5 3c 2 4 26 2
+rl_insert 2 67 71
+cache_region 2 f 2 17 1 80889096 634661ac
+istream u32 auto 30303030
+cjoin 3 32 1 3 38 4
+strtoul 30
+printraw 8 161
+justified 2 6 8 2 1e 5 1
+rl_insert 5 e 28
+read 6 6162637a7a
+strtoul 2d3130
+nohighptr 3 c3 ff
+read 13 72
+highptr 2 d 1
+parse 72616d3a30783130
+joinequiv 40 37
+istream u64 dec 2d31
+cfloat 3 2e 8 4
+join 1 2 19 8 0
+read 13 6561782c6c6f2c656178
+add 7 158 ffffffffffffffff
+rl_insert 5 4a 5c
+printraw 7 1f
+rl_remove 3 6 26
+fprint 8 c170000010000000
+helper 32aa1867f26e 6 12
+printraw 12 12345677
+overlap 2 21 -1 5 1e 8
+ctx_get mode 5 35
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a30783022202f3e
+highptr 3 14 8
+rl_remove 3 6c 73
+printraw 11 2
+read 11 2d343a6a756e6b
+join 2 2 3 1 8 6 1 0
+istream i64 oct 20203432
+wrap 10 ffffffffffff
+mcodec - 4258534553
+ctx_setvar flag 5 3b 906801c7
+overlap 3 3e -1 5 3e 3
+nohighptr 2 1b 7d
+cwrap 2 fffffffffff0 1
+rl_remove 5 6d 8c
+fop 8 3fe0000000000000 862cc7e214335c58
+read 13 6230783130303a342c6562782c71307830
+printraw 8 94
+printraw 9 7ffffffffffffffe
+helper 1ce 1 8
+fop 8 47efffffe0000000 380fffffffffffff
+fhost 4 3accb2fc
+read 3 2d343a34
+read 8 30783a3078382b30783130
+rl_insert 5 21 33
+overlap 2 20 2 3 8 3
+read 11 -
+justified 2 24 7 5 28 16 0
+printraw 5 4b
+helper deadbeefcafe -1 6
+justified 2 25 3 5 2c 2 1
+parse 72616d3a7a7a
+parse 3130
+fop 4 57ec4f0a 5f000000
+join 3 8 1f 8 3 3f 0 2 c 0 0
+helper 80000000 11 4
+mcodec 4f3a76616c75653d34373b4f3a70696563653d37333b423a76616c3d303b553a70696563653d666666666666663b4f3a616c69676e3d3338 58554f
+helper b1 8 2
+read 11 6562783a382b32
+join 1 2 0 4 0
+overlap 5 2f 3 5 31 4
+helper 10000 10 3
+strip 10 1
+mcodec 4f3a626967656e6469616e3d33333b493a70696563653d35783b553a76616c75653d323030303030303030303030303b533a73706163653d31303030303030303b553a73697a653d31666666666666666666666666 424f4f5045
+istream u64 dec 2d39323233333732303336383534373735383038
+wrap 11 7
+overlap 2 34 1 2 35 7
+mcodec 4f3a626967656e6469616e3d34323b4f3a616c69676e3d3238 55
+helper a7 4 12
+add 12 a9 198
+fenc 4 1a56e1fc2f8f359
+istream u64 auto 316535
+add 5 8000000000000000 0
+decode 1 4bd451818b
+cfloat 3 2b 4 4
+rl_insert 3 3c 52
+joinequiv 50 d
+cjoin 2 33 1 4 3b 1
+encode 7 bb 4
+mcodec 543a6e616d653d2d37 -
+fop 8 fffffffffffff 71b40529a47a7e5b
+justified 2 33 0 3 1e 2 1
+highptr 10 7 1
+wrap 12 f05cac0878db
+join 1 2 37 2 0
+helper 2 11 4
+fhost 8 3690000000000000
+cfloat 5 37 4 10
+encode 3 1 4
+fenc 4 3a4d4d6c20000000
+decode 1 4bd451d04281d322848b
+fhost 8 3ff0000000000000
+read 13 722c6230783130303a342c72626f677573
+join 1 3 1d 1 0
+rl_encode
+fprint 4 3ff0000000000000
+strip 30 2
+fprint 4 0
+fhost 4 a931ea20
+justified 5 9 -1 2 15 5 1
+lastopen 7 d0 ffffff
+read 13 6c6f
+nohighptr 5 8b ea
+add 8 ffffffffffffffff ff
+join 0 10
+read 7 68696c6f3a
+read 5 307831303a6a756e6b
+printraw 4 6a
+helper 100000000 2 -1
+helper a5ab 12 4
+cjoin 4 3e 4 3 2d 4
+join 0 8
+overlap 5 1c 4 5 2a 16
+pcodeop 9 197 3c6f7020636f64653d22494e545f414444222073697a653d2232223e3c616464722073706163653d22726567697374657222206f66667365743d2230222073697a653d2234222f3e3c616464722073706163653d22726567697374657222206f66667365743d2234222073697a653d2234222f3e3c616464722073706163653d22636f6e737422206f66667365743d2231222073697a653d2234222f3e3c2f6f703e
+encode 13 20 8
+printraw 10 47f3ede9
+fprint 8 b810000000000000
+read 2 2d342b33
+justified 2 13 4 5 2e 0 0
+nearptr 8 4
+istream i32 hex 2d32313437343833363439
+helper 7fffffffffffffff 6 2
+overlap 2 36 4 5 17 1
+helper 12345678 5 2
+merge 2 5 100 4 5 104 4
+istream u64 dec 2d32313437343833363439
+add 7 192 75324c50
+decode 0 3c616464722073706163653d22626f67757322206f66667365743d2231222f3e
+nohighptr 5 aa 175
+helper 100000000 4 5
+read 4 -
+printraw 7 ad
+overlap 5 1e 1 5 33 16
+rl_insert 2 e 1a
+justified 3 2 4 5 33 3 1
+rl_insert 3 2f 3d
+join 1 5 19 1 10
+printraw 5 80
+printraw 12 11f
+overlap 3 24 0 3 17 8
+istream i64 oct 32313437343833363438
+cache_region 2 15 2 20 1 9fef4cbe 7ab173a2
+read 3 726478
+helper fff 4 -1
+istream u32 hex 303137
+validrange 7 c0 100
+printraw 9 7915e17e09ff
+highptr 3 39 1
+ctx_trackval 5 9 2 2 f
+helper c893185f 6 9
+fhost 8 7bfba271f0561c57
+renorm 13 4d 2
+encode 5 7f 4
+validrange 8 1 8000000000000000
+join 1 2 2c 8 0
+join 1 5 37 4 0
+read 11 2d343a6a756e6b
+justified 2 11 8 3 3 7 1
+encode 3 7e -1
+justified 3 2 0 5 16 2 1
+nearptr 12 4
+istream i32 auto 2d39323233333732303336383534373735383039
+fop 8 0 6737c5a266300502
+printraw 4 7fffffffffffffff
+wrap 5 deadbeefcafe
+lastopen 11 31 ff
+rl_remove 3 80 8a
+rl_remove 5 5c 72
+join 1 2 36 2 8
+join 3 3 18 4 5 3b 0 2 2f 8 4
+ctx_region missing 5 2e 5 33 743ac205
+joinequiv 0 5
+printraw 11 7fffffff
+encode 10 7fffffffffffffff -1
+ctx_region word2 2 26 5 1e 788744ef
+printraw 5 7fffffff
+highptr 3 37 1
+cwrap 6 fffffffe 1
+encode 10 1d -1
+printraw 2 2
+rl_remove 3 9 11
+join 2 5 4 0 8 37 0 0
+wrap 8 46
+fenc 8 c6c184d3e0000000
+printraw 12 80000000
+fhost 8 554b881673ebaf4
+rl_insert 3 d 28
+encode 11 fff 8
+join 0 10
+fprint 8 c2bbced5a0000000
+fop 8 3fb999999999999a c7728d38e7ae63c1
+printraw 9 ffffffff
+helper 80000000 -2 6
+joinequiv 30 1e
+fenc 8 3fd5555555555555
+highptr 3 2d 1
+rldecode 3c72616e67656c6973743e3c72616e67652073706163653d2272616d222066697273743d2230783122206c6173743d22307835222f3e3c7265676973746572206e616d653d22656278222f3e3c2f72616e67656c6973743e
+rl_remove 2 80 89
+justified 3 1e 5 2 f 8 1
+validrange 4 2 12345678
+rl_insert 3 78 83
+join 2 5 5 1 2 17 4 4
+istream i32 hex 616263
+fenc 4 3ff8000000000000
+encode 2 100000000 8
+helper 8b188ff4 5 6
+overlap 5 25 4 5 18 7
+fenc 4 b690000000000000
+rl_insert 5 3e 46
+helper 9 1 2
+joinequiv 30 4a
+printraw 11 1ee
+add 5 3 fe
+fprint 4 3ff0000000000000
+wrap 6 ffffffffffff
+mcodec 503a73697a653d363b543a666f726d61743d61626320646566 455453
+printraw 3 fffffffffffffffe
+istream i32 hex 2d2035
+encode 6 d2 4
+wrap 4 1c9
+overlap 5 3c 2 5 20 8
+nearptr 12 2
+strtoul 34323934393637323935
+fhost 4 ee3d1481
+lastopen 9 1 ffffffffffffffff
+istream u64 auto 3138343436373434303733373039353531363136
+fop 8 4004000000000000 3fc5555555555555
+fhost 8 1877061ccbcfa2f7
+helper ffffffffffff 6 11
+wrap 5 3a
+join 1 2 12 4 4
+istream i64 auto 3078
+fop 4 1faf3607 cf000000
+join 1 5 23 2 0
+printraw 9 41
+wrap 8 3d28a3b954a2
+strtoul 30
+read 11 68696c6f3a34
+fprint 4 f1018934063e398e
+istream u64 auto 2d307838303030303030303030303030303030
+add 3 c1 13b
+join 2 3 6 2 2 7 8 0
+istream i32 auto 316535
+helper 12345678 -1 2
+printraw 2 12345678
+printraw 10 f7a89baf6efaf220
+join 2 5 1b 1 3 12 2 0
+printraw 5 fd
+cjoin 3 36 4 3 3f 1
+printraw 12 2
+encode 7 ff 4
+ctx_get word2 5 2d
+printraw 7 1000000000002
+validrange 10 ce a9
+encode 11 0 4
+ctx_region missing 2 33 2 35 2b081842
+ctx_get missing 2 39
+fop 4 7fc00000 71138e94
+rl_remove 2 39 53
+cjoin 8 14 4 4 39 4
+parse 3a31
+fprint 4 3d6e9e96a0000000
+fprint 8 c7efffffe54daff8
+overlap 3 13 7 3 13 8
+encode 3 1 4
+fop 8 7ff8000000000000 fff8000000000000
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+overlap 2 39 0 5 33 -1
+ctx_setvar big 2 b f1bd7ae3
+nearptr 10 8
+rl_query 5 4 40
+printraw 3 fffffffffffffffe
+fenc 8 c004000000000000
+renorm 13 32 2
+renorm 13 1e 8
+wrap 10 47
+renorm 13 33 8
+read 10 6561783a34
+highptr 2 33 4
+overlap 2 19 6 5 0 8
+joinequiv 40 2b
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+ctx_region flag 5 35 5 43 977367fc
+join 2 5 3b 1 5 28 0 0
+read 12 6562783a342b
+fhost 4 7f7fffff
+strip 10 2
+justified 5 5 0 3 c -1 1
+printraw 4 d
+joinequiv 0 55
+validrange 12 12345679 7fffffff
+join 2 2 35 2 8 24 1 0
+highptr 2 27 1
+cjoin 2 1a 4 3 a 2
+renorm 13 43 12
+justified 3 2c 1 2 3e -1 0
+encode 6 100000000 -1
+rl_remove 2 10 2d
+joinequiv 30 4c
+join 2 2 37 8 5 29 4 0
+printraw 7 1000000000000
+printraw 9 2
+renorm 13 5e 8
+read 13 6869
+join 0 10
+printraw 4 45960a3854aaa33f
+ctx_tracked 2 2a 2 2e
+ctx_trackadd 5 1 2 601c697603e2fc9e
+ctx_trackadd 5 31 2 eb748c76acaf9744
+encode 9 fffffffffffffffe 8
+printraw 8 1d6
+helper 42cf15fe 8 3
+istream u32 auto 2b35
+read 13 72626f677573
+parse 3a31
+istream u32 auto 303137
+helper 12345678 6 8
+fprint 8 7fefffffffffffff
+ctx_setvar word2 5 32 80f33ec0
+strtoul 34323934393637323936
+cfloat 2 e 4 16
+rl_remove 5 3a 42
+nearptr 8 4
+justified 2 29 -1 3 3b 7 1
+decode 1 4bd451818b
+rl_remove 5 3 5
+justified 2 34 1 2 3a 0 1
+helper fffffffffffffffe -1 -1
+rl_remove 2 7d 97
+printraw 12 80
+printraw 7 fffffffffffc
+highptr 5 24 1
+join 3 8 20 1 8 f 4 8 2b 8 0
+rl_insert 5 a a
+joinequiv 0 12
+justified 3 20 3 5 3a 0 0
+justified 5 0 5 2 32 3 0
+printraw 10 160
+justified 5 3b 0 5 21 5 1
+read 4 626f6775733a3078382b30783130
+helper 0 10 11
+read 3 68696c6f3a342b
+fop 8 10000000000000 d794b6b3cec5f7b2
+read 13 6562782c253078343a34
+join 3 3 f 4 5 3d 2 8 22 2 10
+resolve 8 de 8
+lastopen 10 dd ffffffff
+read 4 2020373a6a756e6b
+cjoin 2 15 2 8 40 4
+rldecode 3c72616e67656c6973743e3c72616e67652073706163653d2272616d222066697273743d223122206c6173743d2235222f3e3c72616e67652073706163653d2272616d222066697273743d223122206c6173743d2239222f3e3c2f72616e67656c6973743e
+ctx_default word2 5f639268
+join 1 2 17 4 8
+fop 4 95c8b48b a33f8abe
+fop 8 d51947e2aef94156 47efffffffffffff
+wrap 8 ffffffff
+rl_remove 5 32 36
+decode 1 4bd451d04281d322848b
+ctx_get flag 2 15
+fenc 8 359cf47b0475727d
+strip 10 1
+join 3 8 b 0 2 19 1 3 36 8 0
+fenc 8 c170000010000000
+helper 1d7ccbd587e4daaa 10 6
+rl_query 3 13 2
+read 13 6869
+cjoin 5 1f 1 8 2b 4
+fprint 8 47efffffe54daff8
+fenc 8 bfe0000000000000
+read 13 72626f677573
+fop 4 7f800000 8594058a
+fenc 8 47efffffe54daff8
+renorm 13 b 1
+encode 6 ffff 4
+cjoin 4 2a 2 4 1 1
+encode 10 4df3e9b17c2c 8
+cjoin 3 2d 2 8 16 2
+highptr 2 3c 8
+ctx_region word2 2 14 2 1a 14abb0ff
+printraw 3 8ec513eacd6c45ac
+printraw 9 147
+ctx_get mode 2 30
+mcodec 493a70696563653d3472616d3a3078303a34 584255
+fenc 8 10000000000000
+wrap 8 ffffffffffff
+read 13 75307838303a382c6230783130303a34
+join 1 2 2f 8 4
+overlap 3 2b 3 2 8 1
+joinequiv 0 5e
+cwrap 7 10 16
+read 10 68696c6f
+cjoin 2 4 2 2 25 4
+ctx_get missing 2 8
+lastopen 3 36 ffff
+strip 10 0
+rl_query 3 34 10
+rl_remove 2 c 28
+mcodec 543a626967656e6469616e3d3132783b533a69643d376666666666666666666666666666663b493a70696563653d3472616d3a3078303a34 5855
+justified 2 4 3 5 3e 0 1
+read 11 6562782b33
+decode 1 4b8b
+overlap 2 5 8 3 0 3
+strtoul 2d32313437343833363438
+mcodec 423a6f66667365743d303b533a73706163653d3766666666666666663b503a76616c3d313b423a76616c3d313b493a70696563653d32 5550
+istream i32 dec -
+overlap 2 3f 5 2 40 5
+rl_insert 3 8 10
+printraw 9 efaccc5905a3b166
+join 2 2 3b 8 3 14 0 4
+fhost 4 7f800001
+cwrap 12 fffffffffffffffe 4
+overlap 5 24 4 2 32 7
+justified 5 1d 2 5 26 16 0
+join 1 3 38 2 10
+helper 1234567b 7 1
+wrap 6 7f0c3d431319
+istream i32 auto -
+strip 30 1
+istream u64 oct 30583146
+overlap 3 3c 2 3 7 7
+cjoin 5 2c 1 4 b 4
+cfloat 3 1a 8 8
+justified 2 e 7 3 12 2 1
+overlap 5 2f 4 3 2c 8
+fprint 4 3abff8baa0000000
+parse 636f646531363a30783130
+highptr 3 2d 1
+justified 3 8 16 5 b 8 1
+join 1 3 33 1 8
+fenc 4 47efffffe0000000
+helper 80 6 3
+istream u32 auto 307830
+helper 55735462d17c17ed 10 4
+encode 4 fffffffffffffffe 8
+encode 9 80 4
+rl_query 2 2b 2
+decode 1 4bd46dd042818b
+joinequiv 20 5
+justified 2 3f 0 5 39 1 1
+printraw 6 1000000000000
+rl_remove 2 2 f
+fop 8 6df7f5fd7741cbf6 6134f839b50c04bd
+renorm 13 32 2
+fprint 4 b6a0000000000000
+helper 7c 4 -1
+strip 0 2
+rl_remove 2 1 c
+justified 3 3f 16 3 7 8 1
+nearptr 2 4
+rl_insert 5 3a 45
+fhost 4 7dc25b60
+helper 1000000000000 8 4
+helper 100000000 6 6
+read 10 30786666666666666666666666666666666666663a6a756e6b
+helper 370394def98d 8 9
+read 3 626f6775733a
+ctx_get top 2 37
+encode 11 1000000000000 -1
+istream i64 dec 202020
+validrange 9 81 100
+highptr 3 1f 8
+nearptr 9 8
+fhost 8 3fb999999999999a
+fop 4 5f000000 3f800000
+wrap 2 89
+printraw 3 1000
+strtoul 2d32313437343833363438
+ctx_tracked 2 2e 2 36
+ctx_trackadd 5 29 2 76a4bd2f3c1be15
+ctx_trackadd 5 1a 1 7646a632deee0301
+ctx_tracked 2 26 2 32
+overlap 5 3 5 5 17 7
+read 4 2d34
+printraw 11 1701
+cjoin 8 d 2 2 23 1
+add 3 1 da2b006c
+overlap 2 1b 3 2 14 -1
+join 1 3 d 2 10
+mcodec 553a6e616d653d3230303030303b493a70696563653d3672616d3a3078303a34 -
+decode 1 4bd46dd042818b
+ctx_tracked 2 1e 2 23
+printraw 11 81
+printraw 5 f9
+fprint 8 bfd5555555555555
+fop 8 1 433ecfe219eace33
+read 13 72307831303a342c6562782c72307832303a32
+join 1 5 4 8 0
+rl_remove 5 73 93
+printraw 4 80000000
+ctx_setvar word2 5 40 4e460e2a
+fprint 8 b8b551f7bd2f475
+encode 6 fffd 8
+fprint 4 47efffffe0000000
+rl_clear
+fprint 4 6fc2e53d78ddcf7d
+fhost 4 3f800000
+overlap 2 2f 6 3 33 7
+justified 2 2a -1 5 20 4 0
+printraw 2 1db
+overlap 3 5 6 3 27 0
+fhost 8 8d67ea1cd2eaa8c6
+nearptr 4 8
+fhost 8 43e0000000000000
+istream i32 auto 2d
+strtoul 3130
+renorm 13 5f 12
+fhost 4 0
+rl_print
+justified 2 22 3 2 1a 5 1
+printraw 3 ffc
+overlap 5 24 8 3 3a -1
+read 10 68692b
+overlap 2 13 -2 3 30 8
+parse 3a31
+rl_remove 2 56 6c
+rl_insert 5 41 61
+encode 10 fffffffffffffffe -1
+overlap 2 18 6 2 0 5
+helper fff 1 0
+mcodec 533a76616c3d656135396138616538346337346633363b493a70696563653d35783b503a626967656e6469616e3d373b533a76616c75653d3766 54
+justified 3 a 5 5 e 2 0
+justified 3 20 16 2 23 0 1
+rl_query 5 67 40
+helper 1a0 9 8
+strtoul 2d2035
+fprint 4 47efffffe54daff8
+rl_query 3 25 40
+istream i32 hex 2b35
+rl_remove 5 39 48
+printraw 3 178
+join 0 4
+encode 5 2f819126f732 -1
+istream u32 auto 34323934393637323936
+highptr 5 2f 4
+istream i64 auto 307867
+helper 4f -2 11
+parse 64617461343a3078666666666666
+encode 3 2 -1
+parse 307831303030
+rl_insert 5 26 38
+fenc 8 3e21cd1120000000
+overlap 5 2d 0 3 25 4
+cwrap 2 fffe 8
+justified 5 37 2 5 30 0 1
+justified 3 31 3 5 21 1 1
+cjoin 4 d 4 2 11 1
+wrap 7 7fffffffffffffff
+printraw 6 79e7c452f1be
+justified 5 1 0 5 10 1 0
+printraw 11 0
+wrap 12 ae
+read 13 6562782c656278
+istream u32 hex 3078
+overlap 5 17 0 5 e 7
+fenc 4 4004000000000000
+ctx_trackval 3 26 2 2 a
+fop 4 4f000000 bf800000
+rl_query 2 90 0
+parse 3130
+printraw 2 ffffffffffff
+istream u64 oct 30303030
+ctx_setvar word2 5 3f 38a74fe1
+printraw 4 164
+rl_remove 2 2b 2d
+overlap 5 30 6 2 a 8
+helper 4974e5f87163 12 8
+cjoin 4 3 4 5 34 4
+join 1 3 37 0 8
+pcodeop 4 80000000 3c6f707820636f64653d22434f5059222073697a653d2230222f3e
+fop 8 ba5424299fe7c646 5e1514d3ad6bcb24
+istream u32 oct 2b
+nearptr 5 2
+strtoul 30583146
+justified 5 13 3 5 1 1 0
+istream i32 auto 20203432
+istream u64 auto 3130
+validrange 8 172 162
+fhost 8 3ecc83312b790e68
+helper ff 12 8
+rl_insert 5 22 3d
+fhost 8 25d6472d2da87786
+overlap 2 35 0 3 22 7
+printraw 4 3
+wrap 5 7fffffff
+printraw 2 2
+read 7 2020372b33
+printraw 11 80000000
+fenc 4 8000000000000001
+istream u32 hex 303137
+fenc 8 1
+highptr 3 c 8
+highptr 2 8 4
+printraw 3 12345678
+cjoin 3 29 2 8 25 1
+istream u32 auto 2d32313437343833363439
+mcodec 553a616c69676e3d38303b533a6f66667365743d38303b493a70696563653d32 4f50545555
+cjoin 2 13 2 8 23 2
+fop 8 e55e9fcb5d48016 5b47e49f31a18b3
+justified 5 9 2 2 12 0 1
+join 3 3 25 1 5 19 1 5 25 2 0
+decode 1 4bd451d042818b
+highptr 5 38 1
+istream u32 hex 2d31
+cfloat 5 0 8 4
+encode 5 ba 4
+fenc 4 be51c8c900000000
+lastopen 6 d 200
+highptr 10 25 1
+fop 4 7ed76e38 4effffff
+nohighptr 2 58 6c
+overlap 2 25 2 3 24 -1
+fenc 4 dfce352a72588553
+nohighptr 2 35 f0
+rl_insert 3 1c 2d
+printraw 10 ffff
+read 4 626f6775733a382b32
+helper 81ad 8 2
+rl_remove 5 24 24
+decode 1 4bd461d042818b
+join 3 2 16 8 2 3 0 8 20 1 4
+istream i32 auto 2d39323233333732303336383534373735383039
+cfloat 5 a 4 10
+cwrap 4 fffffffffff0 8
+fhost 8 1b751f03d55b83e
+joinequiv 20 2
+overlap 2 23 4 2 19 4
+encode 13 20 8
+validrange 2 dcc907db5088 7f
+helper ffffffff 12 4
+highptr 2 37 4
+renorm 13 40 8
+istream i32 dec 30
+printraw 11 2
+highptr 5 2e 4
+helper 1 -2 4
+wrap 3 18
+overlap 5 30 3 2 33 1
+fop 4 7fc00000 80000000
+istream i32 auto 2d307838303030303030303030303030303030
+lastopen 12 60 ffffffffffffffff
+encode 3 7fffffff 4
+ctx_setvar flag 2 f 21f60ea2
+printraw 12 1000
+helper 80 8 8
+fenc 8 3fe0000000000000
+nearptr 5 8
+read 5 6561783a342b
+helper 7fffffff 4 1
+fhost 8 4004000000000000
+rl_insert 2 17 2f
+renorm 13 59 6
+printraw 8 3
+read 13 6561782c656178
+join 2 8 17 2 5 3 1 0
+fhost 4 6b855a53
+istream u64 oct 34323934393637323935
+encode 3 2 4
+fop 8 d31b22a6ddb8ddff 1b4b34a218f5b7d7
+fenc 4 f319f84f3895b450
+validrange 9 7fffffffffffffff 6b
+cwrap 6 fffffffffffffffe 1
+helper fffffffffffffffe 11 1
+printraw 3 8000000000000000
+join 0 0
+add 7 1d ffffffffffff
+fprint 4 fe37e43c8800759c
+fhost 4 40200000
+printraw 7 10000
+add 3 10000 2
+cjoin 8 3c 1 2 9 1
+read 10 3031303a342b
+rl_remove 2 a 14
+join 3 5 1e 8 3 39 1 5 2e 2 0
+rl_insert 3 24 3f
+ctx_setvar mode 2 18 6848e981
+printraw 12 ffff
+highptr 5 a 8
+printraw 4 100
+wrap 4 6b12878db981ec3d
+join 1 2 25 0 0
+read 13 72626f6775732c6230783130303a34
+highptr 10 6 1
+ctx_region missing 5 22 5 31 576ed784
+fop 8 3ff0000000000000 5a1b0f45fce7b923
+printraw 10 7a0531da12fa2def
+parse 626f6775733a30783130
+read 13 72626f6775732c253078343a342c72
+parse 307831303030
+add 10 a92676f9163d 5a
+fprint 8 3fe0000000000000
+justified 5 14 8 3 15 8 0
+rl_remove 5 7f 8d
+helper fd1fa9afeec6 1 11
+justified 3 a 0 3 11 2 1
+add 12 1 fffffffffffffffe
+nearptr 5 2
+printraw 6 366ea02f3d34
+validrange 2 fff 47
+rl_insert 2 10 29
+justified 2 24 7 3 25 3 0
+istream u64 dec 307830
+overlap 5 39 5 2 3a -1
+overlap 5 20 0 3 12 -1
+rl_query 2 20 10
+mcodec 503a616c69676e3d363b503a73706163653d373b4f3a666f726d61743d32373b553a626967656e6469616e3d37313161353563373934383264316334 4f50504f454f
+cjoin 2 16 1 3 3e 1
+renorm 13 2 16
+overlap 2 20 2 5 11 2
+fprint 8 0
+wrap 8 40
+justified 5 11 5 5 31 0 0
+printraw 12 12345678
+validrange 8 fffd fffffffffffe
+cjoin 4 29 2 3 2e 2
+read 13 71307830
+rl_insert 2 50 58
+fop 4 4b000000 80000000
+rl_query 2 93 0
+nearptr 5 4
+mcodec - 55
+printraw 2 18
+rl_query 3 5f 0
+cjoin 5 2e 1 3 0 2
+printraw 7 7fffffffffffffff
+decode 0 3c616464722f3e
+helper 100 4 8
+wrap 10 861ca003d38447e7
+strip 30 2
+read 13 72626f6775732c68692c72307831303a34
+add 12 8e 59
+justified 5 2 2 3 a 0 1
+cfloat 5 1c 8 10
+parse 72616d3a30783130
+join 2 2 16 8 5 2a 2 0
+encode 3 7fffffff -1
+fprint 8 4004000000000000
+fenc 4 3fe0000000000000
+rl_insert 5 5d 7d
+read 13 6561782c71307830
+read 11 6869
+encode 13 10 -1
+highptr 3 5 1
+parse 3a31
+parse 3a31
+read 4 68693a3078382b30783130
+fenc 4 3fd5555555555555
+joinequiv 10 51
+joinequiv 10 23
+cwrap 7 10 1
+joinequiv 50 5
+ctx_get big 2 7
+decode 1 4b8b
+strtoul 3138343436373434303733373039353531363135
+fenc 8 c004000000000000
+helper 12345676 2 10
+renorm 13 56 6
+encode 8 52 4
+justified 3 2a 2 5 25 3 0
+rl_query 3 26 0
+decode 1 4b8b
+printraw 2 f58a912e
+nearptr 6 4
+highptr 2 c 4
+fhost 8 47efffffe0000000
+istream u64 hex 30783166
+parse 626f6775733a30783130
+join 3 5 20 4 3 1f 0 5 3b 8 0
+justified 3 12 -1 5 7 0 1
+overlap 2 15 0 5 28 1
+rl_remove 2 36 49
+cfloat 3 1e 4 16
+decode 1 4bd453d042818b
+ctx_get mode 2 26
+decode 1 4bd46dd042818b
+printraw 6 30df5a2
+decode 0 3c61646472206e616d653d22656178222f3e
+istream i64 auto 3030783130
+strip 10 0
+helper f2 0 12
+add 5 ffff 7fffffffffffffff
+printraw 9 46
+fop 8 3ff0000000000000 fffffffffffff
+renorm 13 e 12
+join 2 5 c 1 3 15 1 0
+rl_remove 2 7d 95
+istream u64 auto 2d39323233333732303336383534373735383039
+join 0 4
+read 13 72626f6775732c6230783130303a342c72307831303a34
+fhost 4 800000
+join 0 4
+nearptr 4 4
+mcodec - 425054
+printraw 5 12345678
+mcodec 423a6e616d653d30 4542
+encode 6 ffffffff -1
+wrap 10 bfccc1b01060ae8d
+justified 2 5 16 3 20 -1 0
+highptr 2 21 8
+encode 2 7 -1
+fhost 8 cbac3c4062a0335b
+ctx_setvar missing 2 10 268c3a6b
+mcodec - 58455550
+cjoin 8 d 4 2 33 4
+validrange 9 ffffffff 7ffffffffffffffe
+decode 1 4bd45182d08190d321848b
+justified 2 23 0 3 1b 3 0
+fenc 8 3690000000000000
+truncate 726f6d 4
+fop 8 1 279a306c2efc9622
+strtoul 30303030
+rl_remove 5 2 17
+nohighptr 10 ad b0
+rl_query 5 34 0
+fprint 4 39ec18af00000000
+rl_insert 2 27 3a
+printraw 2 e7
+parse 636f646531363a30783130
+fhost 4 92fa2f35
+highptr 2 20 1
+joinequiv 0 2
+strtoul 30303030
+fprint 4 28baa5ebf90c5b91
+read 6 -
+printraw 12 80000000
+highptr 10 2 4
+ctx_region top 2 3f 2 41 efddbaf7
+rl_remove 3 36 54
+joinequiv 20 1f
+rl_insert 5 17 23
+read 10 7264787a7a
+istream u32 dec 3138343436373434303733373039353531363135
+joinequiv 10 20
+ctx_changepoint 5 11 0 4b4747ab e62805e6
+encode 10 3 8
+helper 1a2 10 11
+wrap 6 ffffffff
+justified 2 c 0 3 d -1 1
+fenc 4 bfb999999999999a
+wrap 9 ff
+fop 8 e9715c4a5c4a55cf 0
+add 9 8ace55de9de0148c ffffffffffffffff
+rl_insert 2 a 12
+istream i32 auto 307846664666
+helper ffffffffffffffff -2 7
+helper 7fffffffffffffff 0 0
+encode 5 52d7 4
+fprint 8 c65a651231ffab65
+read 13 722c68692c656178
+join 2 5 5 0 8 2e 8 0
+decode 1 4bd461d042818b
+fprint 8 4004000000000000
+lastopen 12 7 ffffffffffffffff
+overlap 3 20 2 5 3a 0
+lastopen 2 31 ffffff
+istream i32 auto 34323934393637323935
+join 3 8 15 4 2 12 4 8 39 4 0
+istream u32 dec 3038
+printraw 12 5151
+read 4 6562782b33
+fop 4 2719b9f0 49fc19f8
+ctx_region big 2 3f 5 a 8911efae
+add 10 21 ffffffffffffffff
+helper 2d 4 3
+fhost 8 47efffffe0000000
+istream u64 auto 32313437343833363438
+fenc 4 47efffffffffffff
+fprint 4 81a56e1fc2f8f359
+justified 3 17 5 5 4 2 1
+rl_remove 3 31 33
+helper ebb14ff6c103 11 9
+helper 0 1 7
+truncate 72616d 2
+encode 5 3c -1
+encode 8 2 8
+wrap 10 fff
+add 4 60 3
+read 10 6162632b33
+decode 1 4bd451d04281d322848b
+rl_insert 2 42 5a
+read 13 72
+ctx_setvar missing 5 3e 57671fec
+cwrap 7 fffffffffff0 16
+fhost 8 3ff0000000000000
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+fprint 8 39e44295e0000000
+helper ffffffff 10 11
+cwrap 7 fffffffe 1
+helper 1e7 12 1
+truncate 6272616d 2
+cjoin 5 10 2 2 37 1
+justified 3 2d 1 3 1f -1 1
+read 8 68693a32
+overlap 2 8 4 2 1a 0
+fenc 4 3ff8000000000000
+highptr 5 9 8
+ctx_default missing ad89da2e
+join 2 8 12 1 5 9 0 8
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+joinequiv 50 5c
+helper 14f 11 8
+printraw 5 1a3
+printraw 6 fc3349e86340
+fenc 8 c0fe240c9fbe76c9
+printraw 3 0
+overlap 3 11 0 3 5 5
+fenc 4 43e0000000000000
+istream u64 oct 307830
+overlap 5 22 0 2 20 5
+encode 2 16837112ae87 8
+printraw 6 f93a
+join 2 3 3f 8 3 c 0 4
+overlap 3 40 1 2 12 16
+join 2 5 27 1 5 7 1 0
+truncate 6272616d 6
+rl_insert 2 48 68
+fhost 8 c3e0000000000000
+encode 7 198 8
+helper ffffffffffff 6 2
+ctx_region word2 5 1d 5 2b 8bef04b1
+wrap 2 10
+istream i64 auto 30783166
+fprint 4 3ff0000000000000
+fprint 8 41dfffffffc00000
+decode 1 4bd45182d08190d321848b
+strtoul 3138343436373434303733373039353531363135
+ctx_tracked 2 2a 2 39
+fprint 4 ecd36bae04be1489
+encode 13 30 4
+joinequiv 30 4
+rl_remove 2 5e 6b
+cjoin 2 29 4 8 16 4
+fprint 8 81a56e1fc2f8f359
+join 1 3 14 1 4
+overlap 5 28 2 3 3a 3
+helper deadbeefcafe 2 -2
+printraw 4 f9
+add 9 7d e0fe26cad601af69
+justified 5 19 4 3 2f 1 1
+renorm 13 5 6
+renorm 13 54 1
+rl_query 2 4b 4
+rl_query 5 7b 1
+rl_query 5 38 10
+rl_insert 5 80 96
+helper ffffffffffffffff -2 11
+add 6 44f1798f 8e
+ctx_get missing 5 40
+join 1 5 1a 8 10
+fhost 8 3690000000000000
+rl_remove 5 41 4d
+rl_insert 3 6f 8d
+join 3 2 1f 0 2 32 4 8 23 0 0
+cache_get 2 30
+overlap 2 37 7 3 3b -1
+strip 10 3
+read 13 6561782c6562782c253078343a34
+printraw 4 1a7
+printraw 9 ffffffffffff
+printraw 12 7f
+printraw 11 1d2
+wrap 9 2
+fenc 8 7e37e43c8800759c
+truncate 72616d 2
+read 8 7370
+fhost 4 5f000000
+overlap 2 14 3 3 a 5
+highptr 3 13 4
+printraw 5 2
+strtoul 666666
+printraw 3 7f
+ctx_tracked 2 2f 2 32
+ctx_trackadd 5 24 2 a0e3907a2b48836c
+wrap 11 deadbeefcafe
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+ctx_get flag 2 36
+helper ffffffffffff 10 1
+istream i64 auto 202020
+join 1 5 2b 8 0
+read 4 2020373a
+printraw 10 3
+rl_clear
+ctx_setvar flag 5 1f dc33ad19
+fhost 8 7ff0000000000000
+printraw 5 bf
+rl_remove 3 30 3a
+cjoin 4 6 4 8 15 4
+cjoin 8 1f 2 4 3f 2
+justified 3 1b 8 5 6 -1 0
+fprint 4 3fb999999999999a
+cjoin 5 a 4 4 31 2
+istream u32 auto 34323934393637323936
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+nearptr 2 8
+printraw 11 17b
+decode 1 4bd451d04281d331848b
+fhost 8 9595f9dc59ec49d9
+ctx_default top 3fe50b7e
+decode 1 4bce71848b
+truncate 72616d 4
+strip 10 0
+mcodec 493a70696563653d31783b423a76616c75653d30 55494f50
+rl_remove 2 9 22
+cjoin 4 2c 4 2 19 4
+rl_insert 5 40 4b
+fop 8 94d6990eb4a15b29 9b6422d7aa5a2dda
+fop 8 4004000000000000 c5b52065834a348e
+rl_insert 2 4b 5b
+rl_query 3 1c 0
+fprint 8 b810000000000000
+rl_insert 5 78 7e
+join 1 5 2c 0 0
+fhost 8 988efe16f38b1628
+cwrap 2 ff 2
+rl_query 3 4a 10
+helper 7fffffff 4 11
+fprint 4 b690000000000000
+encode 3 100 4
+fenc 4 3fd5555560000000
+strip 0 0
+justified 3 2a 5 3 3d -1 0
+ctx_changepoint 2 3f 0 a398dedf 27e5970f
+encode 7 ffffffffffffffff 8
+rl_query 2 f 2
+justified 2 18 1 5 26 -1 1
+fprint 4 bfe0000000000000
+joinequiv 10 10
+cjoin 3 f 2 8 18 1
+overlap 5 6 0 5 4 7
+encode 11 b7b8 -1
+printraw 4 0
+overlap 2 e 2 3 3c 8
+joinequiv 30 60
+justified 2 3d 16 5 f 7 0
+wrap 8 ff
+encode 5 8000000000000000 -1
+fhost 4 ab5e360f
+mcodec 543a76616c75653d3b543a73697a653d74727565 4f5849
+helper 44ff 11 6
+helper 9e99b2c4 3 8
+join 2 3 35 0 3 e 0 0
+rl_remove 5 b 11
+istream u64 auto 3138343436373434303733373039353531363135
+fop 8 3fb999999999999a fff8000000000000
+printraw 10 4ef2cac7a0782a3
+cjoin 2 30 2 8 7 2
+istream i32 oct 3038
+justified 5 f 0 3 37 7 0
+rl_insert 2 10 16
+printraw 5 7fffffffffffffff
+truncate 6e6f7468657265 4
+overlap 3 1 7 5 20 -1
+fprint 4 40fe240c9fbe76c9
+wrap 8 0
+wrap 7 fffffffd
+join 2 5 3c 1 8 e 4 0
+encode 8 1002 8
+add 12 7f ffffffffffffffff
+overlap 2 27 -2 5 33 2
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+istream i32 auto 30373737
+cjoin 5 4 1 4 b 4
+fenc 8 1c502e2b2ac2abc4
+cjoin 3 21 1 2 39 4
+cache_get 5 3c
+join 3 3 2a 1 8 2f 4 3 1c 1 10
+nearptr 12 8
+wrap 6 ffd
+joinequiv 30 54
+wrap 10 100
+strtoul 307830
+add 5 7fffffff 3
+read 10 30783a342b
+validrange 8 0 100
+printraw 12 ffffffffffff
+cfloat 5 37 8 4
+lastopen 4 da ffffffff
+mcodec 423a616c69676e3d303b543a69643d494e545f414444 49495542
+helper e2 3 -1
+encode 5 2 8
+join 1 8 2e 1 0
+lastopen 12 2b 200
+istream i32 dec 20203432
+fop 4 a86a018c 4f000000
+overlap 5 38 5 2 1f 8
+nearptr 3 4
+rl_query 3 27 4
+rl_insert 3 3f 49
+encode 13 30 -1
+rl_insert 3 3d 53
+rl_insert 2 66 6e
+ctx_get word2 2 2c
+istream u64 auto -
+nearptr 2 8
+pcodeop 5 be 3c6f7020636f64653d22554e5553454431222073697a653d2230223e3c766f69642f3e3c2f6f703e
+istream u32 dec 30373737
+fhost 8 fff0000000000000
+join 0 8
+fop 4 3d256632 3eaaaaab
+rl_query 5 73 4
+printraw 12 ffffffff
+overlap 2 16 -1 3 34 16
+nohighptr 2 7e 8b
+ctx_tracked 2 5 2 8
+ctx_trackadd 5 1b 2 99318e451a6a75a8
+ctx_trackadd 3 15 8 b41f724b208a1b1c
+ctx_setvar top 2 3 e4ca97ce
+helper 10000 4 2
+nearptr 7 4
+printraw 12 caf64641
+wrap 6 35
+fenc 8 36a0000000000000
+ctx_default mode d36feb
+overlap 5 3c 8 5 12 2
+cjoin 2 25 1 5 1c 1
+justified 5 e 2 5 3a -1 1
+fprint 4 b6a0000000000000
+istream i32 hex 3138343436373434303733373039353531363135
+printraw 8 1
+add 5 dd 100
+helper 84d4ccf5a541 9 -2
+decode 0 3c616464722073706163653d2272616d22206f66667365743d2230783130222073697a653d2234222f3e
+joinequiv 40 35
+nohighptr 3 48 b1
+join 2 5 38 2 3 1d 1 0
+cjoin 3 36 1 8 13 4
+rl_remove 3 1a 1e
+rl_insert 5 4e 6a
+join 0 4
+fop 8 684e73544f0c4542 d8240f7cb2e16e21
+printraw 6 7f
+helper e5 7 5
+istream i64 hex 30783166
+helper 155 10 -1
+read 6 303130
+helper ffffffffffffffff 2 1
+mcodec - 534253
+ctx_get big 5 1
+join 2 2 2f 4 2 8 1 0
+fprint 4 c3e0000000000000
+rl_insert 3 2e 2f
+helper 1000000000000 -1 11
+add 3 10000 a6b8ab6312b9
+justified 2 6 16 5 24 -1 1
+highptr 3 26 8
+decode 1 4bd451d04281d322848b
+truncate 6e6f7468657265 6
+lastopen 2 17 ffff
+helper ffffffff 0 4
+decode 1 4bd46dd042818b
+helper 82 5 10
+rl_query 3 1c 10
+overlap 5 1f 6 3 6 16
+helper ce 11 12
+highptr 3 21 4
+cfloat 5 13 4 10
+rl_query 2 30 10
+add 8 1000 7fffffffffffffff
+cjoin 4 9 1 3 1e 2
+join 2 5 0 4 8 13 4 4
+wrap 9 8000000000000000
+istream u64 dec 32313437343833363438
+read 13 6561782c72307832303a322c656178
+helper 1 6 -1
+parse 3a31
+add 6 2 aa
+mcodec 533a69643d34303030303030303030303b423a73706163653d303b423a73697a653d31 53555854
+fprint 8 3810000000000000
+ctx_setvar big 5 27 dc13cb73
+join 0 0
+rl_insert 2 59 67
+fenc 4 3690000000000000
+helper 8000000000000000 4 11
+decode 1 4bd453d042818b
+overlap 5 7 -1 3 4 8
+read 9 3031303a342b
+truncate 726f6d 6
+read 13 713078302c72
+fprint 8 3fb999999999999a
+istream u32 hex 2d3130
+fhost 4 bf800000
+ctx_changepoint 5 11 1 c304f87b 3f812c4d
+cwrap 3 fffffffffff0 2
+justified 3 26 3 2 34 1 1
+strip 30 2
+read 5 68696c6f3a382b32
+validrange 12 2 10001
+join 1 2 1f 8 8
+printraw 3 3
+fop 4 f4a5901b e9c4d180
+cfloat 2 18 8 8
+highptr 5 27 1
+join 2 2 38 1 3 2d 8 0
+printraw 10 12345678
+overlap 5 24 4 5 29 1
+parse 72616d3a30783130
+justified 3 1e 0 5 27 7 0
+validrange 4 ff ffffffff
+helper 7ffffffd 6 6
+ctx_get missing 2 1a
+helper 80000000 7 6
+overlap 2 3d -2 5 16 2
+read 13 713078302c656178
+rl_clear
+read 10 68692b33
+fop 8 a3ad22a07aa107d5 45120e6730aab5af
+wrap 11 ffff
+join 1 8 2f 8 8
+helper 1 0 -2
+nearptr 11 2
+cjoin 4 18 1 5 f 4
+joinequiv 5 1b
+rl_insert 2 70 8a
+mcodec 543a626967656e6469616e3d70696563653b423a73706163653d313b4f3a666f726d61743d33393b423a76616c3d303b503a70696563653d31 494f54
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+justified 3 33 7 3 1b 2 1
+add 7 100 100000000
+read 13 75307838303a382c253078343a342c72307831303a34
+validrange 6 3cb65a9bf3a59f06 168
+istream i32 auto 2b35
+printraw 7 7fffffffffffffff
+join 1 5 31 1 10
+fprint 4 b9a7703680000000
+istream i32 auto 303137
+cjoin 5 3b 4 8 39 4
+read 13 722c72307832303a32
+wrap 8 4b
+istream u32 auto 307867
+read 13 656278
+istream u64 auto 3038
+encode 8 177 4
+fenc 4 7ff0000000000000
+wrap 8 fd
+overlap 3 e 1 2 3b 2
+strtoul 3138343436373434303733373039353531363135
+printraw 10 ffffffffffffffff
+renorm 13 36 2
+cjoin 5 a 1 8 37 4
+fprint 8 47efffffe54daff8
+overlap 3 3b 0 3 3e 4
+encode 7 ff -1
+istream i32 auto 34323934393637323936
+read 13 75307838303a382c72626f6775732c72
+istream u32 oct 307838303030303030303030303030303030
+helper 8e61a42a 0 -2
+rl_query 3 81 1
+rl_insert 3 7f 88
+fop 8 a7727b4b84409832 b5ba4d547b7a227f
+rl_query 3 24 1
+istream i64 hex 316535
+helper bba0 2 8
+join 0 8
+lastopen 10 f0 ffffffff
+encode 4 b789 8
+nohighptr 5 aa c1
+read 13 6230783130303a342c72307832303a322c72
+justified 5 3f 8 3 18 2 0
+highptr 5 39 4
+join 1 8 c 4 0
+strip 10 3
+renorm 13 4f 6
+read 13 656278
+encode 7 fc 8
+wrap 7 8000000000000002
+strtoul 3078
+fop 4 bf800000 923f5756
+read 6 3031303a32
+encode 2 7d 8
+nohighptr 3 99 189
+justified 3 10 8 3 12 1 1
+justified 2 2f 0 5 21 4 0
+ctx_get top 5 3
+justified 2 30 2 2 f 4 0
+wrap 4 7f
+overlap 2 3a 6 5 3f -1
+rl_encode
+istream u32 dec 34323934393637323936
+istream i64 oct 2d
+overlap 5 23 1 3 2 8
+istream i64 auto 3138343436373434303733373039353531363136
+join 0 0
+justified 2 30 2 3 1 0 0
+add 2 ffffffff 0
+fhost 4 5f000000
+read 13 722c72307831303a34
+ctx_get missing 2 e
+truncate 72616d 2
+helper ffffffffffff 9 7
+cjoin 5 23 2 5 37 1
+ctx_setvar mode 2 d c9ab124c
+helper ab48 8 9
+rl_insert 2 b 19
+rl_remove 3 3a 5a
+rl_insert 3 60 6f
+lastopen 4 c7 ffffff
+read 10 31363a32
+renorm 13 1 8
+cjoin 8 26 4 2 22 4
+ctx_setvar flag 2 1f 82fbb65a
+fenc 4 458bf7de00000000
+joinequiv 40 5
+strtoul 3130
+mcodec - 5349495353
+ctx_default mode aafa8e41
+fhost 4 80000001
+fop 4 53de585 34000001
+join 1 5 1a 8 0
+mcodec - 55454f5042
+printraw 9 ffff
+truncate 6272616d 4
+helper 100000000 0 10
+printraw 4 ff
+read 13 75307838303a38
+joinequiv 40 2
+overlap 5 12 4 2 3f -1
+decode 1 4bd45182d08190d321848b
+fop 4 b2b865d8 4f000000
+fenc 4 c480f0cf064dd592
+fhost 4 ba947891
+overlap 3 3d -1 3 e 2
+read 8 30783a3078382b30783130
+rl_query 5 2f 2
+rl_insert 2 30 34
+rl_insert 3 77 7c
+parse 3130
+cjoin 4 3a 2 8 f 2
+nearptr 9 4
+rl_insert 3 27 43
+fenc 8 0
+printraw 11 ffff
+helper 1000000000000 -2 10
+read 13 75307838303a382c72626f677573
+istream u32 dec 30373737
+fop 8 41dfffffffc00000 934d0d69471a1b67
+highptr 2 17 4
+fhost 8 b69fd6af363ab6f7
+read 13 6869
+rl_remove 2 6d 74
+printraw 6 11
+nohighptr 5 16 51
+fenc 8 c170000010000000
+strtoul 39323233333732303336383534373735383037
+ctx_get mode 5 40
+fhost 8 f42618cd268f0611
+helper 12df601 9 9
+rl_remove 3 1f 20
+fprint 4 1
+highptr 2 3c 1
+printraw 6 7f3
+fop 8 644d042453d8b41 f9390cbe82cc687f
+parse 307831303030
+istream i32 hex 312e35
+justified 2 2a 5 5 32 1 0
+fenc 4 c170000010000000
+join 2 2 2d 2 5 12 8 0
+fop 8 3810000000000000 64fa54e00aa7eb56
+overlap 5 1c -2 2 20 3
+add 3 1000000000000 7fffffff
+istream u64 oct 3130
+cfloat 2 a 8 4
+nearptr 6 4
+fhost 4 4b000000
+read 10 2b33
+cjoin 5 34 2 8 32 1
+rl_query 2 9f 2
+fprint 8 8000000000000001
+join 2 2 2e 1 3 28 2 0
+join 3 3 34 8 8 32 8 3 3a 2 0
+rl_remove 2 77 97
+lastopen 6 9b ffffffffffffffff
+join 1 5 21 0 4
+wrap 8 1
+renorm 13 3b 16
+justified 2 33 3 3 19 8 1
+read 7 73702b2d31
+rl_insert 5 1a 2d
+joinequiv 5 41
+cjoin 8 2b 2 2 34 4
+helper 2 -2 6
+read 8 61783a
+rl_insert 3 3c 46
+join 0 10
+add 6 100000000 100000000
+overlap 5 8 2 5 36 -1
+printraw 12 12345678
+decode 1 4bd453d042818b
+cjoin 4 7 1 4 17 2
+truncate 72616d 4
+overlap 2 20 4 5 3e 2
+ctx_get big 2 40
+printraw 3 4
+ctx_default missing 8e3aa850
+parse 636f646531363a30783130
+strtoul 3030783130
+read 13 6230783130303a34
+ctx_tracked 2 28 2 38
+fop 4 879949b0 40200000
+wrap 9 1b7
+printraw 2 793731d9ddc8b8d7
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+read 4 31362b2d31
+nearptr 11 4
+printraw 4 97ff3344
+rl_remove 2 2f 41
+join 2 3 a 4 8 21 0 0
+joinequiv 5 5b
+fenc 8 36a0000000000000
+fhost 8 cff327ffb15ad8a0
+fenc 4 41dfffffffc00000
+encode 3 31 4
+cjoin 4 0 4 5 17 2
+fop 4 800000 bf800000
+fop 8 10000000000000 1
+printraw 4 fffffffffffffffd
+fprint 8 81a56e1fc2f8f359
+lastopen 12 a2 ffff
+fhost 8 fff8000000000000
+fop 8 41dfffffffc00000 39634aaf64507bd7
+printraw 4 1a0
+printraw 11 1000000000000
+read 13 253078343a342c72626f677573
+read 12 656278
+rl_remove 5 54 70
+rl_query 2 9b 40
+rl_insert 5 66 79
+encode 4 80 -1
+printraw 3 71b199845286
+highptr 5 c 1
+printraw 8 fffffffffffffffe
+highptr 2 26 4
+fhost 4 5b86e727
+cache_get 2 1b
+fop 4 c0671b71 e6aca906
+printraw 11 46dd848
+istream u32 hex 30783166
+fop 4 80000000 bfc00000
+fprint 8 3fe0000000000000
+ctx_default top 12be296e
+helper deadbeefcafe 4 2
+read 5 68693a382b32
+istream i64 auto 616263
+read 13 68692c6c6f
+decode 0 3c616464722073706163653d22626f67757322206f66667365743d2231222f3e
+rl_insert 5 18 29
+cache_get 2 3c
+read 4 3078666666666666666666666666666666666666
+rl_remove 3 1a 37
+overlap 2 33 5 2 e 8
+printraw 10 b8d83c55706cafd3
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272616d3a307831303a3822206c6f676963616c73697a653d223136222f3e
+fop 4 ff7fffff 555b24b9
+read 8 7264783a
+istream i64 oct 2d2035
+parse 3130
+decode 0 3c616464722f3e
+cjoin 4 2 4 2 7 4
+read 11 61783a3078382b30783130
+add 10 ff 7f
+decode 0 3c7661726e6f64652073706163653d2272616d22206f66667365743d222d31222073697a653d2230783130222f3e
+helper 10000 2 3
+fprint 8 3810000000000000
+encode 4 1000 -1
+highptr 5 31 1
+read 6 2d342b33
+fhost 4 4b000000
+printraw 12 f6e505d24d9c
+justified 5 25 8 2 1d -1 1
+rl_insert 5 50 6a
+istream u64 oct 30
+fop 4 800000 889d3552
+read 13 6869
+fenc 8 be2e79e420000000
+fop 8 3ff0000000000000 3fb999999999999a
+cjoin 5 27 2 4 1 1
+joinequiv 0 4
+truncate 726f6d 4
+rl_insert 5 48 55
+joinequiv 5 53
+istream u64 auto 34323934393637323936
+istream u32 auto 3037373737373737373737373737373737373737373737
+fhost 4 efef9d1d
+printraw 10 ffffffffffffffff
+cjoin 5 32 2 8 20 4
+helper 10000 6 3
+renorm 13 42 2
+encode 3 fffffffffffffffe 4
+justified 2 21 4 5 2e 8 1
+cwrap 3 fffe 8
+cjoin 8 22 2 8 8 2
+justified 3 37 3 2 32 5 0
+fhost 8 3fe0000000000000
+ctx_spec 3c636f6e746578745f646174613e3c636f6e746578745f7365742073706163653d2272616d222066697273743d223078333022206c6173743d2230783230223e3c736574206e616d653d226d6f6465222076616c3d2233222f3e3c2f636f6e746578745f7365743e3c2f636f6e746578745f646174613e
+rl_insert 3 7b 8b
+join 1 8 12 8 8
+encode 10 e1 8
+rl_insert 3 27 34
+parse 3a31
+wrap 10 12345678
+joinequiv 40 40
+cache_region 2 1b 2 2a 0 4d81a124 14275e67
+fprint 8 0
+parse 3130
+fhost 8 47efffffe0000000
+rl_insert 5 25 25
+join 1 5 1d 4 10
+fprint 8 7ff8000000000000
+istream u32 dec 34323934393637323936
+rl_insert 3 10 18
+overlap 3 36 8 2 25 7
+helper 0 9 9
+fop 4 7f800001 7fffff
+helper 101 7 5
+strtoul 30783166
+ctx_get word2 5 27
+rl_remove 3 73 79
+fprint 8 1
+ctx_tracked 2 22 2 2e
+ctx_trackadd 5 22 2 56d8ae5d10ecb44b
+rl_insert 5 33 3d
+mcodec 503a6f66667365743d333b543a76616c3d68656c6c6f3b553a76616c75653d376666666666666666666666666666663b543a666f726d61743d70696563653b543a6f66667365743d494e545f414444 425342
+justified 2 24 7 3 4 2 1
+fhost 4 bfc00000
+parse 72616d3a30783130
+nearptr 9 4
+fenc 4 939c308dab318db6
+printraw 6 7fffffff
+join 2 5 31 4 3 36 2 0
+printraw 9 55
+printraw 5 1000000000000
+istream i32 auto 3132616263
+rl_query 5 9e 10
+wrap 6 ee8120b102f7
+renorm 13 4c 8
+printraw 5 ef
+add 9 74 7f
+rl_query 3 92 40
+rl_insert 5 6a 73
+cfloat 2 2 8 10
+justified 5 1 2 5 20 16 0
+strip 0 0
+helper 8922bb997330 0 2
+strtoul 616263
+wrap 8 7fffffff
+wrap 6 7fffffffffffffff
+justified 5 3d 2 3 4 16 1
+join 3 2 2f 8 8 e 2 2 3a 4 0
+fenc 8 7b6611d74080feeb
+join 2 3 1d 4 8 1a 0 0
+truncate 72616d 4
+encode 11 1b1 4
+read 13 6230783130303a34
+istream u32 auto 34323934393637323935
+wrap 12 7ffffffe
+fhost 8 1
+helper 0 0 1
+parse 64617461343a3078666666666666
+overlap 3 25 2 2 13 2
+fprint 8 ed6de3f98054ed10
+istream u32 auto 30303030
+read 10 2020372b
+read 8 616263
+fprint 4 0
+fop 8 8000000000000000 3ff8000000000000
+wrap 10 80
+istream u32 auto 30783166
+fhost 4 5f000000
+overlap 2 40 2 5 11 8
+rl_remove 5 53 6e
+rl_insert 5 52 65
+highptr 2 3b 8
+cjoin 5 6 1 2 1f 4
+fop 4 1 bd30c63
+fop 8 df09df3a0cdacc40 8bb9a75f15adfc4e
+wrap 4 12345678
+cfloat 5 3a 8 8
+helper ffff 7 10
+helper 12345678 3 2
+overlap 3 3d 5 5 11 0
+printraw 5 2
+join 2 3 b 8 5 b 1 0
+ctx_setvar top 2 27 ecd29ec
+read 12 726478
+encode 4 8000000000000000 4
+read 11 30786666666666666666666666666666666666663a342b
+fhost 4 55c6198d
+fenc 4 8fe3144aa16a7e68
+join 0 4
+justified 2 2b 0 2 20 3 0
+fprint 4 0
+fop 8 55ad21fb27b2ec2c 7ff0000000000000
+printraw 8 3346
+helper fffffffc 4 11
+fprint 8 c6a8a9ecf1889b8b
+overlap 2 22 -1 2 7 7
+join 2 2 2c 0 8 1a 4 8
+rl_insert 2 a a
+encode 13 0 8
+parse 3130
+fenc 8 3fd5555555555555
+cwrap 12 fffffffe 1
+printraw 4 12345678
+lastopen 4 64 ff
+overlap 3 1f 8 3 2f 16
+cfloat 2 23 4 8
+istream u32 auto 39323233333732303336383534373735383037
+overlap 5 8 5 3 3e 2
+join 2 3 18 4 5 7 4 0
+fprint 4 0
+add 9 2 80
+join 2 8 18 2 3 20 0 0
+validrange 11 bd b5
+helper 100000000 11 9
+nohighptr 3 5d b9
+fprint 4 1
+strtoul -
+read 10 61783a382b32
+read 13 6c6f2c72
+ctx_setvar flag 5 1a 9e817756
+fop 8 3ff8000000000000 10000000000000
+fop 4 65d3eac ef3c4194
+fop 8 894453288ece5886 cda8e649a795b881
+strtoul 3138343436373434303733373039353531363136
+helper 1001 3 12
+read 3 31363a3078382b30783130
+rangeprops 3c7265676973746572206e616d653d22656178222f3e
+fop 8 f8f12109d79a5fd1 f9580addaddaa3d2
+fhost 8 41dfffffffc00000
+highptr 3 22 1
+fhost 8 8000000000000000
+join 3 8 1a 4 5 10 1 3 20 2 10
+encode 13 20 8
+helper 202 10 7
+rangedecode 3c7265676973746572206e616d653d226e6f7468657265222f3e
+cfloat 2 20 8 16
+fop 4 f9270706 749b742
+cwrap 10 ff 2
+cjoin 8 10 1 5 3b 2
+read 3 6562783a342b
+fprint 8 bfb999999999999a
+rl_remove 2 63 7b
+ctx_setvar flag 2 13 fb231b55
+wrap 9 ffffffffffffffff
+rangeprops 3c72616e67652073706163653d2254696e79222066697273743d223022206c6173743d223078313030222f3e
+encode 13 30 4
+istream u64 hex 3132616263
+printraw 8 ffff
+fenc 8 3810000000000000
+join 2 2 26 1 5 10 0 0
+printraw 10 ffff
+read 13 68692c713078302c656278
+printraw 9 148
+helper 18 -2 3
+fprint 8 3690000000000000
+printraw 6 3
+overlap 2 25 0 3 29 3
+overlap 5 37 1 5 40 7
+helper ffffffffffff 5 1
+fhost 4 bfc00000
+rl_insert 3 f 1b
+fenc 8 9ba00e171d7d7c0c
+helper e6 5 1
+join 1 8 31 4 4
+join 0 0
+fop 4 cf000000 7f800000
+printraw 9 151
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+fop 8 4004000000000000 3810000000000000
+lastopen 2 c7 200
+istream u32 hex 2d307838303030303030303030303030303030
+join 2 5 34 2 2 36 1 4
+helper 99 9 -1
+join 2 2 3c 1 3 16 2 0
+nohighptr 10 fe 10d
+istream i64 hex 3130
+ctx_region big 2 3e 2 4a d889a3ff
+join 1 8 28 2 8
+istream u32 auto 666666
+istream i64 hex 3138343436373434303733373039353531363136
+fprint 4 43e0000000000000
+printraw 12 82
+istream i32 hex 666666
+justified 3 17 5 2 3 4 1
+justified 2 30 1 5 1d 5 0
+fop 4 6e269351 df6c0716
+fprint 8 c340000000000000
+read 13 6230783130303a342c72307831303a34
+helper 12345678 4 12
+rl_insert 2 40 42
+read 13 75307838303a38
+overlap 5 3 4 2 8 2
+strip 0 3
+read 13 68692c6230783130303a342c656178
+join 2 2 1b 8 2 4 1 4
+encode 5 88 4
+overlap 5 1b 5 3 28 2
+fenc 8 c3e0000000000000
+read 4 2d343a34
+wrap 2 a9a4626d
+fenc 4 7e37e43c8800759c
+rl_remove 5 d e
+istream u64 hex 3138343436373434303733373039353531363135
+printraw 9 7fffffff
+strtoul 39393939393939393939393939393939393939393939
+rl_insert 5 6 16
+ctx_region missing 5 8 5 15 c0383b03
+justified 2 3a 8 5 26 16 0
+cjoin 5 31 2 8 33 2
+rl_insert 2 17 28
+strtoul 30303030
+parse 626f6775733a30783130
+mcodec 533a70696563653d3830303030303030303b493a70696563653d38783b503a73706163653d31333b493a70696563653d343b543a76616c3d68656c6c6f 50544f4f4f4f
+encode 2 deadbeefcafe 8
+fop 4 8e332b10 1b43052e
+validrange 2 116 b84631
+justified 5 6 7 3 9 1 1
+justified 3 17 8 5 27 5 1
+rl_remove 3 28 48
+rl_remove 3 59 76
+strip 0 1
+wrap 11 deadbeefcafe
+rl_query 5 25 10
+highptr 3 2a 8
+fhost 8 319cacb8cff4431d
+truncate 6e6f7468657265 6
+overlap 5 12 1 5 5 -1
+printraw 2 c1e3acca
+rl_remove 5 78 8d
+helper d1 4 4
+cfloat 3 e 8 10
+join 1 2 2d 4 10
+istream u64 auto 30
+highptr 10 24 4
+fenc 8 3fc5555555555555
+printraw 6 1000000000000
+rl_insert 5 47 61
+printraw 2 ffffffffffff
+fprint 4 c004000000000000
+rl_query 3 8f 4
+strip 20 0
+fop 4 cf000000 b604e6cb
+istream u32 auto 312032
+rl_insert 2 4b 5e
+nearptr 5 4
+mcodec 543a73697a653d3132783b543a6f66667365743d30783130 4f
+rl_insert 5 30 37
+justified 2 37 4 5 11 2 0
+highptr 2 35 8
+ctx_tracked 2 f 2 1f
+ctx_trackadd 3 6 4 7b58c9c3544e83e8
+ctx_trackadd 3 2e 2 a901692cb69a84e2
+ctx_trackadd 3 1c 4 557e9c4815fb044d
+istream u32 dec 3030783130
+justified 3 35 1 2 11 -1 0
+fhost 8 269e53c55eba9d28
+fenc 8 36a0000000000000
+ctx_region missing 5 2d 5 2e e64a906c
+fop 8 3fc5555555555555 940b121be7b05a5d
+validrange 2 198 10000
+decode 0 3c616464722f3e
+rl_insert 2 a 13
+rl_insert 2 43 44
+fprint 8 b810000000000000
+istream i32 dec 3037373737373737373737373737373737373737373737
+ctx_get big 2 2
+fhost 4 bfc00000
+highptr 2 40 4
+justified 5 28 -1 3 15 16 1
+printraw 5 1a1
+rl_remove 3 3 1f
+istream i32 dec 3038
+encode 11 fff -1
+read 7 7264783a342b
+helper 89 1 7
+encode 7 f9 -1
+rl_remove 3 35 45
+join 1 5 23 1 4
+istream i32 auto 666666
+encode 5 1000000000000 -1
+istream u32 oct 2d2035
+rl_query 5 39 0
+ctx_setvar top 2 4 7f5f6afb
+wrap 11 fffffffe
+cwrap 2 10 4
+join 2 3 26 0 5 2 4 0
+encode 12 170 -1
+wrap 8 100
+overlap 5 4 4 2 14 3
+encode 5 4f3e722b42d8eb5 8
+read 7 6561782b
+fprint 4 fff0000000000000
+rl_insert 3 1b 38
+rl_remove 5 4a 53
+parse 72656769737465723a307834
+justified 2 32 7 5 3d 4 1
+fhost 8 3690000000000000
+helper ffc 3 8
+decode 0 3c61646472206e616d653d22626f677573222f3e
+truncate 726f6d 6
+join 1 8 20 2 4
+strip 10 0
+strtoul 3037373737373737373737373737373737373737373737
+wrap 4 7095b3d220b6
+ctx_default word2 9d1ae425
+printraw 3 3471037ba884
+helper ffffffffffff 8 8
+overlap 5 8 -2 2 18 8
+lastopen 3 16 ff
+fprint 8 70b1735c42cafb97
+printraw 4 c5
+fprint 4 3fb999999999999a
+justified 2 2f 16 2 3c 8 0
+read 2 7370
+printraw 2 3
+overlap 3 24 0 3 33 -1
+ctx_get mode 5 2b
+wrap 8 deadbeefcafe
+decode 1 4bce71848b
+encode 8 fffffffc 4
+read 3 73703a6a756e6b
+istream u64 auto 30373737
+rl_insert 3 74 85
+encode 10 1b4 8
+nearptr 6 4
+highptr 2 a 1
+nearptr 9 8
+read 10 7264783a
+join 2 2 24 0 8 f 1 8
+lastopen 10 9 ff
+justified 5 33 16 2 2f 8 1
+rl_insert 5 24 3b
+cwrap 10 fffe 4
+istream i32 auto 2d
+join 1 3 39 1 10
+cwrap 10 10 16
+join 1 5 28 1 8
+cjoin 8 9 2 3 1f 2
+overlap 3 35 5 3 5 5
+fprint 8 fff0000000000000
+joinequiv 10 2a
+nohighptr 3 fb 184
+fprint 8 c7efffffe54daff8
+helper 0 0 2
+ctx_get mode 2 7
+ctx_region missing 2 20 5 8 b7fe5309
+read 11 726478
+renorm 13 55 4
+nohighptr 10 d4 1c6
+cfloat 2 22 8 10
+overlap 5 39 6 3 23 7
+fop 8 3fb999999999999a fd5e044ced2bb450
+printraw 4 84adabcc0d60
+encode 8 80000001 8
+printraw 12 1bf
+fop 4 1ca841ee f6ab0055
+rl_query 2 46 10
+cjoin 2 16 2 2 12 1
+wrap 2 deadbeefcb00
+parse 636f646531363a30783130
+wrap 12 fffffffffffffffe
+strtoul 2d32313437343833363438
+parse 64617461343a3078666666666666
+helper 12345678 6 10
+printraw 3 ffffffffffffffff
+encode 10 7d 8
+validrange 3 10000 c0
+fop 8 4004000000000000 8000000000000000
+fprint 8 b5d65fe419464260
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a3078303a3422207069656365323d2272656769737465723a3078343a34222f3e
+strtoul 3130
+fenc 8 bfb999999999999a
+rl_remove 5 d 2c
+istream u64 auto 092d30783130
+printraw 8 7f
+join 2 8 2f 4 3 1b 4 0
+read 5 31362b2d31
+decode 1 4bd451d04281d331848b
+encode 5 7fffffffffffffff 8
+strtoul 3078
+join 2 8 13 8 2 3e 4 0
+strtoul 3130
+encode 3 10000 -1
+rl_insert 3 6b 6c
+fop 8 bdb9f8d526bb0e5c fff8000000000000
+fop 4 d660df94 7f800001
+helper 8f5e6584 10 -1
+helper dcbb4871 0 2
+overlap 2 37 -1 2 11 16
+fop 4 bafba48d 977e925d
+rl_insert 5 7e 86
+fenc 4 3690000000000000
+wrap 4 115
+printraw 6 3de2b82a94ef
+highptr 2 b 8
+cjoin 4 24 4 2 8 1
+join 2 5 26 0 8 c 2 0
+read 10 68696c6f2b2d31
+rl_query 5 7b 1
+add 8 ffff fffffffd
+add 11 1234567a f22d51106d48
+encode 9 fffffffffffe -1
+ctx_setvar big 2 12 2b815fbb
+decode 1 4bd453d042818b
+ctx_default missing e7858970
+strip 0 1
+wrap 4 100000001
+strip 0 1
+fop 8 c3e0000000000000 3ff0000000000000
+fprint 8 3ff8000000000000
+cjoin 2 32 4 8 2f 1
+istream u64 dec 202020
+fop 8 a37b9c30a51fb841 4004000000000000
+read 7 68696c6f3a6a756e6b
+rl_query 3 6e 10
+strtoul 30373737
+strip 0 0
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+fenc 4 b690000000000000
+nearptr 10 2
+read 6 626f6775733a32
+fprint 8 fff8000000000000
+justified 2 6 3 3 39 2 1
+fhost 8 fff0000000000000
+join 3 5 24 4 3 2e 4 8 f 8 8
+fenc 8 c3f5e6f520000000
+rangeprops 3c72616e67652073706163653d2254696e79222066697273743d223022206c6173743d223078313030222f3e
+istream i32 oct 2d39323233333732303336383534373735383038
+add 12 fffffffc 466d7d07d9f0539c
+mcodec - 494942585854
+helper fffffffffffd 12 -2
+fprint 4 3fe0000000000000
+join 3 5 14 8 2 2d 8 8 e 2 4
+fhost 4 3f800000
+nohighptr 2 db db
+overlap 5 21 1 5 38 4
+istream u64 auto 2d39323233333732303336383534373735383038
+rl_query 5 78 10
+strip 20 0
+ctx_setvar mode 5 e ffcf91f2
+helper 7f 1 -1
+highptr 10 29 1
+fenc 8 c004000000000000
+overlap 2 40 0 5 23 7
+nohighptr 5 99 110
+join 2 3 38 2 5 34 1 10
+rl_insert 2 2e 3c
+istream i64 hex 34323934393637323936
+fhost 4 2c34a858
+lastopen 11 f4 ffffffffffffffff
+encode 9 a1 8
+justified 5 25 3 5 2b -1 0
+truncate 72616d 2
+ctx_setvar flag 5 15 19ac529e
+rl_query 3 8d 4
+truncate 72616d 6
+cjoin 3 9 2 2 40 4
+overlap 5 17 -2 3 30 1
+printraw 2 2
+ctx_default big 5622918d
+highptr 10 31 1
+nohighptr 3 ae 11c
+justified 2 26 0 3 15 2 0
+lastopen 7 12 200
+rl_insert 3 5a 5c
+wrap 4 7f
+rl_query 5 69 40
+read 11 626f677573
+join 2 8 6 2 5 2e 2 8
+rl_remove 5 17 1f
+fop 8 fff8000000000000 10f17ca204b5b642
+renorm 13 3 1
+fprint 8 c480f0cf064dd592
+rl_query 3 a0 40
+fop 4 f4fbbf2c 800000
+justified 5 34 16 5 0 -1 1
+add 10 ffc ffff
+rangedecode 3c7265676973746572206e616d653d22656178222f3e
+mcodec 423a76616c3d313b553a76616c3d3830 -
+fenc 8 c1e0000000000000
+cfloat 2 32 8 8
+mcodec - 454f42555553
+decode 0 3c616464722073706163653d22726567697374657222206f66667365743d22307838222f3e
+ctx_changepoint 2 11 0 a87010dd 8dc67878
+validrange 2 7d 12345678
+decode 0 3c616464722073706163653d226a6f696e22207069656365583d2272616d3a3078303a32222f3e
+istream u64 oct 2d2035
+strip 10 2
+ctx_encode
+fhost 4 7fc00000
+join 2 3 3e 8 8 22 0 0
+nearptr 2 4
+cjoin 8 1e 1 4 33 4
+helper 0 -1 -2
+fop 4 ad56e7ad cf000000
+rl_remove 5 78 85
+istream i32 auto 2d3130
+helper 8e 9 5
+add 10 7fffffff ffffffff
+read 10 6178
+overlap 5 17 3 3 1a 5
+nohighptr 5 7f 124
+overlap 5 16 5 5 2c 7
+encode 11 ffff -1
+istream i64 hex 30303030
+justified 5 3d 3 5 11 5 0
+encode 7 bd6c26034d537879 8
+fenc 8 4602860fe0000000
+cjoin 8 2c 1 5 b 1
+decode 1 4bd451d04281d331848b
+renorm 13 50 12
+fop 8 3fc5555555555555 47efffffffffffff
+istream i64 oct 2d32313437343833363439
+join 3 8 31 2 8 3e 0 2 1d 4 0
+printraw 6 3
+fop 4 cddf58c9 bf800000
+fop 4 735c2a22 3eaaaaab
+justified 5 30 16 5 11 4 0
+joinequiv 0 28
+fop 4 3a1e4fd5 800000
+overlap 3 3b 0 3 3e 2
+encode 6 fffffffffffffffe 8
+fenc 4 4004000000000000
+rl_insert 5 5c 77
+rl_insert 3 2a 42
+fprint 8 c0fe240c9fbe76c9
+rl_insert 5 2e 42
+mcodec 543a616c69676e3d313278 534f55
+nearptr 10 4
+ctx_region missing 2 14 5 2b c14e45c7
+renorm 13 16 1
+wrap 10 12345678
+lastopen 5 c0 ff
+read 2 61782b33
+joinequiv 40 2a
+mcodec 543a70696563653d 584545495045
+add 9 fab7df0eb682 12345678
+rl_query 5 54 2
+lastopen 6 51 ff
+ctx_setvar word2 2 1 ec165a17
+wrap 7 deadbeefcafd
+fop 4 943c29a1 4effffff
+read 6 3031303a382b32
+justified 2 14 8 3 1d 16 1
+validrange 2 8000000000000000 12345678
+fop 4 2fcb55ce 7f800000
+encode 13 0 -1
+wrap 9 ffffffff
+cfloat 2 1b 4 8
+printraw 9 ffffffff
+istream u64 auto 39393939393939393939393939393939393939393939
+wrap 2 142
+overlap 3 10 -2 5 2a -1
+rl_insert 3 23 3a
+join 2 2 7 4 3 27 8 10
+rangedecode 3c72616e67652066697273743d2231222f3e
+encode 5 80 -1
+rl_remove 3 70 8e
+helper fffffffffffffffc 8 5
+fhost 4 ed3f0b07
+printraw 12 deadbeefcb01
+add 8 12345679 1000000000000
+strtoul 616263
+fprint 8 55449a2a700f9524
+parse 3130
+encode 2 fb24 8
+fprint 4 c340000000000000
+truncate 6272616d 2
+istream u32 auto 2d39323233333732303336383534373735383038
+join 3 2 30 1 3 2f 2 5 14 2 4
+rl_print
+renorm 13 53 2
+read 6 30786666666666666666666666666666666666662b2d31
+join 2 3 26 4 5 3d 2 0
+justified 5 9 7 5 33 3 0
+justified 2 d 0 3 12 2 0
+fenc 4 7ff0000000000000
+overlap 2 34 1 3 37 4
+helper 7ffffffe 6 8
+join 3 3 35 4 8 1d 8 5 28 2 0
+wrap 9 ffffffffffffffff
+rl_insert 3 2a 3a
+mcodec - 5550425445
+rl_query 3 45 0
+truncate 6272616d 2
+rl_query 3 a 1
+ctx_get flag 2 d
+rl_insert 2 4f 55
+decode 1 4b8b
+justified 3 12 3 2 2 4 1
+validrange 3 80000000 8000000000000001
+rl_insert 2 63 69
+overlap 3 9 1 3 d 8
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+printraw 11 df
+overlap 5 2a 4 2 1e 3
+printraw 3 cf2e85ad7e4d6cd1
+fop 4 cce61d36 492230b8
+justified 5 33 4 3 35 -1 1
+helper 80000001 12 12
+read 2 2020373a6a756e6b
+renorm 13 57 16
+mcodec 553a69643d3166666666663b553a69643d3430303030303030303030 4f
+read 3 6562783a342b
+rl_remove 3 1c 30
+read 6 2020373a382b32
+ctx_tracked 2 d 2 15
+ctx_trackadd 3 21 8 c3405da70ef7f80e
+ctx_trackadd 5 3f 1 e4aa1111860f1bd7
+ctx_trackadd 5 2b 8 1500f1624a71099d
+highptr 5 1c 8
+cwrap 8 fffe 4
+rl_remove 2 37 40
+cwrap 4 fffffffffffffffe 2
+ctx_setvar word2 5 2a 12370d5f
+encode 2 18c 8
+renorm 13 3d 6
+fenc 8 d22803502adf1ed
+rl_insert 2 5e 62
+rl_insert 2 4c 5b
+read 7 307831303a34
+rl_insert 2 67 6b
+fhost 4 c0552773
+parse 72616d3a7a7a
+fenc 8 41e0000000000000
+fprint 8 7ff8000000000000
+fop 8 d99bdd827a65be78 f17c6e021ad903c2
+ctx_default missing 74822dd1
+strtoul 30
+fenc 8 b22922e56f36c20f
+read 6 626f6775732b2d31
+fop 8 3fc5555555555555 41dfffffffc00000
+ctx_get missing 5 7
+ctx_get top 2 1c
+join 1 5 25 2 0
+rl_query 5 55 10
+nearptr 9 8
+rl_query 3 6d 2
+istream u64 oct 34323934393637323935
+justified 2 13 7 2 1b 5 1
+encode 9 f1 -1
+encode 4 116 -1
+nohighptr 5 de f8
+printraw 7 4402c4874f17b120
+joinequiv 20 34
+strtoul 2d39323233333732303336383534373735383038
+fop 8 298465f921a27be 3810000000000000
+join 2 3 35 0 2 16 0 10
+wrap 11 ffff
+helper ffffffffffffffff 11 8
+fop 8 7fefffffffffffff b45a773a5f74eb70
+add 5 7efdab55 3
+nohighptr 10 31 11d
+validrange 8 16a 9f
+printraw 12 29
+fop 4 dcb47ceb 3fc00000
+read 13 6c6f
+cwrap 2 10 8
+helper ff 9 4
+parse 307831303030
+ctx_region big 2 33 5 20 f8c5a9e
+truncate 6e6f7468657265 6
+join 3 3 36 4 5 34 1 5 3b 1 0
+printraw 4 164
+joinequiv 5 3d
+add 4 51d2544d ffe
+fhost 4 cfa21311
+rl_insert 5 61 71
+rl_query 2 91 4
+fhost 4 7fffff
+helper c432 7 -1
+mcodec 4f3a69643d32313b533a73697a653d303b4f3a69643d3636 494f5858
+printraw 2 102
+encode 13 0 -1
+read 13 75307838303a38
+read 2 307831303a3078382b30783130
+read 13 72307831303a342c253078343a34
+helper d1 3 4
+istream i32 dec 30
+istream u32 oct 32313437343833363438
+helper ffffffff 12 5
+cjoin 2 c 4 4 39 2
+join 1 8 23 1 0
+strtoul 616263
+joinequiv 40 51
+overlap 5 20 2 5 33 7
+fprint 4 5c66f36b7dd915a1
+read 8 3031303a342b
+encode 10 ffffffffffff -1
+encode 10 7d 8
+joinequiv 30 34
+rl_remove 5 f 27
+rl_insert 2 2c 3d
+helper 12345678 7 8
+nearptr 11 8
+read 11 -
+justified 5 18 3 3 11 -1 1
+joinequiv 10 a
+wrap 2 1000
+read 12 30782b33
+istream u32 auto 32313437343833363438
+join 0 4
+ctx_tracked 2 1e 2 23
+ctx_trackadd 3 d 1 132ae32389958c32
+ctx_trackadd 5 1 8 864224d9a1af65c4
+ctx_trackadd 5 11 1 c698f952e05927ba
+read 2 6562782b
+cjoin 4 2 4 3 23 1
+decode 1 4bce71848b
+fenc 8 1a56e1fc2f8f359
+joinequiv 5 5
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2265617822207069656365323d22656278222f3e
+printraw 7 1000000000000
+read 12 30786666666666666666666666666666666666663a
+printraw 4 13c
+rl_insert 5 77 80
+read 3 656178
+encode 5 ffffffffffff 8
+parse 3a31
+cjoin 3 10 2 2 17 1
+rl_insert 2 46 4d
+read 13 6562782c6c6f2c6230783130303a34
+fprint 8 3690000000000000
+justified 5 12 7 3 32 -1 0
+encode 11 7fffffffffffffff 8
+rl_insert 3 7b 7b
+wrap 12 53
+printraw 8 2e
+decode 1 4bd46dd042818b
+join 2 2 26 1 8 1e 4 0
+helper ffffffffffffffff -1 11
+fop 8 36a0000000000000 a3ee529bd1063b4a
+fprint 8 36a0000000000000
+fenc 8 c2d80449c0000000
+fop 4 4effffff 3f000000
+validrange 2 7f fffffffffffffffc
+read 13 6562782c75307838303a38
+istream i64 dec 39323233333732303336383534373735383037
+read 13 71307830
+istream i32 auto 2d3130
+istream u32 oct 316535
+justified 5 30 1 3 27 4 1
+fhost 8 7fefffffffffffff
+justified 3 11 -1 3 12 -1 0
+nohighptr 2 0 d8
+read 13 656278
+renorm 13 1 8
+helper 1000000000000 4 4
+ctx_trackval 5 33 4 2 40
+rl_remove 5 17 2a
+justified 3 1e 3 2 14 4 0
+istream i32 dec 2d
+cjoin 4 2 4 4 30 4
+nohighptr 3 ca 11b
+mcodec 553a76616c3d316666666666666666666666663b543a6f66667365743d3132783b503a616c69676e3d313b553a616c69676e3d316666666666 -
+overlap 3 9 3 2 3c 3
+printraw 2 100
+read 2 2020372b33
+add 7 17b aa
+read 9 2d343a382b32
+justified 3 2d 3 3 1f 1 0
+rl_query 5 85 0
+validrange 9 1d8 80
+fenc 4 1aa49edf6a7802c1
+fprint 8 4480f0cf064dd592
+decode 1 4bd45182d08190d321848b
+fhost 8 3ff8000000000000
+encode 4 7fffffffffffffff 8
+read 12 68696c6f7a7a
+cfloat 2 3d 8 4
+justified 2 2b 1 5 23 8 0
+encode 13 20 -1
+cfloat 3 3d 8 16
+lastopen 11 5f ffffff
+cwrap 12 10 2
+helper 11b 8 8
+truncate 72616d 4
+printraw 10 1f6
+fop 4 3f000000 3f000000
+joinequiv 30 3b
+lastopen 7 cf 200
+printraw 10 7fffffffffffffff
+istream u32 oct 307846664666
+nearptr 7 8
+overlap 3 1e 5 3 18 2
+decode 1 4bd451818b
+cwrap 2 10 4
+join 1 2 b 2 0
+rl_query 3 71 4
+justified 2 10 2 2 2c 0 0
+cjoin 3 1a 2 3 3e 4
+add 8 ffffffffffff e8
+istream u32 hex 3138343436373434303733373039353531363135
+fprint 8 47efffffffffffff
+cjoin 3 39 2 3 3e 2
+cfloat 3 39 4 4
+printraw 5 5ca6e31b69be
+printraw 6 8000000000000000
+fhost 4 df610f9b
+joinequiv 40 15
+read 7 2d343a34
+rl_remove 2 64 64
+helper ffffffffffffffff 2 11
+encode 4 deadbeefcafc 4
+nohighptr 3 7d c7
+fhost 8 9ca4290ad24905b7
+overlap 3 35 5 3 1d -1
+printraw 3 1000
+parse 307831303030
+decode 0 3c616464722073706163653d226a6f696e22207069656365313d2272656769737465723a30783022202f3e
+fenc 8 43e0000000000000
+mcodec - -
+wrap 8 ffffffff
+fop 4 bfb5e6b0 de818e94
+printraw 10 ffffffffffff
+helper 1000000000000 10 0
+helper f8 8 12
+read 13 72307831303a342c75307838303a38
+wrap 11 fd
+helper 12345677 0 12
+rl_insert 3 76 7a
+add 2 140 7e
+overlap 5 38 7 5 15 2
+mcodec 503a76616c75653d303b503a6e616d653d31303b533a76616c75653d3766 45
+fenc 4 1
+nearptr 7 4
+rangeprops 3c72616e67652073706163653d2272616d222f3e
+cjoin 5 6 2 2 21 1
+helper a156 2 11
+cjoin 3 f 4 4 33 4
+read 5 2020373a6a756e6b
+wrap 10 1a1
+fop 8 41dfffffffc00000 8000000000000000
+cfloat 5 17 4 10
+fhost 4 415ec66d
+nearptr 3 2
+decode 0 3c61646472206e616d653d22656178222f3e
+cjoin 3 23 1 8 3a 1
+read 11 68696c6f
+istream u32 hex 2d39323233333732303336383534373735383038
+helper 6487bc236ca9d533 11 11
+cfloat 3 10 8 16
+fenc 8 3690000000000000
+printraw 4 ff
+fop 4 22b2ae7f 4e991774
+helper deadbeefcafe 10 1
+istream u32 auto 30583146
+nearptr 12 4
+rl_insert 2 46 56
+wrap 4 80000002
+printraw 6 27a5
+strtoul 307838303030303030303030303030303030
+fop 4 b5c67650 1fdb341d
+read 8 68696c6f3a32
+overlap 5 4 6 5 2b 0
+join 0 4
+ctx_default top cb676746
+rl_clear
+fprint 4 819df12fef935ba3
+printraw 10 15a
+fop 4 7f800000 74ce3e9d
+decode 1 4bd451818b
+justified 3 3c 5 3 20 16 0
+parse 64617461343a3078666666666666
+add 2 ffffffff 48
+helper fff 0 11
+overlap 3 5 -2 3 2c -1
+fprint 8 1a56e1fc2f8f359
+cjoin 4 5 1 2 36 2
+rl_insert 2 6 26
+istream i32 oct 3078
+ctx_get flag 5 3a
+wrap 5 159
+istream i32 dec 2d39323233333732303336383534373735383039
+rl_query 2 d 10
+rl_print
+rl_encode
+ctx_encode
+space 1
+space 2
+space 3
+space 4
+space 5
+space 6
+space 7
+space 8
+space 9
+space 10
+space 11
+space 12
+space 13

@@ -1,0 +1,28 @@
+[package]
+name = "ghidra-decompiler-fuzz"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+ghidra-decompiler = { path = ".." }
+
+[[bin]]
+name = "sleigh"
+path = "fuzz_targets/sleigh.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "decompile"
+path = "fuzz_targets/decompile.rs"
+test = false
+doc = false
+bench = false
+
+[workspace]

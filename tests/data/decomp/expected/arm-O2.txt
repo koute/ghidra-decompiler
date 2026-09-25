@@ -1,0 +1,2452 @@
+=== function main
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function main
+Function main: 0x00010098
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Heritage AFTER dead removal. Example location: s1 : 0x000102f8 */
+/* WARNING: Restarted to delay deadcode elimination for space: register */
+
+int4 main(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  int4 iVar12;
+  int4 iVar13;
+  int4 iVar14;
+  int4 iVar15;
+  int4 iVar16;
+  int4 iVar17;
+  int4 iVar18;
+  int4 iVar19;
+  int4 iVar20;
+  int4 iVar21;
+  int4 iVar22;
+  int4 iVar23;
+  int4 iVar24;
+  int4 iVar25;
+  int4 iVar26;
+  int4 iVar27;
+  int4 iVar28;
+  int4 iVar29;
+  uint4 uVar30;
+  float8 in_d0;
+  xunknown4 in_s3;
+  xunknown8 xVar31;
+  xunknown4 xStack_124;
+  int4 aiStack_120 [2];
+  int4 *piStack_118;
+  int4 *piStack_114;
+  xunknown1 axStack_110 [8];
+  xunknown4 xStack_108;
+  xunknown4 xStack_104;
+  xunknown4 xStack_100;
+  xunknown4 xStack_fc;
+  xunknown4 xStack_f8;
+  xunknown4 *pxStack_f4;
+  xunknown4 xStack_f0;
+  xunknown4 xStack_ec;
+  xunknown4 xStack_e8;
+  xunknown4 xStack_e4;
+  xunknown4 xStack_e0;
+  xunknown4 xStack_dc;
+  xunknown4 xStack_d8;
+  xunknown4 xStack_d4;
+  xunknown4 xStack_d0;
+  xunknown4 xStack_cc;
+  xunknown4 xStack_c8;
+  xunknown4 xStack_c4;
+  xunknown4 xStack_c0;
+  xunknown4 xStack_bc;
+  xunknown4 xStack_b8;
+  xunknown2 xStack_b4;
+  xunknown1 xStack_b2;
+  xunknown4 xStack_b1;
+  xunknown4 xStack_ad;
+  xunknown1 xStack_a9;
+  xunknown4 xStack_a8;
+  xunknown4 xStack_a4;
+  xunknown4 xStack_a0;
+  xunknown4 xStack_9c;
+  xunknown1 axStack_98 [16];
+  int4 iStack_88;
+  xunknown4 xStack_78;
+  xunknown4 xStack_74;
+  xunknown4 xStack_70;
+  xunknown4 xStack_6c;
+  xunknown4 xStack_68;
+  xunknown4 xStack_64;
+  xunknown4 xStack_60;
+  xunknown4 xStack_5c;
+  xunknown4 xStack_58;
+  xunknown1 axStack_54 [32];
+  int4 iStack_34;
+  
+  iVar1 = sum_array(0x21c8c,8);
+  iVar2 = find_max(0x21c8c,8);
+  bubble_sort(0x21c8c,8);
+  iVar3 = collatz_steps(0x1b);
+  iVar4 = count_bits(0xf0f0);
+  uVar30 = iVar3 + iVar4 + iVar1 + iVar2;
+  iVar1 = switch_dense(uVar30 & 0xf,uVar30);
+  xVar31 = switch_sparse(uVar30);
+  iVar29 = iVar1 + (int4)xVar31 + uVar30;
+  weekday_name(iVar29 % 7,(int4)((uint8)xVar31 >> 0x20),iVar29 * -0x6db6db6d);
+  iVar1 = my_strlen();
+  make_point(axStack_110,1,2);
+  make_point(&xStack_108,4,6);
+  iVar2 = point_distance2(axStack_110,&xStack_108);
+  xStack_f0 = xRam00011be8;
+  xStack_ec = xRam00011bec;
+  xStack_e8 = xRam00011bf0;
+  xStack_e4 = xRam00011bf4;
+  iVar3 = rect_area();
+  iVar4 = rect_contains(&xStack_f0,xStack_108,xStack_104);
+  pxStack_f4 = &xStack_100;
+  xStack_100 = 3;
+  xStack_fc = 0;
+  xStack_f8 = 4;
+  iVar5 = list_length(&xStack_f8);
+  list_reverse(&xStack_f8);
+  iVar6 = list_sum();
+  my_strcpy(0x21cac,0x11b78);
+  reverse_string(0x21cac);
+  to_upper(0x21cac);
+  iVar7 = count_char(0x21cac,0x4f);
+  iVar8 = my_strcmp(0x21cac,0x11b88);
+  iVar9 = parse_decimal(0x11b8c);
+  iVar10 = factorial(6);
+  iVar11 = fibonacci(10);
+  iVar12 = gcd(0x54,0x24);
+  iVar13 = ackermann(2,3);
+  xStack_d0 = xRam00011bf8;
+  xStack_cc = xRam00011bfc;
+  xStack_c8 = xRam00011c00;
+  xStack_c4 = xRam00011c04;
+  xStack_c0 = xRam00011c08;
+  xStack_bc = xRam00011c0c;
+  xStack_e0 = xRam00011c10;
+  xStack_dc = xRam00011c14;
+  xStack_d8 = xRam00011c18;
+  xStack_d4 = xRam00011c1c;
+  poly_eval(0,&xStack_d0,2);
+  iVar14 = float_to_int();
+  average_float(&xStack_e0,4);
+  dot_product(&xStack_d0,&xStack_d0,3);
+  clamp_double(0,(int4)((uint8)in_d0 >> 0x20),(int4)xRam00010540,in_s3,0);
+  iVar15 = float_to_int(SUB84(in_d0 + in_d0,0));
+  iVar16 = float_to_bits(0x3fc00000);
+  iVar17 = call_varargs();
+  iVar18 = format_hex(0x21cac,0x11b94,0xdeadbeef);
+  xStack_124 = 0;
+  set_flags(&xStack_124,3,5);
+  iVar19 = get_mode(&xStack_124);
+  iVar20 = pack_flags(xStack_124);
+  iVar21 = mul64(3,1,7,0);
+  iVar22 = add64(0xfffffffb,0xffffffff,9,0);
+  iVar23 = shift64(1,0x80000000,4);
+  iVar24 = compare64(0xffffffff,0xffffffff,1,0);
+  iVar25 = fnv1a64(0x21cac,8);
+  iVar26 = rotate_left64(3,0,0x3e);
+  xStack_b8 = xRam00011c20;
+  xStack_b4 = (xunknown2)xRam00011c24;
+  xStack_b1 = 0;
+  xStack_b2 = (xunknown1)((uint4)xRam00011c24 >> 0x10);
+  xStack_a8 = 7;
+  xStack_ad = 0;
+  xStack_a9 = 0;
+  xStack_a4 = 0x790002;
+  xStack_a0 = 0;
+  xStack_9c = 0x400a0000;
+  copy_record(axStack_98,&xStack_b8);
+  clear_record(&xStack_b8);
+  iVar27 = apply_op(add_ints,3,4);
+  iVar28 = apply_op(sub_ints,9,2);
+  aiStack_120[0] = 1;
+  aiStack_120[1] = 2;
+  piStack_118 = aiStack_120;
+  piStack_114 = aiStack_120 + 1;
+  swap_ptrs(&piStack_118,&piStack_114);
+  iVar3 = iStack_88 + iVar27 + iVar28 +
+          iVar24 + iVar25 + iVar26 +
+          iVar21 + iVar22 + iVar23 +
+          iVar20 + iVar19 +
+          iVar17 + iVar18 +
+          iVar16 + (int4)SUB84(in_d0,0) + iVar14 +
+                   iVar10 + iVar11 + iVar12 + iVar13 +
+                   iVar7 + iVar8 + iVar9 + iVar5 + iVar6 + iVar3 + iVar4 + iVar1 + iVar29 + iVar2 +
+                   iVar15;
+  iVar4 = *piStack_118;
+  iVar1 = divide_constants(iVar3,0x1e240);
+  iVar2 = crc8(0x21cac,10);
+  iVar3 = iVar2 + iVar4 + iVar1 + iVar3;
+  iVar1 = global_counter_bump(iVar3);
+  xStack_78 = xRam00011c30;
+  xStack_74 = xRam00011c34;
+  xStack_70 = xRam00011c38;
+  xStack_6c = xRam00011c3c;
+  xStack_68 = xRam00011c40;
+  xStack_64 = xRam00011c44;
+  xStack_60 = xRam00011c48;
+  xStack_5c = xRam00011c4c;
+  xStack_58 = xRam00011c50;
+  matrix_multiply(axStack_54,&xStack_78);
+  return iVar3 + iVar1 + iStack_34;
+}
+[decomp]> quit
+--- exit 0
+=== function mul64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function mul64
+Function mul64: 0x00010548
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 mul64(uint4 param_1,uint4 param_2,uint4 param_3,int4 param_4)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  
+  uVar2 = (uint4)((uint8)param_3 * (uint8)param_1);
+  uVar1 = param_1 >> 3 | param_2 << 0x1d;
+  return CONCAT44(param_3 * param_2 + param_1 * param_4 +
+                  (int4)((uint8)param_3 * (uint8)param_1 >> 0x20) + (param_2 >> 3) +
+                  (uint4)CARRY4(uVar2,uVar1),uVar2 + uVar1);
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function add64
+Function add64: 0x0001056c
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 add64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  return CONCAT44((param_2 + param_4 + (uint4)CARRY4(param_1,param_3)) -
+                  ((param_1 + param_3 < 0x23456789) + 1),param_1 + param_3 + 0xdcba9877);
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function shift64
+Function shift64: 0x00010588
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 shift64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = -param_3 & 0x3f;
+  return CONCAT44(param_2 << (param_3 & 0xff) | param_1 << (param_3 - 0x20 & 0xff) |
+                  param_1 >> (0x20 - param_3 & 0xff) | param_2 >> uVar1,
+                  param_1 >> uVar1 | param_2 << (0x20 - uVar1 & 0xff) |
+                  param_2 >> (uVar1 - 0x20 & 0xff) | param_1 << (param_3 & 0xff));
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function compare64
+Function compare64: 0x000105cc
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+uint4 compare64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  if ((int4)(param_2 - (param_4 + (uint4)(param_1 < param_3))) < 0 ==
+      (SBORROW4(param_2,param_4) != SBORROW4(param_2 - param_4,(uint4)(param_1 < param_3)))) {
+    return (uint4)((int4)(param_4 - (param_2 + (uint4)(param_3 < param_1))) < 0 !=
+                  (SBORROW4(param_4,param_2) !=
+                  SBORROW4(param_4 - param_2,(uint4)(param_3 < param_1))));
+  }
+  return 0xffffffff;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x000105f4
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+void fnv1a64(int4 param_1,int4 param_2)
+
+{
+  code *UNRECOVERED_JUMPTABLE_00;
+  
+  if (param_2 < 1) {
+                    /* WARNING: Could not recover jumptable at 0x00010650. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*UNRECOVERED_JUMPTABLE_00)(0x84222325,0xcbf29ce4);
+    return;
+  }
+  param_1 = param_1 + -1;
+  param_2 = param_2 + param_1;
+  do {
+    param_1 = param_1 + 1;
+  } while (param_1 != param_2);
+                    /* WARNING: Could not recover jumptable at 0x0001063c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE_00)();
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x00010654
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 rotate_left64(uint4 param_1,uint4 param_2,uint4 param_3)
+
+{
+  uint4 uVar1;
+  
+  param_3 = param_3 & 0x3f;
+  uVar1 = -param_3 & 0x3f;
+  return CONCAT44(param_2 << param_3 | param_1 << (param_3 - 0x20 & 0xff) |
+                  param_1 >> (0x20 - param_3 & 0xff) | param_2 >> uVar1,
+                  param_1 >> uVar1 | param_2 << (0x20 - uVar1 & 0xff) |
+                  param_2 >> (uVar1 - 0x20 & 0xff) | param_1 << param_3);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function set_flags
+Function set_flags: 0x0001069c
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint2 *param_1,uint4 param_2,uint4 param_3)
+
+{
+  *param_1 = (uint2)((param_2 & 7) << 1) | 1 | (uint2)((param_3 & 0xf) << 4) |
+             (uint2)((param_2 + param_3 & 0x3f) << 8) | *param_1 & 0xc000;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function get_mode
+Function get_mode: 0x000106d0
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+int4 get_mode(uint1 *param_1)
+
+{
+  uint1 uVar1;
+  int4 iVar2;
+  
+  uVar1 = *param_1;
+  if ((uVar1 & 1) == 0) {
+    iVar2 = -1;
+  }
+  else {
+    iVar2 = (uint4)(uVar1 >> 4) + ((uVar1 & 0xf) >> 1) * 0x10;
+  }
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function pack_flags
+Function pack_flags: 0x000106ec
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 param_1)
+
+{
+  return param_1 & 0x3f0f;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function poly_eval
+Function poly_eval: 0x00010700
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+xunknown4 poly_eval(float8 *param_1,int4 param_2)
+
+{
+  float8 *pfVar1;
+  float8 in_d0;
+  float8 fVar2;
+  
+  if (param_2 < 0) {
+    return SUB84(fRam00010740,0);
+  }
+  pfVar1 = param_1 + param_2 + 1;
+  fVar2 = fRam00010740;
+  do {
+    pfVar1 = pfVar1 + -1;
+    fVar2 = *pfVar1 + in_d0 * fVar2;
+  } while (param_1 != pfVar1);
+  return SUB84(fVar2,0);
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function average_float
+Function average_float: 0x00010748
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float4 average_float(float4 *param_1,int4 param_2)
+
+{
+  float4 *pfVar1;
+  uint4 in_fpscr;
+  float4 fVar2;
+  float4 fVar3;
+  
+  if (param_2 < 1) {
+    return fRam00010780;
+  }
+  pfVar1 = param_1 + param_2;
+  fVar3 = fRam00010780;
+  do {
+    fVar2 = *param_1;
+    param_1 = param_1 + 1;
+    fVar3 = fVar3 + fVar2;
+  } while (param_1 != pfVar1);
+  fVar2 = (float4)VectorSignedToFloat(param_2,(uint1)(in_fpscr >> 0x16) & 3);
+  return fVar3 / fVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function float_to_int
+Function float_to_int: 0x00010784
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(void)
+
+{
+  float8 in_d0;
+  int4 iVar1;
+  
+  if (0.0 <= in_d0) {
+    iVar1 = VectorFloatToSigned(in_d0 + 0.5,3);
+    return iVar1;
+  }
+  iVar1 = VectorFloatToSigned(0.5 - in_d0,3);
+  return -iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function dot_product
+Function dot_product: 0x000107b8
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+xunknown4 dot_product(float8 *param_1,float8 *param_2,int4 param_3)
+
+{
+  float8 *pfVar1;
+  float8 fVar2;
+  float8 fVar3;
+  float8 fVar4;
+  
+  if (param_3 < 1) {
+    return SUB84(fRam000107e8,0);
+  }
+  pfVar1 = param_1 + param_3;
+  fVar2 = fRam000107e8;
+  do {
+    fVar3 = *param_1;
+    param_1 = param_1 + 1;
+    fVar4 = *param_2;
+    param_2 = param_2 + 1;
+    fVar2 = fVar2 + fVar3 * fVar4;
+  } while (param_1 != pfVar1);
+  return SUB84(fVar2,0);
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x000107f0
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+xunknown4 float_to_bits(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function clamp_double
+Function clamp_double: 0x000107f8
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+xunknown4 clamp_double(void)
+
+{
+  float8 in_d0;
+  float8 in_d1;
+  float8 in_d2;
+  
+  if (in_d0 < in_d1) {
+    return SUB84(in_d1,0);
+  }
+  if (in_d0 <= in_d2) {
+    return SUB84(in_d0 * 1.5,0);
+  }
+  return SUB84(in_d2,0);
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function sum_array
+Function sum_array: 0x0001082c
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 *param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 *piVar3;
+  int4 *piVar2;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  iVar1 = 0;
+  piVar2 = param_1;
+  do {
+    piVar3 = piVar2 + 1;
+    iVar1 = iVar1 + *piVar2;
+    piVar2 = piVar3;
+  } while (piVar3 != param_1 + param_2);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function find_max
+Function find_max: 0x0001085c
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+int4 find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 *piVar2;
+  int4 *piVar1;
+  int4 iVar3;
+  
+  iVar3 = *param_1;
+  if (1 < param_2) {
+    piVar1 = param_1 + 1;
+    do {
+      piVar2 = piVar1 + 1;
+      if (iVar3 < *piVar1) {
+        iVar3 = *piVar1;
+      }
+      piVar1 = piVar2;
+    } while (piVar2 != param_1 + param_2);
+  }
+  return iVar3;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x0001088c
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 *param_1,int4 param_2)
+
+{
+  bool bVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 *piVar4;
+  int4 *piVar5;
+  int4 *piVar6;
+  
+  if (param_2 + -1 < 1) {
+    return;
+  }
+  piVar6 = param_1 + param_2 + -1;
+  iVar2 = 0;
+  while( true ) {
+    bVar1 = false;
+    piVar4 = param_1;
+    do {
+      piVar5 = piVar4 + 1;
+      iVar3 = *piVar5;
+      if (iVar3 < *piVar4) {
+        *piVar5 = *piVar4;
+        *piVar4 = iVar3;
+        bVar1 = true;
+      }
+      piVar4 = piVar5;
+    } while (piVar6 != piVar5);
+    if (!bVar1) break;
+    iVar2 = iVar2 + 1;
+    piVar6 = piVar6 + -1;
+    if (iVar2 == param_2 + -1) {
+      return;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x000108ec
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+void collatz_steps(uint4 param_1)
+
+{
+  uint4 uVar1;
+  bool bVar2;
+  
+  uVar1 = 0;
+  do {
+    if ((param_1 & 1) != 0) {
+      param_1 = param_1 * 3 + 1;
+      uVar1 = uVar1 + 1;
+      bVar2 = 999 < uVar1;
+      if (uVar1 != 1000) {
+        bVar2 = param_1 != 0;
+      }
+      if (!bVar2 || (uVar1 == 1000 || param_1 == 1)) {
+        return;
+      }
+    }
+    param_1 = param_1 >> 1;
+    uVar1 = uVar1 + 1;
+    bVar2 = 999 < uVar1;
+    if (uVar1 != 1000) {
+      bVar2 = param_1 != 0;
+    }
+  } while (bVar2 && (uVar1 != 1000 && param_1 != 1));
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function count_bits
+Function count_bits: 0x0001092c
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+int4 count_bits(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  if (param_1 == 0) {
+    return 0;
+  }
+  iVar1 = 0;
+  do {
+    iVar1 = iVar1 + 1;
+    param_1 = param_1 & param_1 - 1;
+  } while (param_1 != 0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x00010954
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int4 param_1,int4 *param_2,int4 param_3)
+
+{
+  int4 *piVar1;
+  int4 *piVar3;
+  int4 *piVar2;
+  int4 *piVar4;
+  
+  piVar1 = (int4 *)(param_1 + -4);
+  do {
+    piVar2 = (int4 *)(param_3 + -4);
+    piVar4 = piVar1;
+    do {
+      piVar3 = piVar2 + 1;
+      piVar4 = piVar4 + 1;
+      *piVar4 = piVar2[7] * param_2[2] + *param_2 * *piVar3 + piVar2[4] * param_2[1];
+      piVar2 = piVar3;
+    } while (piVar3 != (int4 *)(param_3 + 8));
+    piVar1 = piVar1 + 3;
+    param_2 = param_2 + 3;
+  } while ((int4 *)(param_1 + 0x20) != piVar1);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function _start
+Function _start: 0x000109b8
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function memcpy
+Function memcpy: 0x000109d8
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+void memcpy(int4 param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar2;
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar3;
+  
+  if (param_3 == 0) {
+    return;
+  }
+  pxVar3 = (xunknown1 *)(param_1 + -1);
+  pxVar2 = param_2;
+  do {
+    pxVar1 = pxVar2 + 1;
+    pxVar3 = pxVar3 + 1;
+    *pxVar3 = *pxVar2;
+    pxVar2 = pxVar1;
+  } while (pxVar1 != param_2 + param_3);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function memset
+Function memset: 0x000109fc
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+void memset(xunknown1 *param_1,xunknown1 param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar2;
+  xunknown1 *pxVar1;
+  
+  if (param_3 == 0) {
+    return;
+  }
+  pxVar2 = param_1;
+  do {
+    pxVar1 = pxVar2 + 1;
+    *pxVar2 = param_2;
+    pxVar2 = pxVar1;
+  } while (param_1 + param_3 != pxVar1);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function memmove
+Function memmove: 0x00010a1c
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+void memmove(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  
+  if (param_1 < param_2) {
+    if (param_3 == 0) {
+      return;
+    }
+    param_1 = param_1 + -1;
+    pxVar2 = param_2;
+    do {
+      pxVar1 = pxVar2 + 1;
+      param_1 = param_1 + 1;
+      *param_1 = *pxVar2;
+      pxVar2 = pxVar1;
+    } while (param_2 + param_3 != pxVar1);
+    return;
+  }
+  if (param_3 == 0) {
+    return;
+  }
+  pxVar2 = param_2 + param_3;
+  param_1 = param_1 + param_3;
+  do {
+    pxVar2 = pxVar2 + -1;
+    param_1 = param_1 + -1;
+    *param_1 = *pxVar2;
+  } while (pxVar2 != param_2);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function memcmp
+Function memcmp: 0x00010a6c
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+xunknown4 memcmp(int4 param_1,int4 param_2,int4 param_3)
+
+{
+  uint1 *puVar1;
+  uint1 *puVar2;
+  
+  if (param_3 != 0) {
+    puVar2 = (uint1 *)(param_1 + -1);
+    puVar1 = (uint1 *)(param_2 + -1);
+    do {
+      puVar2 = puVar2 + 1;
+      puVar1 = puVar1 + 1;
+      if (*puVar2 != *puVar1) {
+        if (*puVar2 < *puVar1) {
+          return 0xffffffff;
+        }
+        return 1;
+      }
+    } while (puVar2 != (uint1 *)(param_1 + param_3 + -1));
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function raise
+Function raise: 0x00010abc
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+void raise(void)
+
+{
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function copy_record
+Function copy_record: 0x00010ac0
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  xunknown4 xVar2;
+  xunknown4 xVar3;
+  code *UNRECOVERED_JUMPTABLE;
+  
+  xVar3 = param_2[1];
+  xVar1 = param_2[2];
+  xVar2 = param_2[3];
+  *param_1 = *param_2;
+  param_1[3] = xVar2;
+  param_1[1] = xVar3;
+  param_1[2] = xVar1;
+  xVar2 = param_2[7];
+  xVar3 = param_2[5];
+  xVar1 = param_2[6];
+  param_1[4] = param_2[4];
+  param_1[7] = xVar2;
+  param_1[5] = xVar3;
+  param_1[6] = xVar1;
+  param_1[4] = param_1[4] + 1;
+                    /* WARNING: Could not recover jumptable at 0x00010b10. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE)();
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function clear_record
+Function clear_record: 0x00010b14
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(xunknown4 *param_1)
+
+{
+  xunknown8 xVar1;
+  
+  xVar1 = xRam00010b48;
+  *param_1 = 0;
+  param_1[4] = 0xffffffff;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  *(xunknown2 *)(param_1 + 5) = 0;
+  *(xunknown1 *)((int4)param_1 + 0x16) = 0x78;
+  *(xunknown8 *)(param_1 + 6) = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function apply_op
+Function apply_op: 0x00010b50
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 << 1;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function add_ints
+Function add_ints: 0x00010b6c
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 + param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function sub_ints
+Function sub_ints: 0x00010b74
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x00010b7c
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function divide_constants
+Function divide_constants: 0x00010b90
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+void divide_constants(int4 param_1,uint4 param_2)
+
+{
+  code *UNRECOVERED_JUMPTABLE;
+  
+                    /* WARNING: Could not recover jumptable at 0x00010bf4. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE)(param_1 / 7 + param_1 % 10 + param_2 / 3 + param_2 % 1000);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function crc8
+Function crc8: 0x00010bf8
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint4 crc8(int4 param_1,int4 param_2)
+
+{
+  uint4 uVar1;
+  uint1 *puVar2;
+  uint1 *puVar3;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  puVar3 = (uint1 *)(param_1 + -1);
+  uVar1 = 0;
+  puVar2 = puVar3 + param_2;
+  do {
+    puVar3 = puVar3 + 1;
+    uVar1 = ((uint4)*(uint1 *)(((*puVar3 ^ uVar1) >> 4) + 0x11c54) ^ uVar1 << 4) & 0xff;
+    uVar1 = ((uint4)*(uint1 *)((*puVar3 & 0xf ^ uVar1 >> 4) + 0x11c54) ^ uVar1 << 4) & 0xff;
+  } while (puVar2 != puVar3);
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x00010c54
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+int4 global_counter_bump(int4 param_1)
+
+{
+  iRam00021cec = param_1 + iRam00021cec;
+  if (1000 < iRam00021cec) {
+    iRam00021cec = 0;
+  }
+  return iRam00021cec;
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function factorial
+Function factorial: 0x00010c7c
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 1;
+  if (param_1 < 2) {
+    return 1;
+  }
+  do {
+    iVar1 = param_1 * iVar1;
+    param_1 = param_1 + -1;
+  } while (param_1 != 1);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function fibonacci
+Function fibonacci: 0x00010ca0
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+uint4 fibonacci(uint4 param_1)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  int4 iVar4;
+  int4 iVar5;
+  uint4 uVar6;
+  uint4 uVar7;
+  int4 iVar8;
+  uint4 uVar9;
+  uint4 uVar10;
+  uint4 uVar11;
+  uint4 uVar12;
+  uint4 uVar13;
+  uint4 uVar14;
+  int4 iVar15;
+  int4 iVar16;
+  int4 iVar17;
+  uint4 uVar18;
+  uint4 uVar19;
+  int4 iVar20;
+  uint4 uVar21;
+  int4 iVar22;
+  uint4 uVar23;
+  int4 iVar24;
+  uint4 uVar25;
+  int4 iVar26;
+  int4 iVar27;
+  uint4 uVar28;
+  int4 iVar29;
+  int4 iVar30;
+  uint4 uVar31;
+  uint4 uVar32;
+  
+  if ((int4)param_1 < 2) {
+    return param_1;
+  }
+  uVar9 = param_1 - 1;
+  uVar7 = uVar9 & 0xfffffffe;
+  iVar26 = 0;
+  uVar1 = param_1;
+  do {
+    if (uVar1 == param_1 - uVar7) {
+      return uVar9 + iVar26;
+    }
+    uVar23 = uVar1 - 2;
+    iVar29 = 0;
+    uVar31 = uVar9 - (uVar23 & 0xfffffffe);
+    do {
+      uVar10 = uVar9 - 1;
+      if (uVar31 == uVar9) {
+        iVar29 = uVar10 + iVar29;
+        goto joined_r0x0001103c;
+      }
+      uVar9 = uVar9 - 2;
+      iVar16 = 0;
+      uVar19 = uVar10 - (uVar9 & 0xfffffffe);
+      do {
+        uVar3 = uVar10 - 1;
+        if (uVar19 == uVar10) {
+          iVar16 = uVar3 + iVar16;
+          goto code_r0x00010ff0;
+        }
+        uVar10 = uVar10 - 2;
+        iVar20 = 0;
+        uVar11 = uVar3 - (uVar10 & 0xfffffffe);
+        do {
+          uVar6 = uVar3 - 1;
+          if (uVar11 == uVar3) {
+            iVar20 = uVar6 + iVar20;
+            goto code_r0x00010fbc;
+          }
+          uVar3 = uVar3 - 2;
+          iVar27 = 0;
+          uVar25 = uVar6;
+          do {
+            uVar12 = uVar25 - 1;
+            if (uVar6 - (uVar3 & 0xfffffffe) == uVar25) {
+              iVar27 = uVar12 + iVar27;
+              goto code_r0x00010f74;
+            }
+            uVar21 = uVar25 - 2;
+            uVar25 = uVar25 - 4;
+            iVar30 = 0;
+            uVar13 = uVar12;
+            do {
+              if (uVar13 == uVar12 - (uVar21 & 0xfffffffe)) {
+                iVar30 = (uVar13 - 1) + iVar30;
+                goto code_r0x00010f4c;
+              }
+              uVar28 = uVar13 - 2;
+              iVar4 = uVar25 + 1;
+              iVar17 = 0;
+              uVar2 = uVar25;
+              while ((uVar13 - 3) - (uVar28 & 0xfffffffe) != uVar2) {
+                uVar14 = uVar2 - 2;
+                iVar15 = 0;
+                uVar18 = uVar14;
+                uVar32 = uVar2;
+                do {
+                  if (uVar32 == 1) break;
+                  iVar8 = iVar4 + -2;
+                  iVar22 = 0;
+                  iVar5 = iVar8;
+                  do {
+                    iVar24 = iVar5 + -2;
+                    iVar5 = fibonacci(iVar5);
+                    iVar22 = iVar22 + iVar5;
+                    iVar5 = iVar24;
+                  } while ((iVar4 + -4) - (uVar18 & 0xfffffffe) != iVar24);
+                  uVar32 = uVar32 - 2;
+                  iVar15 = iVar15 + (uVar32 - (uVar18 & 0xfffffffe)) + iVar22;
+                  uVar18 = uVar18 - 2;
+                  iVar4 = iVar8;
+                } while (iVar8 != 1);
+                iVar17 = iVar17 + iVar15 + 1;
+                if ((uVar13 - 5) - (uVar25 & 0xfffffffe) == uVar14) {
+                  iVar4 = uVar2 + iVar17;
+                  goto code_r0x00010f10;
+                }
+                iVar4 = uVar2 - 1;
+                uVar2 = uVar14;
+              }
+              iVar4 = iVar4 + iVar17;
+code_r0x00010f10:
+              iVar30 = iVar30 + iVar4;
+              uVar25 = uVar25 - 2;
+              uVar13 = uVar28;
+            } while (uVar28 != 1);
+            iVar30 = iVar30 + 1;
+code_r0x00010f4c:
+            iVar27 = iVar27 + iVar30;
+            uVar25 = uVar21;
+          } while (uVar21 != 1);
+          iVar27 = iVar27 + 1;
+code_r0x00010f74:
+          iVar20 = iVar20 + iVar27;
+        } while (uVar3 != 1);
+        iVar20 = iVar20 + 1;
+code_r0x00010fbc:
+        iVar16 = iVar16 + iVar20;
+      } while (uVar10 != 1);
+      iVar16 = iVar16 + 1;
+code_r0x00010ff0:
+      iVar29 = iVar29 + iVar16;
+    } while (uVar9 != 1);
+    iVar29 = iVar29 + 1;
+joined_r0x0001103c:
+    iVar26 = iVar26 + iVar29;
+    if (uVar23 == 1) {
+      return iVar26 + 1;
+    }
+    uVar9 = uVar1 - 3;
+    uVar1 = uVar23;
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function gcd
+Function gcd: 0x0001107c
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  int4 extraout_r1;
+  
+  if (param_2 != 0) {
+    while (__aeabi_idivmod(param_1,param_2), param_1 = param_2, extraout_r1 != 0) {
+      param_2 = extraout_r1;
+    }
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function ackermann
+Function ackermann: 0x000110b0
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iStack_2c;
+  
+  iVar1 = param_1;
+joined_r0x000110c0:
+  do {
+    if (iVar1 == 0) {
+      return param_2 + 1;
+    }
+    iStack_2c = iVar1 + -1;
+    if (param_2 == 0) {
+      if (iStack_2c == 0) {
+        return 2;
+      }
+      param_2 = 1;
+      iVar2 = iVar1 + -2;
+      iVar1 = iStack_2c;
+      iStack_2c = iVar2;
+    }
+    param_2 = param_2 + -1;
+    do {
+      iVar2 = iVar1 + -1;
+      if (param_2 == 0) {
+        if (iVar2 == 0) {
+          param_2 = 2;
+          iVar1 = iStack_2c;
+          goto joined_r0x000110c0;
+        }
+        param_2 = 1;
+        iVar9 = iVar1 + -2;
+        iVar1 = iVar2;
+      }
+      else {
+        iVar9 = iVar2;
+      }
+      param_2 = param_2 + -1;
+      do {
+        iVar2 = iVar1 + -1;
+        if (param_2 == 0) {
+          if (iVar2 == 0) {
+            param_2 = 2;
+            goto joined_r0x000112f4;
+          }
+          iVar10 = iVar1 + -2;
+          param_2 = 1;
+          iVar1 = iVar2;
+          iVar2 = iVar10;
+        }
+        param_2 = param_2 + -1;
+        do {
+          iVar10 = iVar1 + -1;
+          if (param_2 == 0) {
+            if (iVar10 == 0) {
+              param_2 = 2;
+              goto joined_r0x000112e0;
+            }
+            iVar8 = iVar1 + -2;
+            param_2 = 1;
+            iVar1 = iVar10;
+            iVar10 = iVar8;
+          }
+          param_2 = param_2 + -1;
+          do {
+            iVar8 = iVar1 + -1;
+            if (param_2 == 0) {
+              if (iVar8 == 0) {
+                param_2 = 2;
+                goto joined_r0x000112cc;
+              }
+              iVar7 = iVar1 + -2;
+              param_2 = 1;
+              iVar1 = iVar8;
+              iVar8 = iVar7;
+            }
+            param_2 = param_2 + -1;
+            do {
+              iVar7 = iVar1 + -1;
+              if (param_2 == 0) {
+                if (iVar7 == 0) {
+                  param_2 = 2;
+                  goto joined_r0x000112b8;
+                }
+                iVar6 = iVar1 + -2;
+                param_2 = 1;
+                iVar1 = iVar7;
+                iVar7 = iVar6;
+              }
+              param_2 = param_2 + -1;
+              do {
+                iVar6 = iVar1 + -1;
+                if (param_2 == 0) {
+                  if (iVar6 == 0) {
+                    param_2 = 2;
+                    goto joined_r0x000112a4;
+                  }
+                  iVar5 = iVar1 + -2;
+                  param_2 = 1;
+                  iVar1 = iVar6;
+                  iVar6 = iVar5;
+                }
+                param_2 = param_2 + -1;
+                do {
+                  iVar5 = iVar1 + -1;
+                  if (param_2 == 0) {
+                    if (iVar5 == 0) {
+                      param_2 = 2;
+                      goto joined_r0x00011290;
+                    }
+                    iVar4 = iVar1 + -2;
+                    param_2 = 1;
+                    iVar1 = iVar5;
+                    iVar5 = iVar4;
+                  }
+                  param_2 = param_2 + -1;
+                  do {
+                    iVar4 = iVar1 + -1;
+                    if (param_2 == 0) {
+                      if (iVar4 == 0) {
+                        param_2 = 2;
+                        goto joined_r0x0001127c;
+                      }
+                      iVar3 = iVar1 + -2;
+                      param_2 = 1;
+                      iVar1 = iVar4;
+                      iVar4 = iVar3;
+                    }
+                    param_2 = ackermann(iVar1,param_2 + -1);
+                    iVar1 = iVar4;
+                  } while (iVar4 != 0);
+                  param_2 = param_2 + 1;
+joined_r0x0001127c:
+                  iVar1 = iVar5;
+                } while (iVar5 != 0);
+                param_2 = param_2 + 1;
+joined_r0x00011290:
+                iVar1 = iVar6;
+              } while (iVar6 != 0);
+              param_2 = param_2 + 1;
+joined_r0x000112a4:
+              iVar1 = iVar7;
+            } while (iVar7 != 0);
+            param_2 = param_2 + 1;
+joined_r0x000112b8:
+            iVar1 = iVar8;
+          } while (iVar8 != 0);
+          param_2 = param_2 + 1;
+joined_r0x000112cc:
+          iVar1 = iVar10;
+        } while (iVar10 != 0);
+        param_2 = param_2 + 1;
+joined_r0x000112e0:
+        iVar1 = iVar2;
+      } while (iVar2 != 0);
+      param_2 = param_2 + 1;
+joined_r0x000112f4:
+      iVar1 = iVar9;
+    } while (iVar9 != 0);
+    param_2 = param_2 + 1;
+    iVar1 = iStack_2c;
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function my_strlen
+Function my_strlen: 0x000113b0
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int4 my_strlen(char *param_1)
+
+{
+  char *pcVar1;
+  
+  if (*param_1 == '\0') {
+    return 0;
+  }
+  pcVar1 = param_1;
+  do {
+    pcVar1 = pcVar1 + 1;
+  } while (*pcVar1 != '\0');
+  return (int4)pcVar1 - (int4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x000113dc
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  uint1 *puVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  
+  uVar3 = (uint4)*param_1;
+  if (uVar3 == 0) {
+    uVar2 = (uint4)*param_2;
+  }
+  else {
+    while( true ) {
+      puVar1 = param_2;
+      uVar2 = (uint4)*puVar1;
+      if (uVar2 != uVar3) break;
+      param_1 = param_1 + 1;
+      uVar3 = (uint4)*param_1;
+      param_2 = puVar1 + 1;
+      if (uVar3 == 0) {
+        return -(uint4)puVar1[1];
+      }
+    }
+  }
+  return uVar3 - uVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x00011424
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+void my_strcpy(int4 param_1,char *param_2)
+
+{
+  char cVar1;
+  char *pcVar2;
+  
+  pcVar2 = (char *)(param_1 + -1);
+  do {
+    cVar1 = *param_2;
+    pcVar2 = pcVar2 + 1;
+    *pcVar2 = cVar1;
+    param_2 = param_2 + 1;
+  } while (cVar1 != '\0');
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function reverse_string
+Function reverse_string: 0x0001143c
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(char *param_1)
+
+{
+  char cVar1;
+  char *pcVar2;
+  char *pcVar3;
+  uint4 uVar4;
+  char *pcVar5;
+  char *pcVar6;
+  
+  if (*param_1 == '\0') {
+    return;
+  }
+  pcVar3 = param_1;
+  do {
+    pcVar3 = pcVar3 + 1;
+  } while (*pcVar3 != '\0');
+  uVar4 = (int4)pcVar3 - (int4)param_1;
+  if (uVar4 < 2) {
+    return;
+  }
+  pcVar5 = param_1 + -1;
+  do {
+    pcVar6 = pcVar5 + 1;
+    cVar1 = *pcVar6;
+    pcVar3 = pcVar3 + -1;
+    pcVar2 = pcVar5 + (2 - (int4)param_1);
+    *pcVar6 = *pcVar3;
+    *pcVar3 = cVar1;
+    pcVar5 = pcVar6;
+  } while (pcVar2 < param_1 + uVar4 + (-2 - (int4)pcVar6));
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function count_char
+Function count_char: 0x000114a0
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(uint1 *param_1,uint4 param_2)
+
+{
+  int4 iVar1;
+  uint4 uVar2;
+  bool bVar3;
+  
+  uVar2 = (uint4)*param_1;
+  if (uVar2 == 0) {
+    return 0;
+  }
+  iVar1 = 0;
+  do {
+    bVar3 = param_2 == uVar2;
+    param_1 = param_1 + 1;
+    uVar2 = (uint4)*param_1;
+    if (bVar3) {
+      iVar1 = iVar1 + 1;
+    }
+  } while (uVar2 != 0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x000114d4
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+void parse_decimal(uint1 *param_1)
+
+{
+  uint4 uVar1;
+  int4 iVar2;
+  code *UNRECOVERED_JUMPTABLE_00;
+  int4 iVar3;
+  
+  uVar1 = (uint4)*param_1;
+  if (uVar1 == 0x2d) {
+    uVar1 = (uint4)param_1[1];
+    param_1 = param_1 + 1;
+    iVar3 = -1;
+  }
+  else {
+    iVar3 = 1;
+  }
+  uVar1 = uVar1 - 0x30;
+  if (9 < (uVar1 & 0xff)) {
+                    /* WARNING: Could not recover jumptable at 0x0001152c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*UNRECOVERED_JUMPTABLE_00)(0);
+    return;
+  }
+  iVar2 = 0;
+  do {
+    param_1 = param_1 + 1;
+    iVar2 = iVar2 * 10 + uVar1;
+    uVar1 = *param_1 - 0x30;
+  } while ((uVar1 & 0xff) < 10);
+                    /* WARNING: Could not recover jumptable at 0x00011524. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE_00)(iVar3 * iVar2);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function to_upper
+Function to_upper: 0x00011530
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(uint1 *param_1)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = (uint4)*param_1;
+  if (uVar1 == 0) {
+    return;
+  }
+  do {
+    if (uVar1 - 0x61 < 0x1a) {
+      *param_1 = (char)uVar1 - 0x20;
+    }
+    param_1 = param_1 + 1;
+    uVar1 = (uint4)*param_1;
+  } while (uVar1 != 0);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function point_distance2
+Function point_distance2: 0x0001155c
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(int4 *param_1,int4 *param_2)
+
+{
+  return (*param_1 - *param_2) * (*param_1 - *param_2) +
+         (param_1[1] - param_2[1]) * (param_1[1] - param_2[1]);
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function make_point
+Function make_point: 0x00011580
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+void make_point(xunknown4 *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  *param_1 = param_2;
+  param_1[1] = param_3;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function rect_area
+Function rect_area: 0x00011588
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(xunknown4 param_1,xunknown4 param_2,int4 param_3,int4 param_4)
+
+{
+  return param_4 * param_3;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function rect_contains
+Function rect_contains: 0x000115a0
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+void rect_contains(int4 *param_1,int4 param_2,int4 param_3)
+
+{
+  code *UNRECOVERED_JUMPTABLE_00;
+  
+  if (((param_2 < *param_1) || (param_3 < param_1[1])) || (*param_1 + param_1[2] <= param_2)) {
+                    /* WARNING: Could not recover jumptable at 0x000115d0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*UNRECOVERED_JUMPTABLE_00)(0);
+    return;
+  }
+                    /* WARNING: Could not recover jumptable at 0x000115fc. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*UNRECOVERED_JUMPTABLE_00)(param_3 < param_1[1] + param_1[3]);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function list_length
+Function list_length: 0x00011600
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  if (param_1 == 0) {
+    return 0;
+  }
+  iVar1 = 0;
+  do {
+    param_1 = *(int4 *)(param_1 + 4);
+    iVar1 = iVar1 + 1;
+  } while (param_1 != 0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function list_sum
+Function list_sum: 0x00011628
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  if (param_1 == (int4 *)0x0) {
+    return 0;
+  }
+  iVar1 = 0;
+  do {
+    iVar2 = *param_1;
+    param_1 = (int4 *)param_1[1];
+    iVar1 = iVar1 + iVar2;
+  } while (param_1 != (int4 *)0x0);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function list_reverse
+Function list_reverse: 0x00011650
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+void list_reverse(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  if (param_1 == 0) {
+    return;
+  }
+  iVar2 = 0;
+  while( true ) {
+    iVar1 = param_1;
+    param_1 = *(int4 *)(iVar1 + 4);
+    *(int4 *)(iVar1 + 4) = iVar2;
+    if (param_1 == 0) break;
+    iVar2 = iVar1;
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function switch_dense
+Function switch_dense: 0x00011678
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Removing unreachable block (ram,0x00011084) */
+/* WARNING: Removing unreachable block (ram,0x0001108c) */
+
+uint4 switch_dense(xunknown4 param_1,uint4 param_2)
+
+{
+  uint4 uVar1;
+  uint4 extraout_r1;
+  
+  switch(param_1) {
+  case 0:
+    return param_2 + 0x11;
+  case 1:
+    return param_2 * 0x1f + 4;
+  case 2:
+    return (int4)param_2 / 3;
+  case 3:
+    return param_2 << 5;
+  case 4:
+    uVar1 = 0x4d2;
+    while (__aeabi_idivmod(param_2,uVar1), extraout_r1 != 0) {
+      param_2 = uVar1;
+      uVar1 = extraout_r1;
+    }
+    return uVar1;
+  case 5:
+    return -param_2;
+  case 6:
+    return param_2 ^ 0x55;
+  case 7:
+    break;
+  case 8:
+    return param_2 - 100;
+  case 9:
+    param_2 = param_2 & 7;
+    uVar1 = 1;
+    if (param_2 < 2) {
+      return 1;
+    }
+    do {
+      uVar1 = param_2 * uVar1;
+      param_2 = param_2 - 1;
+    } while (param_2 != 1);
+    return uVar1;
+  default:
+    return 0xffffffff;
+  }
+  if (param_2 == 0) {
+    return 0;
+  }
+  uVar1 = 0;
+  do {
+    uVar1 = uVar1 + 1;
+    param_2 = param_2 & param_2 - 1;
+  } while (param_2 != 0);
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x00011700
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_sparse(int4 param_1)
+
+{
+  xunknown4 xVar1;
+  
+  if (param_1 == 1000) {
+    return 3;
+  }
+  if (1000 < param_1) {
+    if (param_1 == 0x1000) {
+      return 4;
+    }
+    if (param_1 == 0x12fd1) {
+      xVar1 = 6;
+    }
+    else {
+      xVar1 = 0;
+    }
+    return xVar1;
+  }
+  if (param_1 == 3) {
+    return 1;
+  }
+  if (param_1 == 100) {
+    return 2;
+  }
+  if (param_1 == -0x32) {
+    xVar1 = 5;
+  }
+  else {
+    xVar1 = 0;
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function weekday_name
+Function weekday_name: 0x0001176c
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+xunknown4 weekday_name(uint4 param_1)
+
+{
+  xunknown4 xVar1;
+  
+  if (param_1 < 7) {
+    xVar1 = *(xunknown4 *)(param_1 * 4 + 0x11c70);
+  }
+  else {
+    xVar1 = 0x11b98;
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x00011788
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1,int4 param_2,xunknown4 param_3,xunknown4 param_4)
+
+{
+  int4 iVar1;
+  int4 *piVar2;
+  int4 iVar3;
+  int4 aiStack_c [3];
+  
+  aiStack_c[2] = param_4;
+  aiStack_c[1] = param_3;
+  aiStack_c[0] = param_2;
+  if (param_1 < 1) {
+    return 0;
+  }
+  iVar3 = 0;
+  iVar1 = 0;
+  piVar2 = aiStack_c;
+  do {
+    iVar3 = iVar3 + 1;
+    iVar1 = iVar1 + *piVar2;
+    piVar2 = piVar2 + 1;
+  } while (param_1 != iVar3);
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function call_varargs
+Function call_varargs: 0x000117dc
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5);
+  return iVar1 + iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-ARM:LE:32:v7:default arm-O2
+arm-O2 successfully loaded: Generic ARM/Thumb v7 little endian
+[decomp]> read symbols
+WARNING: Function __divsi3 overlaps object: __aeabi_idiv
+WARNING: Function __aeabi_idiv0 overlaps object: __aeabi_ldiv0
+[decomp]> load function format_hex
+Function format_hex: 0x00011828
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+
+void format_hex(int4 param_1,char *param_2,uint4 param_3)
+
+{
+  char cVar1;
+  char *pcVar2;
+  char cVar3;
+  uint4 uVar4;
+  char *pcVar5;
+  uint4 uVar6;
+  bool bVar7;
+  
+  cVar1 = *param_2;
+  pcVar2 = (char *)0x0;
+  if (cVar1 != '\0') {
+    pcVar5 = (char *)(param_1 + -1);
+    do {
+      pcVar2 = pcVar5;
+      pcVar5 = pcVar2 + 1;
+      *pcVar5 = cVar1;
+      param_2 = param_2 + 1;
+      cVar1 = *param_2;
+    } while (cVar1 != '\0');
+    pcVar2 = pcVar2 + (2 - param_1);
+  }
+  uVar4 = 0x1c;
+  pcVar5 = pcVar2 + param_1;
+  do {
+    uVar6 = param_3 >> (uVar4 & 0xff) & 0xf;
+    cVar1 = (char)uVar6;
+    cVar3 = cVar1 + 'W';
+    if (uVar6 < 10) {
+      cVar3 = cVar1 + '0';
+    }
+    bVar7 = uVar4 != 0;
+    *pcVar5 = cVar3;
+    uVar4 = uVar4 - 4;
+    pcVar5 = pcVar5 + 1;
+  } while (bVar7);
+  pcVar2[param_1 + 8] = '\0';
+  return;
+}
+[decomp]> quit
+--- exit 0

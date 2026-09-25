@@ -1,0 +1,66 @@
+[package]
+name = "ghidra-decompiler"
+description = "Pure Rust port of the Ghidra decompiler"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.88"
+license = "Apache-2.0"
+exclude = ["/tests", "/tools", "/fuzz", "/reference", "/ci", "/.github", "/rust-toolchain.toml"]
+authors = ["Jan Bujak <j@exia.io>"]
+repository = "https://github.com/koute/ghidra-decompiler"
+
+[dependencies]
+lzma-rs = "0.3"
+miniz_oxide = "0.8.9"
+object = { version = "0.37", default-features = false, features = ["read_core", "std", "elf", "pe", "macho", "unaligned"] }
+regex = "1"
+
+[profile.test]
+opt-level = 1
+
+[profile.profiling]
+inherits = "release"
+debug = true
+
+[features]
+default = ["x86", "arm", "aarch64", "mips", "powerpc", "riscv"]
+all-processors = ["6502", "68000", "8048", "8051", "8085", "aarch64", "arm", "atmel", "bpf", "cp1600", "cr16", "dalvik", "data", "ebpf", "hcs08", "hcs12", "hexagon", "jvm", "loongarch", "m16c", "m8c", "mc6800", "mcs96", "mips", "nds32", "pa-risc", "pic", "powerpc", "riscv", "sparc", "superh", "superh4", "ti_msp430", "toy", "tricore", "v850", "x86", "xtensa", "z80"]
+"6502" = []
+"68000" = []
+"8048" = []
+"8051" = []
+"8085" = []
+aarch64 = []
+arm = []
+atmel = []
+bpf = []
+cp1600 = []
+cr16 = []
+dalvik = []
+data = []
+ebpf = []
+hcs08 = []
+hcs12 = []
+hexagon = []
+jvm = []
+loongarch = []
+m16c = []
+m8c = []
+mc6800 = []
+mcs96 = []
+mips = []
+nds32 = []
+"pa-risc" = []
+pic = []
+powerpc = []
+riscv = []
+sparc = []
+superh = []
+superh4 = []
+ti_msp430 = []
+toy = []
+tricore = []
+v850 = []
+x86 = []
+xtensa = []
+z80 = []

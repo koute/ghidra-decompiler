@@ -1,0 +1,35 @@
+
+/* WARNING: Control flow encountered bad instruction data */
+/* WARNING: Type propagation algorithm not settling */
+/* WARNING: Exceeded maximum repeat count for action mainloop */
+/* WARNING: Exceeded maximum repeat count for action fullloop */
+
+void func_0x00000000(uint4 param_1,int4 param_2,xunknown4 param_3,int4 param_4,xunknown1 param_5)
+
+{
+  xunknown4 *pxVar1;
+  int4 in_r12;
+  xunknown1 in_ZR;
+  uint1 in_CY;
+  bool in_OV;
+  uint1 uVar2;
+  xunknown1 xStack00000000;
+  
+  uVar2 = in_CY;
+  if (!in_OV) {
+    param_1 = param_1 << (param_1 & 0xff);
+    uVar2 = CARRY4((uint4)&param_5,param_1) || CARRY4((uint4)(&param_5 + param_1),(uint4)in_CY);
+    in_OV = SCARRY4((int4)&param_5,param_1) != SCARRY4((int4)(&param_5 + param_1),(uint4)in_CY);
+    in_ZR = &param_5 + in_CY + param_1 == (xunknown1 *)0x0;
+  }
+  if ((bool)in_ZR) {
+    return;
+  }
+  pxVar1 = (xunknown4 *)((param_4 - (uint4)*(uint1 *)(in_r12 + 1)) + 0x2c);
+  *(xunknown1 *)pxVar1 = *(xunknown1 *)(param_2 + 0x140);
+  if (in_OV || (xunknown1 *)((int4)pxVar1 + (int4)(&param_5 + uVar2)) != (xunknown1 *)0x0) {
+    *pxVar1 = 0;
+  }
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}

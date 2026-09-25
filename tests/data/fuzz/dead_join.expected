@@ -1,0 +1,38 @@
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void func_0x00000000(uint4 param_1)
+
+{
+  uint4 uVar1;
+  int4 extraout_r3;
+  uint4 unaff_r5;
+  xunknown1 in_NG;
+  xunknown1 in_ZR;
+  
+  if ((bool)in_ZR) {
+                    /* WARNING: Could not recover jumptable at 0x00000004. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+    (*(code *)(param_1 & param_1 << 0x16))();
+    return;
+  }
+  uVar1 = func_0x0080c410();
+  *(uint4 *)(extraout_r3 + -0x2e0) = uVar1;
+  if (!(bool)in_ZR) {
+    uVar1 = func_0x00c04184();
+  }
+  if ((bool)in_NG) {
+    in_ZR = uVar1 == 0x40000039;
+  }
+  if ((bool)in_ZR) {
+    uVar1 = func_0x008041a8();
+  }
+  if ((bool)in_ZR) {
+    func_0xff946cec(uVar1 & (unaff_r5 >> 5 | unaff_r5 << 0x1b));
+  }
+  if (!(bool)in_ZR) {
+    func_0x00800030();
+  }
+                    /* WARNING: Bad instruction - Truncating control flow here */
+  halt_baddata();
+}

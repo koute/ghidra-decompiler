@@ -1,0 +1,2266 @@
+=== function switch_dense.cold
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function switch_dense.cold
+Function switch_dense.cold: 0x08049000
+[decomp]> decompile
+Decompiling switch_dense.cold
+Decompilation complete
+[decomp]> print C
+
+xunknown4 switch_dense.cold(void)
+
+{
+  return 0xffffffff;
+}
+[decomp]> quit
+--- exit 0
+=== function main
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function main
+Function main: 0x08049010
+[decomp]> decompile
+Decompiling main
+Decompilation complete
+[decomp]> print C
+
+int4 main(xunknown1 param_1)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  xunknown4 xVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  int4 iVar12;
+  int4 iVar13;
+  int4 iVar14;
+  int4 iVar15;
+  int4 iVar16;
+  int4 iVar17;
+  int4 iVar18;
+  int4 iVar19;
+  int4 iVar20;
+  int4 iVar21;
+  int4 iVar22;
+  int4 iVar23;
+  int4 iVar24;
+  int4 iVar25;
+  int4 iVar26;
+  int4 iVar27;
+  int4 iVar28;
+  int4 iVar29;
+  int4 iVar30;
+  uint4 uVar31;
+  float10 fVar32;
+  float10 fVar33;
+  float10 fVar34;
+  xunknown4 xStack_114;
+  int4 aiStack_110 [2];
+  int4 *piStack_108;
+  int4 *piStack_104;
+  xunknown1 axStack_100 [8];
+  xunknown4 xStack_f8;
+  xunknown4 xStack_f4;
+  xunknown4 xStack_f0;
+  xunknown4 xStack_ec;
+  xunknown4 xStack_e8;
+  xunknown4 *pxStack_e4;
+  xunknown4 xStack_e0;
+  xunknown4 xStack_dc;
+  xunknown4 xStack_d8;
+  xunknown4 xStack_d4;
+  xunknown4 xStack_d0;
+  xunknown4 xStack_cc;
+  xunknown4 xStack_c8;
+  xunknown4 xStack_c4;
+  xunknown8 xStack_c0;
+  float8 fStack_b8;
+  float8 fStack_b0;
+  xunknown4 xStack_a8;
+  xunknown4 xStack_a4;
+  xunknown4 xStack_a0;
+  xunknown4 xStack_9c;
+  xunknown4 xStack_98;
+  xunknown4 xStack_94;
+  float8 fStack_90;
+  xunknown1 axStack_88 [16];
+  int4 iStack_78;
+  xunknown4 xStack_68;
+  xunknown4 xStack_64;
+  xunknown4 xStack_60;
+  xunknown4 xStack_5c;
+  xunknown4 xStack_58;
+  xunknown4 xStack_54;
+  xunknown4 xStack_50;
+  xunknown4 xStack_4c;
+  xunknown4 xStack_48;
+  xunknown1 axStack_44 [32];
+  int4 iStack_24;
+  xunknown1 *pxStack_18;
+  
+  pxStack_18 = &param_1;
+  iVar1 = sum_array(0x804c0e0,8);
+  iVar2 = find_max(0x804c0e0,8);
+  bubble_sort(0x804c0e0,8);
+  iVar3 = collatz_steps(0x1b);
+  iVar4 = count_bits(0xf0f0);
+  uVar31 = iVar3 + iVar4 + iVar1 + iVar2;
+  iVar1 = switch_dense(uVar31 & 0xf,uVar31);
+  iVar2 = switch_sparse(uVar31);
+  iVar30 = iVar1 + iVar2 + uVar31;
+  xVar5 = weekday_name(iVar30 % 7);
+  iVar1 = my_strlen(xVar5);
+  make_point(axStack_100,1,2);
+  make_point(&xStack_f8,4,6);
+  iVar2 = point_distance2(axStack_100,&xStack_f8);
+  xStack_e0 = 0;
+  xStack_dc = 0;
+  xStack_d8 = 10;
+  xStack_d4 = 0x14;
+  iVar3 = rect_area(0,0,10,0x14);
+  iVar4 = rect_contains(&xStack_e0,xStack_f8,xStack_f4);
+  xStack_f0 = 3;
+  xStack_ec = 0;
+  pxStack_e4 = &xStack_f0;
+  xStack_e8 = 4;
+  iVar6 = list_length(&xStack_e8);
+  xVar5 = list_reverse(&xStack_e8);
+  iVar7 = list_sum(xVar5);
+  my_strcpy(0x804c100);
+  reverse_string(0x804c100);
+  to_upper(0x804c100);
+  iVar8 = count_char(0x804c100);
+  iVar9 = my_strcmp(0x804c100);
+  iVar10 = parse_decimal(0x804b026);
+  iVar11 = factorial(6);
+  iVar12 = fibonacci(10);
+  iVar13 = gcd();
+  iVar14 = ackermann(2,3);
+  xStack_cc = 0x40000000;
+  xStack_c8 = 0x40600000;
+  xStack_c0 = 0x3ff0000000000000;
+  xStack_c4 = 0x40880000;
+  fStack_b8 = (float8)fRam0804b008;
+  fStack_b0 = (float8)fRam0804b00c;
+  xStack_d0 = 0x3f800000;
+  fVar32 = (float10)poly_eval(&xStack_c0,2,0,0x40080000);
+  iVar15 = float_to_int((float8)fVar32);
+  fVar32 = (float10)average_float(&xStack_d0,4);
+  fVar33 = (float10)dot_product(&xStack_c0,&xStack_c0,3);
+  fVar34 = (float10)clamp_double(0,0x40000000,0,0,0,0x3ff00000);
+  iVar16 = float_to_int((float8)(fVar34 + (float10)(float8)fVar33));
+  iVar17 = float_to_bits();
+  iVar18 = call_varargs();
+  iVar19 = format_hex(0x804c100,0x804b02c,0xdeadbeef);
+  xStack_114 = 0;
+  set_flags(&xStack_114,3,5);
+  iVar20 = get_mode(&xStack_114);
+  iVar21 = pack_flags(xStack_114);
+  iVar22 = mul64(3,1,7,0);
+  iVar23 = add64(0xfffffffb,0xffffffff,9,0);
+  iVar24 = shift64(1,0x80000000,4);
+  iVar25 = compare64(0xffffffff,0xffffffff,1,0);
+  iVar26 = fnv1a64(0x804c100,8);
+  iVar27 = rotate_left64(3,0,0x3e);
+  xStack_a8 = 0x706d6173;
+  xStack_a4 = 0x656c;
+  xStack_a0 = 0;
+  fStack_90 = (float8)fRam0804b010;
+  xStack_9c = 0;
+  xStack_98 = 7;
+  xStack_94 = 0x790002;
+  copy_record(axStack_88,&xStack_a8);
+  clear_record(&xStack_a8);
+  iVar28 = apply_op(add_ints,3,4);
+  iVar29 = apply_op(sub_ints,9,2);
+  aiStack_110[0] = 1;
+  aiStack_110[1] = 2;
+  piStack_108 = aiStack_110;
+  piStack_104 = aiStack_110 + 1;
+  iVar3 = iStack_78 + iVar28 + iVar29 +
+          iVar25 + iVar26 + iVar27 +
+          iVar22 + iVar23 + iVar24 +
+          iVar20 + iVar21 +
+          iVar18 + iVar19 +
+          iVar11 + iVar12 + iVar13 + iVar14 +
+          iVar8 + iVar9 + iVar10 + iVar6 + iVar7 + iVar3 + iVar4 + iVar30 + iVar1 + iVar2 +
+          (int4)ROUND(fVar32) + iVar15 + iVar16 + iVar17;
+  swap_ptrs(&piStack_108,&piStack_104);
+  iVar1 = *piStack_108;
+  iVar2 = divide_constants(iVar3,0x1e240);
+  uVar31 = crc8(0x804c100,10);
+  iVar3 = (uVar31 & 0xff) + iVar1 + iVar2 + iVar3;
+  iVar1 = global_counter_bump(iVar3);
+  xStack_68 = 1;
+  xStack_64 = 2;
+  xStack_60 = 3;
+  xStack_5c = 4;
+  xStack_58 = 5;
+  xStack_54 = 6;
+  xStack_50 = 7;
+  xStack_4c = 8;
+  xStack_48 = 9;
+  matrix_multiply(axStack_44,&xStack_68,&xStack_68);
+  return iStack_24 + iVar3 + iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function mul64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function mul64
+Function mul64: 0x08049580
+[decomp]> decompile
+Decompiling mul64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 mul64(uint4 param_1,uint4 param_2,uint4 param_3,int4 param_4)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  
+  uVar2 = param_1 >> 3 | param_2 << 0x1d;
+  uVar1 = (uint4)((uint8)param_1 * (uint8)param_3);
+  return CONCAT44((int4)((uint8)param_1 * (uint8)param_3 >> 0x20) +
+                  param_2 * param_3 + param_4 * param_1 + (param_2 >> 3) +
+                  (uint4)CARRY4(uVar1,uVar2),uVar1 + uVar2);
+}
+[decomp]> quit
+--- exit 0
+=== function add64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function add64
+Function add64: 0x080495b0
+[decomp]> decompile
+Decompiling add64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 add64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  return CONCAT44(param_4 + param_2 + (uint4)CARRY4(param_3,param_1) + -2 +
+                  (uint4)(0x23456788 < param_3 + param_1),param_3 + param_1 + 0xdcba9877);
+}
+[decomp]> quit
+--- exit 0
+=== function shift64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function shift64
+Function shift64: 0x080495d0
+[decomp]> decompile
+Decompiling shift64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 shift64(uint4 param_1,uint4 param_2,uint1 param_3)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  
+  uVar3 = param_1 << (param_3 & 0x1f);
+  uVar4 = uVar3;
+  uVar5 = param_2 << (param_3 & 0x1f) | param_1 >> 0x20 - (param_3 & 0x1f);
+  if ((param_3 & 0x20) != 0) {
+    uVar4 = 0;
+    uVar5 = uVar3;
+  }
+  param_3 = -param_3;
+  uVar1 = param_2 >> (param_3 & 0x1f);
+  uVar3 = param_1 >> (param_3 & 0x1f) | param_2 << 0x20 - (param_3 & 0x1f);
+  uVar2 = uVar1;
+  if ((param_3 & 0x20) != 0) {
+    uVar2 = 0;
+    uVar3 = uVar1;
+  }
+  return CONCAT44(uVar2 | uVar5,uVar3 | uVar4);
+}
+[decomp]> quit
+--- exit 0
+=== function compare64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function compare64
+Function compare64: 0x08049610
+[decomp]> decompile
+Decompiling compare64
+Decompilation complete
+[decomp]> print C
+
+uint4 compare64(uint4 param_1,int4 param_2,uint4 param_3,int4 param_4)
+
+{
+  uint4 uVar1;
+  
+  uVar1 = 0xffffffff;
+  if ((SBORROW4(param_2,param_4) != SBORROW4(param_2 - param_4,(uint4)(param_1 < param_3))) ==
+      (int4)((param_2 - param_4) - (uint4)(param_1 < param_3)) < 0) {
+    uVar1 = (uint4)((SBORROW4(param_4,param_2) !=
+                    SBORROW4(param_4 - param_2,(uint4)(param_3 < param_1))) !=
+                   (int4)((param_4 - param_2) - (uint4)(param_3 < param_1)) < 0);
+  }
+  return uVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fnv1a64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function fnv1a64
+Function fnv1a64: 0x08049640
+[decomp]> decompile
+Decompiling fnv1a64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 fnv1a64(uint1 *param_1,int4 param_2)
+
+{
+  uint1 *puVar1;
+  uint1 uVar2;
+  int8 iVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  int4 iVar6;
+  
+  if (param_2 < 1) {
+    return 0xcbf29ce484222325;
+  }
+  iVar6 = -0x340d631c;
+  puVar1 = param_1 + param_2;
+  uVar4 = 0x84222325;
+  do {
+    uVar2 = *param_1;
+    param_1 = param_1 + 1;
+    uVar5 = uVar4 ^ uVar2;
+    iVar3 = (uint8)uVar5 * 0x1b3;
+    uVar4 = (uint4)iVar3;
+    iVar6 = (int4)((uint8)iVar3 >> 0x20) + iVar6 * 0x1b3 + uVar5 * 0x100;
+  } while (puVar1 != param_1);
+  return CONCAT44(iVar6,uVar4);
+}
+[decomp]> quit
+--- exit 0
+=== function rotate_left64
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function rotate_left64
+Function rotate_left64: 0x080496d0
+[decomp]> decompile
+Decompiling rotate_left64
+Decompilation complete
+[decomp]> print C
+
+xunknown8 rotate_left64(uint4 param_1,uint4 param_2,uint1 param_3)
+
+{
+  uint1 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  uint4 uVar5;
+  uint4 uVar6;
+  
+  uVar4 = param_1 << (param_3 & 0x1f);
+  uVar5 = uVar4;
+  uVar6 = param_2 << (param_3 & 0x1f) | param_1 >> 0x20 - (param_3 & 0x1f);
+  if ((param_3 & 0x20) != 0) {
+    uVar5 = 0;
+    uVar6 = uVar4;
+  }
+  uVar1 = -(param_3 & 0x3f);
+  uVar2 = param_2 >> (uVar1 & 0x1f);
+  uVar4 = param_1 >> (uVar1 & 0x1f) | param_2 << 0x20 - (uVar1 & 0x1f);
+  uVar3 = uVar2;
+  if ((uVar1 & 0x20) != 0) {
+    uVar3 = 0;
+    uVar4 = uVar2;
+  }
+  return CONCAT44(uVar3 | uVar6,uVar4 | uVar5);
+}
+[decomp]> quit
+--- exit 0
+=== function set_flags
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function set_flags
+Function set_flags: 0x08049710
+[decomp]> decompile
+Decompiling set_flags
+Decompilation complete
+[decomp]> print C
+
+void set_flags(uint2 *param_1,uint2 param_2,uint2 param_3)
+
+{
+  *param_1 = (param_2 & 7) * 2 + 1 | (param_3 & 0xf) << 4 |
+             ((uint1)((char)param_2 + (char)param_3) & 0x3f) << 8 | *param_1 & 0xc000;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function get_mode
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function get_mode
+Function get_mode: 0x08049750
+[decomp]> decompile
+Decompiling get_mode
+Decompilation complete
+[decomp]> print C
+
+int4 get_mode(uint1 *param_1)
+
+{
+  uint1 uVar1;
+  
+  uVar1 = *param_1;
+  if ((uVar1 & 1) == 0) {
+    return -1;
+  }
+  return (uVar1 >> 1 & 7) * 0x10 + (uint4)(uVar1 >> 4);
+}
+[decomp]> quit
+--- exit 0
+=== function pack_flags
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function pack_flags
+Function pack_flags: 0x08049780
+[decomp]> decompile
+Decompiling pack_flags
+Decompilation complete
+[decomp]> print C
+
+uint4 pack_flags(uint4 param_1)
+
+{
+  return param_1 & 0x3f0f;
+}
+[decomp]> quit
+--- exit 0
+=== function poly_eval
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function poly_eval
+Function poly_eval: 0x08049790
+[decomp]> decompile
+Decompiling poly_eval
+Decompilation complete
+[decomp]> print C
+
+float10 poly_eval(int4 param_1,int4 param_2,float8 param_3)
+
+{
+  bool bVar1;
+  float10 fVar2;
+  
+  fVar2 = (float10)0;
+  if (param_2 < 0) {
+    return fVar2;
+  }
+  do {
+    fVar2 = fVar2 * (float10)param_3 + (float10)*(float8 *)(param_1 + param_2 * 8);
+    bVar1 = param_2 != 0;
+    param_2 = param_2 + -1;
+  } while (bVar1);
+  return fVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function average_float
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function average_float
+Function average_float: 0x080497d0
+[decomp]> decompile
+Decompiling average_float
+Decompilation complete
+[decomp]> print C
+
+float10 average_float(float4 *param_1,uint4 param_2)
+
+{
+  float4 *pfVar1;
+  float4 *pfVar2;
+  float10 fVar3;
+  
+  if ((int4)param_2 < 1) {
+    return (float10)0;
+  }
+  fVar3 = (float10)0;
+  pfVar1 = param_1;
+  if ((param_2 & 1) != 0) {
+    fVar3 = fVar3 + (float10)*param_1;
+    pfVar1 = param_1 + 1;
+    if (pfVar1 == param_1 + param_2) goto code_r0x0804980c;
+  }
+  do {
+    pfVar2 = pfVar1 + 2;
+    fVar3 = fVar3 + (float10)*pfVar1 + (float10)pfVar1[1];
+    pfVar1 = pfVar2;
+  } while (pfVar2 != param_1 + param_2);
+code_r0x0804980c:
+  return fVar3 / (float10)(int4)param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_int
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function float_to_int
+Function float_to_int: 0x08049830
+[decomp]> decompile
+Decompiling float_to_int
+Decompilation complete
+[decomp]> print C
+
+int4 float_to_int(float8 param_1)
+
+{
+  if (0.0 <= param_1) {
+    return (int4)ROUND(param_1 + (float8)fRam0804b000);
+  }
+  return -(int4)ROUND((float8)fRam0804b000 - param_1);
+}
+[decomp]> quit
+--- exit 0
+=== function dot_product
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function dot_product
+Function dot_product: 0x080498a0
+[decomp]> decompile
+Decompiling dot_product
+Decompilation complete
+[decomp]> print C
+
+float10 dot_product(float8 *param_1,float8 *param_2,int4 param_3)
+
+{
+  float8 *pfVar1;
+  float8 fVar2;
+  float8 fVar3;
+  float10 fVar4;
+  
+  if (param_3 < 1) {
+    return (float10)0;
+  }
+  fVar4 = (float10)0;
+  pfVar1 = param_1 + param_3;
+  do {
+    fVar2 = *param_1;
+    fVar3 = *param_2;
+    param_1 = param_1 + 1;
+    param_2 = param_2 + 1;
+    fVar4 = (float10)fVar2 * (float10)fVar3 + fVar4;
+  } while (param_1 != pfVar1);
+  return fVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function float_to_bits
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function float_to_bits
+Function float_to_bits: 0x080498e0
+[decomp]> decompile
+Decompiling float_to_bits
+Decompilation complete
+[decomp]> print C
+
+xunknown4 float_to_bits(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function clamp_double
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function clamp_double
+Function clamp_double: 0x080498f0
+[decomp]> decompile
+Decompiling clamp_double
+Decompilation complete
+[decomp]> print C
+
+float10 clamp_double(float8 param_1,float8 param_2,float8 param_3)
+
+{
+  float10 fVar1;
+  float10 fVar2;
+  
+  fVar1 = (float10)param_1;
+  fVar2 = (float10)param_2;
+  if ((fVar2 <= fVar1) && (fVar2 = (float10)param_3, fVar1 <= fVar2)) {
+    fVar2 = fVar1 * (float10)fRam0804b004;
+  }
+  return fVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_array
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function sum_array
+Function sum_array: 0x08049940
+[decomp]> decompile
+Decompiling sum_array
+Decompilation complete
+[decomp]> print C
+
+int4 sum_array(int4 *param_1,int4 param_2)
+
+{
+  int4 *piVar1;
+  int4 iVar2;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  piVar1 = param_1 + param_2;
+  iVar2 = 0;
+  do {
+    iVar2 = iVar2 + *param_1;
+    param_1 = param_1 + 1;
+  } while (param_1 != piVar1);
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function find_max
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function find_max
+Function find_max: 0x08049980
+[decomp]> decompile
+Decompiling find_max
+Decompilation complete
+[decomp]> print C
+
+void find_max(int4 *param_1,int4 param_2)
+
+{
+  int4 *piVar1;
+  int4 iVar2;
+  int4 *piVar3;
+  
+  iVar2 = *param_1;
+  if (1 < param_2) {
+    piVar1 = param_1 + param_2;
+    piVar3 = param_1 + 1;
+    if (((int4)piVar1 - (int4)piVar3 & 4U) != 0) {
+      if (iVar2 < *piVar3) {
+        iVar2 = *piVar3;
+      }
+      piVar3 = param_1 + 2;
+      if (piVar3 == piVar1) {
+        return;
+      }
+    }
+    do {
+      if (iVar2 < *piVar3) {
+        iVar2 = *piVar3;
+      }
+      if (iVar2 < piVar3[1]) {
+        iVar2 = piVar3[1];
+      }
+      piVar3 = piVar3 + 2;
+    } while (piVar3 != piVar1);
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function bubble_sort
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function bubble_sort
+Function bubble_sort: 0x080499e0
+[decomp]> decompile
+Decompiling bubble_sort
+Decompilation complete
+[decomp]> print C
+
+void bubble_sort(int4 *param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  bool bVar2;
+  int4 *piVar3;
+  int4 iVar4;
+  int4 *piVar5;
+  
+  if (0 < param_2 + -1) {
+    piVar5 = param_1 + param_2 + -1;
+    iVar4 = 0;
+    do {
+      bVar2 = false;
+      piVar3 = param_1;
+      do {
+        iVar1 = *piVar3;
+        if (piVar3[1] < iVar1) {
+          *piVar3 = piVar3[1];
+          bVar2 = true;
+          piVar3[1] = iVar1;
+        }
+        piVar3 = piVar3 + 1;
+      } while (piVar5 != piVar3);
+      if (!bVar2) {
+        return;
+      }
+      iVar4 = iVar4 + 1;
+      piVar5 = piVar5 + -1;
+    } while (iVar4 != param_2 + -1);
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function collatz_steps
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function collatz_steps
+Function collatz_steps: 0x08049a60
+[decomp]> decompile
+Decompiling collatz_steps
+Decompilation complete
+[decomp]> print C
+
+int4 collatz_steps(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  do {
+    if ((param_1 & 1) != 0) {
+      iVar1 = iVar1 + 1;
+      param_1 = param_1 * 3 + 1;
+      if ((iVar1 == 1000) || (param_1 < 2)) {
+        return iVar1;
+      }
+    }
+    param_1 = param_1 >> 1;
+    iVar1 = iVar1 + 1;
+    if (param_1 < 2) {
+      return iVar1;
+    }
+  } while (iVar1 != 1000);
+  return 1000;
+}
+[decomp]> quit
+--- exit 0
+=== function count_bits
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function count_bits
+Function count_bits: 0x08049aa0
+[decomp]> decompile
+Decompiling count_bits
+Decompilation complete
+[decomp]> print C
+
+int4 count_bits(uint4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  for (; param_1 != 0; param_1 = param_1 & param_1 - 1) {
+    iVar1 = iVar1 + 1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function matrix_multiply
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function matrix_multiply
+Function matrix_multiply: 0x08049ac0
+[decomp]> decompile
+Decompiling matrix_multiply
+Decompilation complete
+[decomp]> print C
+
+void matrix_multiply(int4 param_1,int4 *param_2,int4 param_3)
+
+{
+  int4 *piVar1;
+  int4 iVar2;
+  
+  piVar1 = param_2 + 9;
+  do {
+    iVar2 = 0;
+    do {
+      *(int4 *)(param_1 + iVar2 * 4) =
+           param_2[2] * *(int4 *)(param_3 + 0x18 + iVar2 * 4) +
+           *(int4 *)(param_3 + iVar2 * 4) * *param_2 +
+           param_2[1] * *(int4 *)(param_3 + 0xc + iVar2 * 4);
+      iVar2 = iVar2 + 1;
+    } while (iVar2 != 3);
+    param_2 = param_2 + 3;
+    param_1 = param_1 + 0xc;
+  } while (param_2 != piVar1);
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function _start
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function _start
+Function _start: 0x08049b10
+[decomp]> decompile
+Decompiling _start
+Decompilation complete
+[decomp]> print C
+
+void _start(void)
+
+{
+  main();
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+[decomp]> quit
+--- exit 0
+=== function memcpy
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function memcpy
+Function memcpy: 0x08049b40
+[decomp]> decompile
+Decompiling memcpy
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memcpy(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  
+  if (param_3 != 0) {
+    pxVar2 = param_1;
+    do {
+      pxVar1 = pxVar2 + 1;
+      *pxVar2 = *param_2;
+      param_2 = param_2 + 1;
+      pxVar2 = pxVar1;
+    } while (param_1 + param_3 != pxVar1);
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memset
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function memset
+Function memset: 0x08049b70
+[decomp]> decompile
+Decompiling memset
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memset(xunknown1 *param_1,xunknown1 param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  xunknown1 *pxVar3;
+  
+  pxVar1 = param_1 + param_3;
+  if (param_3 != 0) {
+    pxVar2 = param_1;
+    if (((int4)pxVar1 - (int4)param_1 & 1U) != 0) {
+      pxVar2 = param_1 + 1;
+      *param_1 = param_2;
+      if (pxVar1 == pxVar2) {
+        return param_1;
+      }
+    }
+    do {
+      *pxVar2 = param_2;
+      pxVar3 = pxVar2 + 2;
+      pxVar2[1] = param_2;
+      pxVar2 = pxVar3;
+    } while (pxVar1 != pxVar3);
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memmove
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function memmove
+Function memmove: 0x08049bc0
+[decomp]> decompile
+Decompiling memmove
+Decompilation complete
+[decomp]> print C
+
+xunknown1 * memmove(xunknown1 *param_1,xunknown1 *param_2,int4 param_3)
+
+{
+  xunknown1 *pxVar1;
+  xunknown1 *pxVar2;
+  
+  if (param_1 < param_2) {
+    if (param_3 != 0) {
+      pxVar2 = param_1;
+      do {
+        pxVar1 = pxVar2 + 1;
+        *pxVar2 = *param_2;
+        param_2 = param_2 + 1;
+        pxVar2 = pxVar1;
+      } while (pxVar1 != param_1 + param_3);
+      return param_1;
+    }
+  }
+  else {
+    while (param_3 != 0) {
+      param_3 = param_3 + -1;
+      param_1[param_3] = param_2[param_3];
+    }
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function memcmp
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function memcmp
+Function memcmp: 0x08049c10
+[decomp]> decompile
+Decompiling memcmp
+Decompilation complete
+[decomp]> print C
+
+uint4 memcmp(uint1 *param_1,uint1 *param_2,int4 param_3)
+
+{
+  uint1 *puVar1;
+  
+  if (param_3 != 0) {
+    puVar1 = param_1 + param_3;
+    do {
+      if (*param_1 != *param_2) {
+        return -(uint4)(*param_1 < *param_2) | 1;
+      }
+      param_1 = param_1 + 1;
+      param_2 = param_2 + 1;
+    } while (param_1 != puVar1);
+  }
+  return 0;
+}
+[decomp]> quit
+--- exit 0
+=== function raise
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function raise
+Function raise: 0x08049c70
+[decomp]> decompile
+Decompiling raise
+Decompilation complete
+[decomp]> print C
+
+xunknown4 raise(xunknown4 param_1)
+
+{
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function copy_record
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function copy_record
+Function copy_record: 0x08049c80
+[decomp]> decompile
+Decompiling copy_record
+Decompilation complete
+[decomp]> print C
+
+void copy_record(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  *param_1 = *param_2;
+  param_1[1] = param_2[1];
+  param_1[2] = param_2[2];
+  param_1[3] = param_2[3];
+  param_1[4] = param_2[4];
+  param_1[5] = param_2[5];
+  param_1[6] = param_2[6];
+  xVar1 = param_2[7];
+  param_1[4] = param_1[4] + 1;
+  param_1[7] = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function clear_record
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function clear_record
+Function clear_record: 0x08049cc0
+[decomp]> decompile
+Decompiling clear_record
+Decompilation complete
+[decomp]> print C
+
+void clear_record(xunknown4 *param_1)
+
+{
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  param_1[4] = 0xffffffff;
+  *(xunknown2 *)(param_1 + 5) = 0;
+  *(xunknown1 *)((int4)param_1 + 0x16) = 0x78;
+  *(xunknown8 *)(param_1 + 6) = 0;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function apply_op
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function apply_op
+Function apply_op: 0x08049d00
+[decomp]> decompile
+Decompiling apply_op
+Decompilation complete
+[decomp]> print C
+
+int4 apply_op(code *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  int4 iVar1;
+  
+  iVar1 = (*param_1)(param_2,param_3);
+  return iVar1 * 2;
+}
+[decomp]> quit
+--- exit 0
+=== function add_ints
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function add_ints
+Function add_ints: 0x08049d20
+[decomp]> decompile
+Decompiling add_ints
+Decompilation complete
+[decomp]> print C
+
+int4 add_ints(int4 param_1,int4 param_2)
+
+{
+  return param_2 + param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function sub_ints
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function sub_ints
+Function sub_ints: 0x08049d30
+[decomp]> decompile
+Decompiling sub_ints
+Decompilation complete
+[decomp]> print C
+
+int4 sub_ints(int4 param_1,int4 param_2)
+
+{
+  return param_1 - param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function swap_ptrs
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function swap_ptrs
+Function swap_ptrs: 0x08049d40
+[decomp]> decompile
+Decompiling swap_ptrs
+Decompilation complete
+[decomp]> print C
+
+void swap_ptrs(xunknown4 *param_1,xunknown4 *param_2)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = *param_1;
+  *param_1 = *param_2;
+  *param_2 = xVar1;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function divide_constants
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function divide_constants
+Function divide_constants: 0x08049d60
+[decomp]> decompile
+Decompiling divide_constants
+Decompilation complete
+[decomp]> print C
+
+int4 divide_constants(int4 param_1,uint4 param_2)
+
+{
+  return param_1 % 10 + param_1 / 7 + param_2 / 3 + param_2 % 1000;
+}
+[decomp]> quit
+--- exit 0
+=== function crc8
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function crc8
+Function crc8: 0x08049dc0
+[decomp]> decompile
+Decompiling crc8
+Decompilation complete
+[decomp]> print C
+
+uint4 crc8(uint1 *param_1,int4 param_2)
+
+{
+  uint1 *puVar1;
+  uint1 uVar2;
+  uint1 uVar3;
+  uint4 uVar4;
+  int4 iVar5;
+  
+  if (param_2 < 1) {
+    return 0;
+  }
+  uVar4 = 0;
+  puVar1 = param_1 + param_2;
+  do {
+    uVar2 = *param_1;
+    param_1 = param_1 + 1;
+    uVar3 = (uint1)(uVar4 << 4) ^ *(uint1 *)(((uVar2 ^ uVar4) >> 4 & 0xf) + 0x804b070);
+    iVar5 = CONCAT31((unkint3)((uVar4 << 4) >> 8),uVar3) << 4;
+    uVar4 = CONCAT31((unkint3)((uint4)iVar5 >> 8),
+                     (uint1)iVar5 ^ *(uint1 *)(((uint1)(uVar2 ^ uVar3 >> 4) & 0xf) + 0x804b070));
+  } while (puVar1 != param_1);
+  return uVar4;
+}
+[decomp]> quit
+--- exit 0
+=== function global_counter_bump
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function global_counter_bump
+Function global_counter_bump: 0x08049e50
+[decomp]> decompile
+Decompiling global_counter_bump
+Decompilation complete
+[decomp]> print C
+
+int4 global_counter_bump(int4 param_1)
+
+{
+  iRam0804c140 = iRam0804c140 + param_1;
+  if (1000 < iRam0804c140) {
+    iRam0804c140 = 0;
+  }
+  return iRam0804c140;
+}
+[decomp]> quit
+--- exit 0
+=== function factorial
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function factorial
+Function factorial: 0x08049e70
+[decomp]> decompile
+Decompiling factorial
+Decompilation complete
+[decomp]> print C
+
+int4 factorial(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 1;
+  if (1 < param_1) {
+    do {
+      iVar1 = iVar1 * param_1;
+      param_1 = param_1 + -1;
+    } while (param_1 != 1);
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function fibonacci
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function fibonacci
+Function fibonacci: 0x08049e90
+[decomp]> decompile
+Decompiling fibonacci
+Decompilation complete
+[decomp]> print C
+
+int4 fibonacci(int4 param_1)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  uint4 uVar3;
+  int4 iVar4;
+  uint4 uVar5;
+  uint4 uVar6;
+  uint4 uVar7;
+  uint4 uVar8;
+  int4 iVar9;
+  uint4 uVar10;
+  uint4 uVar11;
+  int4 iVar12;
+  uint4 uVar13;
+  uint4 uVar14;
+  uint4 uVar15;
+  uint4 uVar16;
+  uint4 uVar17;
+  int4 iVar18;
+  int4 iVar19;
+  int4 iVar20;
+  uint4 uVar21;
+  int4 iVar22;
+  int4 iVar23;
+  int4 iVar24;
+  int4 iVar25;
+  uint4 uVar26;
+  int4 iVar27;
+  int4 iStack_54;
+  
+  if (1 < param_1) {
+    uVar7 = param_1 - 1;
+    iVar22 = 0;
+    uVar6 = uVar7 & 0xfffffffe;
+    iVar4 = param_1;
+    while (param_1 - uVar6 != iVar4) {
+      iVar23 = 0;
+      uVar10 = uVar7 - (iVar4 - 2U & 0xfffffffe);
+      do {
+        uVar13 = uVar7 - 1;
+        if (uVar10 == uVar7) {
+          iVar23 = (uVar7 - 1) + iVar23;
+          goto joined_r0x0804a15f;
+        }
+        uVar7 = uVar7 - 2;
+        iStack_54 = 0;
+        uVar16 = uVar13 - (uVar7 & 0xfffffffe);
+        do {
+          uVar8 = uVar13 - 1;
+          if (uVar16 == uVar13) {
+            iStack_54 = (uVar13 - 1) + iStack_54;
+            goto code_r0x0804a120;
+          }
+          uVar13 = uVar13 - 2;
+          iVar25 = 0;
+          uVar11 = uVar8 - (uVar13 & 0xfffffffe);
+          do {
+            uVar17 = uVar8 - 1;
+            if (uVar11 == uVar8) {
+              iVar25 = (uVar8 - 1) + iVar25;
+              goto code_r0x0804a0ea;
+            }
+            uVar8 = uVar8 - 2;
+            iVar20 = 0;
+            uVar14 = uVar17 - (uVar8 & 0xfffffffe);
+            do {
+              uVar1 = uVar17 - 1;
+              if (uVar17 == uVar14) {
+                iVar20 = (uVar17 - 1) + iVar20;
+                goto code_r0x0804a0b4;
+              }
+              uVar17 = uVar17 - 2;
+              iVar18 = 0;
+              uVar26 = uVar1;
+              do {
+                if (uVar26 == uVar1 - (uVar17 & 0xfffffffe)) {
+                  iVar18 = iVar18 + -1 + uVar26;
+                  goto code_r0x0804a09e;
+                }
+                uVar2 = uVar26 - 2;
+                uVar3 = uVar26 - 3;
+                iVar24 = 0;
+                iVar27 = uVar26 - 2;
+                uVar5 = uVar3;
+                while (uVar3 - (uVar2 & 0xfffffffe) != uVar5) {
+                  iVar12 = 0;
+                  uVar21 = uVar5;
+                  do {
+                    if (uVar21 == 1) break;
+                    iVar19 = 0;
+                    uVar15 = uVar21;
+                    do {
+                      iVar9 = fibonacci(uVar15 - 1);
+                      iVar19 = iVar19 + iVar9;
+                      uVar15 = uVar15 - 2;
+                    } while (1 < (int4)uVar15);
+                    uVar15 = iVar27 - 3;
+                    uVar21 = uVar21 - 2;
+                    iVar27 = iVar27 + -2;
+                    iVar12 = iVar12 + (uVar21 - (uVar15 & 0xfffffffe)) + iVar19;
+                  } while (iVar27 != 1);
+                  iVar24 = iVar24 + iVar12 + 1;
+                  if ((uVar26 - 5) - (uVar3 & 0xfffffffe) == uVar5 - 2) {
+                    iVar24 = iVar24 + uVar5;
+                    goto code_r0x0804a071;
+                  }
+                  iVar27 = uVar5 - 1;
+                  uVar5 = uVar5 - 2;
+                }
+                iVar24 = iVar24 + iVar27;
+code_r0x0804a071:
+                iVar18 = iVar18 + iVar24;
+                uVar26 = uVar2;
+              } while (uVar2 != 1);
+              iVar18 = iVar18 + 1;
+code_r0x0804a09e:
+              iVar20 = iVar20 + iVar18;
+            } while (uVar17 != 1);
+            iVar20 = iVar20 + 1;
+code_r0x0804a0b4:
+            iVar25 = iVar25 + iVar20;
+          } while (uVar8 != 1);
+          iVar25 = iVar25 + 1;
+code_r0x0804a0ea:
+          iStack_54 = iStack_54 + iVar25;
+        } while (uVar13 != 1);
+        iStack_54 = iStack_54 + 1;
+code_r0x0804a120:
+        iVar23 = iVar23 + iStack_54;
+      } while (uVar7 != 1);
+      iVar23 = iVar23 + 1;
+joined_r0x0804a15f:
+      iVar22 = iVar22 + iVar23;
+      if (iVar4 + -2 == 1) {
+        return iVar22 + 1;
+      }
+      uVar7 = iVar4 - 3;
+      iVar4 = iVar4 + -2;
+    }
+    param_1 = uVar7 + iVar22;
+  }
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function gcd
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function gcd
+Function gcd: 0x0804a190
+[decomp]> decompile
+Decompiling gcd
+Decompilation complete
+[decomp]> print C
+
+int4 gcd(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  
+  if (param_2 == 0) {
+    return param_1;
+  }
+  while (iVar1 = param_1 % param_2, iVar1 != 0) {
+    param_1 = param_2;
+    param_2 = iVar1;
+  }
+  return param_2;
+}
+[decomp]> quit
+--- exit 0
+=== function ackermann
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function ackermann
+Function ackermann: 0x0804a1c0
+[decomp]> decompile
+Decompiling ackermann
+Decompilation complete
+[decomp]> print C
+
+int4 ackermann(int4 param_1,int4 param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  int4 iVar3;
+  int4 iVar4;
+  int4 iVar5;
+  int4 iVar6;
+  int4 iVar7;
+  int4 iVar8;
+  int4 iVar9;
+  int4 iVar10;
+  int4 iVar11;
+  
+joined_r0x0804a1d1:
+  if (param_1 == 0) {
+code_r0x0804a37a:
+    return param_2 + 1;
+  }
+  iVar5 = param_1 + -1;
+  if (param_2 != 0) goto code_r0x0804a44d;
+  if (iVar5 == 0) {
+    return 2;
+  }
+  param_2 = 1;
+  iVar2 = param_1 + -2;
+  do {
+    param_1 = iVar2;
+    param_2 = param_2 + -1;
+code_r0x0804a1f7:
+    iVar2 = iVar5 + -1;
+    if (param_2 != 0) goto code_r0x0804a41f;
+    if (iVar2 != 0) {
+      param_2 = 1;
+      iVar8 = iVar5 + -2;
+code_r0x0804a212:
+      iVar5 = iVar8;
+      param_2 = param_2 + -1;
+      do {
+        iVar8 = iVar2 + -1;
+        if (param_2 == 0) {
+          if (iVar8 == 0) goto code_r0x0804a400;
+          iVar7 = iVar2 + -2;
+          param_2 = 1;
+          iVar2 = iVar8;
+          iVar8 = iVar7;
+        }
+        iVar7 = param_2 + -1;
+code_r0x0804a23b:
+        do {
+          iVar6 = iVar2 + -1;
+          if (iVar7 == 0) {
+            if (iVar6 == 0) {
+              iVar7 = 1;
+              break;
+            }
+            iVar7 = 1;
+            iVar3 = iVar2 + -2;
+          }
+          else {
+            iVar3 = iVar6;
+            iVar6 = iVar2;
+          }
+          iVar2 = iVar3;
+          iVar7 = iVar7 + -1;
+          do {
+            iVar3 = iVar6 + -1;
+            if (iVar7 == 0) {
+              if (iVar3 == 0) {
+                iVar7 = 2;
+                if (iVar2 != 0) goto code_r0x0804a23b;
+                goto code_r0x0804a353;
+              }
+              iVar7 = 1;
+              iVar1 = iVar6 + -2;
+            }
+            else {
+              iVar1 = iVar3;
+              iVar3 = iVar6;
+            }
+            iVar6 = iVar1;
+            iVar1 = iVar7 + -1;
+            do {
+              iVar7 = iVar3 + -1;
+              if (iVar1 == 0) {
+                if (iVar7 == 0) {
+                  iVar1 = 1;
+                  break;
+                }
+                iVar9 = iVar3 + -2;
+                iVar1 = 1;
+                iVar3 = iVar7;
+                iVar7 = iVar9;
+              }
+              iVar1 = iVar1 + -1;
+              do {
+                iVar9 = iVar3 + -1;
+                if (iVar1 == 0) {
+                  if (iVar9 == 0) {
+                    iVar1 = 1;
+                    break;
+                  }
+                  iVar1 = 1;
+                  iVar11 = iVar3 + -2;
+                }
+                else {
+                  iVar11 = iVar9;
+                  iVar9 = iVar3;
+                }
+                iVar3 = iVar11;
+                iVar1 = iVar1 + -1;
+code_r0x0804a2c1:
+                do {
+                  iVar11 = iVar9 + -1;
+                  if (iVar1 == 0) {
+                    if (iVar11 == 0) {
+                      iVar1 = 1;
+                      break;
+                    }
+                    iVar10 = iVar9 + -2;
+                    iVar1 = 1;
+                    iVar9 = iVar11;
+                    iVar11 = iVar10;
+                  }
+                  iVar1 = iVar1 + -1;
+                  do {
+                    iVar10 = iVar9 + -1;
+                    if (iVar1 == 0) {
+                      if (iVar10 == 0) {
+                        iVar1 = 2;
+                        iVar9 = iVar11;
+                        if (iVar11 != 0) goto code_r0x0804a2c1;
+                        goto code_r0x0804a319;
+                      }
+                      iVar4 = iVar9 + -2;
+                      iVar1 = 1;
+                      iVar9 = iVar10;
+                      iVar10 = iVar4;
+                    }
+                    iVar1 = ackermann(iVar9,iVar1 + -1);
+                    iVar9 = iVar10;
+                  } while (iVar10 != 0);
+                  iVar1 = iVar1 + 1;
+                  iVar9 = iVar11;
+                } while (iVar11 != 0);
+code_r0x0804a319:
+                iVar1 = iVar1 + 1;
+              } while (iVar3 != 0);
+              iVar1 = iVar1 + 1;
+              iVar3 = iVar7;
+            } while (iVar7 != 0);
+            iVar7 = iVar1 + 1;
+          } while (iVar6 != 0);
+          iVar7 = iVar1 + 2;
+        } while (iVar2 != 0);
+code_r0x0804a353:
+        param_2 = iVar7 + 1;
+        iVar2 = iVar8;
+        if (iVar8 == 0) {
+          param_2 = iVar7 + 2;
+          if (iVar5 == 0) goto code_r0x0804a36d;
+          goto code_r0x0804a1f7;
+        }
+      } while( true );
+    }
+    param_2 = 2;
+    if (param_1 == 0) goto code_r0x0804a37a;
+    iVar5 = param_1 + -1;
+code_r0x0804a44d:
+    iVar2 = iVar5;
+    iVar5 = param_1;
+  } while( true );
+code_r0x0804a400:
+  param_2 = 2;
+  if (iVar5 == 0) goto code_r0x0804a36d;
+  iVar2 = iVar5 + -1;
+code_r0x0804a41f:
+  iVar8 = iVar2;
+  iVar2 = iVar5;
+  goto code_r0x0804a212;
+code_r0x0804a36d:
+  param_2 = param_2 + 1;
+  goto joined_r0x0804a1d1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strlen
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function my_strlen
+Function my_strlen: 0x0804a4e0
+[decomp]> decompile
+Decompiling my_strlen
+Decompilation complete
+[decomp]> print C
+
+int4 my_strlen(char *param_1)
+
+{
+  char *pcVar1;
+  
+  if (*param_1 == '\0') {
+    return 0;
+  }
+  pcVar1 = param_1;
+  do {
+    pcVar1 = pcVar1 + 1;
+  } while (*pcVar1 != '\0');
+  return (int4)pcVar1 - (int4)param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcmp
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function my_strcmp
+Function my_strcmp: 0x0804a510
+[decomp]> decompile
+Decompiling my_strcmp
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcmp(uint1 *param_1,uint1 *param_2)
+
+{
+  uint1 uVar1;
+  uint1 uVar2;
+  uint4 uVar3;
+  
+  uVar1 = *param_1;
+  if (uVar1 == 0) {
+    uVar2 = *param_2;
+    uVar3 = 0;
+  }
+  else {
+    while( true ) {
+      uVar3 = (uint4)uVar1;
+      uVar2 = *param_2;
+      if (uVar2 != uVar1) break;
+      uVar1 = param_1[1];
+      param_1 = param_1 + 1;
+      if (uVar1 == 0) {
+        return -(uint4)param_2[1];
+      }
+      param_2 = param_2 + 1;
+    }
+  }
+  return uVar3 - uVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function my_strcpy
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function my_strcpy
+Function my_strcpy: 0x0804a580
+[decomp]> decompile
+Decompiling my_strcpy
+Decompilation complete
+[decomp]> print C
+
+int4 my_strcpy(int4 param_1,int4 param_2)
+
+{
+  char cVar1;
+  int4 iVar2;
+  
+  iVar2 = 0;
+  do {
+    cVar1 = *(char *)(param_2 + iVar2);
+    *(char *)(param_1 + iVar2) = cVar1;
+    iVar2 = iVar2 + 1;
+  } while (cVar1 != '\0');
+  return param_1;
+}
+[decomp]> quit
+--- exit 0
+=== function reverse_string
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function reverse_string
+Function reverse_string: 0x0804a5b0
+[decomp]> decompile
+Decompiling reverse_string
+Decompilation complete
+[decomp]> print C
+
+void reverse_string(char *param_1)
+
+{
+  char cVar1;
+  char *pcVar2;
+  uint4 uVar3;
+  uint4 uVar4;
+  
+  if (*param_1 != '\0') {
+    pcVar2 = param_1;
+    do {
+      pcVar2 = pcVar2 + 1;
+    } while (*pcVar2 != '\0');
+    if (((int4)pcVar2 - (int4)param_1 != 0) &&
+       (uVar3 = ((int4)pcVar2 - (int4)param_1) - 1, uVar3 != 0)) {
+      uVar4 = 0;
+      do {
+        cVar1 = param_1[uVar4];
+        param_1[uVar4] = param_1[uVar3];
+        uVar4 = uVar4 + 1;
+        param_1[uVar3] = cVar1;
+        uVar3 = uVar3 - 1;
+      } while (uVar4 < uVar3);
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function count_char
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function count_char
+Function count_char: 0x0804a600
+[decomp]> decompile
+Decompiling count_char
+Decompilation complete
+[decomp]> print C
+
+int4 count_char(char *param_1,char param_2)
+
+{
+  char cVar1;
+  int4 iVar2;
+  
+  iVar2 = 0;
+  cVar1 = *param_1;
+  while (cVar1 != '\0') {
+    param_1 = param_1 + 1;
+    iVar2 = iVar2 + (uint4)(param_2 == cVar1);
+    cVar1 = *param_1;
+  }
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function parse_decimal
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function parse_decimal
+Function parse_decimal: 0x0804a640
+[decomp]> decompile
+Decompiling parse_decimal
+Decompilation complete
+[decomp]> print C
+
+int4 parse_decimal(char *param_1)
+
+{
+  char cVar1;
+  int4 iVar2;
+  int4 iVar3;
+  
+  iVar3 = 1;
+  cVar1 = *param_1;
+  if (cVar1 == '-') {
+    cVar1 = param_1[1];
+    iVar3 = -1;
+    param_1 = param_1 + 1;
+  }
+  iVar2 = 0;
+  if ((uint1)(cVar1 - 0x30U) < 10) {
+    do {
+      param_1 = param_1 + 1;
+      iVar2 = (int4)(char)(cVar1 + -0x30) + iVar2 * 10;
+      cVar1 = *param_1;
+    } while ((uint1)(cVar1 - 0x30U) < 10);
+    iVar2 = iVar2 * iVar3;
+  }
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function to_upper
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function to_upper
+Function to_upper: 0x0804a6a0
+[decomp]> decompile
+Decompiling to_upper
+Decompilation complete
+[decomp]> print C
+
+void to_upper(char *param_1)
+
+{
+  char *pcVar1;
+  char cVar2;
+  
+  cVar2 = *param_1;
+  while (cVar2 != '\0') {
+    if ((uint1)(cVar2 + 0x9fU) < 0x1a) {
+      *param_1 = cVar2 + -0x20;
+    }
+    pcVar1 = param_1 + 1;
+    param_1 = param_1 + 1;
+    cVar2 = *pcVar1;
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function point_distance2
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function point_distance2
+Function point_distance2: 0x0804a6e0
+[decomp]> decompile
+Decompiling point_distance2
+Decompilation complete
+[decomp]> print C
+
+int4 point_distance2(int4 *param_1,int4 *param_2)
+
+{
+  return (*param_1 - *param_2) * (*param_1 - *param_2) +
+         (param_1[1] - param_2[1]) * (param_1[1] - param_2[1]);
+}
+[decomp]> quit
+--- exit 0
+=== function make_point
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function make_point
+Function make_point: 0x0804a700
+[decomp]> decompile
+Decompiling make_point
+Decompilation complete
+[decomp]> print C
+
+void make_point(xunknown4 *param_1,xunknown4 param_2,xunknown4 param_3)
+
+{
+  *param_1 = param_2;
+  param_1[1] = param_3;
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_area
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function rect_area
+Function rect_area: 0x0804a720
+[decomp]> decompile
+Decompiling rect_area
+Decompilation complete
+[decomp]> print C
+
+int4 rect_area(xunknown4 param_1,xunknown4 param_2,int4 param_3,int4 param_4)
+
+{
+  return param_3 * param_4;
+}
+[decomp]> quit
+--- exit 0
+=== function rect_contains
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function rect_contains
+Function rect_contains: 0x0804a730
+[decomp]> decompile
+Decompiling rect_contains
+Decompilation complete
+[decomp]> print C
+
+bool rect_contains(int4 *param_1,int4 param_2,int4 param_3)
+
+{
+  bool bVar1;
+  
+  bVar1 = false;
+  if (((*param_1 <= param_2) && (param_1[1] <= param_3)) && (param_2 < *param_1 + param_1[2])) {
+    bVar1 = param_3 < param_1[1] + param_1[3];
+  }
+  return bVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_length
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function list_length
+Function list_length: 0x0804a770
+[decomp]> decompile
+Decompiling list_length
+Decompilation complete
+[decomp]> print C
+
+int4 list_length(int4 param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  for (; param_1 != 0; param_1 = *(int4 *)(param_1 + 4)) {
+    iVar1 = iVar1 + 1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_sum
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function list_sum
+Function list_sum: 0x0804a790
+[decomp]> decompile
+Decompiling list_sum
+Decompilation complete
+[decomp]> print C
+
+int4 list_sum(int4 *param_1)
+
+{
+  int4 iVar1;
+  
+  iVar1 = 0;
+  for (; param_1 != (int4 *)0x0; param_1 = (int4 *)param_1[1]) {
+    iVar1 = iVar1 + *param_1;
+  }
+  return iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function list_reverse
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function list_reverse
+Function list_reverse: 0x0804a7b0
+[decomp]> decompile
+Decompiling list_reverse
+Decompilation complete
+[decomp]> print C
+
+void list_reverse(int4 param_1)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  if (param_1 != 0) {
+    iVar2 = 0;
+    while( true ) {
+      iVar1 = param_1;
+      param_1 = *(int4 *)(iVar1 + 4);
+      *(int4 *)(iVar1 + 4) = iVar2;
+      if (param_1 == 0) break;
+      iVar2 = iVar1;
+    }
+  }
+  return;
+}
+[decomp]> quit
+--- exit 0
+=== function switch_dense
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function switch_dense
+Function switch_dense: 0x0804a7d0
+[decomp]> decompile
+Decompiling switch_dense
+Decompilation complete
+[decomp]> print C
+
+/* WARNING: Removing unreachable block (ram,0x0804a19c) */
+
+uint4 switch_dense(xunknown4 param_1,uint4 param_2)
+
+{
+  uint4 uVar1;
+  uint4 uVar2;
+  
+  uVar1 = param_2;
+  switch(param_1) {
+  case 0:
+    return param_2 + 0x11;
+  case 1:
+    return param_2 * 0x1f + 4;
+  case 2:
+    return (int4)param_2 / 3;
+  case 3:
+    return param_2 << 5;
+  case 4:
+    param_2 = 0x4d2;
+    while (uVar2 = (int4)uVar1 % (int4)param_2, uVar2 != 0) {
+      uVar1 = param_2;
+      param_2 = uVar2;
+    }
+    return param_2;
+  case 5:
+    return -param_2;
+  case 6:
+    return param_2 ^ 0x55;
+  case 7:
+    uVar1 = 0;
+    for (; param_2 != 0; param_2 = param_2 & param_2 - 1) {
+      uVar1 = uVar1 + 1;
+    }
+    return uVar1;
+  case 8:
+    return param_2 - 100;
+  case 9:
+    param_2 = param_2 & 7;
+    uVar1 = 1;
+    if (1 < param_2) {
+      do {
+        uVar1 = uVar1 * param_2;
+        param_2 = param_2 - 1;
+      } while (param_2 != 1);
+    }
+    return uVar1;
+  default:
+    return 0xffffffff;
+  }
+}
+[decomp]> quit
+--- exit 0
+=== function switch_sparse
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function switch_sparse
+Function switch_sparse: 0x0804a880
+[decomp]> decompile
+Decompiling switch_sparse
+Decompilation complete
+[decomp]> print C
+
+char switch_sparse(int4 param_1)
+
+{
+  char cVar1;
+  
+  if (param_1 == 1000) {
+    cVar1 = '\x03';
+  }
+  else if (param_1 < 0x3e9) {
+    cVar1 = '\x01';
+    if ((param_1 != 3) && (cVar1 = '\x02', param_1 != 100)) {
+      return (param_1 == -0x32) * '\x05';
+    }
+  }
+  else {
+    cVar1 = '\x04';
+    if (param_1 != 0x1000) {
+      cVar1 = '\0';
+      if (param_1 == 0x12fd1) {
+        cVar1 = '\x06';
+      }
+      return cVar1;
+    }
+  }
+  return cVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function weekday_name
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function weekday_name
+Function weekday_name: 0x0804a8e0
+[decomp]> decompile
+Decompiling weekday_name
+Decompilation complete
+[decomp]> print C
+
+xunknown4 weekday_name(uint4 param_1)
+
+{
+  xunknown4 xVar1;
+  
+  xVar1 = 0x804b02f;
+  if (param_1 < 7) {
+    xVar1 = *(xunknown4 *)(param_1 * 4 + 0x804b0a8);
+  }
+  return xVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function sum_varargs
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function sum_varargs
+Function sum_varargs: 0x0804a900
+[decomp]> decompile
+Decompiling sum_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 sum_varargs(int4 param_1,xunknown1 param_2)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  if (param_1 < 1) {
+    return 0;
+  }
+  iVar1 = 0;
+  iVar2 = 0;
+  do {
+    iVar2 = iVar2 + *(int4 *)(&param_2 + iVar1 * 4);
+    iVar1 = iVar1 + 1;
+  } while (param_1 != iVar1);
+  return iVar2;
+}
+[decomp]> quit
+--- exit 0
+=== function call_varargs
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function call_varargs
+Function call_varargs: 0x0804a940
+[decomp]> decompile
+Decompiling call_varargs
+Decompilation complete
+[decomp]> print C
+
+int4 call_varargs(void)
+
+{
+  int4 iVar1;
+  int4 iVar2;
+  
+  iVar1 = sum_varargs(3,10,0x14,0x1e);
+  iVar2 = sum_varargs(5,1,2,3,4,5);
+  return iVar2 + iVar1;
+}
+[decomp]> quit
+--- exit 0
+=== function format_hex
+[decomp]> load file default-x86:LE:32:default:gcc i686-O2
+i686-O2 successfully loaded: Intel/AMD 32-bit x86
+[decomp]> read symbols
+[decomp]> load function format_hex
+Function format_hex: 0x0804a970
+[decomp]> decompile
+Decompiling format_hex
+Decompilation complete
+[decomp]> print C
+
+int4 format_hex(int4 param_1,char *param_2,uint4 param_3)
+
+{
+  char cVar1;
+  uint4 uVar2;
+  int4 iVar3;
+  char cVar4;
+  int4 iVar5;
+  char *pcVar6;
+  
+  iVar5 = 0;
+  cVar1 = *param_2;
+  while (cVar1 != '\0') {
+    iVar5 = iVar5 + 1;
+    *(char *)(param_1 + -1 + iVar5) = cVar1;
+    cVar1 = param_2[iVar5];
+  }
+  iVar3 = 0x1c;
+  pcVar6 = (char *)(param_1 + iVar5);
+  do {
+    uVar2 = param_3 >> ((uint1)iVar3 & 0x1f) & 0xf;
+    cVar1 = (char)uVar2;
+    cVar4 = cVar1 + 'W';
+    if (uVar2 < 10) {
+      cVar4 = cVar1 + '0';
+    }
+    iVar3 = iVar3 + -4;
+    *pcVar6 = cVar4;
+    pcVar6 = pcVar6 + 1;
+  } while (iVar3 != -4);
+  *(xunknown1 *)(param_1 + 8 + iVar5) = 0;
+  return iVar5 + 8;
+}
+[decomp]> quit
+--- exit 0
