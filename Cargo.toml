@@ -1,7 +1,7 @@
 [package]
 name = "ghidra-decompiler"
 description = "Pure Rust port of the Ghidra decompiler"
-version = "2.0.0"
+version = "2.1.0"
 edition = "2024"
 rust-version = "1.88"
 license = "Apache-2.0"

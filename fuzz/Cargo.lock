@@ -90,7 +90,7 @@ dependencies = [
 
 [[package]]
 name = "ghidra-decompiler"
-version = "1.0.0"
+version = "2.1.0"
 dependencies = [
  "cpp_demangle",
  "lzma-rs",

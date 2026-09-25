@@ -462,63 +462,121 @@ impl Program {
     }
 
     pub fn set_symbol_name(&mut self, address: u64, name: &str) -> Result<()> {
-        panic_guard(|| self.set_symbol_name_unguarded(address, name))
+        panic_guard(|| {
+            if self.function_starting_at(address)?.is_some() {
+                self.set_function_name_unguarded(address, name)
+            } else if self.data.contains_key(&address) {
+                self.set_data_name_unguarded(address, name)
+            } else {
+                Err(Error::Lowlevel(format!(
+                    "no function or data symbol starts at {address:#x}"
+                )))
+            }
+        })
     }
 
-    fn set_symbol_name_unguarded(&mut self, address: u64, name: &str) -> Result<()> {
+    pub fn set_function_name(&mut self, address: u64, name: &str) -> Result<()> {
+        panic_guard(|| self.set_function_name_unguarded(address, name))
+    }
+
+    pub fn set_data_name(&mut self, address: u64, name: &str) -> Result<()> {
+        panic_guard(|| self.set_data_name_unguarded(address, name))
+    }
+
+    fn function_starting_at(&self, address: u64) -> Result<Option<SymbolId>> {
         let scope = self.global_scope()?;
-        let function = self
+        Ok(self
             .symbol_table()?
             .scope_query_function(scope, &self.code_address(address)?)
-            .filter(|sym| self.function_address(*sym).is_ok_and(|entry| entry == address));
-        let (sym, loaded_name) = match (function, self.data.get(&address)) {
-            (Some(sym), _) => {
-                let loaded_name = match self.functions.get(&sym) {
-                    Some(record) => record.loaded_name.clone(),
-                    None => self.symbol_table()?.symbol(sym).get_name().to_string(),
-                };
-                (sym, loaded_name)
-            }
-            (None, Some(record)) => (record.sym, record.loaded_name.clone()),
-            (None, None) => {
-                return Err(Error::Lowlevel(format!(
-                    "no function or data symbol starts at {address:#x}"
-                )));
-            }
+            .filter(|sym| self.function_address(*sym).is_ok_and(|entry| entry == address)))
+    }
+
+    fn set_function_name_unguarded(&mut self, address: u64, name: &str) -> Result<()> {
+        let sym = match self.function_starting_at(address)? {
+            Some(sym) => sym,
+            None => self.function_at(address)?,
+        };
+        let loaded_name = match self.functions.get(&sym) {
+            Some(record) => record.loaded_name.clone(),
+            None => self.symbol_table()?.symbol(sym).get_name().to_string(),
         };
         let new_name = if name.is_empty() {
             loaded_name.clone()
         } else {
             name.to_string()
         };
-        let is_name_taken = self
-            .functions
-            .iter()
-            .any(|(other, record)| *other != sym && record.name == new_name)
-            || self
-                .data
-                .iter()
-                .any(|(other, record)| *other != address && record.name == new_name);
-        if is_name_taken {
-            return Err(Error::Lowlevel(format!("the name {new_name} is in use")));
-        }
+        self.check_unused_name(&new_name, Some(sym), None)?;
+        let scope = self.global_scope()?;
         self.architecture
             .symboltab_mut()?
             .scope_rename_symbol(scope, sym, &new_name)?;
-        if let Some(record) = self.functions.get_mut(&sym) {
+        match self.functions.get_mut(&sym) {
+            Some(record) => record.name = new_name,
+            None => {
+                self.functions.insert(
+                    sym,
+                    FunctionRecord {
+                        name: new_name,
+                        loaded_name,
+                        symbol: None,
+                        source: FunctionSource::SymbolTable,
+                    },
+                );
+            }
+        }
+        Ok(())
+    }
+
+    pub fn is_code_address(&self, address: u64) -> bool {
+        self.code_sections.iter().any(|section| section.contains(&address))
+    }
+
+    fn set_data_name_unguarded(&mut self, address: u64, name: &str) -> Result<()> {
+        if !self.data.contains_key(&address) {
+            self.add_data_label(address)?;
+        }
+        let (sym, loaded_name) = match self.data.get(&address) {
+            Some(record) => (record.sym, record.loaded_name.clone()),
+            None => return Err(Error::Lowlevel(format!("no data symbol starts at {address:#x}"))),
+        };
+        let new_name = if name.is_empty() { loaded_name } else { name.to_string() };
+        self.check_unused_name(&new_name, None, Some(address))?;
+        let scope = self.global_scope()?;
+        self.architecture
+            .symboltab_mut()?
+            .scope_rename_symbol(scope, sym, &new_name)?;
+        if let Some(record) = self.data.get_mut(&address) {
             record.name = new_name;
-        } else if function.is_some() {
-            self.functions.insert(
-                sym,
-                FunctionRecord {
-                    name: new_name,
-                    loaded_name,
-                    symbol: None,
-                    source: FunctionSource::SymbolTable,
-                },
-            );
-        } else if let Some(record) = self.data.get_mut(&address) {
-            record.name = new_name;
+        }
+        Ok(())
+    }
+
+    fn add_data_label(&mut self, address: u64) -> Result<()> {
+        let scope = self.global_scope()?;
+        let data_address = self.data_address(address)?;
+        if self
+            .symbol_table()?
+            .scope_query_container(scope, &data_address, 1, &Address::invalid())
+            .is_some()
+        {
+            return Err(Error::Lowlevel(format!(
+                "{address:#x} is inside another symbol; name the symbol at its start"
+            )));
+        }
+        self.add_typed_data_symbol(&format!("DAT_{address:08x}"), None, address, 1)
+    }
+
+    fn check_unused_name(&self, name: &str, function: Option<SymbolId>, data_address: Option<u64>) -> Result<()> {
+        let is_function_name = self
+            .functions
+            .iter()
+            .any(|(sym, record)| Some(*sym) != function && record.name == name);
+        let is_data_name = self
+            .data
+            .iter()
+            .any(|(address, record)| Some(*address) != data_address && record.name == name);
+        if is_function_name || is_data_name {
+            return Err(Error::Lowlevel(format!("the name {name} is in use")));
         }
         Ok(())
     }

@@ -34,8 +34,11 @@ let edges = program.call_graph()?;
 - `call_graph()` follows control flow of every known function and reports direct calls.
 - `disassemble(address, count)` returns each instruction with its bytes.
 - `discover_functions()` finds the functions of a binary without function symbols (see "Symbols").
-- `data_symbols()` lists the data symbols; `set_symbol_name(address, name)` renames the function or data
-  symbol that starts at the address, and an empty name restores the loaded name.
+- `data_symbols()` lists the data symbols. `set_function_name(address, name)` renames the function at the
+  address and creates it when none starts there (as `decompile` does); `set_data_name(address, name)`
+  renames a data symbol and creates a 1-byte label `DAT_<address>` when none starts there;
+  `is_code_address(address)` says whether the address is in an executable section; `set_symbol_name(address, name)` renames whichever of the two starts at the
+  address. An empty name restores the loaded name.
 - `Program` is `Send`. Internal panics are returned as `Error::Lowlevel`.
 - `Program::architecture()` exposes the underlying `Architecture` for everything the C++ decompiler offers
   (options, types, prototypes, actions, the console command set in `ifacedecomp`).

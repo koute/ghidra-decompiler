@@ -77,7 +77,7 @@ impl Program {
         let mut pending = vec![entry];
         let mut visited = BTreeSet::new();
         while let Some(address) = pending.pop() {
-            if !visited.insert(address) || !self.is_code(address) {
+            if !visited.insert(address) || !self.is_code_address(address) {
                 continue;
             }
             let sym = self.discovered_function(address)?;
@@ -93,10 +93,6 @@ impl Program {
             );
         }
         Ok(())
-    }
-
-    fn is_code(&self, address: u64) -> bool {
-        self.code_sections.iter().any(|section| section.contains(&address))
     }
 
     fn discovered_function(&mut self, address: u64) -> Result<SymbolId> {

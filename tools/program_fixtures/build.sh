@@ -35,4 +35,6 @@ done
 gcc "${COMMON[@]}" -static "$SRC/stripped.c" -o "$WORK/stripped-static"
 nm "$WORK/stripped-static" | awk '$3 == "main" || $3 == "twice" || $3 == "square" { print $3, "0x" $1 }' \
     | sed 's/0x0*/0x/' | sort > "$OUT/stripped-static.functions"
+nm "$WORK/stripped-static" | awk '$3 == "_IO_2_1_stdout_" { print $3, "0x" $1 }' \
+    | sed 's/0x0*/0x/' > "$OUT/stripped-static.data"
 strip "$WORK/stripped-static" -o "$OUT/stripped-static"

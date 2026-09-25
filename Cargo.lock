@@ -55,7 +55,7 @@ checksum = "217698eaf96b4a3f0bc4f3662aaa55bdf913cd54d7204591faa790070c6d0853"
 
 [[package]]
 name = "ghidra-decompiler"
-version = "2.0.0"
+version = "2.1.0"
 dependencies = [
  "cpp_demangle",
  "lzma-rs",

@@ -239,3 +239,96 @@ fn symbol_rename() {
         "no symbol starts there"
     );
 }
+
+#[test]
+fn function_name_without_symbol() {
+    let mut program = load("stripped-static");
+    let expected = std::fs::read_to_string(fixture("stripped-static.functions")).expect("unreadable address list");
+    let main_line = expected
+        .lines()
+        .find(|line| line.starts_with("main "))
+        .expect("no main in the address list");
+    let main = u64::from_str_radix(main_line.trim_start_matches("main 0x"), 16).expect("malformed address");
+
+    program
+        .set_function_name(main, "program_main")
+        .expect("a function without a symbol and without discovery is not renamed");
+    let functions = program.functions().expect("function list unavailable");
+    assert_eq!(function_named(&functions, "program_main").address, main);
+    let c_code = program.decompile(main).expect("main does not decompile");
+    assert!(c_code.contains("program_main("), "{c_code}");
+
+    program.set_function_name(main, "").expect("name restore failed");
+    let functions = program.functions().expect("function list unavailable");
+    assert_eq!(function_named(&functions, &format!("func_0x{main:08x}")).address, main);
+}
+
+#[test]
+fn data_name_rename() {
+    let mut program = load("data-x86_64");
+    let counter = program
+        .data_symbols()
+        .expect("data symbol list unavailable")
+        .into_iter()
+        .find(|data| data.name == "counter")
+        .expect("no data symbol counter")
+        .address;
+    program.set_data_name(counter, "hit_count").expect("data rename failed");
+    assert!(
+        program
+            .data_symbols()
+            .expect("data symbol list unavailable")
+            .iter()
+            .any(|data| data.name == "hit_count" && data.address == counter)
+    );
+    assert!(
+        program.set_data_name(counter + 1, "inside_counter").is_err(),
+        "the address is inside the data symbol counter"
+    );
+}
+
+#[test]
+fn data_label_without_symbol() {
+    let mut program = load("stripped-static");
+    let expected = std::fs::read_to_string(fixture("stripped-static.functions")).expect("unreadable address list");
+    let main_line = expected
+        .lines()
+        .find(|line| line.starts_with("main "))
+        .expect("no main in the address list");
+    let main = u64::from_str_radix(main_line.trim_start_matches("main 0x"), 16).expect("malformed address");
+    let data_line = std::fs::read_to_string(fixture("stripped-static.data")).expect("unreadable data address");
+    let data_address = u64::from_str_radix(
+        data_line
+            .split_whitespace()
+            .nth(1)
+            .expect("malformed data address")
+            .trim_start_matches("0x"),
+        16,
+    )
+    .expect("malformed data address");
+
+    assert!(program.is_code_address(main), "main is not in an executable section");
+    assert!(
+        !program.is_code_address(data_address),
+        "an address past the data symbols is code"
+    );
+
+    program
+        .set_data_name(data_address, "state_word")
+        .expect("no label was created");
+    assert!(
+        program
+            .data_symbols()
+            .expect("data symbol list unavailable")
+            .iter()
+            .any(|data| data.name == "state_word" && data.address == data_address)
+    );
+    assert!(
+        program
+            .functions()
+            .expect("function list unavailable")
+            .iter()
+            .all(|function| function.address != data_address),
+        "the label is a function"
+    );
+}
