@@ -4,7 +4,7 @@ use std::collections::BTreeMap;
 use std::path::{Path, PathBuf};
 
 use common::gunzip;
-use ghidra_decompiler::program::Program;
+use ghidra_decompiler::program::{Program, SymbolLoading};
 
 fn data_directory() -> PathBuf {
     Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/data")
@@ -31,7 +31,8 @@ fn expected_c_output(binary: &str) -> BTreeMap<String, String> {
 }
 
 fn decompilation_reference_check(binary: &str) {
-    let mut program = Program::open(&corpus_binary(binary), None).expect("corpus binary does not load");
+    let mut program =
+        Program::open_with(&corpus_binary(binary), None, SymbolLoading::Loader).expect("corpus binary does not load");
     let addresses: BTreeMap<String, u64> = program
         .functions()
         .expect("function list unavailable")
@@ -194,7 +195,8 @@ fn call_graph_direct_calls() {
 #[test]
 fn failed_decompilation_recovery() {
     let binary = "x86_64-O0";
-    let mut program = Program::open(&corpus_binary(binary), None).expect("corpus binary does not load");
+    let mut program =
+        Program::open_with(&corpus_binary(binary), None, SymbolLoading::Loader).expect("corpus binary does not load");
     assert!(program.decompile(0).is_err(), "address without code decompiled");
     let main_address = program
         .functions()

@@ -32,9 +32,46 @@ let edges = program.call_graph()?;
 - `Program::from_raw_bytes(bytes, language, base_address)` loads a headerless code blob.
 - `decompile(address)` creates a function at the address if the symbol table has none.
 - `call_graph()` follows control flow of every known function and reports direct calls.
+- `disassemble(address, count)` returns each instruction with its bytes.
+- `discover_functions()` finds the functions of a binary without function symbols (see "Symbols").
+- `data_symbols()` lists the data symbols; `set_symbol_name(address, name)` renames the function or data
+  symbol that starts at the address, and an empty name restores the loaded name.
 - `Program` is `Send`. Internal panics are returned as `Error::Lowlevel`.
 - `Program::architecture()` exposes the underlying `Architecture` for everything the C++ decompiler offers
   (options, types, prototypes, actions, the console command set in `ifacedecomp`).
+
+## Symbols
+
+`Program::open` and `Program::from_image` load more symbols than the C++ loader, so the C output has
+names where the C++ decompiler prints addresses:
+
+- ELF function symbols from `.symtab` and from `.dynsym` (a stripped binary or a shared library keeps its
+  exported names only there). Undefined `.symtab` entries are not functions.
+- Import stubs: each PLT entry is named after the symbol of the GOT slot its p-code reads, so a call reads
+  `printf(...)`. The stub finder follows constants through the stub's p-code instead of decoding each
+  PLT layout; it is tested on x86-64 (`.plt`, `.plt.sec`), i686 PIE, AArch64, ARM and RISC-V 64. A stub
+  whose name is also a defined function is `<name>@plt`.
+- Data symbols (`STT_OBJECT` with a size, PE and Mach-O data symbols) and one pointer-sized symbol per
+  GOT slot with a dynamic relocation (`<name>@got`).
+- Demangled names (feature `demangle`, on by default): Rust legacy and v0 names without the hash, C++
+  Itanium names without the parameter list. `FunctionEntry.symbol` has the mangled name. Every function
+  is in the global scope under its full name, so a call reads `geometry::Circle::area(...)`.
+- String literals: before `decompile`, each constant of the function that points into a read-only data
+  section at NUL-terminated printable text of at least 4 characters gets a `char[n]` symbol, and the C
+  output prints the literal.
+- `discover_functions()`, for a binary without function symbols, follows the control flow from the entry
+  point (or the base address of raw code) through direct calls and through constants that point into
+  executable sections, such as the address of `main` that `_start` passes to `__libc_start_main`. It
+  costs one flow analysis per function: about 8 s for a 1.5 MB static glibc binary.
+
+`FunctionEntry.source` says where each function came from. `Program::open_with(path, language,
+SymbolLoading::Loader)` loads only the symbols of the C++ loader; the C output of the corpus tests is
+equal to the C++ decompiler's in that mode.
+
+Limits: PowerPC32 call stubs in `.text` (lld names them `<n>.plt_pic32.<name>`) and PowerPC64 stubs,
+which read the GOT through the TOC register, keep their names; MIPS has no PLT, and its calls go through
+the GOT; PE import tables and Mach-O stubs are not named. Rust `&str` constants are not NUL-terminated
+and stay addresses. A function reached only through a pointer table in data is not discovered.
 
 ## Processor support
 

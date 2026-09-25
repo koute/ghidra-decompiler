@@ -94,7 +94,8 @@ if marker in cargo:
 cargo = cargo.rstrip("\n") + "\n"
 names = [feature for feature, _ in features]
 table = ["", "[features]"]
-table.append("default = [%s]" % ", ".join('"%s"' % name for name in primary if name in names))
+table.append("default = [%s]" % ", ".join('"%s"' % name for name in ["demangle"] + [name for name in primary if name in names]))
+table.append('demangle = ["dep:cpp_demangle", "dep:rustc-demangle"]')
 table.append("all-processors = [%s]" % ", ".join('"%s"' % name for name in names))
 for name in names:
     table.append('%s = []' % (name if name.replace("_", "").isalnum() and not name[0].isdigit() else '"%s"' % name))
